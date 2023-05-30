@@ -1,0 +1,1480 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+
+<!-- Title-->
+<title>Accountant.PK</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Fontawesome icons css -->
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<!-- Favicon icon -->
+<link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+	<div class="container-fluid">
+		<span class="navbar-brand">
+			<a href="index-employeer.html"><img src="images/myjobs.png" alt="myjob.pk" height="40"></a>
+		</span>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="employer.html"><i class="fas fa-tachometer-alt mr-1"></i> Dashboard</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-nowrap" href="jobs-management.html"><i class="fas fa-briefcase mr-1"></i> Manage Jobs</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-nowrap" href="cv-manager.html"><i class="far fa-file-alt mr-1"></i> CV Folder</a>
+				</li>
+				<li class="nav-item dropdown text-nowrap">
+					<a class="nav-link dropdown-toggle" href="#" id="switch" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-toggle-on mr-1"></i> Switch to
+					</a>
+					<div class="dropdown-menu" aria-labelledby="switch">
+						<a class="dropdown-item" href="guest.html">Guest / Buyer</a>
+						<a class="dropdown-item" href="job-seeker-dashboard.html">Job Seeker</a>
+						<a class="dropdown-item" href="freelancer.html">Freelancer</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link btn btn-success text-white" href="job-post.html">Post a Job</a>
+				</li>
+				<li class="nav-item ml-2">
+					<a class="nav-link btn btn-danger text-white" href="employer-home.html">Employer</a>
+				</li>
+				<li class="nav-item dropdown text-nowrap">
+					<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<div class="d-flex align-items-center">
+							<img src="images/favicon.png" class="img-circle mr-2" width="30">
+							<span>Noman Nazar<br><small>R Technologies</small></span>
+						</div>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="language">
+						<a class="dropdown-item" href="forgot-resetpass.html">Change Password</a>
+						<a class="dropdown-item" href="settings.html">Account Settings</a>
+						<strong class="dropdown-item font-weight-semi-bold text-dark">Language</strong>
+						<a class="dropdown-item pl-4" href="#">English</a>
+						<a class="dropdown-item pl-4" href="#">Urdu</a>
+						<a class="dropdown-item" href="index.html">Logout</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="clear"></div>
+<section class="container-fluid">
+	<div class="row">
+		<div class="col-sm-4 col-md-3 col-lg-3 bg-light py-3">
+			<div class="clearfix mb-3">
+				<div class="bg-primary p-3 border-radius-top10">
+					<div class="media align-items-center">
+						<img src="https://media.istockphoto.com/photos/millennial-male-team-leader-organize-virtual-workshop-with-employees-picture-id1300972574?b=1&amp;k=20&amp;m=1300972574&amp;s=170667a&amp;w=0&amp;h=2nBGC7tr0kWIU8zRQ3dMg-C5JLo9H2sNUuDjQ5mlYfo=" class="img-circle mr-3" width="75" height="75">
+						<div class="media-body align-self-center">
+							<div class="text-right">
+								<a href="#" data-toggle="modal" data-target="#profile">
+									<i class="fas fa-user-edit text-white"></i>
+								</a>
+							</div>
+							<h5 class="text-white font-weight-medium mt-0">noman-nazar.10</h5>
+							Administrator<br>
+							<a href="#" class="text-white">nomannazar01@gmail.com</a><br>
+							0312 9782768
+						</div>
+					</div>				
+				</div>
+				<div class="bg-white p-3 border-radius-bottom10">
+					<div class="d-flex justify-content-between align-items-center">
+						<strong class="font-weight-medium">Employers Profile</strong>
+						<a href="#" class="text_12" data-toggle="modal" data-target="#profile">View</a>
+					</div>
+					<div class="progress my-2">
+						<div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width:70%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+					</div>
+					<small>70% Complected</small>
+				</div>
+			</div>
+
+			<h5 class="text-dark">Business Profile</h5>
+
+			<div class="bg-white p-3 mb-3">
+				<div class="form-row align-items-center">
+					<div class="col-3">
+						<img src="images/matched-criteria.jpg" class="border-radius-5 img-fluid">
+					</div>
+					<div class="col-8">
+						<img src="images/verified.png" width="75">
+					</div>
+					<div class="col-1 text-right">
+						<a href="#" data-toggle="modal" data-target="#company-info">
+							<i class="far fa-edit"></i>
+						</a>
+					</div>
+					<div class="col-12 mt-3">
+						<h5 class="font-weight-medium text-dark m-0">
+							IR Technology <small class="text-secondary text_12">(Pvt limited)</small>
+						</h5>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix mb-3">
+				<h5 class="text-dark">Your Credit</h5>
+				<div class="list-group">
+					<a href="employer-services.html" class="list-group-item list-group-item-action bg-white">
+						<strong>Standard Plan:</strong> <small>(Featured Job 5 Credits)</small><br>
+						<strong>Credit:</strong> <small>3/5</small>
+					</a>
+					<a href="instamatch.html" class="list-group-item list-group-item-action bg-white">
+						<strong>Instantmatch:</strong> <small>(10 Days (5000 CV Download))</small><br>
+						<strong>Days:</strong> <small class="mr-3">3/5</small> 
+						<strong>Cvs:</strong> <small>50/5000</small>
+					</a>
+				</div>
+			</div>
+			
+			<div class="clearfix mb-3">
+				<h5 class="text-dark">Portal Home</h5>
+				<div class="form-row">
+					<div class="col-sm-6 mb-2">
+						<a href="employer-services.html" class="card mb-0 p-3">
+							<div class="media align-items-center">								
+								<i class="fas fa-user-cog mr-3 fa-2x text-warning"></i>
+								<div class="media-body align-self-center text-dark font-weight-semi-bold">Services</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 mb-2">
+						<a href="employer-cart.html" class="card mb-0 p-3">
+							<div class="media align-items-center">								
+								<i class="fas fa-shopping-cart mr-3 fa-2x text-info"></i>
+								<div class="media-body align-self-center text-dark font-weight-semi-bold justify-content-between d-flex">
+									Cart
+									<span class="badge badge-primary badge-pill" style="height:18px;">5</span>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 mb-2">
+						<a href="#" class="card mb-0 p-3">
+							<div class="media align-items-center">								
+								<i class="far fa-file-alt mr-3 fa-2x text-success"></i>
+								<div class="media-body align-self-center text-dark font-weight-semi-bold">Billing History</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-sm-6 mb-2">
+						<a href="employer-invoice.html" class="card mb-0 p-3">
+							<div class="media align-items-center">								
+								<i class="fas fa-money-check-alt mr-3 fa-2x text-primary"></i>
+								<div class="media-body align-self-center text-dark font-weight-semi-bold justify-content-between d-flex">
+									Invoices
+									<span class="badge badge-primary badge-pill" style="height:18px;">2</span>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="clearfix mb-3">
+				<h5 class="text-dark">Gig/Services Purchase</h5>
+				<div class="list-group">
+					<a href="orders.html" class="list-group-item list-group-item-action bg-white">Orders</a>
+					<a href="purchase-history.html" class="list-group-item list-group-item-action bg-white">Purchase History</a>
+					<a href="inbox.html" class="list-group-item list-group-item-action bg-white">Inbox</a>
+					<a href="favorites.html" class="list-group-item list-group-item-action bg-white">Favorite</a>
+				</div>
+			</div>
+			
+			<div class="clearfix">
+				<h5 class="text-dark">Packages</h5>
+				<div class="card card-body mb-2">
+					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
+						PREMIUM SELECT
+						<a href="packages.html" class="btn btn-primary btn-sm">View Detail</a>
+					</h6>
+					<p>Our most powerful option, will shortlist the best candidates for you</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Access to Cvs
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Job Highlighting
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> InstaMatch
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Credits
+					</p>
+				</div>
+				<div class="card card-body mb-2">
+					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
+						TOP JOBS
+						<a href="packages.html" class="btn btn-primary btn-sm">View Detail</a>
+					</h6>
+					<p>Our most powerful option, will shortlist the best candidates for you</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Access to Cvs
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Job Highlighting
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> InstaMatch
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Credits
+					</p>
+				</div>
+				<div class="card card-body mb-2">
+					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
+						FEATURED JOBS
+						<a href="packages.html" class="btn btn-primary btn-sm">View Detail</a>
+					</h6>
+					<p>Our most powerful option, will shortlist the best candidates for you</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Access to Cvs
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Job Highlighting
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> InstaMatch
+					</p>
+					<p class="mb-0 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Credits
+					</p>
+				</div>
+				<div class="card card-body mb-0">
+					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
+						INSTANTMATCH
+						<a href="instamatch.html" class="btn btn-primary btn-sm">View Detail</a>
+					</h6>
+					<p>Our most powerful option, will shortlist the best candidates for you</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Access to Cvs
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Job Highlighting
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> InstaMatch
+					</p>
+					<p class="mb-0 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Credits
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-8 col-md-9 col-lg-9">
+			<div class="px-3 py-4">
+				<ul class="nav nav-pills" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link text_16 active" id="pjobs-tab" data-toggle="tab" href="#pjobs" role="tab" aria-controls="pjobs" aria-selected="true">Posted Jobs</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text_16" id="fassignment-tab" data-toggle="tab" href="#fassignment" role="tab" aria-controls="fassignment" aria-selected="false">Freelancing Assignment</a>
+					</li>
+				</ul>
+				<div class="clear py-3"></div>
+				<div class="tab-content" id="myTabContent">
+					<!--- Post Jobs --->
+					<div class="tab-pane fade show active" id="pjobs" role="tabpanel" aria-labelledby="pjobs-tab">		
+						<div class="row">
+							<div class="col-6 col-sm-4 col-md-3 col-lg">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex align-items-center justify-content-between">
+											<h6 class="font-weight-normal text-dark mb-0">POSTED JOBS</h6>
+											<span class="btn btn-light-danger btn-rounded font-weight-bold ml-3">0</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 col-sm-4 col-md-3 col-lg">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex align-items-center justify-content-between">
+											<h6 class="font-weight-normal text-dark mb-0">REVIEWED JOBS</h6>
+											<span class="btn btn-light-warning btn-rounded font-weight-bold ml-3">0</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 col-sm-4 col-md-3 col-lg">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex align-items-center justify-content-between">
+											<h6 class="font-weight-normal text-dark mb-0">SHORT LISTED</h6>
+											<span class="btn btn-light-success btn-rounded font-weight-bold ml-3">0</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 col-sm-4 col-md-3 col-lg">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex align-items-center justify-content-between">
+											<h6 class="font-weight-normal text-dark mb-0">INTERVIEWED</h6>
+											<span class="btn btn-light-primary btn-rounded font-weight-bold ml-3">0</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="col-6 col-sm-4 col-md-3 col-lg-2">
+								<div class="card">
+									<div class="card-body">
+										<div class="d-flex align-items-center justify-content-between">
+											<h6 class="font-weight-normal text-dark mb-0">FINAL SELECTION</h6>
+											<span class="btn btn-light-secondary btn-rounded font-weight-bold ml-3">0</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="d-flex justify-content-between align-content-center">
+							<h4 class="mb-0">Applications statistics <small class="font-weight-normal">(who have applied to my jobs)</small></h4>
+							<h5 class="font-weight-bold text-dark mb-0">Total Applicants <span class="badge badge-primary badge-pill py-2 ml-3">25</span></h5>
+						</div>				
+						<div class="clear p-2"></div>
+						<div class="row">
+							<div class="col-lg-4">
+								<div class="card card-body">
+									<h4 class="text-dark font-weight-semi-bold">Posted Jobs</h4>
+									<hr>
+									<img src="images/posted-job-chart.jpg" class="img-center">
+									<div class="well p-2 mb-0 mt-2 d-flex">
+										<small class="mr-3 d-flex align-items-center">
+											<i class="fas fa-stop mr-2 text-success"></i> Posted Jobs
+										</small>
+										<small class="mr-3 d-flex align-items-center">
+											<i class="fas fa-stop mr-2 text-warning"></i> Freelancing Jobs
+										</small>
+									</div>
+								</div>
+							</div>
+							<div class="col-lg-8">
+								<div class="card card-body">
+									<h4 class="text-dark font-weight-semi-bold">Job Applications</h4>
+									<hr>
+									<img src="images/application-job-chart.jpg" height="247" class="img-center">
+									<div class="well p-2 mb-0 mt-2 d-flex">
+										<small class="mr-3 d-flex align-items-center">
+											<i class="fas fa-stop mr-2 text-success"></i> Posted Jobs
+										</small>
+										<small class="mr-3 d-flex align-items-center">
+											<i class="fas fa-stop mr-2 text-warning"></i> Reviewed
+										</small>
+										<small class="mr-3 d-flex align-items-center">
+											<i class="fas fa-stop mr-2 text-info"></i> Shortlisted
+										</small>
+										<small class="mr-3 d-flex align-items-center">
+											<i class="fas fa-stop mr-2 text-primary"></i> Interviewed
+										</small>
+										<small class="mr-3 d-flex align-items-center">
+											<i class="fas fa-stop mr-2 text-danger"></i> Selected
+										</small>
+										<small class="mr-3 d-flex align-items-center">
+											<i class="fas fa-stop mr-2 text-secondary"></i> Rejected
+										</small>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!---img src="images/bar-chart-points.jpg" class="img-center"--->
+						<div class="clear py-1"></div>
+						<div class="form-row">
+							<div class="col-6 col-sm-3 col-md-4 col-lg-3 mb-2">
+								<div class="alert alert-dark p-0 h-100 d-flex">
+									<span class="bg-primary mr-3" style="width:30px; border-radius:.25rem 0 0 .25rem;"></span>
+									<a href="instamatch.html" class="align-self-center py-2 text-primary">
+										<div class="media">
+											<div class="media-body">
+												<h6 class="font-weight-semi-bold mb-0">INSTAMATCH</h6>
+												<p class="mb-0">Your assistant in finding talent?</p>
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="col-6 col-sm-3 col-md-4 col-lg-3 mb-2">
+								<div class="alert alert-dark p-0 h-100 d-flex">
+									<span class="bg-primary mr-3" style="width:30px; border-radius:.25rem 0 0 .25rem;"></span>
+									<a href="reviewed.html" class="align-self-center py-2 text-primary w-100">
+										<div class="d-flex align-items-center justify-content-between">
+											<div>
+												<h6 class="font-weight-semi-bold mb-0">REVIEWED</h6>
+												<p class="mb-0">Candidates</p>
+											</div>
+											<h6 class="mb-0 mr-3">10%</h6>
+										</div>										
+									</a>
+								</div>
+							</div>
+							<div class="col-6 col-sm-3 col-md-4 col-lg-3 mb-2">
+								<div class="alert alert-dark p-0 h-100 d-flex">
+									<span class="bg-primary mr-3" style="width:30px; border-radius:.25rem 0 0 .25rem;"></span>
+									<a href="#" class="align-self-center py-2 text-primary w-100">
+										<div class="d-flex align-items-center justify-content-between">
+											<div>
+												<h6 class="font-weight-semi-bold mb-0">SHORTLISTED</h6>
+												<p class="mb-0">Candidates</p>
+											</div>
+											<h6 class="mb-0 mr-3">10%</h6>
+										</div>										
+									</a>
+								</div>
+							</div>
+							<div class="col-6 col-sm-3 col-md-4 col-lg-3 mb-2">
+								<div class="alert alert-dark p-0 h-100 d-flex">
+									<span class="bg-primary mr-3" style="width:30px; border-radius:.25rem 0 0 .25rem;"></span>
+									<a href="#" class="align-self-center py-2 text-primary w-100">
+										<div class="d-flex align-items-center justify-content-between">
+											<div>
+												<h6 class="font-weight-semi-bold mb-0">INTERVIEWED</h6>
+												<p class="mb-0">Candidates</p>
+											</div>
+											<h6 class="mb-0 mr-3">10%</h6>
+										</div>										
+									</a>
+								</div>
+							</div>
+						</div>
+						<div class="clear py-1"></div>
+						<h5 class="text-dark">Posted Jobs</h5>
+						<div class="table-responsive">
+							<div class="border p-3 d-flex justify-content-between align-items-center">
+								<div>
+									<p class="text-muted">
+										<strong class="text-dark">1132798 / Graphic Designer - Rawalpindi</strong> &nbsp; Feb 19, 2021 <a href="#" class="text-success">Active</a>
+									</p>
+									Offered salary: 18K - 25K Posted by: Noman Nazar
+								</div>
+								<div>
+									<a href="instamatch-review.html" class="btn btn-sm btn-secondary">Instant Reviews <span class="badge badge-light">5</span></a>
+									<a href="instamatch.html" class="btn btn-sm btn-primary">Instant Match</a>
+									<a href="#" class="btn btn-sm btn-info">Basic</a>
+								</div>
+							</div>
+							<table class="table table-bordered">
+								<thead class="bg-light text-black">
+									<tr>
+										<th>5507 Similar jobs</th>
+										<th>PKR 26K - 45K &nbsp; <small>Average salary based on similar jobs</small></th>
+										<th>1 Total visits</th>
+										<th>Expiry Date: Mar 19, 2021</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td colspan="4">
+											<ul class="steps">
+												<li class="primary">
+													<span>
+														<a href="applied.html" class="text-primary"><strong>10</strong> Applied</a>
+													</span>
+													<i></i>
+												</li>
+												<li class="success">
+													<span>
+														<a href="reviewed.html" class="text-success"><strong>9</strong> Reviewed</a>
+													</span>
+													<i></i>
+												</li>
+												<li class="danger">
+													<span>
+														<a href="applied.html" class="text-danger"><strong>6</strong> Shortlisted</a>
+													</span>
+													<i></i>
+												</li>
+												<li class="warning">
+													<span>
+														<a href="applied.html" class="text-warning"><strong>4</strong> Interviewed</a>
+													</span>
+													<i></i>
+												</li>
+												<li class="info">
+													<span>
+														<a href="applied.html" class="text-info"><strong>2</strong> Final Selection</a>
+													</span>
+													<i></i>
+												</li>
+											</ul>
+										</td>
+									</tr>
+								</tbody>
+								<tfoot>
+									<tr>
+										<td colspan="4" class="text-center well mb-0">
+											<a href="#" class="d-inline-block mr-3 text-black" data-toggle="modal" data-target="#copy">Copy</a> | 
+											<a href="#" class="d-inline-block mx-3 text-black" data-toggle="modal" data-target="#share">Share</a> | 
+											<a href="#" class="d-inline-block ml-3 text-black" data-toggle="modal" data-target="#upgrade">Upgrade</a> | 
+											<a href="#" class="d-inline-block ml-3 text-black" data-toggle="modal" data-target="#deactivate">Deactivate</a> | 
+											<a href="#" class="d-inline-block ml-3 text-black" data-toggle="modal" data-target="#delete">Delete</a>
+										</td>
+									</tr>
+								</tfoot>
+							</table>
+						</div>
+					</div>
+					
+					<!--- Freelancing Assignment --->
+					<div class="tab-pane fade" id="fassignment" role="tabpanel" aria-labelledby="fassignment-tab">
+						Freelancing Assignment
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="clear"></div>
+<footer class="footer pt-2">
+	<div class="container-fluid py-4">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs by Industry</h4>
+				<ul class="uilinks">
+					<li><a href="#">Information Technology Jobs</a></li>
+					<li><a href="#">Education/Training Jobs</a></li>
+					<li><a href="#">Services Jobs</a></li>
+					<li><a href="#">Real Estate/Property Jobs</a></li>
+					<li><a href="#">Manufacturing Jobs</a></li>
+					<li><a href="#">Recruitment / Employment Firms Jobs</a></li>
+					<li><a href="#">Banking/Financial Services Jobs</a></li>
+					<li><a href="#">Healthcare / Hospital / Medical Jobs</a></li>
+					<li><a href="#">N.G.O./Social Services Jobs</a></li>
+					<li><a href="#">Business Development Jobs</a></li>
+                </ul>
+				<div class="clear py-2"></div>
+				<h4>Jobs by Functional Area</h4>
+				<ul class="uilinks">
+					<li><a href="#">Accounting Jobs</a></li>
+					<li><a href="#">Admin Jobs</a></li>
+					<li><a href="#">Autos Jobs</a></li>
+					<li><a href="#">Computer Hardware Jobs</a></li>
+					<li><a href="#">Computer Software Jobs</a></li>
+					<li><a href="#">Construction Jobs</a></li>
+					<li><a href="#">Consulting Jobs</a></li>
+					<li><a href="#">Customer Service Jobs</a></li>
+					<li><a href="#">Education Jobs</a></li>
+					<li><a href="#">Engineering Jobs</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs in Cites</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Islamabad</a></li>
+                    <li><a href="#">Jobs in Karachi</a></li>
+                    <li><a href="#">Jobs in Lahore</a></li>
+					<li><a href="#">Jobs in Rawalpindi</a></li>
+                    <li><a href="#">Jobs in Peshawar</a></li>
+					<li><a href="#">Jobs in Faisalabad</a></li>
+					<li><a href="#">Jobs in Queta</a></li>
+					<li><a href="#">Jobs in Multan</a></li>
+                    <li><a href="#">Jobs in Gujrawala</a></li>
+                    <li><a href="#">Jobs in Haider-abad</a></li>
+                </ul>
+				<div class="clear py-2"></div>
+				<h4>Jobs in Other Countries</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Australia</a></li>
+                    <li><a href="#">Jobs in Bangladesh</a></li>
+                    <li><a href="#">Jobs in Bahrain</a></li>
+                    <li><a href="#">Jobs in Brazil</a></li>
+                    <li><a href="#">Jobs in Canada</a></li>
+                    <li><a href="#">Jobs in United Kingdom</a></li>
+                    <li><a href="#">Jobs in Jordan</a></li>
+                    <li><a href="#">Jobs in Sri Lanka</a></li>
+                    <li><a href="#">Jobs in Malaysia</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Freelancing Category</h4>
+				<ul class="uilinks">
+					<li><a href="#">Graphics & Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Writing & Translation</a></li>
+                    <li><a href="#">Video & Animation</a></li>
+                    <li><a href="#">Music & Audio</a></li>
+                    <li><a href="#">Programming & Tech</a></li>
+                    <li><a href="#">Data</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+				<div class="clear p-2"></div>
+				<h4>Online Recruitment</h4>
+				<ul class="uilinks">
+					<li><a href="#">Online Recruitment Solutions</a></li>
+                    <li><a href="#">Job Posting Packages</a></li>
+                    <li><a href="#">Post Job Free</a></li>
+                    <li><a href="#">Online Resumes Search</a></li>
+                    <li><a href="#">Search Professionals</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>About Us</h4>
+				<ul class="uilinks">
+					<li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Safe Jobs Search Pakistan</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Picture Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                    <li><a href="#">Signup Now</a></li>
+                    <li><a href="#">Companies Pakistan</a></li>
+                    <li><a href="#">Clear Cache</a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4>Follow Us</h4>
+				<ul class="social">
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4 class="pb-2">Download App</h4>
+				<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid" width="100"></a> &nbsp; 
+				<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="copy">
+		Copyright &copy; 2022 <a href="#">Accountant.PK</a> | Allrights reserved.
+	</div>
+</footer>
+	
+<!-- Modal Employer profile -->
+<div class="modal fade" id="profile" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Employer Profile</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-row">
+						<div class="form-group col-lg-8">
+							<div class="form-row align-items-end">
+								<div class="col-5 col-md-4">
+									<img src="https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg" class="img-thumbnail">
+								</div>
+								<div class="col-7 col-md-8">
+									<div class="custom-file">
+										<input type="file" class="custom-file-input" id="customFile">
+										<label class="custom-file-label" for="customFile">Choose Picture</label>
+									</div>
+									<small>Maximum size of 5MB for a file Allowed Types: jpg, jpeg, gif, png</small>
+								</div>
+							</div>
+						</div>
+						<h5 class="text-dark col-sm-12">Basic Information</h5>
+						<div class="form-group col-md-6">
+							<label for="fnam">Full Name</label>
+							<input type="text" class="form-control" id="fnam">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="lnam">Designation</label>
+							<input type="text" class="form-control" id="lnam">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="gender">Gander</label>
+							<input type="text" class="form-control" id="gender">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="marital">Date of Birth</label>
+							<input type="date" class="form-control" id="marital">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="id">ID Card</label>
+							<input type="text" class="form-control" id="id">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="email">Email Address</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+						
+						<h5 class="text-dark col-sm-12">Address Information</h5>
+						<div class="form-group col-md-6">
+							<label for="nic">Country</label>
+							<input type="text" class="form-control" id="nic">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="mobile">City</label>
+							<input type="text" class="form-control" id="mobile">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="hcontact">Area</label>
+							<input type="text" class="form-control" id="hcontact">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="address">Street Address</label>
+							<input type="text" class="form-control" id="address">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="city">Office Phone</label>
+							<input type="text" class="form-control" id="city">
+						</div>
+						<div class="form-group col-md-6">
+							<label for="country">Mobile Phone</label>
+							<input type="text" class="form-control" id="country">
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-primary">Save</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Company Information -->
+<div class="modal fade" id="company-info" tabindex="-1" role="dialog" aria-labelledby="CompanyLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="CompanyLabel">Business/Company Information</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form action="employer.html">
+				<div class="modal-body">
+					<div class="form-row">
+						<h5 class="text-dark col-sm-12">General Information</h5>
+						<div class="form-group col-sm-6">
+							<label for="">Company/Business Status <i class="text-danger ml-1">*</i></label>
+							<select class="form-control">
+								<option>Sole Proprietorship</option>
+								<option>Public</option>
+								<option>Private</option>
+								<option>Government</option>
+								<option>NGO</option>
+							</select>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Business / Company Name <i class="text-danger ml-1">*</i></label>
+							<div class="input-group">
+								<input type="text" class="form-control">
+								<div class="input-group-append">
+									<span class="input-group-text"><i class="fas fa-info-circle"></i></span>
+								</div>
+							</div>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Group of Company</label>
+							<input type="text" class="form-control" placeholder="He can Write">
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Main Product & Service <i class="text-danger ml-1">*</i></label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Industry (Main Area of Activities of business) <i class="text-danger ml-1">*</i></label></label>
+							<select class="form-control">
+								<option>Accounting / Taxation</option>
+								<option>Advertising / PR</option>
+								<option>Banking Financial Services</option>
+								<option>BPO</option>
+								<option>Broadcasting</option>
+								<option>Call Center</option>
+								<option>Consultans</option>
+								<option>Education / Training</option>
+								<option>Information Technology</option>
+							</select>
+						</div>
+					
+						<h5 class="text-dark col-sm-12">Business/Company Details</h5>
+						<div class="form-group col-sm-6">
+							<label for="">Company Location</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Head Office Address</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Origin of the Country <i class="text-danger ml-1">*</i></label>
+							<select class="form-control">
+								<option>Please Select</option>
+							</select>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Branch Address if applicable</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">No. of Office <i class="text-danger ml-1">*</i></label>
+							<select class="form-control">
+								<option>1</option>
+								<option>2</option>
+								<option>3</option>
+								<option>4</option>
+								<option>5</option>
+								<option>6</option>
+								<option>7</option>
+								<option>8</option>
+								<option>9</option>
+								<option>10</option>
+							</select>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Sales Tax Number</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Company NTN</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">SECP Company ID</label>
+							<input type="text" class="form-control">
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Operating Since</label>
+							<select class="form-control">
+								<option>Please Select</option>
+							</select>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Business Contact Number</label>
+							<div class="d-flex">
+								<select class="form-control border-end-0 boder-radius-top-right-0 boder-radius-bottom-right-0 width-px-100 focus-unset">
+									<option>+92</option>
+								</select>
+								<input type="number" class="form-control boder-radius-top-left-0 boder-radius-bottom-left-0" placeholder="Enter Phone Number">
+							</div>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Company/Business URL</label>
+							<input type="text" class="form-control" placeholder="http://">
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="">Fax</label>
+							<input type="text" class="form-control" placeholder="">
+						</div>
+
+						<h5 class="text-dark col-sm-12">Company Information</h5>
+						<div class="form-group col-sm-12">
+							<div class="form-check mb-1">
+								<input type="checkbox" class="form-check-input" id="agree" checked>
+								<label class="form-check-label" for="agree">Your added information will be published with your job post</label>
+								</div>
+							<textarea class="form-control" aria-label="With textarea" rows="4"></textarea>
+						</div>
+					
+						<h5 class="text-dark col-sm-12">Business Capacity</h5>
+						
+						<div class="form-group col-sm-6">
+							<label for="">No. of Employee</label>
+							<select class="form-control">
+								<option>11-50</option>
+								<option>51-100</option>
+								<option>101-200</option>
+								<option>201-300</option>
+								<option>301-600</option>
+								<option>601-1000</option>
+							</select>
+						</div>
+					
+						
+					
+						<h5 class="text-dark col-sm-12">Company Logo</h5>
+						<div class="form-group col-sm-6">
+							<div class="form-row">
+								<div class="col-3"><img src="images/login-img.jpg" class="img-center"></div>
+								<div class="col-9">
+									<div class="custom-file">
+										<input type="file" class="custom-file-input" id="customFile">
+										<label class="custom-file-label" for="customFile">Choose file</label>
+									</div>
+									<small>Maximum size of 10.0MB for a file‏<br>Allowed Types : jpg, jpeg, gif, pngNo file chosen</small>
+								</div>
+							</div>
+						</div>				
+						
+				
+						
+					</div>
+				</div>
+				<div class="text-right me-3">
+					<button type="button" class="btn btn-outline-danger me-3" data-dismiss="modal">Cancel</button>
+					<button type="submit" class="btn btn-primary">Save Information</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+<!-- Account Settings -->
+<div class="modal fade" id="account-setting" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">My Account Settings</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<p>This pane provides an overview of your account settings, allows you to change your password.</p>
+					<div class="form-row">
+						<div class="form-group col-sm-6">
+							<label>Email Address</label>
+							<input type="email" class="form-control" placeholder="">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Enter your old password</label>
+							<input type="password" class="form-control" placeholder="">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Enter a new password</label>
+							<input type="password" class="form-control" placeholder="">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Re-enter your new password</label>
+							<input type="password" class="form-control" placeholder="">
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-primary">Save Setting</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Purchase History -->
+<div class="modal fade" id="purchase-history" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Purchase History</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p>You can view all your transactions and their respective invoices on this page.</p>
+				<div class="alert alert-danger">
+					You don't have any payment history. Visit our <a href="#" class="font-weight-semi-bold text-danger">products and services.</a>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<!---button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+				<button type="button" class="btn btn-primary">Save Setting</button--->
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!-- Test Builder -->
+<div class="modal fade" id="test-builder" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Test Builder</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<a href="#" class="btn btn-150 btn-light-danger btn-rounded border-danger">Create MCQ Test</a>
+					<div class="clear py-2"></div>
+					<div class="alert alert-secondary">
+						<h5 class="alert-heading">Create a Test</h5>
+						<p>The ACCOUNTANT.PK Test Builder (part of the ACCOUNTANT.PK Power Tools suite) allows you to create tests that can be attached with any job and with any applicant of your 
+choice. Start providing your test with a title and instructions on how to take the test. Both of these text fields will be visible to the job seeker when he starts the test.</p>
+						<p>Click the Create test button and add more details on the interface provided to you.</p>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-12">
+							<label>Form Title:</label>
+							<input type="email" class="form-control" placeholder="">
+							<small class="text-black-50">(Maxium 50 Characters)</small>
+						</div>
+						<div class="form-group col-sm-12">
+							<label>Instructions</label>
+							<textarea class="form-control" placeholder="" rows="3"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-primary">Create Form</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Interview Evaluation Form -->
+<div class="modal fade" id="interview-evaluation" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Interview Evaluation Form</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<a href="#" class="btn btn-150 btn-light-danger btn-rounded border-danger">Create Interview Form</a>
+					<div class="clear py-2"></div>
+					<div class="alert alert-secondary">
+						<h5 class="alert-heading">Create Interview Form</h5>
+						<p>The Interview Form area allows you to create interview forms that you can use to assess an applicant.</p>
+						<p>You can print these forms or attach them to interview sessions and fill them online.</p>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-12">
+							<label>Form Title:</label>
+							<input type="email" class="form-control" placeholder="">
+							<small class="text-black-50">(Maxium 50 Characters)</small>
+						</div>
+						<div class="form-group col-sm-12">
+							<label>Instructions</label>
+							<textarea class="form-control" placeholder="" rows="3"></textarea>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-primary">Create Form</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Deactivate -->
+<div class="modal fade" id="deactivate" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Deactivate job?</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="alert alert-warning">
+						<p>Deactivating your job will expire the credit attached with this job. You will be able to make a copy of this job for future postings. Do you still want to de-activate your job?</p>
+					</div>
+					<div class="form-check">
+						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+						<label class="form-check-label" for="exampleCheck1">I also want to delete this job.</label>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+					<button type="button" class="btn btn-success">Yes</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Delete -->
+<div class="modal fade" id="delete" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Delete job?</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="alert alert-danger text-center">
+						Do you want to delete this job
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+					<button type="button" class="btn btn-success">Yes</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Copy -->
+<div class="modal fade" id="copy" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Copy Job</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<h6 class="text-dark">1020892 / Marketing Officer - Multiple Cities</h6>
+					<div class="form-group">
+						<label for="jTitle col-sm-6">New Job Title</label>
+						<input type="text" class="form-control" placeholder="Copy of Marketing Officer">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary p-2" data-dismiss="modal">Back</button>
+					<button type="button" class="btn btn-primary p-2">Copy</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Share -->
+<div class="modal fade" id="share" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Share This Job</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="form-row">
+					<div class="col-6 col-sm">
+						<a href="#" class="border border-radius-10 p-3 text-center mb-2 d-block">
+							<i class="fab fa-facebook fa-3x text-primary mb-3"></i>
+							<p class="mb-0 text-body">Facebook</p>
+						</a>
+					</div>
+					<div class="col-6 col-sm">
+						<a href="#" class="border border-radius-10 p-3 text-center mb-2 d-block">
+							<i class="fab fa-linkedin fa-3x text-info mb-3"></i>
+							<p class="mb-0 text-body">Linkedin</p>
+						</a>
+					</div>
+					<div class="col-6 col-sm">
+						<a href="#" class="border border-radius-10 p-3 text-center mb-2 d-block">
+							<i class="fab fa-twitter fa-3x text-info mb-3"></i>
+							<p class="mb-0 text-body">Twitter</p>
+						</a>
+					</div>
+					<div class="col-6 col-sm">
+						<a href="#" class="border border-radius-10 p-3 text-center mb-2 d-block">
+							<i class="fab fa-whatsapp fa-3x text-success mb-3"></i>
+							<p class="mb-0 text-body">WhatsApp</p>
+						</a>
+					</div>
+					<div class="col-6 col-sm">
+						<a href="#" class="border border-radius-10 p-3 text-center mb-2 d-block">
+							<i class="fas fa-link fa-3x text-secondary mb-3"></i>
+							<p class="mb-0 text-body">Copy Link</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary p-2" data-dismiss="modal">Back</button>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!-- Upgrade -->
+<div class="modal fade" id="upgrade" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Upgrade Job</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<h6>Job Type: <span class="text-danger">NO PLAN</span></h6>
+				<p>Please select a package to upgrade</p>
+				<div class="alert alert-warning" role="alert">
+					To upgrade this job, please <a href="contact-us.html" class="alert-link">Contact Sales</a>
+				</div>
+				<div class="list-group">
+					<a href="packages.html" class="list-group-item list-group-item-action">
+						<strong>Basic Plan</strong><br>
+						<small class="font-weight-normal">Our fastest way to get started. Post your job now!</small>
+					</a>
+					<a href="packages.html" class="list-group-item list-group-item-action">
+						<strong>Standard Plan</strong><br>
+						<small class="font-weight-normal">Access more candidates while elevating your brand.
+</small>
+					</a>
+					<a href="packages.html" class="list-group-item list-group-item-action">
+						<strong>Premium Plan</strong><br>
+						<small class="font-weight-normal">Our most powerful option, will shortlist the best candidates for you</small>
+					</a>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary p-2" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!-- Copy -->
+<div class="modal fade" id="copy" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Copy Job</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<h6 class="text-dark">1020892 / Marketing Officer - Multiple Cities</h6>
+					<div class="form-group">
+						<label for="jTitle col-sm-6">New Job Title</label>
+						<input type="text" class="form-control" placeholder="Copy of Marketing Officer">
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary p-2" data-dismiss="modal">Back</button>
+					<button type="button" class="btn btn-primary p-2">Copy</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!--- Jov Preview Modal --->
+<div class="modal fade" id="job-view" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Preview</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body pt-0">
+				<div class="row align-items-center bg-light">
+					<div class="col-4 col-lg-2 text-center py-2">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">
+						<div class="clear py-2"></div>
+						<a href="#" target="_blank">
+							<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQge0RZPVR6SpLUxW8sXNAMz9v4ocTKdD38Iv9KVGtjbw&s" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-8 col-lg-10 border-left py-3">
+						<h5 class="text-dark font-weight-bold">IR Technologies (Pvt.ltd)</h5>
+						<h6 class="font-weight-semi-bold text-primary">Accountant</h6>
+						<p class="mb-0"><i class="fas fa-map-marker-alt mr-1 text-dark"></i> Islamabad | Pakistan</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6 alert alert-success border-radius-0 p-3">
+						<div class="media">
+							<i class="far fa-calendar-alt align-self-center mr-2 text_16"></i>
+							<div class="media-body align-self-center">
+								<strong class="font-weight-medium mr-2">Published Date</strong>
+								Feb 22, 2022
+							</div>
+						</div>
+					</div>
+					<div class="col-6 alert alert-danger border-radius-0 p-3">
+						<div class="media">
+							<i class="far fa-calendar-alt align-self-center mr-2 text_16"></i>
+							<div class="media-body align-self-center">
+								<strong class="font-weight-medium mr-2">Last Date to Apply</strong>
+								March 22, 2022
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="clear py-2"></div>
+				<h5 class="font-weight-semi-bold text-dark">Job Description</h5>
+				<p>Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients. Inspect bakery items to ensure the established standards on quality and uniformity Creating suitable work schedules for staff member Hiring suitable bakery staff and ensuring all the bakery operations are completed on time Keep an eye on the sanity and cleanliness of bakery. Resolving customer complaints in a professional manner</p>
+				
+				<hr>
+				
+				<h5 class="font-weight-semi-bold text-dark">Job Skills</h5>
+				<p class="d-flex">
+					<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">Negotiation Skills</span>
+					<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">Organization Skills</span>
+					<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">Analytical Ability</span>
+				</p>
+				
+				<hr>
+				
+				<h5 class="font-weight-semi-bold text-dark">Job Details</h5>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Salary:</strong>
+					<span class="col-8 text_18 font-weight-bold text-success">	PKR. 150,000 - 200,000/Month</span>
+				</p>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Industry:</strong>
+					<span class="col-8">Media/Communications</span>
+				</p>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Functional Area:</strong>
+					<span class="col-8">Operations</span>
+				</p>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Total Positions:</strong>
+					<span class="col-8">1 Post</span>
+				</p>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Job Type:</strong>
+					<span class="col-8">Full Time/Permanent</span>
+				</p>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Job Location:</strong>
+					<span class="col-8">Karachi, Pakistan</span>
+				</p>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Gender:</strong>
+					<span class="col-8">Male</span>
+				</p>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Minimum Education:</strong>
+					<span class="col-8">Bachelor</span>
+				</p>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Career Level:</strong>
+					<span class="col-8">Experienced Professional</span>
+				</p>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Experience:</strong>
+					<span class="col-8">3 Years - 5 Years (Working Experience with renowned bakeries)</span>
+				</p>
+				<p class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Apply Before:</strong>
+					<span class="col-8">Dec 15, 2022</span>
+				</p>
+				<p class="row">
+					<strong class="col-4 text-dark font-weight-semi-bold">Posting Date:</strong>
+					<span class="col-8">Dec 15, 2022</span>
+				</p>
+				
+				<hr>
+				
+				<h5 class="font-weight-semi-bold text-dark">Minium Criteria for Selection</h5>
+				<div class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Skills:</strong>
+					<div class="col-8">
+						<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">Negotiation Skills</span> <span class="badge badge-secondary font-weight-normal">Expert</span>
+						<div class="clear"></div>
+						<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">Organization Skills</span> <span class="badge badge-secondary font-weight-normal">Expert</span>
+						<div class="clear"></div>
+						<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">Analytical Ability</span> <span class="badge badge-secondary font-weight-normal">Expert</span>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Required Qualification:</strong>
+					<div class="col-8">
+						<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">Masters</span>
+					</div>
+				</div>
+				<div class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Years of Experience:</strong>
+					<div class="col-8">
+						<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">3 - 5 Years</span>
+					</div>
+				</div>
+				<div class="row mb-1">
+					<strong class="col-4 text-dark font-weight-semi-bold">Working Time Required:</strong>
+					<div class="col-8">
+						<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">2 - 4 Hours</span>
+					</div>
+				</div>
+				
+				<hr>
+				
+				<h5 class="font-weight-semi-bold text-dark">Refine Your Applicant Pool</h5>
+				<h6 class="font-weight-semi-bold">Pre-filter Applicants</h6>
+				<p>Limit applications based on the following filters -select all that apply</p>
+				<div class="d-flex">					
+					<div class="custom-control custom-checkbox d-flex align-items-center mr-4">
+						<input type="checkbox" class="custom-control-input" id="Gander" checked>
+						<label class="custom-control-label font-weight-normal" for="Gander">Gander</label>
+					</div>
+					<div class="custom-control custom-checkbox d-flex align-items-center mr-4">
+						<input type="checkbox" class="custom-control-input" id="Experience" checked>
+						<label class="custom-control-label font-weight-normal" for="Experience">Experience</label>
+					</div>
+					<div class="custom-control custom-checkbox d-flex align-items-center mr-4">
+						<input type="checkbox" class="custom-control-input" id="Degree">
+						<label class="custom-control-label font-weight-normal" for="Degree">Degree Level </label>
+					</div>
+					<div class="custom-control custom-checkbox d-flex align-items-center mr-4">
+						<input type="checkbox" class="custom-control-input" id="Age" checked>
+						<label class="custom-control-label font-weight-normal" for="Age">Age</label>
+					</div>
+					<div class="custom-control custom-checkbox d-flex align-items-center mr-4">
+						<input type="checkbox" class="custom-control-input" id="city">
+						<label class="custom-control-label font-weight-normal" for="city">City</label>
+					</div>
+				</div>
+				<hr class="border-light">
+				<div class="custom-control custom-checkbox d-flex align-items-center">
+					<input type="checkbox" class="custom-control-input" id="cQ" checked>
+					<label class="custom-control-label font-weight-normal" for="cQ">Screen your applicants further with custom questions</label>
+				</div>
+				<hr class="border-light">
+				<div class="custom-control custom-checkbox d-flex align-items-center">
+					<input type="checkbox" class="custom-control-input" id="test" checked>
+					<label class="custom-control-label font-weight-normal" for="test">Attach A Test</label>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+	 new WOW().init();
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,434 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+
+<!-- Title-->
+<title>Accountant.PK</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Fontawesome icons css -->
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<!-- Favicon icon -->
+<link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+	<div class="container-fluid">
+		<span class="navbar-brand">
+			<a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
+			<a href="#" class="nav-text">Beware! Reported Companies</a>
+		</span>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="employer.html"><i class="fas fa-tachometer-alt mr-1"></i> Dashboard</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="fas fa-briefcase mr-1"></i> Manage Jobs</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#"><i class="far fa-file-alt mr-1"></i> CV Folder</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="setting" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-cog mr-1"></i> Settings
+					</a>
+					<div class="dropdown-menu" aria-labelledby="setting">
+						<a class="dropdown-item" href="settings.html">Account Settings</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Purchase History</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="ptools" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-tools mr-1"></i> Power Tooles
+					</a>
+					<div class="dropdown-menu" aria-labelledby="ptools">
+						<a class="dropdown-item" href="#">Test Builder</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Interview Evaluation Forms</a>
+					</div>
+				</li>
+				<li class="nav-item blue"><a class="nav-link" href="jobpost.html">Post a Job</a></li>
+				<li class="nav-item dropdown text-nowrap">
+					<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<div class="d-flex align-items-center">
+							<img src="images/favicon.png" class="img-circle mr-2" width="30">
+							<span>Noman Nazar<br><small>R Technologies</small></span>
+						</div>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="language">
+						<a class="dropdown-item" href="#">Change Password</a>
+						<a class="dropdown-item" href="index.html">Logout</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown pl-0">
+					<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						English
+					</a>
+					<div class="dropdown-menu  dropdown-menu-right" aria-labelledby="language">
+						<a class="dropdown-item" href="#">Urdu</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="clear"></div>
+<section class="container-fluid bg-light pt-5 pb-3">
+	<div class="row">
+		<div class="col-sm-4 col-md-8 m-auto">
+			<h2 class="text-dark py-2 d-flex justify-content-between align-items-center">
+				Post Freelancing Job
+				<div>
+					<button class="btn btn-success mr-2">Save as Draf</button>
+					<button class="btn btn-info">Preview</button>
+				</div>
+			</h2>
+			<div class="card">
+				<div class="card-body">
+					<h4 class="text-dark py-2">Job Detail</h4>
+					<hr>
+					<div class="clear p-2"></div>
+					<form>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Job Title <i class="text-danger ml-1">*</i></label>
+							<div class="col-md-8">
+								<input type="text" class="form-control" id="">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Job Description <i class="text-danger ml-1">*</i></label>
+							<div class="col-md-8">
+								<textarea class="form-control" id="" rows="5"></textarea>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Category/Functional Area <i class="text-danger ml-1">*</i></label>
+							<div class="col-md-8">
+								<select class="form-control" id="">
+									<option>Please Select</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Sub Category <i class="text-danger ml-1">*</i></label>
+							<div class="col-md-8">
+								<select class="form-control" id="">
+									<option>Please Select</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Required Career Level <i class="text-danger ml-1">*</i></label>
+							<div class="col-md-8">
+								<select class="form-control" id="">
+									<option>Inter / Student</option>
+									<option>Entry Level</option>
+									<option>Experienced Professional</option>
+									<option>Department Head</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Budget (PKR) <i class="text-danger ml-1">*</i></label>
+							<div class="col-md-8">
+								<div class="form-row">
+									<div class="col-4 mb-1">
+										<select class="form-control" id="">
+											<option>Fixed</option>
+											<option>Entry Level</option>
+											<option>Experienced Professional</option>
+											<option>Department Head</option>
+										</select>
+									</div>
+									<div class="col-4 mb-1">
+										<select class="form-control" id="">
+											<option>From PKR</option>
+										</select>
+									</div>
+									<div class="col-4 mb-1">
+										<select class="form-control" id="">
+											<option>To PKR</option>
+										</select>
+									</div>
+									<div class="col-4 mb-1">
+										<select class="form-control" id="">
+											<option>Hour</option>
+											<option>Project Base</option>
+										</select>
+									</div>
+									<div class="col-4 mb-1">
+										<select class="form-control" id="">
+											<option>From</option>
+										</select>
+									</div>
+									<div class="col-4 mb-1">
+										<select class="form-control" id="">
+											<option>To</option>
+											<option>1 Hour</option>
+											<option>2 Hour</option>
+											<option>3 Hour</option>
+											<option>4 Hour</option>
+										</select>
+									</div>
+								</div>
+								<div class="custom-control custom-checkbox">
+									<input type="checkbox" class="custom-control-input" id="FixedBudget">
+									<label class="custom-control-label" for="FixedBudget">Fixed budget no need to mentioned hr.</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+									<input type="checkbox" class="custom-control-input" id="negotiableBudget">
+									<label class="custom-control-label" for="negotiableBudget">Budget is negotiable & can be raised.</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Gender Requirement</label>
+							<div class="col-md-8">
+								<select class="form-control" id="">
+									<option>Male</option>
+									<option>Female</option>
+									<option>Transgender</option>
+									<option>No Preference</option>
+								</select>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Publish This Post</label>
+							<div class="col-md-8">
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="Immediately" name="Immediately" class="custom-control-input">
+									<label class="custom-control-label" for="Immediately">Immediately</label>
+								</div>
+								<div class="custom-control custom-radio custom-control-inline">
+									<input type="radio" id="Future" name="Future Date" class="custom-control-input">
+									<label class="custom-control-label" for="Future">Future Date</label>
+								</div>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Apply By Date</label>
+							<div class="col-md-8">
+								<input type="date" class="form-control">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Additional Conditions</label>
+							<div class="col-md-8">
+								<div class="custom-control custom-checkbox">
+									<input type="checkbox" class="custom-control-input" id="customCheck1">
+									<label class="custom-control-label" for="customCheck1">Receive resumes of applicants to this job through your email</label>
+								</div>
+								<div class="custom-control custom-checkbox">
+									<input type="checkbox" class="custom-control-input" id="customCheck2">
+									<label class="custom-control-label" for="customCheck2">Deactivate this job after the Apply By Date</label>
+								</div>
+							</div>
+						</div>
+						<div class="clear p-2"></div>
+						<h4 class="text-dark py-2">Minium criteria for selection</h4>
+						<hr>
+						<div class="clear p-2"></div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Skills</label>
+							<div class="col-md-8">
+								<div class="form-row mb-2">
+									<div class="col-6">
+										<select class="form-control">
+											<option>Please Select</option>
+										</select>
+									</div>
+									<div class="col-6">
+										<select class="form-control">
+											<option>Please Select</option>
+										</select>
+									</div>
+								</div>
+								<textarea rows="3" class="form-control"></textarea>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Required Qualification</label>
+							<div class="col-md-8">
+								<div class="form-row mb-2">
+									<div class="col-6">
+										<select class="form-control">
+											<option>Please Select</option>
+										</select>
+									</div>
+									<div class="col-6">
+										<select class="form-control">
+											<option>Please Select</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Specific Degree Title</label>
+							<div class="col-md-8">
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Years of Experience</label>
+							<div class="col-md-8">
+								<div class="form-row mb-2">
+									<div class="col-6">
+										<select class="form-control">
+											<option>Min</option>
+										</select>
+									</div>
+									<div class="col-6">
+										<select class="form-control">
+											<option>Max</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">More Info on Experience</label>
+							<div class="col-md-8">
+								<input type="text" class="form-control">
+							</div>
+						</div>
+						<div class="form-group row">
+							<label for="" class="col-md-4 col-form-label">Working Time Required</label>
+							<div class="col-md-8">
+								<div class="form-row mb-2">
+									<div class="col-6">
+										<select class="form-control">
+											<option>To</option>
+											<option>09:00 am</option>
+										</select>
+									</div>
+									<div class="col-6">
+										<select class="form-control">
+											<option>From</option>
+											<option>05:00 pm</option>
+										</select>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="form-group text-right">
+							<button type="reset" class="btn btn-success btn-200">POST A JOB</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="clear"></div>
+<footer class="footer pt-2">
+	<div class="container-fluid py-4">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs by Functional Area</h4>
+				<ul class="uilinks">
+					<li><a href="#">Software &amp; Web Development Jobs</a></li>
+                    <li><a href="#">Sales &amp; Business Development Jobs</a></li>
+                    <li><a href="#">Accounts, Finance &amp; Financial Jobs</a></li>
+					<li><a href="#">Teachers/Education, Training Jobs</a></li>
+                    <li><a href="#">Customer Support Jobs</a></li>
+					<li><a href="#">Marketing Jobs</a></li>
+					<li><a href="#">Telemarketing Jobs</a></li>
+					<li><a href="#">Creative Design Jobs</a></li>
+                    <li><a href="#">Computer Networking Jobs</a></li>
+                    <li><a href="#">Human Resources Jobs</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs By City</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Islamabad</a></li>
+                    <li><a href="#">Jobs in Karachi</a></li>
+                    <li><a href="#">Jobs in Lahore</a></li>
+					<li><a href="#">Jobs in Rawalpindi</a></li>
+                    <li><a href="#">Jobs in Peshawar</a></li>
+					<li><a href="#">Jobs in Faisalabad</a></li>
+					<li><a href="#">Jobs in Queta</a></li>
+					<li><a href="#">Jobs in Multan</a></li>
+                    <li><a href="#">Jobs in Gujrawala</a></li>
+                    <li><a href="#">Jobs in Haider-abad</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs By Industry</h4>
+				<ul class="uilinks">
+					<li><a href="#">Information Technology Jobs</a></li>
+                    <li><a href="#">Education/Training Jobs</a></li>
+                    <li><a href="#">Services Jobs</a></li>
+					<li><a href="#">Real Estate/Property Jobs</a></li>
+                    <li><a href="#">Manufacturing Jobs</a></li>
+					<li><a href="#">Recruitment / Employment Firms Jobs</a></li>
+					<li><a href="#">Banking/Financial Services Jobs</a></li>
+					<li><a href="#">Healthcare / Hospital / Medical Jobs</a></li>
+                    <li><a href="#">N.G.O./Social Services Jobs</a></li>
+                    <li><a href="#">Business Development Jobs </a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Employers</h4>
+				<ul class="uilinks">
+					<li><a href="#">Create Account</a></li>
+                    <li><a href="#">Post a Job</a></li>
+                    <li><a href="#">Employer Products</a></li>
+                    <li><a href="#">Contact Sales </a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4>Follow Us</h4>
+				<ul class="social">
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4 class="pb-2">Download App</h4>
+				<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid" width="100"></a> &nbsp; 
+				<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="copy">
+		Copyright &copy; 2022 <a href="#">Accountant.PK</a> | Allrights reserved.
+	</div>
+</footer>	
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+	 new WOW().init();	 
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+<svg>
+ <symbol id="icon-messages-fill" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path fill-rule="evenodd" d="M2 6a3 3 0 013-3h14a3 3 0 013 3v10a3 3 0 01-3 3H8.362a1 1 0 00-.64.232L5.28 21.266C3.978 22.352 2 21.426 2 19.73V6zm5 3a1 1 0 011-1h8a1 1 0 110 2H8a1 1 0 01-1-1zm1 3a1 1 0 100 2h4a1 1 0 100-2H8z" clip-rule="evenodd"/>
+    </symbol>
+    <symbol id="icon-messages-stroke" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path fill-rule="evenodd" d="M7 9a1 1 0 011-1h8a1 1 0 110 2H8a1 1 0 01-1-1zM7 13a1 1 0 011-1h4a1 1 0 110 2H8a1 1 0 01-1-1z" clip-rule="evenodd"/>
+      <path fill-rule="evenodd" d="M6.72 17.464A2 2 0 018 17h11a1 1 0 001-1V6a1 1 0 00-1-1H5a1 1 0 00-1 1v13.73l2.72-2.266zM8 19h11a3 3 0 003-3V6a3 3 0 00-3-3H5a3 3 0 00-3 3v13.73c0 1.696 1.978 2.622 3.28 1.536L8 19z" clip-rule="evenodd"/>
+    </symbol>
+        <symbol id="icon-notification-stroke" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+      <path fill-rule="evenodd" d="M2 16.596c0-.38.155-.745.429-1.01l1.029-.994a2 2 0 00.61-1.444l-.01-3.153A7.97 7.97 0 1120 9.97v3.2a2 2 0 00.586 1.415l1 1a1.414 1.414 0 01-1 2.414H16a4 4 0 01-8 0H3.404A1.404 1.404 0 012 16.596zM10 18a2 2 0 104 0h-4zm8-4.828A4 4 0 0019.172 16H4.879a4 4 0 001.19-2.858l-.01-3.153A5.97 5.97 0 1118 9.97v3.2z" clip-rule="evenodd"/>
+    </symbol>
+</svg>

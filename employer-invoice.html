@@ -1,0 +1,703 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+
+<!-- Title-->
+<title>Accountant.PK</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Fontawesome icons css -->
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<!-- Favicon icon -->
+<link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+	<div class="container-fluid">
+		<span class="navbar-brand">
+			<a href="index-employeer.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
+		</span>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link text-nowrap" href="jobs-management.html"><i class="fas fa-briefcase mr-1"></i> Manage Jobs</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-nowrap" href="cv-manager.html"><i class="far fa-file-alt mr-1"></i> CV Folder</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="create-gig.html">
+						<i class="far fa-address-card mr-1"></i> Gig/Services
+					</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link btn btn-primary text-white text-nowrap" href="#" data-toggle="modal" data-target="#job-view">Post Freelancing Assignment</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a class="nav-link btn btn-success text-white" href="job-post.html">Post a Job</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link btn btn-danger text-white" href="employer.html">Employer</a>
+				</li>
+				<li class="nav-item dropdown text-nowrap">
+					<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<div class="d-flex align-items-center">
+							<img src="images/favicon.png" class="img-circle mr-2" width="30">
+							<span>Noman Nazar<br><small>R Technologies</small></span>
+						</div>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="language">
+						<a class="dropdown-item" href="forgot-password.html">Change Password</a>
+						<a class="dropdown-item" href="index.html">Logout</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="clear"></div>
+<section class="container-fluid">
+	<div class="row">
+		<div class="col-sm-4 col-md-3 col-lg-3 bg-light py-3">
+			<div class="card mb-3">
+				<div class="card-header bg-secondary-light">
+					<h6 class="font-weight-semi-bold text-dark m-0">Portal Home</h6>
+				</div>
+				<div class="card-body">
+					<div class="form-row">
+						<div class="col-6 border-bottom border-right">
+							<a href="employer-services.html" class="media align-items-center my-3">
+								<i class="fas fa-user-cog mr-3 fa-2x text-warning"></i>
+								<div class="media-body align-self-center text-dark font-weight-semi-bold">Services</div>
+							</a>
+						</div>
+						<div class="col-6 border-bottom">
+							<a href="employer-cart.html" class="media align-items-center my-3">
+								<i class="fas fa-shopping-cart mr-3 fa-2x text-info"></i>
+								<div class="media-body align-self-center text-dark font-weight-semi-bold justify-content-between d-flex">
+									Cart
+									<span class="badge badge-primary badge-pill" style="height:18px;">5</span>
+								</div>
+							</a>
+						</div>
+						<div class="col-6 border-right">
+							<a href="#" class="media align-items-center my-3">
+								<i class="far fa-file-alt mr-3 fa-2x text-success"></i>
+								<div class="media-body align-self-center text-dark font-weight-semi-bold">Billing History</div>
+							</a>
+						</div>
+						<div class="col-6">
+							<a href="employer-invoice.html" class="media align-items-center my-3">
+								<i class="fas fa-money-check-alt mr-3 fa-2x text-primary"></i>
+								<div class="media-body align-self-center text-primary font-weight-bold justify-content-between d-flex">
+									Invoices
+									<span class="badge badge-primary badge-pill" style="height:18px;">2</span>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card mb-3">
+				<div class="card-header bg-secondary-light">
+					<h6 class="font-weight-semi-bold text-dark m-0">Gig/Services Purchase</h6>
+				</div>
+				<div class="list-group">
+					<a href="orders.html" class="list-group-item list-group-item-action">Orders</a>
+					<a href="purchase-history.html" class="list-group-item list-group-item-action">Purchase History</a>
+					<a href="inbox.html" class="list-group-item list-group-item-action">Inbox</a>
+					<a href="favorites.html" class="list-group-item list-group-item-action">Favorite</a>
+				</div>
+			</div>
+			<div class="card mb-3">
+				<div class="card-header bg-secondary-light">
+					<h6 class="font-weight-semi-bold text-dark text-white m-0">Packages</h6>
+				</div>
+				<div class="card-body">
+					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
+						PREMIUM SELECT
+						<a href="packages.html" class="btn btn-success btn-sm">View Detail</a>
+					</h6>
+					<p>Our most powerful option, will shortlist the best candidates for you</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Access to Cvs
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Job Highlighting
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> InstaMatch
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Credits
+					</p>
+					<hr>
+					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
+						TOP JOBS
+						<a href="packages.html" class="btn btn-success btn-sm">View Detail</a>
+					</h6>
+					<p>Our most powerful option, will shortlist the best candidates for you</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Access to Cvs
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Job Highlighting
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> InstaMatch
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Credits
+					</p>
+					<hr>
+					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
+						FEATURED JOBS
+						<a href="packages.html" class="btn btn-success btn-sm">View Detail</a>
+					</h6>
+					<p>Our most powerful option, will shortlist the best candidates for you</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Access to Cvs
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Job Highlighting
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> InstaMatch
+					</p>
+					<p class="mb-0 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Credits
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="col-sm-8 col-md-9 col-lg-9">
+			<div class="px-3 py-4">
+				<div class="row justify-content-between align-items-center">
+					<h1 class="text-dark m-0 col-md-3">Invoices</h1>
+					<div class="input-group m-0 col-md-3">
+						<input type="search" class="form-control" id="" placeholder="Search">
+						<div class="input-group-prepend">
+							<div class="input-group-append">
+								<button class="btn btn-secondary" type="button"><i class="fas fa-search"></i></button>
+							</div>
+						</div>
+					</div>
+				</div>				
+				<div class="clear p-2"></div>
+				<div class="table-responsive">
+					<table class="table table-bordered table-striped">
+						<thead class="bg-primary text-white">
+							<tr>
+								<th>Invoice #</th>
+								<th>Plan Name</th>
+								<th>Invoice Date</th>
+								<th>Due Date</th>
+								<th>Total</th>
+								<th>Invoice Status</th>
+								<th>Pay Bill</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>17105</th>
+								<td><a href="#">Normal Plan</a></td>
+								<td>Tuesday, July 19th, 2022</td>
+								<td>Tuesday, July 18th, 2022</td>
+								<th>Rs. 8,000</th>
+								<td><a href="#" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#unPaid
+">Unpaid</a></td>
+								<td><a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#PayBill
+">Pay Now</a></td>
+							</tr>
+							<tr>
+								<th>17105</th>
+								<td><a href="#">Normal Plan</a></td>
+								<td>Tuesday, July 19th, 2022</td>
+								<td>Tuesday, July 18th, 2022</td>
+								<th>Rs. 8,000</th>
+								<td><a href="#" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#unPaid
+">Unpaid</a></td>
+								<td><a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#PayBill
+">Pay Now</a></td>
+							</tr>
+							<tr>
+								<th>17105</th>
+								<td><a href="#">Normal Plan</a></td>
+								<td>Tuesday, July 19th, 2022</td>
+								<td>Tuesday, July 18th, 2022</td>
+								<th>Rs. 8,000</th>
+								<td><a href="#" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#unPaid
+">Unpaid</a></td>
+								<td><a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#PayBill
+">Pay Now</a></td>
+							</tr>
+							<tr>
+								<th>17105</th>
+								<td><a href="#">Normal Plan</a></td>
+								<td>Tuesday, July 19th, 2022</td>
+								<td>Tuesday, July 18th, 2022</td>
+								<th>Rs. 8,000</th>
+								<td><a href="#" class="btn btn-sm btn-success">Paid</a></td>
+								<td><a href="#" class="btn btn-sm btn-success">Paid</a></td>
+							</tr>
+							<tr>
+								<th>17105</th>
+								<td><a href="#">Normal Plan</a></td>
+								<td>Tuesday, July 19th, 2022</td>
+								<td>Tuesday, July 18th, 2022</td>
+								<th>Rs. 8,000</th>
+								<td><a href="#" class="btn btn-sm btn-success">Paid</a></td>
+								<td><a href="#" class="btn btn-sm btn-success">Paid</a></td>
+							</tr>
+							<tr>
+								<th>17105</th>
+								<td><a href="#">Normal Plan</a></td>
+								<td>Tuesday, July 19th, 2022</td>
+								<td>Tuesday, July 18th, 2022</td>
+								<th>Rs. 8,000</th>
+								<td><a href="#" class="btn btn-sm btn-success">Paid</a></td>
+								<td><a href="#" class="btn btn-sm btn-success">Paid</a></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="clear"></div>
+<footer class="footer pt-2">
+	<div class="container-fluid py-4">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs by Industry</h4>
+				<ul class="uilinks">
+					<li><a href="#">Information Technology Jobs</a></li>
+					<li><a href="#">Education/Training Jobs</a></li>
+					<li><a href="#">Services Jobs</a></li>
+					<li><a href="#">Real Estate/Property Jobs</a></li>
+					<li><a href="#">Manufacturing Jobs</a></li>
+					<li><a href="#">Recruitment / Employment Firms Jobs</a></li>
+					<li><a href="#">Banking/Financial Services Jobs</a></li>
+					<li><a href="#">Healthcare / Hospital / Medical Jobs</a></li>
+					<li><a href="#">N.G.O./Social Services Jobs</a></li>
+					<li><a href="#">Business Development Jobs</a></li>
+                </ul>
+				<div class="clear py-2"></div>
+				<h4>Jobs by Functional Area</h4>
+				<ul class="uilinks">
+					<li><a href="#">Accounting Jobs</a></li>
+					<li><a href="#">Admin Jobs</a></li>
+					<li><a href="#">Autos Jobs</a></li>
+					<li><a href="#">Computer Hardware Jobs</a></li>
+					<li><a href="#">Computer Software Jobs</a></li>
+					<li><a href="#">Construction Jobs</a></li>
+					<li><a href="#">Consulting Jobs</a></li>
+					<li><a href="#">Customer Service Jobs</a></li>
+					<li><a href="#">Education Jobs</a></li>
+					<li><a href="#">Engineering Jobs</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs in Cites</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Islamabad</a></li>
+                    <li><a href="#">Jobs in Karachi</a></li>
+                    <li><a href="#">Jobs in Lahore</a></li>
+					<li><a href="#">Jobs in Rawalpindi</a></li>
+                    <li><a href="#">Jobs in Peshawar</a></li>
+					<li><a href="#">Jobs in Faisalabad</a></li>
+					<li><a href="#">Jobs in Queta</a></li>
+					<li><a href="#">Jobs in Multan</a></li>
+                    <li><a href="#">Jobs in Gujrawala</a></li>
+                    <li><a href="#">Jobs in Haider-abad</a></li>
+                </ul>
+				<div class="clear py-2"></div>
+				<h4>Jobs in Other Countries</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Australia</a></li>
+                    <li><a href="#">Jobs in Bangladesh</a></li>
+                    <li><a href="#">Jobs in Bahrain</a></li>
+                    <li><a href="#">Jobs in Brazil</a></li>
+                    <li><a href="#">Jobs in Canada</a></li>
+                    <li><a href="#">Jobs in United Kingdom</a></li>
+                    <li><a href="#">Jobs in Jordan</a></li>
+                    <li><a href="#">Jobs in Sri Lanka</a></li>
+                    <li><a href="#">Jobs in Malaysia</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Freelancing Category</h4>
+				<ul class="uilinks">
+					<li><a href="#">Graphics & Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Writing & Translation</a></li>
+                    <li><a href="#">Video & Animation</a></li>
+                    <li><a href="#">Music & Audio</a></li>
+                    <li><a href="#">Programming & Tech</a></li>
+                    <li><a href="#">Data</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+				<div class="clear p-2"></div>
+				<h4>Online Recruitment</h4>
+				<ul class="uilinks">
+					<li><a href="#">Online Recruitment Solutions</a></li>
+                    <li><a href="#">Job Posting Packages</a></li>
+                    <li><a href="#">Post Job Free</a></li>
+                    <li><a href="#">Online Resumes Search</a></li>
+                    <li><a href="#">Search Professionals</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>About Us</h4>
+				<ul class="uilinks">
+					<li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Safe Jobs Search Pakistan</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Picture Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                    <li><a href="#">Signup Now</a></li>
+                    <li><a href="#">Companies Pakistan</a></li>
+                    <li><a href="#">Clear Cache</a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4>Follow Us</h4>
+				<ul class="social">
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4 class="pb-2">Download App</h4>
+				<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid" width="100"></a> &nbsp; 
+				<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="copy">
+		Copyright &copy; 2022 <a href="#">Accountant.PK</a> | Allrights reserved.
+	</div>
+</footer>	
+
+<!-- Modal Pay Bill -->
+<div class="modal fade" id="PayBill" tabindex="-1" role="dialog" aria-labelledby="PayBillTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title text-black" id="PayBillTitle">Pay Bill</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<!---div class="card">
+						<div class="card-header border-bottom bg-primary">
+							<h6 class="text-white card-title m-0">Choose Payment Method</h6>
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="form-group col-sm-6">
+									<div class="custom-control custom-checkbox border border-radius-10 h-100">
+										<input type="checkbox" class="custom-control-input" id="easypaisa">
+										<label class="custom-control-label" for="easypaisa">
+											<div class="media py-2">
+												<img class="align-self-center mr-3" src="images/ico_askaribank.png" width="75">
+												<div class="media-body font-weight-normal">
+													<p><strong>Account Title:</strong> IR Technologies (Pvt) Ltd</p>
+													<p><strong>Account Number:</strong> 0002-130420000278
+</p>
+													<p class="m-0"><strong>Branch Code:</strong> 0002</p>
+												</div>
+											</div>											
+										</label>
+									</div>
+								</div>
+								<div class="form-group col-sm-6">
+									<div class="custom-control custom-checkbox border border-radius-10 h-100">
+										<input type="checkbox" class="custom-control-input" id="easypaisa">
+										<label class="custom-control-label" for="easypaisa">
+											<div class="media py-2">
+												<img class="align-self-center mr-3" src="images/ico_ubank.png" width="75">
+												<div class="media-body font-weight-normal">
+													<p><strong>Account Title:</strong> IR Technologies (Pvt) Ltd</p>
+													<p><strong>Account Number:</strong>  1029-00092610086
+</p>
+													<p class="m-0"><strong>Branch Code:</strong>  1029</p>
+												</div>
+											</div>											
+										</label>
+									</div>
+								</div>
+								<div class="form-group col-sm-6">
+									<div class="custom-control custom-checkbox border border-radius-10 h-100">
+										<input type="checkbox" class="custom-control-input" id="easypaisa">
+										<label class="custom-control-label" for="easypaisa">
+											<div class="media py-2">
+												<img class="align-self-center mr-3" src="images/ico_easypaisa.png" width="75">
+												<div class="media-body font-weight-normal">
+													<p><strong>Account Title:</strong> IR Technologies (Pvt) Ltd</p>
+													<p class="m-0"><strong>Account Number:</strong> 0344-4643981</p>
+												</div>
+											</div>											
+										</label>
+									</div>
+								</div>
+								<div class="form-group col-sm-6">
+									<div class="custom-control custom-checkbox border border-radius-10 h-100">
+										<input type="checkbox" class="custom-control-input" id="easypaisa">
+										<label class="custom-control-label" for="easypaisa">
+											<div class="media py-2">
+												<img class="align-self-center mr-3" src="images/ico_jazzcash.png" width="75">
+												<div class="media-body font-weight-normal">
+													<p><strong>Account Title:</strong> IR Technologies (Pvt) Ltd</p>
+													<p class="m-0"><strong>Account Number:</strong> 0344-4643981</p>
+												</div>
+											</div>											
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div--->
+					<img src="images/myjobs.png" width="170">
+					<div class="form-row mt-3">
+						<h6 class="font-weight-semi-bold text-dark col-sm-12">Customer Information</h6>
+						<p class="form-group col-sm-6">Noman Nazar<br>Soft Tech Marketing<br>0312-9782768</p><p class="form-group col-sm-6">mr.nouman18@gmail.com<br>Azeem Town Sihala Islamabad, Pakisan</p>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-6">
+							<label for="rsrvs">Related Service</label>
+							<select class="form-control" id="rsrvs">
+								<option>Premium Select</option>
+								<option>Top Jobs</option>
+								<option>Featured Jobs</option>
+							</select>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="pmethod">Payment Method</label>
+							<select class="form-control" id="pmethod">
+								<option>Askari Bank</option>
+								<option>Easypaisa</option>
+								<option>JazzCash</option>
+							</select>
+						</div>
+						<div class="form-group col-sm-6">
+							<label for="ino">Invoice Number</label>
+							<input type="text" class="form-control" id="ino">
+						</div>
+						<div class="form-group col-sm-12">
+							<label for="msg">Massage</label>
+							<textarea class="form-control" id="msg" rows="3"></textarea>
+						</div>
+						<div class="form-group col-sm-12">
+							<label for="browse">Attached Browse File</label>
+							<div class="custom-file">
+								<input type="file" class="custom-file-input" id="browse">
+								<label class="custom-file-label" for="browse">Choose file</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-primary" data-dismiss="modal">Update</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Modal un Paid (Invoice) -->
+<div class="modal fade" id="unPaid" tabindex="-1" role="dialog" aria-labelledby="unPaidTitle" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title text-black" id="unPaidTitle">Invoice</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="card">
+						<div class="card-header border-bottom bg-primary">
+							<h6 class="text-white card-title text-right m-0">Invoice # 1125</h6>
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="form-group col-sm-6">
+									<div class="border border-radius-10 p-3 h-100">
+										<img src="images/matched-criteria.jpg" class="img-circle mb-3" width="75" height="75">
+										<h6>Customer Information</h6>
+										<p>Noman Nazar<br>0312-9782768<br>mr.nouman18@gmail.com<br>Model Town Islamabad<br>
+										Pakistan</p>
+									</div>
+								</div>
+								<div class="form-group col-sm-6">
+									<div class="border border-radius-10 p-3 h-100">
+										<label for="">Invoice Date</label>
+										<input type="text" class="form-control mb-2" placeholder="1 Jan, 2022">
+										<label for="">Due Date</label>
+										<input type="text" class="form-control mb-2" placeholder="1 Jan, 2022">
+										<label for="">Payment Method</label>
+										<input type="text" class="form-control" placeholder="Online">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="table-responsive">
+						<h5 class="text-dark">Plan Details</h5>
+						<table class="table table-bordered">
+							<thead class="bg-primary text-white">
+								<tr>
+									<th>Invoice #</th>
+									<th>Plan Name</th>
+									<th>Invoice Date</th>
+									<th>Due Date</th>
+									<th>Total</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>17105</td>
+									<td><a href="#">Normal Plan</a></td>
+									<td>Tuesday, July 19th, 2022</td>
+									<td>Tuesday, July 19th, 2022</td>
+									<td>Rs. 8,000</td>
+								</tr>
+								<tr>
+									<td>17105</td>
+									<td><a href="#">Normal Plan</a></td>
+									<td>Tuesday, July 19th, 2022</td>
+									<td>Tuesday, July 19th, 2022</td>
+									<td>Rs. 8,000</td>
+								</tr>
+								<tr class="table-secondary text-dark">
+									<th colspan="4">Total</th>
+									<th>Rs. 16,000</th>
+								</tr>
+							</tbody>
+						</table>
+						<div class="text-right">
+							<button type="button" class="btn btn-sm btn-info mr-2"><i class="fas fa-print mr-2"></i> Print</button>
+							<button type="button" class="btn btn-sm btn-primary"><i class="fas fa-download mr-2"></i> Download</button>
+						</div>
+					</div>
+					<div class="clear p-2"></div>
+					
+					<div class="card">
+						<div class="card-header border-bottom bg-primary">
+							<h6 class="text-white card-title m-0">Payee Details</h6>
+						</div>
+						<div class="card-body">
+							<div class="row">
+								<div class="form-group col-sm-6">
+									<div class="media border border-radius-10 px-2 h-100">
+										<img class="align-self-center mr-3" src="images/ico_askaribank.png" width="75">
+										<div class="media-body font-weight-normal">
+											<p><strong>Account Title:</strong> IR Technologies (Pvt) Ltd</p>
+											<p><strong>Account Number:</strong> 0002-130420000278</p>
+											<p class="m-0"><strong>Branch Code:</strong> 0002</p>
+										</div>
+									</div>
+								</div>
+								<div class="form-group col-sm-6">
+									<div class="media border border-radius-10 px-2 h-100">
+										<img class="align-self-center mr-3" src="images/ico_ubank.png" width="75">
+										<div class="media-body font-weight-normal">
+											<p><strong>Account Title:</strong> IR Technologies (Pvt) Ltd</p>
+											<p><strong>Account Number:</strong>  1029-00092610086</p>
+											<p class="m-0"><strong>Branch Code:</strong>  1029</p>
+										</div>
+									</div>
+								</div>
+								<div class="form-group col-sm-6">
+									<div class="media border border-radius-10 px-2 h-100">
+										<img class="align-self-center mr-3" src="images/ico_easypaisa.png" width="75">
+										<div class="media-body font-weight-normal">
+											<p><strong>Account Title:</strong> IR Technologies (Pvt) Ltd</p>
+											<p class="m-0"><strong>Account Number:</strong> 0344-4643981</p>
+										</div>
+									</div>
+								</div>
+								<div class="form-group col-sm-6">
+									<div class="media border border-radius-10 px-2 h-100">
+										<img class="align-self-center mr-3" src="images/ico_jazzcash.png" width="75">
+										<div class="media-body font-weight-normal">
+											<p><strong>Account Title:</strong> IR Technologies (Pvt) Ltd</p>
+											<p class="m-0"><strong>Account Number:</strong> 0344-4643981</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>					
+					
+					<div class="well text-white bg-info">
+						<p class="mb-0 row">
+							<strong class="col-6">Phone</strong>
+							<span class="col-6">051-5153004-6</span>
+
+							<strong class="col-6">Email</strong>
+							<span class="col-6">info@accountant.pk</span>
+
+							<strong class="col-6">Website</strong>
+							<span class="col-6">www.accountant.pk</span>
+
+							<strong class="col-6">IR Technology Pvt. Ltd</strong>
+							<span class="col-6">NTN-2552456-0</span>
+						</p>
+					</div>
+				</div>
+				<div class="modal-footer justify-content-end">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+	 new WOW().init();	 
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+</script>
+</body>
+</html>

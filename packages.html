@@ -1,0 +1,849 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta http-equiv='cache-control' content='no-cache'>
+	<meta http-equiv='expires' content='0'>
+	<meta http-equiv='pragma' content='no-cache'>
+
+	<!-- Title-->
+	<title>Accountant.PK</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/style.css" rel="stylesheet">
+
+	<!-- Fontawesome icons css -->
+	<link rel="stylesheet" href="css/font-awesome.css">
+
+	<!-- Favicon icon -->
+	<link rel="shortcut icon" href="images/favicon.png">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+	<div class="container-fluid">
+		<span class="navbar-brand">
+			<a href="index-employeer.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
+		</span>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link text-nowrap" href="jobs-management.html"><i class="fas fa-briefcase mr-1"></i> Manage Jobs</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link text-nowrap" href="cv-manager.html"><i class="far fa-file-alt mr-1"></i> CV Folder</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="create-gig.html">
+						<i class="far fa-address-card mr-1"></i> Gig/Services
+					</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a class="nav-link btn btn-primary text-white text-nowrap" href="#" data-toggle="modal" data-target="#job-view">Post Freelancing Assignment</a>
+				</li>
+				<li class="nav-item mx-2">
+					<a class="nav-link btn btn-success text-white" href="job-post.html">Post a Job</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link btn btn-danger text-white" href="employer.html">Employer</a>
+				</li>
+				<li class="nav-item dropdown text-nowrap">
+					<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<div class="d-flex align-items-center">
+							<img src="images/favicon.png" class="img-circle mr-2" width="30">
+							<span>Noman Nazar<br><small>R Technologies</small></span>
+						</div>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="language">
+						<a class="dropdown-item" href="forgot-password.html">Change Password</a>
+						<a class="dropdown-item" href="index.html">Logout</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="clear py-3"></div>
+<section class="container">
+
+	<div class="row">
+		<div class="col-lg-6 mb-3">
+			<div class="well mb-0 h-100 d-flex align-items-center justify-content-between shadow">
+				<div>
+					<h3 class="text-primary">Recruitment Service</h3>
+					<p class="mb-0 text-dark">Your hiring solutions.</p>					
+				</div>
+				<img src="images/icons/courses.png" class="img-thumbnail border-primary" width="130">
+			</div>
+		</div>
+		<div class="col-lg-6 mb-3"> 
+			<div class="well mb-0 h-100 shadow" >
+				<div id="carouselCourses" class="carousel slide courses_slides" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselCourses" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselCourses" data-slide-to="1"></li>
+						<li data-target="#carouselCourses" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<p class="carousel-item text-dark active">You can hand over your recruitment process to myjobs.pk professionals. We will find the perfect match for your vacant positions.</p>
+						<p class="carousel-item text-dark">You can hand over your recruitment process to myjobs.pk professionals. We will find the perfect match for your vacant positions.</p>
+						<p class="carousel-item text-dark">You can hand over your recruitment process to myjobs.pk professionals. We will find the perfect match for your vacant positions.</p>
+					</div>
+				</div>
+				<a href="#" class="btn btn-primary btn-sm float-right" data-toggle="modal" data-target="#ComingSoon">How it Works</a>
+			</div>
+		</div>
+	</div>
+	<!-- <div class="row">
+		<div class="col-lg-6 mb-3">
+			<img src="images/recruitment_service.png" class="img-thumbnail height-px-200 w-100 ">
+		</div>
+		<div class="col-lg-6 mb-3">
+			<div class="well mb-0 h-100 height-px-200 d-flex flex-column justify-content-between">
+				<h4 class="text-dark">Need Help</h4>
+				<div class="text-left"><a href="#" class="btn btn-primary">How it Works</a></div>
+			</div>
+		</div>
+	</div> -->
+
+	<div class="clear py-2"></div>
+
+	<div class="py-3 text-center bg-orange border-radius-15 mb-3 shadow">
+		<h3 class="text-white pt-2">Job Posting Package</h3>
+		<p class="text-white">Experience best hiring solutions with myjobs.pk</p>
+	</div>	
+
+	<div class="clear p-2"></div>
+
+	<div class="row">
+		<div class="col-md-4 mb-2">
+			<div class="card h-100">
+				<h4 class="card-header bg-secondary mb-0 text-white d-flex justify-content-between">BASIC</h4>
+				<p class="bg-primary text-white p-3 mb-0">Our fastest way to get started. Post your job 
+now!</p>
+				<div class="card-body">
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Get premium job postings</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Access CVs of all your applicants</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Reduce your cost and time to hire by at least 70%</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Rate and comment on CVs for future convenience</span>
+					</p>
+				</div>
+				<a class="btn btn-primary card-footer font-weight-bold" data-toggle="collapse" href="#basic" role="button" aria-expanded="false" aria-controls="basicPlan">BUY NOW</a>
+			</div>
+		</div>
+		<div class="col-md-4 mb-2">
+			<div class="card h-100">
+				<h4 class="card-header bg-secondary mb-0 text-white d-flex justify-content-between">
+					STANDARD <img src="images/icons/ico_standardplan.png" height="30">
+				</h4>
+				<p class="bg-primary text-white p-3 mb-0">Access more candidates while. elevating your
+brand.</p>
+				<div class="card-body">
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Get your jobs highlighted on our front page for 7 days</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Exciting bundled option with keyword search and applicant filter</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Experience excellent return on investment</span>
+					</p>
+				</div>
+				<a class="btn btn-primary card-footer font-weight-bold" data-toggle="collapse" href="#standard" role="button" aria-expanded="false" aria-controls="standardPlan">BUY NOW</a>
+			</div>
+		</div>
+		<div class="col-md-4 mb-2">
+			<div class="card h-100">
+				<h4 class="card-header bg-secondary mb-0 text-white d-flex justify-content-between">
+					PREMIUM <img src="images/icons/ico_premium.png" height="30">
+				</h4>
+				<p class="bg-primary text-white p-3 mb-0">Our most powerful option, will shortlist the best
+candidates for you</p>
+				<div class="card-body">
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Get premium job postings</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Assisted services for screening and shortlisting</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Exciting bundled option with keyword search and applicant filter</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Get faster results and save valuable time</span>
+					</p>
+				</div>
+				<a class="btn btn-primary card-footer text-white font-weight-bold" data-toggle="collapse" href="#premium" role="button" aria-expanded="false" aria-controls="premiumPlan">BUY NOW</a>
+			</div>
+		</div>
+	</div>
+	<div class="clear p-2"></div>
+
+	<!--- Basic Plan --->
+	<div class="collapse" id="basic">
+		<div class="card card-body border">
+			<div class="d-flex justify-content-between align-items-center">
+				<h4 class="m-0 text-primary">Basic Plan:</h4>				
+				<span>
+					<a href="employer-cart.html" class="btn btn-info btn-sm mr-2">My Cart</a>
+					<a href="employer-cart.html" class="btn btn-success btn-sm">Add To Cart</a>
+					<small class="d-block">Select the package you like and add it to your cart.</small>
+				</span>
+			</div>
+			<hr><div class="clear p-1"></div>
+			<div class="row">
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-info"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Access to CVs</h5>
+						<p>Complete access to all applicants Cvs</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-info"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Credits</h5>
+						<p>5 credit will be offered in this package</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-info"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">InstaMatch</h5>
+						<p>Get 300 most relevant candidates matched to your job posting via InstaMatch algorithm that leverages big data analytics and</p>
+					</div>
+				</div>
+			</div>
+			<div class="clear p-1"></div>
+			<div class="table-responsive">
+				<table class="table table-bordered table-striped">
+					<thead class="bg-primary text-white">
+						<tr>
+							<th>Packages</th>
+							<th>Price PKR</th>
+							<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox" checked> Basic Job (1 Credit)
+								</label>
+							</td>
+							<th class="text-black">5,000 PKR</th>
+							<td><a href="#" class="btn btn-sm btn-light-primary" data-toggle="modal" data-target="#basicDetail">View Detail</a></td>
+						</tr>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox"> Basic Job (3 Credits)
+								</label>
+							</td>
+							<th class="text-black">11,000 PKR</th>
+							<td><a href="#" class="btn btn-sm btn-light-primary" data-toggle="modal" data-target="#basicDetail">View Detail</a></td>
+						</tr>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox"> Basic Job (5 Credits)
+								</label>
+							</td>
+							<th class="text-black">15,000 PKR</th>
+							<td><a href="#" class="btn btn-sm btn-light-primary" data-toggle="modal" data-target="#basicDetail">View Detail</a></td>
+						</tr>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox"> CV Search Lite + Basic Job (3 Credits)
+								</label>
+							</td>
+							<th class="text-black">18,000 PKR</th>
+							<td><a href="#" class="btn btn-sm btn-light-primary" data-toggle="modal" data-target="#basicDetail">View Detail</a></td>
+						</tr>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox"> Basic Job (10 Credits)
+								</label>
+							</td>
+							<th class="text-black">24,000 PKR</th>
+							<td><a href="#" class="btn btn-sm btn-light-primary" data-toggle="modal" data-target="#basicDetail">View Detail</a></td>
+						</tr>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox"> Basic Job (15 Credits)
+								</label>
+							</td>
+							<th class="text-black">28,000 PKR</th>
+							<td><a href="#" class="btn btn-sm btn-light-primary" data-toggle="modal" data-target="#basicDetail">View Detail</a></td>
+						</tr>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox"> CV Search Pro 1M + Basic Job (5 Credits)
+								</label>
+							</td>
+							<th class="text-black">35,000 PKR</th>
+							<td><a href="#" class="btn btn-sm btn-light-primary" data-toggle="modal" data-target="#basicDetail">View Detail</a></td>
+						</tr>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox"> CV Search Pro 3M + Basic Job (10 Credits)
+								</label>
+							</td>
+							<th class="text-black">70,000 PKR</th>
+							<td><a href="#" class="btn btn-sm btn-light-primary" data-toggle="modal" data-target="#basicDetail">View Detail</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<p>* All prices are excluding government taxes and duties.</p>
+			</div>
+			<div class="text-right">
+				<a href="contact-us.html" class="btn btn-primary btn-200">Contact Seller</a>
+			</div>
+		</div>
+	</div>
+
+	<!--- Standard Plan --->
+	<div class="collapse" id="standard">
+		<div class="card card-body border">
+			<div class="d-flex justify-content-between align-items-center">
+				<h4 class="m-0 text-primary">Standard includes:</h4>				
+				<span>
+					<a href="employer-cart.html" class="btn btn-info btn-sm mr-2">My Cart</a>
+					<a href="#" class="btn btn-success btn-sm">Add To Cart</a>
+					<small class="d-block">Select the package you like and add it to your cart.</small>
+				</span>
+			</div>
+			<hr><div class="clear p-1"></div>
+			<div class="row">
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-info"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Access to CVs</h5>
+						<p>Complete access to all applicants Cvs</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-info"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Job Highlighting</h5>
+						<p>Prominent company link to your job in the Premium Select Jobs section of ACCOUNTANT.PK home page for 10 days</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-info"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">InstaMatch</h5>
+						<p>Get 300 most relevant candidates matched to your job posting via InstaMatch algorithm that leverages big data analytics and</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-info"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Credits</h5>
+						<p>5 credit will be offered in this package</p>
+					</div>
+				</div>
+			</div>
+			<div class="clear p-1"></div>
+			<div class="table-responsive">
+				<table class="table table-bordered table-striped">
+					<thead class="bg-primary text-white">
+						<tr>
+							<th>Packages</th>
+							<th>Price PKR</th>
+							<th>Actions</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox"> Top Job with InstaMatch (5 Credit)
+								</label>
+							</td>
+							<th class="text-black">4,000 PKR</th>
+							<td><a href="#" class="text-info">Contact our team</a> &nbsp; | &nbsp; <a href="#" class="text-primary">View Detail</a></td>
+						</tr>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox"> Top Job with InstaMatch (10 Credit)
+								</label>
+							</td>
+							<th class="text-black">9,000 PKR</th>
+							<td><a href="#" class="text-info">Contact our team</a> &nbsp; | &nbsp; <a href="#" class="text-primary">View Detail</a></td>
+						</tr>
+						<tr>
+							<td>
+								<label>
+									<input type="checkbox"> Top Job with InstaMatch (15 Credit)
+								</label>
+							</td>
+							<th class="text-black">12,000 PKR</th>
+							<td><a href="#" class="text-info">Contact our team</a> &nbsp; | &nbsp; <a href="#" class="text-primary">View Detail</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<p>* All prices are excluding government taxes and duties.</p>
+			</div>
+			<div class="text-right"><a href="contact-us.html" class="btn btn-primary btn-200">Contact Our Team</a></div>
+		</div>
+	</div>
+
+	<!--- Premium Plan --->
+	<div class="collapse" id="premium">
+		<div class="card card-body border">
+			<h4 class="m-0 text-primary">Premium Plan includes:</h4>
+			<hr><div class="clear p-1"></div>
+			<div class="row">
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Access to CVs</h5>
+						<p>Complete access to all applicants Cvs</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Job Highlighting</h5>
+						<p>Prominent company link to your job in the Premium Select Jobs section of ACCOUNTANT.PK home page for 10 days</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Free Keywords</h5>
+						<p>3 keywords to increase your job's appearance in job searches</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Candidate Screening/Shortlisting</h5>
+						<p>ACCOUNTANT.PK team of specialists shortlist the best candidates for your position from the applicants' poll, and conduct preliminary</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">InstaMatch</h5>
+						<p>Get 300 most relevant candidates matched to your job posting via InstaMatch algorithm that leverages big data analytics and</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Credits</h5>
+						<p>5 credit will be offered in this package</p>
+					</div>
+				</div>
+			</div>
+			<div class="text-right mt-3"><a href="contact-us.html" class="btn btn-primary btn-200">Contact Our Team</a></div>
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="col-md-6 mb-2">
+			<div class="card h-100">
+				<h4 class="card-header bg-secondary mb-0 text-white d-flex justify-content-between">
+					INSTANTMATCH <img src="images/icons/ico_instanmatch.png" height="30">
+				</h4>
+				<p class="bg-primary text-white p-3 mb-0">Access more candidates while .elevating your brand.</p>
+				<div class="card-body">
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Get premium job postings</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Assisted services for screening and shortlisting</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Exciting bundled option with keyword search and applicant filter</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Get faster results and save valuable time</span>
+					</p>
+				</div>
+				<a class="btn btn-primary card-footer text-white font-weight-bold" data-toggle="collapse" href="#insmatch" role="button" aria-expanded="false" aria-controls="InstantPlan">BUY NOW</a>
+			</div>
+		</div>
+		<div class="col-md-6 mb-2">
+			<div class="card h-100">
+				<h4 class="card-header bg-secondary mb-0 text-white d-flex justify-content-between">
+					RECRUITMENT SOLUTIONS <img src="images/icons/ico_recruitmentplan.png" height="30">
+				</h4>
+				<p class="bg-primary text-white p-3 mb-0">You can hand over your recruitment process to myjobs.pk team. We will find the perfect match for your vacant positions.</p>
+				<div class="card-body">
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Get premium job postings</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Assisted services for screening and shortlisting</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Exciting bundled option with keyword search and applicant filter</span>
+					</p>
+					<p class="media">
+						<i class="fas fa-check align-self-center mr-3 text-success"></i>
+						<span class="text-dark media-body">Get faster results and save valuable time</span>
+					</p>
+				</div>
+				<a class="btn btn-primary card-footer text-white font-weight-bold" data-toggle="collapse" href="#recruitment" role="button" aria-expanded="false" aria-controls="recruitmentPlan">BUY NOW</a>
+			</div>
+		</div>
+	</div>
+
+	<!--- Instant Match --->
+	<div class="collapse" id="insmatch">
+		<div class="card card-body border">
+			<h4 class="m-0 text-primary">Instant Match includes:</h4>
+			<hr><div class="clear p-1"></div>
+			<div class="row">
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Access to CVs</h5>
+						<p>Complete access to all applicants Cvs</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Job Highlighting</h5>
+						<p>Prominent company link to your job in the Premium Select Jobs section of ACCOUNTANT.PK home page for 10 days</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Free Keywords</h5>
+						<p>3 keywords to increase your job's appearance in job searches</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Candidate Screening/Shortlisting</h5>
+						<p>ACCOUNTANT.PK team of specialists shortlist the best candidates for your position from the applicants' poll, and conduct preliminary</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">InstaMatch</h5>
+						<p>Get 300 most relevant candidates matched to your job posting via InstaMatch algorithm that leverages big data analytics and</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Credits</h5>
+						<p>5 credit will be offered in this package</p>
+					</div>
+				</div>
+			</div>
+			<div class="text-right mt-3"><a href="contact-us.html" class="btn btn-primary btn-200">Contact Our Team</a></div>
+		</div>
+	</div>
+
+	<!--- Recruitment Plan --->
+	<div class="collapse" id="recruitment">
+		<div class="card card-body border">
+			<h4 class="m-0 text-primary">Recruitment Plan includes:</h4>
+			<hr><div class="clear p-1"></div>
+			<div class="row">
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Access to CVs</h5>
+						<p>Complete access to all applicants Cvs</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Job Highlighting</h5>
+						<p>Prominent company link to your job in the Premium Select Jobs section of ACCOUNTANT.PK home page for 10 days</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Free Keywords</h5>
+						<p>3 keywords to increase your job's appearance in job searches</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Candidate Screening/Shortlisting</h5>
+						<p>ACCOUNTANT.PK team of specialists shortlist the best candidates for your position from the applicants' poll, and conduct preliminary</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">InstaMatch</h5>
+						<p>Get 300 most relevant candidates matched to your job posting via InstaMatch algorithm that leverages big data analytics and</p>
+					</div>
+				</div>
+				<div class="media mb-1 col-md-6">
+					<i class="far fa-check-circle text_25 mr-3 text-secondary"></i>
+					<div class="text-dark media-body">
+						<h5 class="font-weight-medium">Credits</h5>
+						<p>5 credit will be offered in this package</p>
+					</div>
+				</div>
+			</div>
+			<div class="text-right mt-3"><a href="contact-us.html" class="btn btn-primary btn-200">Contact Our Team</a></div>
+		</div>
+	</div>
+</section>
+<div class="clear py-3"></div>
+<footer class="footer pt-2">
+	<div class="container-fluid py-4">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs by Industry</h4>
+				<ul class="uilinks">
+					<li><a href="#">Information Technology Jobs</a></li>
+					<li><a href="#">Education/Training Jobs</a></li>
+					<li><a href="#">Services Jobs</a></li>
+					<li><a href="#">Real Estate/Property Jobs</a></li>
+					<li><a href="#">Manufacturing Jobs</a></li>
+					<li><a href="#">Recruitment / Employment Firms Jobs</a></li>
+					<li><a href="#">Banking/Financial Services Jobs</a></li>
+					<li><a href="#">Healthcare / Hospital / Medical Jobs</a></li>
+					<li><a href="#">N.G.O./Social Services Jobs</a></li>
+					<li><a href="#">Business Development Jobs</a></li>
+                </ul>
+				<div class="clear py-2"></div>
+				<h4>Jobs by Functional Area</h4>
+				<ul class="uilinks">
+					<li><a href="#">Accounting Jobs</a></li>
+					<li><a href="#">Admin Jobs</a></li>
+					<li><a href="#">Autos Jobs</a></li>
+					<li><a href="#">Computer Hardware Jobs</a></li>
+					<li><a href="#">Computer Software Jobs</a></li>
+					<li><a href="#">Construction Jobs</a></li>
+					<li><a href="#">Consulting Jobs</a></li>
+					<li><a href="#">Customer Service Jobs</a></li>
+					<li><a href="#">Education Jobs</a></li>
+					<li><a href="#">Engineering Jobs</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs in Cites</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Islamabad</a></li>
+                    <li><a href="#">Jobs in Karachi</a></li>
+                    <li><a href="#">Jobs in Lahore</a></li>
+					<li><a href="#">Jobs in Rawalpindi</a></li>
+                    <li><a href="#">Jobs in Peshawar</a></li>
+					<li><a href="#">Jobs in Faisalabad</a></li>
+					<li><a href="#">Jobs in Queta</a></li>
+					<li><a href="#">Jobs in Multan</a></li>
+                    <li><a href="#">Jobs in Gujrawala</a></li>
+                    <li><a href="#">Jobs in Haider-abad</a></li>
+                </ul>
+				<div class="clear py-2"></div>
+				<h4>Jobs in Other Countries</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Australia</a></li>
+                    <li><a href="#">Jobs in Bangladesh</a></li>
+                    <li><a href="#">Jobs in Bahrain</a></li>
+                    <li><a href="#">Jobs in Brazil</a></li>
+                    <li><a href="#">Jobs in Canada</a></li>
+                    <li><a href="#">Jobs in United Kingdom</a></li>
+                    <li><a href="#">Jobs in Jordan</a></li>
+                    <li><a href="#">Jobs in Sri Lanka</a></li>
+                    <li><a href="#">Jobs in Malaysia</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Freelancing Category</h4>
+				<ul class="uilinks">
+					<li><a href="#">Graphics & Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Writing & Translation</a></li>
+                    <li><a href="#">Video & Animation</a></li>
+                    <li><a href="#">Music & Audio</a></li>
+                    <li><a href="#">Programming & Tech</a></li>
+                    <li><a href="#">Data</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+				<div class="clear p-2"></div>
+				<h4>Online Recruitment</h4>
+				<ul class="uilinks">
+					<li><a href="#">Online Recruitment Solutions</a></li>
+                    <li><a href="#">Job Posting Packages</a></li>
+                    <li><a href="#">Post Job Free</a></li>
+                    <li><a href="#">Online Resumes Search</a></li>
+                    <li><a href="#">Search Professionals</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>About Us</h4>
+				<ul class="uilinks">
+					<li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Safe Jobs Search Pakistan</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Picture Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                    <li><a href="#">Signup Now</a></li>
+                    <li><a href="#">Companies Pakistan</a></li>
+                    <li><a href="#">Clear Cache</a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4>Follow Us</h4>
+				<ul class="social">
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4 class="pb-2">Download App</h4>
+				<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid" width="100"></a> &nbsp; 
+				<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="copy">
+		Copyright &copy; 2022 <a href="#">Accountant.PK</a> | Allrights reserved.
+	</div>
+</footer>
+
+<a href="#" class="msg-btn" data-dismiss="modal" data-toggle="modal" data-target="#chat">
+	Leave a message <i class="far fa-envelope mt-1"></i>
+</a>
+
+<!-- Basic Plan Detail Modal -->
+<div class="modal fade" id="basicDetail" tabindex="-1" role="dialog" aria-labelledby="Label" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="Label">Package Detail:</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<p class="media">
+					<i class="far fa-check-circle mt-1 text_16 mr-3 text-success"></i>
+					<span class="text-dark media-body">1 Top Job with InstaMatch credit guarantees access to all applicants Cvs against your job. Plus filter candidates with pinpoint accuracy using Applicant Filter bundled with your job.</span>
+				</p>
+				<p class="media">
+					<i class="far fa-check-circle mt-1 text_16 mr-3 text-success"></i>
+					<span class="text-dark media-body">InstaMatch works as your personal head hunter to suggest the best matches. You can save time by sending bulk invitations to InstaMatch candidates through either email or SMS.</span>
+				</p>
+				<hr>
+				<h6 class="text-danger">Note:</h6>
+				<p>"These products can only be availed at these prices from within Pakistan. In order to buy the products for international access, please contact to your Account Manager."</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Chat Modal -->
+<div class="modal fade modal-bottom-right" id="chat" tabindex="-1" role="chat" aria-labelledby="chatTitle" aria-hidden="true">
+	<div class="modal-dialog modal-sm" role="document">
+		<div class="modal-content">
+			<div class="modal-header d-flex align-items-center">
+				<h6 class="modal-title m-0 text-dark" id="chatTitle">Talk with us</h6>
+				<div>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>					
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						<span aria-hidden="true">&#45;</span>
+					</button>
+				</div>
+			</div>
+			<div class="modal-body">
+				<div class="imessage">
+					<p class="from-them">It was loud. We just laid there and said &ldquo;is this an earthquake? I think this is an earthquake.&rdquo;</p>
+					<p class="from-me">Like is this an earthquake just go back to sleep</p>
+					<p class="from-them margin-b_one">It&rsquo;s more like &ldquo;this is an earthquake. Check the Internet. Yup. Earthquake. This is the size. This is the epicenter. Check social media. Make sure the East Coast knows I&rsquo;m alive. Okay, try and go back to sleep.&rdquo;</p>
+					<p class="from-me no-tail emoji">👍🏻</p>
+					<p class="from-me">Glad you&rsquo;re safe</p>
+				</div>
+			</div>
+			<form class="modal-footer">
+				<div class="w-100">
+					<div class="form-group mb-0">
+						<input type="text" class="form-control border-0" placeholder="WriteText">
+					</div>
+					<a href="#" class="text-body mr-1"><i class="fas fa-link"></i></a>
+					<a href="#" class="text-body mr-1"><i class="far fa-smile"></i></a>
+					<a href="#" class="text-body"><i class="fas fa-microphone"></i></a>
+				</div>
+				<button type="submit" class="btn btn-link p-0" style="min-width:32px;">
+					<i class="far fa-paper-plane text-dark text_18"></i>
+				</button>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Bootstrap Core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">
+	 new WOW().init();	 
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+</script>
+</body>
+</html>

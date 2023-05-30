@@ -1,0 +1,967 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+
+<!-- Title-->
+<title>Accountant.PK</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Fontawesome icons css -->
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<!-- Favicon icon -->
+<link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+	<div class="container-fluid">
+		<span class="navbar-brand">
+			<a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
+			<a href="#" class="nav-text">Beware! Reported Companies</a>
+		</span>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item text-black text-nowrap pr-2">Switch to</li>
+				<li class="nav-item text-nowrap px-1">
+					<a class="nav-link bg-info text-white" href="freelancer.html">Freelancer</a>
+				</li>
+				<li class="nav-item text-nowrap px-1">
+					<a class="nav-link bg-success text-white" href="home.html">Job Seaker</a>
+				</li>
+				<li class="nav-item text-nowrap px-1">
+					<a class="nav-link bg-primary text-white" href="home.html">Guest Mode</a>
+				</li>				
+				<li class="nav-item dropdown text-nowrap">
+					<a class="nav-link dropdown-toggle" href="#" id="setting" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-cog mr-1"></i> Settings
+					</a>
+					<div class="dropdown-menu" aria-labelledby="setting">
+						<a class="dropdown-item" href="settings.html">Account Settings</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Purchase History</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="clear"></div>
+<section class="container-fluid">
+	<div class="row">
+		<div class="col-md-2 col-lg-3 py-3 bg-light">
+			<div class="list-group">
+				<a href="#" class="list-group-item d-flex justify-content-between align-items-center text-dark text_16 font-weight-semi-bold" data-toggle="modal" data-target="#skillModal">
+					Skills
+				</a>
+				<a href="#" class="list-group-item d-flex justify-content-between align-items-center text-body" data-toggle="modal" data-target="#referenceModal">
+					Reference
+					<i class="fas fa-plus-circle text-info"></i>
+				</a>
+				<a href="#" class="list-group-item d-flex justify-content-between align-items-center text-body" data-toggle="modal" data-target="#projectModal">
+					Projects
+					<i class="fas fa-plus-circle text-info"></i>
+				</a>
+				<a data-toggle="collapse" href="#moreSkills" role="button" aria-expanded="false" aria-controls="moreSkills" class="list-group-item d-flex justify-content-between align-items-center text-body">
+					Add More Selection
+					<i class="fas fa-chevron-circle-down text-info"></i>
+				</a>
+				<div class="collapse" id="moreSkills">
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						References
+						<label class="switch mb-0" data-toggle="modal" data-target="#referenceModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Additional Information
+						<label class="switch mb-0" data-toggle="modal" data-target="#addinfoModal">
+							<input type="checkbox" checked>
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Interests
+						<label class="switch mb-0" data-toggle="modal" data-target="#interestsModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Projects
+						<label class="switch mb-0" data-toggle="modal" data-target="#projectModal">
+							<input type="checkbox" checked>
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Language
+						<label class="switch mb-0" data-toggle="modal" data-target="#languageModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Achievement & Awards
+						<label class="switch mb-0" data-toggle="modal" data-target="#awardsModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Activities
+						<label class="switch mb-0" data-toggle="modal" data-target="#activitiesModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Publication
+						<label class="switch mb-0" data-toggle="modal" data-target="#publicationModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Signature
+						<label class="switch mb-0">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn btn-success btn-block my-3" data-toggle="modal" data-target="#cvTemplateModal">Templets</a>
+			<a href="#" target="_blank" class="btn btn-danger btn-block my-3" data-toggle="modal" data-target="#cvViewModal">View CV</a>
+		</div>
+		<div class="col-md-6 col-lg-7">
+			<div class="px-3 py-4">
+				<div class="row">
+					<div class="col-4 col-lg-3">
+						<img src="" class="img-thumbnail" style="width:100%; height:150px;">
+					</div>
+					<div class="col-8 col-lg-9 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#personalModal"><i class="fas fa-plus-circle text_20"></i></a>
+					</div>
+				</div>
+				<hr class="my-4">
+				<div class="row">
+					<div class="col-4 col-lg-3">
+						<h5 class="text-dark">Objective</h5>
+					</div>
+					<div class="col-8 col-lg-9 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#objectiveModal"><i class="fas fa-plus-circle text_20"></i></a>
+					</div>
+				</div>
+				<hr class="my-4">
+				<div class="row">
+					<div class="col-4 col-lg-3">
+						<h5 class="text-dark">Experience</h5>
+					</div>
+					<div class="col-8 col-lg-9 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#experienceModal"><i class="fas fa-plus-circle text_20"></i></a>
+					</div>
+				</div>
+				<hr class="my-4">
+				<div class="row">
+					<div class="col-4 col-lg-3">
+						<h5 class="text-dark">Education</h5>
+					</div>
+					<div class="col-8 col-lg-9 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#educationModal"><i class="fas fa-plus-circle text_20"></i></a>
+					</div>
+				</div>
+				<hr class="my-4">
+			</div>
+		</div>
+		<div class="col-md-2 col-lg-2 border-left py-3">
+			<div class="card card-body bg-primary mb-3">
+				<div class="row align-items-center">
+					<div class="col-5"><img src="images/app-cells.png" class="img-fluid"></div>
+					<div class="col-7">
+						<h6 class="text-white font-weight-medium">Explore New Opportunities on the GO!</h6>
+					</div>
+				</div>								
+				<div class="form-row">
+					<div class="col-6">
+						<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid"></a>
+					</div>
+					<div class="col-6">
+						<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid"></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn btn-warning btn-block mb-3">Create Job Alert</a>
+			<div class="text-center">
+				<a href="#" target="_blank"><img src="https://previews.123rf.com/images/bamboochas/bamboochas1612/bamboochas161200002/68975400-vertical-advertising-christmas-sale-banner-with-christmas-ball-and-snowflakes.jpg" width="100%"></a>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="footer pt-2">
+	<div class="container-fluid py-4">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs by Functional Area</h4>
+				<ul class="uilinks">
+					<li><a href="#">Software &amp; Web Development Jobs</a></li>
+                    <li><a href="#">Sales &amp; Business Development Jobs</a></li>
+                    <li><a href="#">Accounts, Finance &amp; Financial Jobs</a></li>
+					<li><a href="#">Teachers/Education, Training Jobs</a></li>
+                    <li><a href="#">Customer Support Jobs</a></li>
+					<li><a href="#">Marketing Jobs</a></li>
+					<li><a href="#">Telemarketing Jobs</a></li>
+					<li><a href="#">Creative Design Jobs</a></li>
+                    <li><a href="#">Computer Networking Jobs</a></li>
+                    <li><a href="#">Human Resources Jobs</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs By City</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Islamabad</a></li>
+                    <li><a href="#">Jobs in Karachi</a></li>
+                    <li><a href="#">Jobs in Lahore</a></li>
+					<li><a href="#">Jobs in Rawalpindi</a></li>
+                    <li><a href="#">Jobs in Peshawar</a></li>
+					<li><a href="#">Jobs in Faisalabad</a></li>
+					<li><a href="#">Jobs in Queta</a></li>
+					<li><a href="#">Jobs in Multan</a></li>
+                    <li><a href="#">Jobs in Gujrawala</a></li>
+                    <li><a href="#">Jobs in Haider-abad</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs By Industry</h4>
+				<ul class="uilinks">
+					<li><a href="#">Information Technology Jobs</a></li>
+                    <li><a href="#">Education/Training Jobs</a></li>
+                    <li><a href="#">Services Jobs</a></li>
+					<li><a href="#">Real Estate/Property Jobs</a></li>
+                    <li><a href="#">Manufacturing Jobs</a></li>
+					<li><a href="#">Recruitment / Employment Firms Jobs</a></li>
+					<li><a href="#">Banking/Financial Services Jobs</a></li>
+					<li><a href="#">Healthcare / Hospital / Medical Jobs</a></li>
+                    <li><a href="#">N.G.O./Social Services Jobs</a></li>
+                    <li><a href="#">Business Development Jobs </a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Employers</h4>
+				<ul class="uilinks">
+					<li><a href="#">Create Account</a></li>
+                    <li><a href="#">Post a Job</a></li>
+                    <li><a href="#">Employer Products</a></li>
+                    <li><a href="#">Contact Sales </a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4>Follow Us</h4>
+				<ul class="social">
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4 class="pb-2">Download App</h4>
+				<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid" width="100"></a> &nbsp; 
+				<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="copy">
+		Copyright &copy; 2022 <a href="#">Accountant.PK</a> | Allrights reserved.
+	</div>
+</footer>
+	
+<!-- Skills Modal -->
+<div class="modal fade" id="skillModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<input type="text" class="form-control" placeholder="Write Hare">
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button">Add More</button>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								Graphic Designer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								UI/UX Developer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								Application Developer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Reference Modal -->
+<div class="modal fade" id="referenceModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Reference</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-row">
+						<div class="form-group col-sm-12">
+							<label>Reference Name</label>
+							<input type="text" class="form-control" placeholder="Reference Name">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Job Title</label>
+							<input type="text" class="form-control" placeholder="Job Title">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Company Name</label>
+							<input type="text" class="form-control" placeholder="Company Name">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Email Address</label>
+							<input type="email" class="form-control" placeholder="Email">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Phone</label>
+							<input type="text" class="form-control" placeholder="Phone">
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Projects Modal -->
+<div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Projects</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group">
+						<label>Project Title</label>
+						<input type="text" class="form-control" placeholder="Title">
+					</div>
+					<div class="form-group">
+						<label>Project Detail</label>
+						<textarea rows="3" class="form-control" placeholder="Enter Details"></textarea>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Personal Modal -->
+<div class="modal fade" id="personalModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Personal Info</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-row">					
+						<div class="form-group col-sm-6">
+							<label>Name</label>
+							<input type="text" class="form-control" placeholder="Name">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Email</label>
+							<input type="email" class="form-control" placeholder="Email">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Phone</label>
+							<input type="text" class="form-control" placeholder="Phone">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Date of Birth</label>
+							<input type="date" class="form-control" placeholder="Date">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>City</label>
+							<input type="text" class="form-control" placeholder="City">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Address (Optional)</label>
+							<input type="text" class="form-control" placeholder="Address">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Website (Optional)</label>
+							<input type="text" class="form-control" placeholder="Website">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Linkedin (Optional)</label>
+							<input type="text" class="form-control" placeholder="Linkedin">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Instagram (Optional)</label>
+							<input type="text" class="form-control" placeholder="Instagram">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Chose Photo (Optional)</label>
+							<div class="custom-file">
+								<input type="file" class="custom-file-input" id="customFile">
+								<label class="custom-file-label" for="customFile">Chose Photo</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Objective Modal -->
+<div class="modal fade" id="objectiveModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Objective Info</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<input type="text" class="form-control" placeholder="Write Hare">
+						<div class="input-group-append">
+							<button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Objective</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Select Objective 1</a>
+								<a class="dropdown-item" href="#">Select Objective 2</a>
+								<a class="dropdown-item" href="#">Select Objective 3</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Experience Modal -->
+<div class="modal fade" id="experienceModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Experience</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-row">
+						<div class="form-group col-sm-6">
+							<label>Company Name</label>
+							<input type="text" class="form-control" placeholder="Company Name">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Job Title</label>
+							<input type="text" class="form-control" placeholder="Job Title">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Start Date</label>
+							<input type="date" class="form-control" placeholder="Start Date">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>End Date</label>
+							<input type="date" class="form-control" placeholder="End Date">
+						</div>
+						<div class="form-group col-sm-12">
+							<label>Details</label>
+							<textarea rows="3" class="form-control" placeholder="Enter Details"></textarea>
+						</div>
+						<div class="form-group col-sm-12">
+							<button type="button" class="btn btn-info">Add More</button>
+						</div>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered">
+							<thead class="bg-primary-dark">
+								<tr>
+									<th>Company Name</th>
+									<th>Job Title</th>
+									<th>Start Date</th>
+									<th>End Date</th>
+									<th>Detail</th>
+									<th class="text-center">Action</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th class="text-dark">IR Tech</th>
+									<td>Graphic Designer</td>
+									<td>10 Dec, 2020</td>
+									<td>Till Date</td>
+									<td>Hard Work</td>
+									<td class="text-center"><i class="far fa-trash-alt text_20 text-danger"></i></td>
+								</tr>
+								<tr>
+									<th class="text-dark">IR Tech</th>
+									<td>Graphic Designer</td>
+									<td>10 Dec, 2020</td>
+									<td>Till Date</td>
+									<td>Hard Work</td>
+									<td class="text-center"><i class="far fa-trash-alt text_20 text-danger"></i></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Education Modal -->
+<div class="modal fade" id="educationModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Education</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-row">
+						<div class="form-group col-sm-6">
+							<label>Course / Degree</label>
+							<input type="text" class="form-control" placeholder="Course / Degree">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>School / University</label>
+							<input type="text" class="form-control" placeholder="School / University">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Grade / Score</label>
+							<input type="text" class="form-control" placeholder="Grade / Score">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Year</label>
+							<input type="text" class="form-control" placeholder="Year">
+						</div>
+						<div class="form-group col-sm-12">
+							<button type="button" class="btn btn-info">Add More</button>
+						</div>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered">
+							<thead class="bg-primary-dark">
+								<tr>
+									<th>Course / Degree</th>
+									<th>School / University</th>
+									<th>Grade / Score</th>
+									<th>Year</th>
+									<th class="text-center">Action</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th class="text-dark">Matric</th>
+									<td>Royal College</td>
+									<td>70 %</td>
+									<td>2020</td>
+									<td class="text-center"><i class="far fa-trash-alt text_20 text-danger"></i></td>
+								</tr>
+								<tr>
+									<th class="text-dark">F.Sc</th>
+									<td>Royal College</td>
+									<td>70 %</td>
+									<td>2020</td>
+									<td class="text-center"><i class="far fa-trash-alt text_20 text-danger"></i></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Education Modal -->
+<div class="modal fade" id="addinfoModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Additional Information</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<label>Write Hare</label>
+					<textarea rows="3" class="form-control" placeholder="Write Hare"></textarea>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Interests Modal -->
+<div class="modal fade" id="interestsModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Interests</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<input type="text" class="form-control" placeholder="Write Hare">
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button">Add More</button>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								Graphic Designer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								UI/UX Developer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								Application Developer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Language Modal -->
+<div class="modal fade" id="languageModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Language</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<select class="form-control">
+							<option>Please Select</option>
+							<option>English</option>
+							<option>Urdu</option>
+							<option>Punjabi</option>
+						</select>
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button">Add More</button>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-3">
+							<div class="alert alert-dark fade show" role="alert">
+								English
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-3">
+							<div class="alert alert-dark fade show" role="alert">
+								Urdu
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-3">
+							<div class="alert alert-dark fade show" role="alert">
+								Punjabi
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Achievements & Awards Modal -->
+<div class="modal fade" id="awardsModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Achievements & Awards</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<input type="text" placeholder="Title" class="form-control">
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button">Add More</button>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-3">
+							<div class="alert alert-dark fade show" role="alert">
+								Graphic Designer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Activities Modal -->
+<div class="modal fade" id="activitiesModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Activities</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<input type="text" placeholder="Detail" class="form-control">
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button">Add More</button>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-3">
+							<div class="alert alert-dark fade show" role="alert">
+								Online Working
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Publication Modal -->
+<div class="modal fade" id="publicationModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Publication</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group">
+						<label>Title</label>
+						<input type="text" placeholder="Title" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>Description</label>
+						<textarea rows="3" placeholder="Description" class="form-control"></textarea>
+					</div>
+					<button type="button" class="btn btn-info">Add More</button>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- CV Template Modal -->
+<div class="modal fade" id="cvTemplateModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">CV Template</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="row">
+					<div class="col-md-6 text-center mb-3">
+						<img src="images/cv-01.jpg" class="img-center mb-2">
+						<button type="button" class="btn btn-primary btn-block" data-dismiss="modal" data-toggle="modal" data-target="#cvViewModal">SELECT</button>
+					</div>
+					<div class="col-md-6 text-center mb-3">
+						<img src="images/cv-02.jpg" class="img-center mb-2">
+						<button type="button" class="btn btn-primary btn-block" data-dismiss="modal" data-toggle="modal" data-target="#cvViewModal">SELECT</button>
+					</div>
+					<div class="col-md-6 text-center mb-3">
+						<img src="images/cv-03.jpg" class="img-center mb-2">
+						<button type="button" class="btn btn-primary btn-block" data-dismiss="modal" data-toggle="modal" data-target="#cvViewModal">SELECT</button>
+					</div>
+					<div class="col-md-6 text-center mb-3">
+						<img src="images/cv-04.jpg" class="img-center mb-2">
+						<button type="button" class="btn btn-primary btn-block" data-dismiss="modal" data-toggle="modal" data-target="#cvViewModal">SELECT</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+<script type="text/javascript">
+	 new WOW().init();	 
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+</script>
+</body>
+</html>

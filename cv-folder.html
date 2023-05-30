@@ -1,0 +1,1713 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+
+<!-- Title-->
+<title>Accountant.PK</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Fontawesome icons css -->
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<!-- Favicon icon -->
+<link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+	<div class="container-fluid">
+		<span class="navbar-brand">
+			<a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
+			<a href="#" class="nav-text">Beware! Reported Companies</a>
+		</span>
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbar">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item text-black text-nowrap pr-2">Switch to</li>
+				<li class="nav-item text-nowrap px-1">
+					<a class="nav-link bg-info text-white" href="freelancer.html">Freelancer</a>
+				</li>
+				<li class="nav-item text-nowrap px-1">
+					<a class="nav-link bg-success text-white" href="home.html">Job Seaker</a>
+				</li>
+				<li class="nav-item text-nowrap px-1">
+					<a class="nav-link bg-primary text-white" href="home.html">Guest Mode</a>
+				</li>				
+				<li class="nav-item dropdown text-nowrap">
+					<a class="nav-link dropdown-toggle" href="#" id="setting" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-cog mr-1"></i> Settings
+					</a>
+					<div class="dropdown-menu" aria-labelledby="setting">
+						<a class="dropdown-item" href="settings.html">Account Settings</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Purchase History</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<div class="clear"></div>
+<section class="container-fluid">
+	<div class="row">
+		<div class="col-md-2 col-lg-3 py-3 bg-light">
+			<div class="list-group">
+				<a href="#" class="list-group-item d-flex justify-content-between align-items-center text-dark text_16 font-weight-semi-bold" data-toggle="modal" data-target="#skillModal">
+					Skills
+				</a>
+				<a href="#" class="list-group-item d-flex justify-content-between align-items-center text-body" data-toggle="modal" data-target="#referenceModal">
+					Reference
+					<i class="fas fa-plus-circle text-info"></i>
+				</a>
+				<a href="#" class="list-group-item d-flex justify-content-between align-items-center text-body" data-toggle="modal" data-target="#projectModal">
+					Projects
+					<i class="fas fa-plus-circle text-info"></i>
+				</a>
+				<a data-toggle="collapse" href="#moreSkills" role="button" aria-expanded="false" aria-controls="moreSkills" class="list-group-item d-flex justify-content-between align-items-center text-body">
+					Add More Selection
+					<i class="fas fa-chevron-circle-down text-info"></i>
+				</a>
+				<div class="collapse" id="moreSkills">
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						References
+						<label class="switch mb-0" data-toggle="modal" data-target="#referenceModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Additional Information
+						<label class="switch mb-0" data-toggle="modal" data-target="#addinfoModal">
+							<input type="checkbox" checked>
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Interests
+						<label class="switch mb-0" data-toggle="modal" data-target="#interestsModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Projects
+						<label class="switch mb-0" data-toggle="modal" data-target="#projectModal">
+							<input type="checkbox" checked>
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Language
+						<label class="switch mb-0" data-toggle="modal" data-target="#languageModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Achievement & Awards
+						<label class="switch mb-0" data-toggle="modal" data-target="#awardsModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Activities
+						<label class="switch mb-0" data-toggle="modal" data-target="#activitiesModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Publication
+						<label class="switch mb-0" data-toggle="modal" data-target="#publicationModal">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+					<div class="list-group-item d-flex justify-content-between align-items-center text-body">
+						Signature
+						<label class="switch mb-0">
+							<input type="checkbox">
+							<span class="slider"></span>
+						</label>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn btn-success btn-block my-3" data-toggle="modal" data-target="#cvTemplateModal">Templets</a>
+			<a href="cv-view.html" target="_blank" class="btn btn-danger btn-block my-3">View CV</a>
+		</div>
+		<div class="col-md-6 col-lg-7">
+			<div class="px-3 py-4">
+				<div class="row">
+					<div class="col-3 col-lg-3">
+						<img src="images/profile.jpg" class="img-thumbnail">
+					</div>
+					<div class="col-5 col-lg-5">
+						<h5 class="text-dark">Noman Nazar</h5>
+						<p>Azeem Town Sihala</p>
+					</div>
+					<div class="col-4 col-lg-4">
+						<a href="mailto:mr.nouman18@gmail.com" class="text-dark">mr.nouman18@gmail.com</a><br>
+						03129782768<br><strong>DOB</strong> 4 April
+					</div>
+				</div>
+				<hr class="my-4">
+				<div class="row">
+					<h5 class="text-dark col-lg-3">Objective</h5>
+					<p class="col-lg-8 col-10">
+						To continue my career with organization that will utilize my Management Supervision & Administrative
+					</p>
+					<span class="col-lg-1 col-2 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#objectiveModal">
+							<i class="fas fa-edit text_16"></i>
+						</a>
+					</span>
+				</div>
+				<hr class="my-4">
+				<div class="row">
+					<h5 class="text-dark col-lg-3">Experience</h5>
+					<p class="col-lg-4 col-5">
+						<strong class="text-dark">Truck Motion Pvt.Ltd</strong><br>Sr Graphic Designer<br>Hard Working
+					</p>
+					<strong class="text-dark col-lg-4 col-5">01 Jan 2019 - 1 May 2020</strong>
+					<span class="col-lg-1 col-2 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#experienceModal">
+							<i class="fas fa-edit text_16"></i>
+						</a>
+					</span>
+				</div>
+				<div class="row">
+					<h5 class="text-dark col-lg-3"></h5>
+					<p class="col-lg-4 col-5">
+						<strong class="text-dark">IR Technologies Pvt.Ltd</strong><br>IT & Sr Graphic Designer<br>Hard Working
+					</p>
+					<strong class="text-dark col-lg-4 col-5">01 Jan 2019 - Till Date</strong>
+					<span class="col-lg-1 col-2 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#experienceModal">
+							<i class="fas fa-edit text_16"></i>
+						</a>
+					</span>
+				</div>
+				<hr class="my-4">
+				<div class="row">
+					<h5 class="text-dark col-lg-3">Education</h5>
+					<p class="col-lg-8 col-10">
+						<strong class="text-dark">Royal International College</strong><br>Matric<br>2019 — Grade D
+					</p>
+					<span class="col-lg-1 col-2 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#educationModal">
+							<i class="fas fa-edit text_16"></i>
+						</a>
+					</span>
+				</div>
+				<div class="row">
+					<h5 class="text-dark col-lg-3"></h5>
+					<p class="col-lg-8 col-10">
+						<strong class="text-dark">Royal International College</strong><br>Fsc<br>2021 — Grade E
+					</p>
+					<span class="col-lg-1 col-2 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#educationModal">
+							<i class="fas fa-edit text_16"></i>
+						</a>
+					</span>
+				</div>
+				<hr class="my-4">
+				<div class="row">
+					<h5 class="text-dark col-lg-3">Skills</h5>
+					<ul class="col-lg-8 col-10">
+						<li>Coral Draw</li>
+						<li>Photo Shop</li>
+					</ul>
+					<span class="col-lg-1 col-2 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#skillModal">
+							<i class="fas fa-edit text_16"></i>
+						</a>
+					</span>
+				</div>
+				<hr class="my-4">
+				<div class="row">
+					<h5 class="text-dark col-lg-3">Projects</h5>
+					<p class="col-lg-8 col-10">
+						<strong class="text-dark">Accountant.pk</strong><br>App, Website & Web Portal UI UX Design
+					</p>
+					<span class="col-lg-1 col-2 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#projectModal">
+							<i class="fas fa-edit text_16"></i>
+						</a>
+					</span>
+				</div>
+				<div class="row">
+					<h5 class="text-dark col-lg-3"></h5>
+					<p class="col-lg-8 col-10">
+						<strong class="text-dark">Education Solutions</strong><br>App, Website & Web Portal UI UX Design
+					</p>
+					<span class="col-lg-1 col-2 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#projectModal">
+							<i class="fas fa-edit text_16"></i>
+						</a>
+					</span>
+				</div>
+				<hr class="my-4">
+				<div class="row">
+					<h5 class="text-dark col-lg-3">Language</h5>
+					<p class="col-lg-8 col-10">
+						English, Urdu
+					</p>
+					<span class="col-lg-1 col-2 text-right">
+						<a href="#" class="text-info" data-toggle="modal" data-target="#languageModal">
+							<i class="fas fa-edit text_16"></i>
+						</a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-2 col-lg-2 border-left py-3">
+			<div class="card card-body bg-primary mb-3">
+				<div class="row align-items-center">
+					<div class="col-5"><img src="images/app-cells.png" class="img-fluid"></div>
+					<div class="col-7">
+						<h6 class="text-white font-weight-medium">Explore New Opportunities on the GO!</h6>
+					</div>
+				</div>								
+				<div class="form-row">
+					<div class="col-6">
+						<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid"></a>
+					</div>
+					<div class="col-6">
+						<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid"></a>
+					</div>
+				</div>
+			</div>
+			<a href="#" class="btn btn-warning btn-block mb-3">Create Job Alert</a>
+			<div class="text-center">
+				<a href="#" target="_blank"><img src="https://previews.123rf.com/images/bamboochas/bamboochas1612/bamboochas161200002/68975400-vertical-advertising-christmas-sale-banner-with-christmas-ball-and-snowflakes.jpg" width="100%"></a>
+			</div>
+		</div>
+	</div>
+</section>
+<footer class="footer pt-2">
+	<div class="container-fluid py-4">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs by Functional Area</h4>
+				<ul class="uilinks">
+					<li><a href="#">Software &amp; Web Development Jobs</a></li>
+                    <li><a href="#">Sales &amp; Business Development Jobs</a></li>
+                    <li><a href="#">Accounts, Finance &amp; Financial Jobs</a></li>
+					<li><a href="#">Teachers/Education, Training Jobs</a></li>
+                    <li><a href="#">Customer Support Jobs</a></li>
+					<li><a href="#">Marketing Jobs</a></li>
+					<li><a href="#">Telemarketing Jobs</a></li>
+					<li><a href="#">Creative Design Jobs</a></li>
+                    <li><a href="#">Computer Networking Jobs</a></li>
+                    <li><a href="#">Human Resources Jobs</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs By City</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Islamabad</a></li>
+                    <li><a href="#">Jobs in Karachi</a></li>
+                    <li><a href="#">Jobs in Lahore</a></li>
+					<li><a href="#">Jobs in Rawalpindi</a></li>
+                    <li><a href="#">Jobs in Peshawar</a></li>
+					<li><a href="#">Jobs in Faisalabad</a></li>
+					<li><a href="#">Jobs in Queta</a></li>
+					<li><a href="#">Jobs in Multan</a></li>
+                    <li><a href="#">Jobs in Gujrawala</a></li>
+                    <li><a href="#">Jobs in Haider-abad</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs By Industry</h4>
+				<ul class="uilinks">
+					<li><a href="#">Information Technology Jobs</a></li>
+                    <li><a href="#">Education/Training Jobs</a></li>
+                    <li><a href="#">Services Jobs</a></li>
+					<li><a href="#">Real Estate/Property Jobs</a></li>
+                    <li><a href="#">Manufacturing Jobs</a></li>
+					<li><a href="#">Recruitment / Employment Firms Jobs</a></li>
+					<li><a href="#">Banking/Financial Services Jobs</a></li>
+					<li><a href="#">Healthcare / Hospital / Medical Jobs</a></li>
+                    <li><a href="#">N.G.O./Social Services Jobs</a></li>
+                    <li><a href="#">Business Development Jobs </a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Employers</h4>
+				<ul class="uilinks">
+					<li><a href="#">Create Account</a></li>
+                    <li><a href="#">Post a Job</a></li>
+                    <li><a href="#">Employer Products</a></li>
+                    <li><a href="#">Contact Sales </a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4>Follow Us</h4>
+				<ul class="social">
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4 class="pb-2">Download App</h4>
+				<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid" width="100"></a> &nbsp; 
+				<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="copy">
+		Copyright &copy; 2022 <a href="#">Accountant.PK</a> | Allrights reserved.
+	</div>
+</footer>
+	
+<!-- Skills Modal -->
+<div class="modal fade" id="skillModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Skills</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<input type="text" class="form-control" placeholder="Write Hare">
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button">Add More</button>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								Graphic Designer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								UI/UX Developer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								Application Developer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Reference Modal -->
+<div class="modal fade" id="referenceModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Reference</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-row">
+						<div class="form-group col-sm-12">
+							<label>Reference Name</label>
+							<input type="text" class="form-control" placeholder="Reference Name">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Job Title</label>
+							<input type="text" class="form-control" placeholder="Job Title">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Company Name</label>
+							<input type="text" class="form-control" placeholder="Company Name">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Email Address</label>
+							<input type="email" class="form-control" placeholder="Email">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Phone</label>
+							<input type="text" class="form-control" placeholder="Phone">
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Projects Modal -->
+<div class="modal fade" id="projectModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Projects</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group">
+						<label>Project Title</label>
+						<input type="text" class="form-control" placeholder="Title">
+					</div>
+					<div class="form-group">
+						<label>Project Detail</label>
+						<textarea rows="3" class="form-control" placeholder="Enter Details"></textarea>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Personal Modal -->
+<div class="modal fade" id="personalModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Personal Info</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-row">					
+						<div class="form-group col-sm-6">
+							<label>Name</label>
+							<input type="text" class="form-control" placeholder="Name">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Email</label>
+							<input type="email" class="form-control" placeholder="Email">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Phone</label>
+							<input type="text" class="form-control" placeholder="Phone">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Date of Birth</label>
+							<input type="date" class="form-control" placeholder="Date">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>City</label>
+							<input type="text" class="form-control" placeholder="City">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Address (Optional)</label>
+							<input type="text" class="form-control" placeholder="Address">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Website (Optional)</label>
+							<input type="text" class="form-control" placeholder="Website">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Linkedin (Optional)</label>
+							<input type="text" class="form-control" placeholder="Linkedin">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Instagram (Optional)</label>
+							<input type="text" class="form-control" placeholder="Instagram">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Chose Photo (Optional)</label>
+							<div class="custom-file">
+								<input type="file" class="custom-file-input" id="customFile">
+								<label class="custom-file-label" for="customFile">Chose Photo</label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Objective Modal -->
+<div class="modal fade" id="objectiveModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Objective Info</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<input type="text" class="form-control" placeholder="Write Hare">
+						<div class="input-group-append">
+							<button class="btn btn-info dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Select Objective</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="#">Select Objective 1</a>
+								<a class="dropdown-item" href="#">Select Objective 2</a>
+								<a class="dropdown-item" href="#">Select Objective 3</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Experience Modal -->
+<div class="modal fade" id="experienceModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Experience</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-row">
+						<div class="form-group col-sm-6">
+							<label>Company Name</label>
+							<input type="text" class="form-control" placeholder="Company Name">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Job Title</label>
+							<input type="text" class="form-control" placeholder="Job Title">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Start Date</label>
+							<input type="date" class="form-control" placeholder="Start Date">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>End Date</label>
+							<input type="date" class="form-control" placeholder="End Date">
+						</div>
+						<div class="form-group col-sm-12">
+							<label>Details</label>
+							<textarea rows="3" class="form-control" placeholder="Enter Details"></textarea>
+						</div>
+						<div class="form-group col-sm-12">
+							<button type="button" class="btn btn-info">Add More</button>
+						</div>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered">
+							<thead class="bg-primary-dark">
+								<tr>
+									<th>Company Name</th>
+									<th>Job Title</th>
+									<th>Start Date</th>
+									<th>End Date</th>
+									<th>Detail</th>
+									<th class="text-center">Action</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th class="text-dark">IR Tech</th>
+									<td>Graphic Designer</td>
+									<td>10 Dec, 2020</td>
+									<td>Till Date</td>
+									<td>Hard Work</td>
+									<td class="text-center"><i class="far fa-trash-alt text_20 text-danger"></i></td>
+								</tr>
+								<tr>
+									<th class="text-dark">IR Tech</th>
+									<td>Graphic Designer</td>
+									<td>10 Dec, 2020</td>
+									<td>Till Date</td>
+									<td>Hard Work</td>
+									<td class="text-center"><i class="far fa-trash-alt text_20 text-danger"></i></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Education Modal -->
+<div class="modal fade" id="educationModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Education</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-row">
+						<div class="form-group col-sm-6">
+							<label>Course / Degree</label>
+							<input type="text" class="form-control" placeholder="Course / Degree">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>School / University</label>
+							<input type="text" class="form-control" placeholder="School / University">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Grade / Score</label>
+							<input type="text" class="form-control" placeholder="Grade / Score">
+						</div>
+						<div class="form-group col-sm-6">
+							<label>Year</label>
+							<input type="text" class="form-control" placeholder="Year">
+						</div>
+						<div class="form-group col-sm-12">
+							<button type="button" class="btn btn-info">Add More</button>
+						</div>
+					</div>
+					<div class="table-responsive">
+						<table class="table table-bordered">
+							<thead class="bg-primary-dark">
+								<tr>
+									<th>Course / Degree</th>
+									<th>School / University</th>
+									<th>Grade / Score</th>
+									<th>Year</th>
+									<th class="text-center">Action</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th class="text-dark">Matric</th>
+									<td>Royal College</td>
+									<td>70 %</td>
+									<td>2020</td>
+									<td class="text-center"><i class="far fa-trash-alt text_20 text-danger"></i></td>
+								</tr>
+								<tr>
+									<th class="text-dark">F.Sc</th>
+									<td>Royal College</td>
+									<td>70 %</td>
+									<td>2020</td>
+									<td class="text-center"><i class="far fa-trash-alt text_20 text-danger"></i></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Additional Information Modal -->
+<div class="modal fade" id="addinfoModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Additional Information</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<label>Write Hare</label>
+					<textarea rows="3" class="form-control" placeholder="Write Hare"></textarea>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Interests Modal -->
+<div class="modal fade" id="interestsModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Interests</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<input type="text" class="form-control" placeholder="Write Hare">
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button">Add More</button>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								Graphic Designer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								UI/UX Developer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-4">
+							<div class="alert alert-dark fade show" role="alert">
+								Application Developer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Language Modal -->
+<div class="modal fade" id="languageModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Language</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<select class="form-control">
+							<option>Please Select</option>
+							<option>English</option>
+							<option>Urdu</option>
+							<option>Punjabi</option>
+						</select>
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button">Add More</button>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-3">
+							<div class="alert alert-dark fade show" role="alert">
+								English
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-3">
+							<div class="alert alert-dark fade show" role="alert">
+								Urdu
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+						<div class="form-group col-sm-3">
+							<div class="alert alert-dark fade show" role="alert">
+								Punjabi
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Achievements & Awards Modal -->
+<div class="modal fade" id="awardsModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Achievements & Awards</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<input type="text" placeholder="Title" class="form-control">
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button">Add More</button>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-3">
+							<div class="alert alert-dark fade show" role="alert">
+								Graphic Designer
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Activities Modal -->
+<div class="modal fade" id="activitiesModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Activities</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group input-group">
+						<input type="text" placeholder="Detail" class="form-control">
+						<div class="input-group-append">
+							<button class="btn btn-info" type="button">Add More</button>
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-group col-sm-3">
+							<div class="alert alert-dark fade show" role="alert">
+								Online Working
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- Publication Modal -->
+<div class="modal fade" id="publicationModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">Publication</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<form>
+				<div class="modal-body">
+					<div class="form-group">
+						<label>Title</label>
+						<input type="text" placeholder="Title" class="form-control">
+					</div>
+					<div class="form-group">
+						<label>Description</label>
+						<textarea rows="3" placeholder="Description" class="form-control"></textarea>
+					</div>
+					<button type="button" class="btn btn-info">Add More</button>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-dismiss="modal">CANCEL</button>
+					<button type="button" class="btn btn-primary">SAVE</button>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+	
+<!-- CV Template Modal -->
+<div class="modal fade" id="cvTemplateModal" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">CV Template</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div id="carouselCv" class="carousel slide circle-arrow" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="row">
+								<div class="col-lg-10 m-auto">									
+									<div class="form-row">
+										<div class="col-lg-4">
+											<img src="images/cvs/cv-02.jpg" class="img-center">
+											<a href="cv-one.html" class="btn btn-primary btn-block">Standard</a>
+										</div>
+										<div class="col-lg-4">
+											<img src="images/cvs/cv-01.jpg" class="img-center">
+											<a href="cv-two.html" class="btn btn-primary btn-block">Professional</a>
+										</div>
+										<div class="col-lg-4">
+											<img src="images/cvs/cv-03.jpg" class="img-center">
+											<a href="cv-three.html" class="btn btn-primary btn-block">Modern</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="row">
+								<div class="col-lg-10 m-auto">									
+									<div class="form-row">
+										<div class="col-lg-4">
+											<img src="images/cvs/cv-03.jpg" class="img-center">
+											<a href="cv-one.html" target="_blank" class="btn btn-primary btn-block">SELECT</a>
+										</div>
+										<div class="col-lg-4">
+											<img src="images/cvs/cv-01.jpg" class="img-center">
+											<a href="cv-two.html" target="_blank" class="btn btn-primary btn-block">SELECT</a>
+										</div>
+										<div class="col-lg-4">
+											<img src="images/cvs/cv-02.jpg" class="img-center">
+											<a href="cv-three.html" target="_blank" class="btn btn-primary btn-block">SELECT</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<a class="carousel-control-prev ml-4" href="#carouselCv" role="button" data-slide="prev">
+							<i class="fas fa-angle-left" aria-hidden="true"></i>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next mr-4" href="#carouselCv" role="button" data-slide="next">
+							<i class="fas fa-angle-right" aria-hidden="true"></i>
+							<span class="sr-only">Next</span>
+						</a>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<!-- CV Template 1 Modal -->
+<div class="modal fade" id="cvOne" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">CV Template 1</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<table width="100%" cellpadding="10" cellspacing="0" style="font-size:14px;">
+					<tr>
+						<td bgcolor="e7e7e8" style="background-color:#e7e7e8; color:#000; padding:10px;" width="30%" align="left" valign="top">
+							<div align="center">
+								<img src="images/profile.jpg" class="img-thumbnail" width="120" style="background-color:#FFF;">
+							</div>
+							<div style="clear: both; padding:10px 0;"></div>
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td width="30" style="color:#000; font-weight:600; font-size:13px;"><i class="fas fa-user"></i></td>
+										<td style="color:#000; font-weight:600; font-size:13px; text-align:left;">Male</td>
+									</tr>
+									<tr>
+										<td width="30" style="color:#000; font-weight:600; font-size:13px;"><i class="far fa-calendar-alt"></i></td>
+										<td style="color:#000; font-weight:600; font-size:13px; text-align:left;">6 April 1998</td>
+									</tr>
+									<tr>
+										<td width="30" style="color:#000; font-weight:600; font-size:13px;"><i class="fas fa-phone"></i></td>
+										<td style="color:#000; font-weight:600; font-size:13px; text-align:left;">0312 9782768</td>
+									</tr>
+									<tr>
+										<td width="30" style="color:#000; font-weight:600; font-size:13px;"><i class="fas fa-envelope"></i></td>
+										<td style="color:#000; font-weight:600; font-size:13px; text-align:left;">mr.nouman18@gmail .com</td>
+									</tr>
+									<tr>
+										<td width="30" style="color:#000; font-weight:600; font-size:13px;"><i class="fas fa-building"></i></td>
+										<td style="color:#000; font-weight:600; font-size:13px; text-align:left;">Islamabad</td>
+									</tr>
+									<tr>
+										<td width="30" style="color:#000; font-weight:600; font-size:13px;"><i class="fas fa-map-marker-alt"></i></td>
+										<td style="color:#000; font-weight:600; font-size:13px; text-align:left;">Azeem Town Sihala Islamabad</td>
+									</tr>
+								</tbody>
+							</table>
+							<hr>
+
+							<h3 style="color:#000; font-weight:700; font-size:16px;">Skills</h3>
+							<small style="font-size:14px; color:#000;">Graphic Designer <small><i>Expert</i></small></small>
+							<div style="background-color:#FFF; border:#FFF 1px solid; margin-bottom:10px;">
+								<span style="background-color:#00a651; display:block; width:100%; height:5px;"></span>
+							</div>
+
+							<small style="font-size:14px; color:#000;">Basic Computer <small><i>Expert</i></small></small>
+							<div style="background-color:#FFF; border:#FFF 1px solid; margin-bottom:10px;">
+								<span style="background-color:#00a651; display:block; width:100%; height:5px;"></span>
+							</div>
+
+							<small style="font-size:14px; color:#000;">Front Hand Development <small><i>Beginner</i></small></small>
+							<div style="background-color:#FFF; border:#FFF 1px solid; margin-bottom:10px;">
+								<span style="background-color:#f5821f; display:block; width:20%; height:5px;"></span>
+							</div>
+
+							<small style="font-size:14px; color:#000;">Corel Draw <small><i>Intermediate</i></small></small>
+							<div style="background-color:#FFF; border:#FFF 1px solid; margin-bottom:10px;">
+								<span style="background-color:#0095da; display:block; width:50%; height:5px;"></span>
+							</div>
+
+							<small style="font-size:14px; color:#000;">Adobe XD <small><i>Expert</i></small></small>
+							<div style="background-color:#FFF; border:#FFF 1px solid; margin-bottom:10px;">
+								<span style="background-color:#00a651; display:block; width:100%; height:5px;"></span>
+							</div>
+
+							<hr>
+
+							<h3 style="color:#000; font-weight:700; font-size:16px;">Language</h3>
+							<span style="display:inline-block; padding:2px 3px; background-color:#8dd8f8; color:#000; font-size:14px; margin-right:5px;">Urdu</span>
+							<span style="display:inline-block; padding:2px 3px; background-color:#8dd8f8; color:#000; font-size:14px; margin-right:5px;">English</span>
+							<span style="display:inline-block; padding:2px 3px; background-color:#8dd8f8; color:#000; font-size:14px; margin-right:5px;">Punjabi</span>
+
+							<hr>
+
+							<h3 style="color:#000; font-weight:700; font-size:16px;">Achievement & Awards</h3>
+							<strong style="color:#000; font-size:14px;">Scholarship</strong><br>
+							<small>2016 TOPPER Scholarship</small>
+
+							<hr>
+
+							<h3 style="color:#000; font-weight:700; font-size:16px;">Interest</h3>
+							<span style="display:inline-block; padding:2px 3px; background-color:#a9c1b2; color:#000; font-size:14px;">Playing Cricket</span>
+
+							<hr>
+
+							<h3 style="color:#000; font-weight:700; font-size:16px;">Activities</h3>
+							<span style="display:inline-block; padding:2px 3px; background-color:#c7c5e2; color:#000; font-size:14px;">Online Working</span>
+
+						</td>
+						<td width="70%" align="left" valign="top" style="font-size:14px; color:#000;">
+							<table width="80%" cellpadding="0" cellspacing="0" align="center" style="border:#000 1px solid;">
+								<tr>
+									<td align="center"><h1 style="color:black; font-size:20px;">Noman Nazar</h1></td>
+								</tr>
+								<tr>
+									<td align="center" style="color:black; font-size:16px;">Graphic Designer</td>
+								</tr>
+							</table>
+							<hr style="border-color:#000;">
+							<h3 style="color:#000; font-size:16px">Objective</h3>
+							<p style="color:#000; font-size:14px">To continue my career with organization that will utilize my Management Supervision & Administrative To continue my career with organization that will utilize my Management Supervision & Administrative</p>
+							
+							<h3 style="color:#000; font-size:16px">Experience</h3>
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td align="left" valign="top" style="color:#000; font-size:14px">
+											<strong style="color:#000; font-weight:700;">Truck Motion Pvt.Ltd</strong><br>
+											Sr Graphic Designer<br>Hard Working
+										</td>
+										<td width="50%" align="left" valign="top" style="color:#000; font-size:14px">
+											<strong style="color:#000; font-weight:700;">01 Jan 2019 - 1 May 2020</strong>
+										</td>
+									</tr>
+								</tbody>
+							</table>							
+							<hr style="border-color:#969696; border-style:dashed;">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td align="left" valign="top" style="color:#000; font-size:14px">
+											<strong style="color:#000; font-weight:700;">IR Technologies Pvt.Ltd</strong><br>
+											IT & Sr Graphic Designer<br>Hard Working
+										</td>
+										<td width="50%" align="left" valign="top" style="color:#000; font-size:14px">
+											<strong style="color:#000; font-weight:700;">01 Jan 2019 - <span style="color: green">Till Date</span></strong>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							
+							<hr style="border-color:#000;">
+							
+							<h3 style="color:#000; font-size:16px">Education</h3>
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td align="left" valign="top" style="color:#000; font-size:14px">
+											<strong style="color:#000; font-weight:700;">Royal International College</strong><br>Matric
+										</td>
+										<td width="50%" align="left" valign="top" style="color:#000; font-size:14px">
+											2019 — Grade D
+										</td>
+									</tr>
+								</tbody>
+							</table>							
+							<hr style="border-color:#969696; border-style:dashed;">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td align="left" valign="top" style="color:#000; font-size:14px">
+											<strong style="color:#000; font-weight:700;">Royal International College</strong><br>Fsc
+										</td>
+										<td width="50%" align="left" valign="top" style="color:#000; font-size:14px">
+											2021 — Grade E
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							
+							<hr style="border-color:#000;">
+							
+							<h3 style="color:#000; font-size:16px">Projects</h3>
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td align="left" valign="top" style="color:#000; font-size:14px">
+											<strong style="color:#000; font-weight:700;">Accountant.pk</strong><br>App, Website & Web Portal UI UX Design
+										</td>
+										<td width="50%" align="left" valign="top" style="color:#000; font-size:14px">
+											
+										</td>
+									</tr>
+								</tbody>
+							</table>							
+							<hr style="border-color:#969696; border-style:dashed;">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td align="left" valign="top" style="color:#000; font-size:14px">
+											<strong style="color:#000; font-weight:700;">Education Solutions</strong><br>App, Website & Web Portal UI UX Design
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="modal-footer">
+				&nbsp;
+				<a class="btn btn-primary" href="cv-view.html" target="_blank">Export PDF</a>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!-- CV Template 2 Modal -->
+<div class="modal fade" id="cvTwo" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">CV Template 2</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<table width="100%" cellpadding="10" cellspacing="0" style="font-size:14px;">
+					<tr>
+						<td bgcolor="01142C" style="background-color:#01142C; color:#FFF; padding:10px;" width="30%" align="left" valign="top">
+							<div align="center">
+								<img src="" width="120" height="150" style="background-color:#FFF;">
+							</div>
+							<h2 style="color:#FFF; font-weight:800; font-size:20px; margin-top:15px;">Noman Nazar</h2>
+							Azeem Town Sihala
+							<p style="padding-top:15px">
+								mr.nouman18@gmail.com<br>03129782768<br>DOB 4 April
+							</p>
+							<h3 style="color:#FFF; font-weight:800; font-size:16px; padding:7px 10px; background-color:#000;">Skills</h3>
+							<small>Lead Qualification & Prospecting</small>
+							<div style="background-color:#000; margin-bottom:10px;">
+								<span style="background-color:#FFF; display:block; width:95%; height:5px;"></span>
+							</div>
+							<small>Salesforces & Hubspot CRM</small>
+							<div style="background-color:#000; margin-bottom:10px;">
+								<span style="background-color:#FFF; display:block; width:85%; height:5px;"></span>
+							</div>
+							<small>Optimizing MRR</small>
+							<div style="background-color:#000; margin-bottom:10px;">
+								<span style="background-color:#FFF; display:block; width:85%; height:5px;"></span>
+							</div>
+							<small>Contract Negotiation</small>
+							<div style="background-color:#000; margin-bottom:10px;">
+								<span style="background-color:#FFF; display:block; width:60%; height:5px;"></span>
+							</div>
+							<h3 style="color:#FFF; font-weight:800; font-size:16px; padding:7px 10px; background-color:#000;">Languages</h3>
+							<small>Spanish</small>
+							<div style="background-color:#000;">
+								<span style="background-color:#FFF; display:block; width:80%; height:5px;"></span>
+							</div>
+							<small style="width:100%; display:block; text-align:right; margin-bottom:10px;"3>
+								C1 Certified
+							</small>
+							<small>Italian</small>
+							<div style="background-color:#000;">
+								<span style="background-color:#FFF; display:block; width:60%; height:5px;"></span>
+							</div>
+							<small style="width:100%; display:block; text-align:right; margin-bottom:10px;"3>
+								Basic
+							</small>
+						</td>
+						<td width="70%" align="left" valign="top" style="font-size:14px; color:#000;">
+							<table width="100%" cellpadding="0" cellspacing="0">
+								<tr>
+									<td width="20%"><strong style="color:black; font-size:16px;">Objective</strong></td>
+									<td width="80%" style="color:#000; font-size:14px;">
+										To continue my career with organization that will utilize my Management Supervision & Administrative, organization that will utilize my Management Supervision & Administrative
+									</td>
+								</tr>
+							</table>
+							<hr style="border-color:#000;">
+							<table width="100%" cellpadding="0" cellspacing="0">
+								<tr>
+									<td width="20%"><strong style="color:black; font-size:16px;">Experience</strong></td>
+									<td width="60%" style="color:#000; font-size:14px;">
+										<strong>Truck Motion Pvt.Ltd</strong><br>
+										Sr Graphic Designer<br>Hard Working
+									</td>
+									<td width="20%"><strong style="color:black; font-size:14px;">01 Jan 2019 - 1 May 2020</strong></td>
+								</tr>
+								<tr>
+									<td width="20%"></td>
+									<td width="80%" style="color:#000; font-size:14px;" colspan="2">
+										<hr style="border-color:#000;">
+									</td>
+								</tr>
+								<tr>
+									<td width="20%"></td>
+									<td width="60%" style="color:#000; font-size:14px;">
+										<strong>IR Technologies Pvt.Ltd</strong><br>
+										IT & Sr Graphic Designer<br>Hard Working
+									</td>
+									<td width="20%"><strong style="color:black; font-size:14px;">01 Jan 2019 - Till Date</strong></td>
+								</tr>
+							</table>
+							<hr style="border-color:#000;">
+							<table width="100%" cellpadding="0" cellspacing="0">
+								<tr>
+									<td width="20%"><strong style="color:black; font-size:16px;">Education</strong></td>
+									<td width="60%" style="color:#000; font-size:14px;">
+										<strong>Royal International College</strong><br>
+										Matric<br>2019 — Grade D
+									</td>
+									<td width="20%"></td>
+								</tr>
+								<tr>
+									<td width="20%"></td>
+									<td width="80%" style="color:#000; font-size:14px;" colspan="2">
+										<hr style="border-color:#000;">
+									</td>
+								</tr>
+								<tr>
+									<td width="20%"></td>
+									<td width="60%" style="color:#000; font-size:14px;">
+										<strong>Royal International College</strong><br>
+										Fsc<br>2021 — Grade E
+									</td>
+									<td width="20%"></td>
+								</tr>
+							</table>
+							<hr style="border-color:#000;">
+							<table width="100%" cellpadding="0" cellspacing="0">
+								<tr>
+									<td width="20%"><strong style="color:black; font-size:16px;">Projects</strong></td>
+									<td width="60%" style="color:#000; font-size:14px;">
+										<strong>Accountant.pk</strong><br>
+										App, Website & Web Portal UI UX Design
+									</td>
+									<td width="20%"></td>
+								</tr>
+								<tr>
+									<td width="20%"></td>
+									<td width="80%" style="color:#000; font-size:14px;" colspan="2">
+										<hr style="border-color:#000;">
+									</td>
+								</tr>
+								<tr>
+									<td width="20%"></td>
+									<td width="60%" style="color:#000; font-size:14px;">
+										<strong>Education Solutions</strong><br>
+										App, Website & Web Portal UI UX Design
+									</td>
+									<td width="20%"></td>
+								</tr>
+							</table>
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="modal-footer">
+				&nbsp;
+				<a class="btn btn-primary" href="cv-view.html" target="_blank">Export PDF</a>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!-- CV Template 3 Modal -->
+<div class="modal fade" id="cvThree" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title">CV Template 3</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<table width="100%" cellpadding="10" cellspacing="0" style="font-size:14px; color:#000;">
+					<tr>
+						<td bgcolor="05406c" style="background-color:#05406c; height:50px;" height="50" width="30%">&nbsp;</td>
+						<td bgcolor="FFFFFF" style="background-color:#ffffff; height:50px;" height="50" width="70%">&nbsp;</td>
+					</tr>
+					<tr>
+						<td colspan="2" bgcolor="0095da" style="background-color:#0095da; color:#FFF;" height="50" width="100%">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td width="70%">
+											<h1 style="color:#FFF; font-size:20px;">Noman Nazar</h1>
+											<h4 style="color:#FFF; font-size:16px; font-weight:normal;">Graphic Designer</h4>
+										</td>
+										<td width="30%" align="right" style="text-align:right; width:30%;">
+											<img src="images/profile.jpg" style="background-color:#FFF; padding:3px; border-radius:50%; width:100px; height:100px;">
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</td>
+					</tr>
+					<tr>
+						<td bgcolor="05406c" valign="top" style="background-color:#05406c; color:#FFFFFF; vertical-align:top;" width="30%">
+							<table width="100%" border="0" cellspacing="0" cellpadding="0">
+								<tbody>
+									<tr>
+										<td width="30" style="color:#FFFFFF; font-weight:600; font-size:14px;"><i class="fas fa-user"></i></td>
+										<td style="color:#FFFFFF; font-weight:600; font-size:14px; text-align:left;">Male</td>
+									</tr>
+									<tr>
+										<td width="30" style="color:#FFFFFF; font-weight:600; font-size:14px;"><i class="far fa-calendar-alt"></i></td>
+										<td style="color:#FFFFFF; font-weight:600; font-size:14px; text-align:left;">6 April 1998</td>
+									</tr>
+									<tr>
+										<td width="30" style="color:#FFFFFF; font-weight:600; font-size:14px;"><i class="fas fa-phone"></i></td>
+										<td style="color:#FFFFFF; font-weight:600; font-size:14px; text-align:left;">0312 9782768</td>
+									</tr>
+									<tr>
+										<td width="30" style="color:#FFFFFF; font-weight:600; font-size:14px;"><i class="fas fa-envelope"></i></td>
+										<td style="color:#FFFFFF; font-weight:600; font-size:14px; text-align:left;">mr.nouman18@gmail .com</td>
+									</tr>
+									<tr>
+										<td width="30" style="color:#FFFFFF; font-weight:600; font-size:14px;"><i class="fas fa-building"></i></td>
+										<td style="color:#FFFFFF; font-weight:600; font-size:14px; text-align:left;">Islamabad</td>
+									</tr>
+									<tr>
+										<td width="30" style="color:#FFFFFF; font-weight:600; font-size:14px;"><i class="fas fa-map-marker-alt"></i></td>
+										<td style="color:#FFFFFF; font-weight:600; font-size:14px; text-align:left;">Azeem Town Sihala Islamabad</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<hr style="border-style:dashed; border-color:#FFFFFF;">
+
+							<h3 style="color:#FFFFFF; font-weight:700; font-size:17px;">Skills</h3>
+							<span style="display:inline-block; padding:2px 5px; background-color:#FFFFFF; color:#000; margin-right:5px; margin-bottom:5px; font-size:14px;">
+								Graphic Designer <small><i>Expert</i></small>
+							</span>
+							<span style="display:inline-block; padding:2px 5px; background-color:#FFFFFF; color:#000; margin-right:5px; margin-bottom:5px; font-size:14px;">
+								Basic Computer <small><i>Expert</i></small>
+							</span>
+							<span style="display:inline-block; padding:2px 5px; background-color:#FFFFFF; color:#000; margin-right:5px; margin-bottom:5px; font-size:14px;">
+								Front Hand Development <small><i>Beginner</i></small>
+							</span>
+							<span style="display:inline-block; padding:2px 5px; background-color:#FFFFFF; color:#000; margin-right:5px; margin-bottom:5px; font-size:14px;">
+								Corel Draw <small><i>Intermediate</i></small>
+							</span>
+							<span style="display:inline-block; padding:2px 5px; background-color:#FFFFFF; color:#000; margin-right:5px; margin-bottom:5px; font-size:14px;">
+								Adobe XD <small><i>Expert</i></small>
+							</span>
+
+							<hr style="border-style:dashed; border-color:#FFFFFF;">
+
+							<h3 style="color:#FFFFFF; font-weight:700; font-size:17px;">Language</h3>
+							<span style="display:inline-block; padding:2px 3px; background-color:#8dd8f8; color:#000; font-size:14px; margin-right:5px;">Urdu</span>
+							<span style="display:inline-block; padding:2px 3px; background-color:#8dd8f8; color:#000; font-size:14px; margin-right:5px;">English</span>
+							<span style="display:inline-block; padding:2px 3px; background-color:#8dd8f8; color:#000; font-size:14px; margin-right:5px;">Punjabi</span>
+
+							<hr style="border-style:dashed; border-color:#FFFFFF;">
+
+							<h3 style="color:#FFFFFF; font-weight:700; font-size:17px;">Achievement & Awards</h3>
+							<strong style="color:#FFFFFF; font-size:14px;">Scholarship</strong><br>
+							<small>2016 TOPPER Scholarship</small>
+
+							<hr style="border-style:dashed; border-color:#FFFFFF;">
+
+							<h3 style="color:#FFFFFF; font-weight:700; font-size:17px;">Interest</h3>
+							<span style="display:inline-block; padding:2px 3px; background-color:#a9c1b2; color:#000; font-size:14px;">Playing Cricket</span>
+
+							<hr style="border-style:dashed; border-color:#FFFFFF;">
+
+							<h3 style="color:#FFFFFF; font-weight:700; font-size:17px;">Activities</h3>
+							<span style="display:inline-block; padding:2px 3px; background-color:#c7c5e2; color:#000; font-size:14px;">Online Working</span>
+						</td>
+						<td bgcolor="FFFFFF" style="background-color:#ffffff; vertical-align:top;" width="70%" valign="top">
+							<h3 style="color:#000; font-size:18px">Objective</h3>
+							<p style="color:#000; font-size:14px">To continue my career with organization that will utilize my Management Supervision &amp; Administrative To continue my career with organization that will utilize my Management Supervision &amp; Administrative</p>
+
+							<hr style="border-color:#000000;">
+
+							<h3 style="color:#000; font-size:18px">Experience</h3>
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td style="color:#000; font-size:14px" valign="top" align="left">
+											<strong style="color:#000; font-weight:700; font-size:16px;">Truck Motion Pvt.Ltd</strong><br>
+											Sr Graphic Designer
+										</td>
+										<td style="color:#000; font-size:14px" width="50%" valign="top" align="left">
+											<strong style="color:#000; font-weight:700;">01 Jan 2019 - 1 May 2020</strong>
+										</td>
+									</tr>
+									<tr>
+										<td colspan="2" style="color:#000; font-size:14px" valign="top" align="left">
+											A Senior Graphic Designer is a professional who designs creative and engaging art for many forms of media. They may design anything from a company logo to clothing or any form of advertising.
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<hr style="border-color:#969696; border-style:dashed;">
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td style="color:#000; font-size:14px" valign="top" align="left">
+											<strong style="color:#000; font-weight:700; font-size:16px;">IR Technologies Pvt.Ltd</strong><br>IT &amp; Sr Graphic Designer
+										</td>
+										<td style="color:#000; font-size:14px" width="50%" valign="top" align="left">
+											<strong style="color:#000; font-weight:700;">01 Jan 2019 -  1 May 2020</strong>
+										</td>
+									</tr>											
+									<tr>
+										<td colspan="2" style="color:#000; font-size:14px" valign="top" align="left">
+											A Senior Graphic Designer will create engaging and creative graphics to visually represent the company's brand. They are responsible for all spects of graphic design, from planning out illustrations or infographics to managing marketing materials such as social media posts and emails. They will review drafts of junior designers to ensure consistency.
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<hr style="border-color:#969696; border-style:dashed;">
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td style="color:#000; font-size:14px" valign="top" align="left">
+											<strong style="color:#000; font-weight:700; font-size:16px;">Food Panda</strong><br>IT & Sr Graphic Designer
+										</td>
+										<td style="color:#000; font-size:14px" width="50%" valign="top" align="left">
+											<strong style="color:#000; font-weight:700;">01 Jan 2019 - 1 May 2020</strong>
+										</td>
+									</tr>											
+									<tr>
+										<td colspan="2" style="color:#000; font-size:14px" valign="top" align="left">
+											Graphic designers need to be able to work well on their own and also possess good teamwork skills. Flexibility is needed due to the possibility of shifting priorities. They must have clear and concise communication ability, great time management skills, and a constant flow of creative ideas to tell a story through visuals rather than text alone.
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<hr style="border-color:#000;">
+
+							<h3 style="color:#000; font-size:18px">Education</h3>
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td style="color:#000; font-size:14px" valign="top" align="left">
+											<strong style="color:#000; font-weight:700; font-size:16px;">Royal International College</strong><br>Matric
+										</td>
+										<td style="color:#000; font-size:14px" width="50%" valign="top" align="left">
+											2019 — Grade D
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<hr style="border-color:#969696; border-style:dashed;">
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td style="color:#000; font-size:14px" valign="top" align="left">
+											<strong style="color:#000; font-weight:700; font-size:16px;">Royal International College</strong><br>Fsc
+										</td>
+										<td style="color:#000; font-size:14px" width="50%" valign="top" align="left">
+											2021 — Grade E
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<hr style="border-color:#000;">
+
+							<h3 style="color:#000; font-size:18px">Projects</h3>
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td style="color:#000; font-size:14px" valign="top" align="left">
+											<strong style="color:#000; font-weight:700; font-size:16px;">Accountant.pk</strong><br>App, Website & Web Portal UI UX Design<br><a href="#">http//:accountant.pk</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>									
+							<hr style="border-color:#969696; border-style:dashed;">
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td style="color:#000; font-size:14px" valign="top" align="left">
+											<strong style="color:#000; font-weight:700; font-size:16px;">Education Solutions</strong><br>App, Website & Web Portal UI UX Design<br><a href="#">http//:accountant.pk</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+							<hr style="border-color:#969696; border-style:dashed;">
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td style="color:#000; font-size:14px" valign="top" align="left">
+											<strong style="color:#000; font-weight:700; font-size:16px;">Trackmotion</strong><br>App, Website & Web Portal UI UX Design<br><a href="#">http//:accountant.pk</a>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+							<hr style="border-color:#000;">
+
+							<h3 style="color:#000; font-size:18px">Achievement & Awards</h3>
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td style="color:#000; font-size:14px" valign="top" align="left">
+											<strong style="color:#000; font-weight:700; font-size:16px;">Scholarship</strong><br>2016 TOPPER Scholarship
+										</td>
+									</tr>
+								</tbody>
+							</table>									
+							<hr style="border-color:#969696; border-style:dashed;">
+							<table width="100%" cellspacing="0" cellpadding="0" border="0">
+								<tbody>
+									<tr>
+										<td style="color:#000; font-size:14px" valign="top" align="left">
+											<strong style="color:#000; font-weight:700; font-size:16px;">Gold Medalist</strong><br>2018 Cricket Winning Award
+										</td>
+									</tr>
+								</tbody>
+							</table>
+
+						</td>
+					</tr>
+				</table>
+			</div>
+			<div class="modal-footer">
+				&nbsp;
+				<a class="btn btn-primary" href="cv-view.html" target="_blank">Export PDF</a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+<script type="text/javascript">
+	 new WOW().init();	 
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+</script>
+</body>
+</html>
