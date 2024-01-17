@@ -28,63 +28,60 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
-	<div class="container-fluid">
-		<span class="navbar-brand">
-			<a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
-			<a href="index.html" class="nav-text">Beware! Reported Companies</a>
-		</span>
-		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbar">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
-				</li>
-				<li class="nav-item dropdown text-nowrap">
-					<a class="nav-link dropdown-toggle" href="#" id="setting" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						<i class="fas fa-cog mr-1"></i> Settings
-					</a>
-					<div class="dropdown-menu" aria-labelledby="setting">
-						<a class="dropdown-item" href="settings.html">Account Settings</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Purchase History</a>
-						<div class="dropdown-divider"></div>
-						<strong class="dropdown-item font-weight-semi-bold text-dark">Language</strong>
-						<a class="dropdown-item pl-4" href="#">English</a>
-						<a class="dropdown-item pl-4" href="#">Urdu</a>
-						<div class="dropdown-divider"></div>
-						<strong class="dropdown-item font-weight-semi-bold text-dark">Power Tools</strong>
-						<a class="dropdown-item pl-4" href="#">Test Builder</a>
-						<a class="dropdown-item pl-4" href="#">Interview Evaluation Forms</a>
-					</div>
-				</li>
-				<li class="nav-item text-nowrap px-1">
-					<a class="nav-link bg-info text-white" href="freelancer.html">Freelancer</a>
-				</li>
-				<li class="nav-item text-nowrap px-1">
-					<a class="nav-link bg-success text-white" href="job-seeker-form.html">Job Seaker</a>
-				</li>
-				<li class="nav-item text-nowrap px-1">
-					<a class="nav-link bg-danger text-white" href="employer.html">Employer</a>
-				</li>
-				<li class="nav-item dropdown text-nowrap pl-0">
-					<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						<div class="d-flex align-items-center">
-							<img src="images/favicon.png" class="img-circle mr-2" width="30">
-							<span>Noman</span>
-						</div>
-					</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="language">
-						<a class="dropdown-item" href="forgot-resetpass.html">Change Password</a>
-						<a class="dropdown-item" href="index.html">Logout</a>
-					</div>
-				</li>
-			</ul>
-		</div>
-	</div>
-</nav>
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand">
+                <a href="index.html"><img src="images/myjobs.png" alt="myjob.pk" height="40"></a>
+            </span>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item d-lg-block d-none">
+						<a class="nav-link btn btn-primary text-white mx-2" href="#" data-toggle="modal"
+							data-target="#mapps"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
+					</li>
+				</ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item me-4 my-2">
+                        <a class="c-header__icon c-header__link text-black" href="signin.html" id="topnav-sign-in">
+                            <svg role="img" class="c-header__icon__ico  u-svg-ico height-px-18 width-px-18 me-1" viewBox="0 0 17 15" height="15"
+                                width="15">
+                                <path fill="currentColor"
+                                    d="M15.1 0H9C7.9 0 7 .8 7 1.8v1.6c0 .2.2.4.5.4.2 0 .4-.2.4-.4V1.8c0-.5.5-.9 1-1H15c.6 0 1 .5 1 1v11.4c0 .3-.1.5-.3.7a1 1 0 0 1-.7.2H9a1 1 0 0 1-1-.9v-1.5c0-.3-.2-.5-.4-.5-.3 0-.5.2-.5.5v1.5c0 1 .8 1.8 1.9 1.8h6c1 0 1.9-.8 1.9-1.8V1.8c0-1-.8-1.8-1.9-1.8z">
+                                </path>
+                                <path fill="currentColor"
+                                    d="M11.4 6.8H.4c-.2 0-.4.2-.4.5 0 .2.2.4.5.4h11l-2.4 2.6v.6c.3.2.6.1.7 0l3-3.3.2-.3-.1-.3-3-2.9-.4-.1-.3.1-.2.3c0 .1 0 .2.2.3l2.2 2.1z">
+                                </path>
+                            </svg>
+                            <span class="text-uppercase">Sign In</span>
+                        </a>
+                    </li>
+
+					<li class="nav-item me-4 my-2 pl-0">
+                        <a class="c-header__icon c-header__link text-black" href="signup.html" id="topnav-join-now">
+                            <svg role="img" class="c-header__icon__ico u-svg-ico height-px-18 width-px-18 me-1" viewBox="0 0 15 15" height="14"
+                                width="14">
+                                <path
+                                    d="M13.6 9.6c-.2 0-.3.2-.3.4v3.2c0 .6-.5 1-1.1 1H1.8a1 1 0 0 1-1-1V3.8c0-.6.4-1 1-1h3.3c.2 0 .4-.2.4-.4S5.3 2 5 2H1.8C.8 2 0 2.8 0 3.8v9.4c0 1 .8 1.8 1.8 1.8h10.4c1 0 1.8-.8 1.8-1.8V10c0-.2-.2-.4-.4-.4z">
+                                </path>
+                                <path
+                                    d="M14 .5c-.6-.7-1.7-.7-2.3 0L5 7.2l-.1.1-.9 3.2a.4.4 0 0 0 .5.5l3.2-.9h.1l6.7-6.8c.7-.6.7-1.7 0-2.4l-.4-.4zm-8.2 7L11.3 2 13 3.7 7.6 9.2 5.8 7.4zm-.3.6l1.4 1.4-2 .6.6-2zM14 2.8l-.4.4-1.8-1.8.4-.4a1 1 0 0 1 1.3 0l.5.5c.3.3.3 1 0 1.3z">
+                                </path>
+                            </svg>
+                            <span class="text-uppercase">Sign Up</span>
+                        </a>
+                    </li>
+                </ul>
+
+				<div class=" d-lg-none d-flex flex-wrap gap-14 ps-18 mt-3 mobile-nav-footer justify-content-center w-100">
+					<a class="nav-link fs-14  btn btn-primary text-white" href="#" data-toggle="modal" data-target="#mapps"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
+				</div>
+            </div>
+        </div>
+    </nav>
 <div class="clear py-3"></div>
 <section class="container">
 	<h3 class="bg-primary border-radius-10 p-3">Featured Jobs</h3>

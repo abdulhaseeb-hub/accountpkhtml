@@ -1,371 +1,483 @@
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
 
-<meta http-equiv='cache-control' content='no-cache'>
-<meta http-equiv='expires' content='0'>
-<meta http-equiv='pragma' content='no-cache'>
+	<meta http-equiv='cache-control' content='no-cache'>
+	<meta http-equiv='expires' content='0'>
+	<meta http-equiv='pragma' content='no-cache'>
 
-<!-- Title-->
-<title>Accountant.PK</title>
+	<!-- Title-->
+	<title>Accountant.PK</title>
 
-<!-- Bootstrap core CSS -->
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+	<!-- Bootstrap core CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
+		rel="stylesheet">
 
-<!-- Custom styles for this template -->
-<link href="css/style.css" rel="stylesheet">
+	<!-- Custom styles for this template -->
+	<link href="css/style.css" rel="stylesheet">
 
-<!-- Fontawesome icons css -->
-<link rel="stylesheet" href="css/font-awesome.css">
+	<!-- Fontawesome icons css -->
+	<link rel="stylesheet" href="css/font-awesome.css">
 
-<!-- Favicon icon -->
-<link rel="shortcut icon" href="images/favicon.png">
+	<!-- Favicon icon -->
+	<link rel="shortcut icon" href="images/favicon.png">
 
 </head>
+
 <body>
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
-	<div class="container-fluid">
-		<span class="navbar-brand">
-			<a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
-			<a href="index.html" class="nav-text">Beware! Reported Companies</a>
-		</span>
-		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbar">
-			<ul class="navbar-nav">
-				<li class="nav-item active">
-					<a class="nav-link" href="job-seeker-dashboard.html"><i class="fas fa-tachometer-alt mr-1"></i> Dashboard</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="jobs.html"><i class="fas fa-briefcase mr-1"></i> Find Jobs</a>
-				</li>
-			</ul>
-			<ul class="navbar-nav ml-auto">				
-				<li class="nav-item">
-					<a class="nav-link" href="#"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
-				</li>
-				<li class="nav-item dropdown text-nowrap">
-					<a class="nav-link dropdown-toggle" href="#" id="switch" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						<i class="fas fa-toggle-on mr-1"></i> Switch to
-					</a>
-					<div class="dropdown-menu" aria-labelledby="switch">
-						<a class="dropdown-item" href="guest.html">Guest</a>
-					</div>
-				</li>
-				
-				<li class="nav-item dropdown text-nowrap">
-					<a class="nav-link dropdown-toggle" href="#" id="setting" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						<i class="fas fa-cog mr-1"></i> Settings
-					</a>
-					<div class="dropdown-menu" aria-labelledby="setting">
-						<a class="dropdown-item" href="settings.html">Account Settings</a>
-						<div class="dropdown-divider"></div>
-						<a class="dropdown-item" href="#">Purchase History</a>
-						<div class="dropdown-divider"></div>
-						<strong class="dropdown-item font-weight-semi-bold text-dark">Language</strong>
-						<a class="dropdown-item pl-4" href="#">English</a>
-						<a class="dropdown-item pl-4" href="#">Urdu</a>
-						<div class="dropdown-divider"></div>
-						<strong class="dropdown-item font-weight-semi-bold text-dark">Power Tools</strong>
-						<a class="dropdown-item pl-4" href="#">Test Builder</a>
-						<a class="dropdown-item pl-4" href="#">Interview Evaluation Forms</a>
-					</div>
-				</li>
-				<li class="nav-item dropdown text-nowrap pl-0">
-					<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						<div class="d-flex align-items-center">
-							<img src="images/favicon.png" class="img-circle mr-2" width="30">
-							<span>Noman</span>
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+		<div class="container-fluid">
+			<span class="navbar-brand">
+				<a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
+				<a href="index.html" class="nav-text">Beware! Reported Companies</a>
+			</span>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+				data-target="#navbar">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="job-seeker-dashboard.html"><i class="fas fa-tachometer-alt mr-1"></i>
+							Dashboard</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="jobs.html"><i class="fas fa-briefcase mr-1"></i> Find Jobs</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
+					</li>
+					<li class="nav-item dropdown text-nowrap">
+						<a class="nav-link dropdown-toggle" href="#" id="switch" role="button" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-toggle-on mr-1"></i> Switch to
+						</a>
+						<div class="dropdown-menu" aria-labelledby="switch">
+							<a class="dropdown-item" href="guest.html">Guest</a>
 						</div>
-					</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="language">
-						<a class="dropdown-item" href="forgot-resetpass.html">Change Password</a>
-						<a class="dropdown-item" href="index.html">Logout</a>
-					</div>
-				</li>
-			</ul>
+					</li>
+
+					<li class="nav-item dropdown text-nowrap">
+						<a class="nav-link dropdown-toggle" href="#" id="setting" role="button" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-cog mr-1"></i> Settings
+						</a>
+						<div class="dropdown-menu" aria-labelledby="setting">
+							<a class="dropdown-item" href="settings.html">Account Settings</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Purchase History</a>
+							<div class="dropdown-divider"></div>
+							<strong class="dropdown-item font-weight-semi-bold text-dark">Language</strong>
+							<a class="dropdown-item pl-4" href="#">English</a>
+							<a class="dropdown-item pl-4" href="#">Urdu</a>
+							<div class="dropdown-divider"></div>
+							<strong class="dropdown-item font-weight-semi-bold text-dark">Power Tools</strong>
+							<a class="dropdown-item pl-4" href="#">Test Builder</a>
+							<a class="dropdown-item pl-4" href="#">Interview Evaluation Forms</a>
+						</div>
+					</li>
+					<li class="nav-item dropdown text-nowrap pl-0">
+						<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							<div class="d-flex align-items-center">
+								<img src="images/favicon.png" class="img-circle mr-2" width="30">
+								<span>Noman</span>
+							</div>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="language">
+							<a class="dropdown-item" href="forgot-resetpass.html">Change Password</a>
+							<a class="dropdown-item" href="index.html">Logout</a>
+						</div>
+					</li>
+				</ul>
+			</div>
 		</div>
-	</div>
-</nav>
-<div class="clear py-3"></div>
-<section class="container">
-	<div class="row">
-		<div class="col-md-9 m-auto">
-			<div class="card">
-				<h4 class="card-header bg-primary text-white mb-0">Applied Jobs</h4>
-				<div class="card-body">
-					<div class="row align-items-center">
-						<div class="col-4 col-lg-3 text-center">
-							<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
-								<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">						
-							</div>
-							<div class="text-center ml-3 mt-1">
-								<img src="images/verified.png" width="60%">
-							</div>
-						</div>
-						<div class="col-8 col-lg-9 border-left py-3">
-							<h6 class="text-dark font-weight-semi-bold text_16 d-flex justify-content-between">
-								Telecommunication
-								<small class="btn btn-sm btn-primary">Applied</small>
-							</h6>
-							<p class="mb-0">
-								<span class="text-muted"><i class="fas fa-map-marker-alt mr-1 text-success"></i> Johar Town, Lahore, Pakistan</span>
-							</p>
-							<p class="d-flex justify-content-between">
-								<strong class="text-danger">30,000 to 40,000 PKR</strong>
-								<span class="text-primary mr-3">Exp. 3 Years</span>
-							</p>
-							<small class="d-flex justify-content-between w-100 pr-3">
-								<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
-								<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
-								<span><i class="far fa-clock mr-2"></i> 5 Days</span>
-							</small>
-						</div>
-						<div class="col-12 text_12 mx-3 mt-3">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
-					</div>
-					<hr>
-					<div class="row align-items-center">
-						<div class="col-4 col-lg-3 text-center">
-							<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
-								<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">						
-							</div>
-							<div class="text-center ml-3 mt-2">
-								<img src="images/unverified.png" width="60%">
-							</div>
-						</div>
-						<div class="col-8 col-lg-9 border-left py-3">
-							<h6 class="text-dark font-weight-semi-bold text_16 d-flex justify-content-between">
-								3D Artist / Graphic Designer / CG Artist 
-								<small class="btn btn-sm btn-warning">Interviewed</small>
-							</h6>
-							<p class="mb-0">
-								<span class="text-muted"><i class="fas fa-map-marker-alt mr-1 text-success"></i> Johar Town, Lahore, Pakistan</span>
-							</p>
-							<p class="d-flex justify-content-between">
-								<strong class="text-danger">30,000 to 40,000 PKR</strong>
-								<span class="text-primary mr-3">Exp. 3 Years</span>
-							</p>
-							<small class="d-flex justify-content-between w-100 pr-3">
-								<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
-								<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
-								<span><i class="far fa-clock mr-2"></i> 5 Days</span>
-							</small>
-						</div>
-						<div class="col-12 text_12 mx-3 mt-3">
-							<div class="well mb-0 bg-light mr-4">
-								<h6 class="text-primary">Walk & Interview</h6>
-								<p class="row align-items-center mb-1">
-									<strong class="font-weight-medium text-dark col-6 col-sm-2">From Date:</strong>
-									<span class="col-6 col-sm-3">10 Dec 22</span>
-									<strong class="font-weight-medium text-dark col-6 col-sm-2">To Date:</strong>
-									<span class="col-6 col-sm-3">11 Dec 22</span>
-								</p>
-								<p class="row align-items-center">
-									<strong class="font-weight-medium text-dark col-6 col-sm-2">From Time:</strong>
-									<span class="col-6 col-sm-3">09 : 00 am</span>
-									<strong class="font-weight-medium text-dark col-6 col-sm-2">To Time:</strong>
-									<span class="col-6 col-sm-3">10 : 00 am</span>
-								</p>
-								<hr>
-								<h6 class="text-primary">Schedule Interview</h6>
-								<p class="row align-items-center mb-1">
-									<strong class="font-weight-medium text-dark col-6 col-sm-2">Date:</strong>
-									<span class="col-6 col-sm-3">10 Dec 22</span>
-								</p>
-								<p class="row align-items-center">
-									<strong class="font-weight-medium text-dark col-6 col-sm-2">Time:</strong>
-									<span class="col-6 col-sm-3">09 : 00 am</span>
-								</p>
+	</nav>
+	<div class="clear py-3"></div>
+	<section class="container">
+		<div class="row">
+			<div class="col-md-9 m-auto">
+				<div class="card">
+					<h4 class="card-header bg-primary text-white mb-0">Applied Jobs</h4>
+					<div class="card-body mx-3">
+						<div class="row align-items-center">
+
+							<div class="shadow bg-white">
+								<div class="row align-items-center">
+									<div class="col-4 col-lg-3 text-center">
+										<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+											<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png"
+												style="max-height:50px;">
+										</div>
+										<div class="text-center ml-3 mt-1">
+											<img src="images/verified.png" width="60%">
+										</div>
+									</div>
+									<div class="col-8 col-lg-9 border-left py-3">
+										<div class="d-flex justify-content-between">
+											<h6 class="text-dark font-weight-semi-bold text_16">Telecommunication</h6>
+											<small class="btn btn-sm btn-primary me-3">Interviewed</small>
+
+										</div>
+										<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+											<span class="text-muted border-end-2 pe-2">
+												<img src="images/ae.svg" width="16px" height="16px" class="me-2">
+												Dubai</span>
+											<span class="text-muted ps-1">
+												Ajman,
+											</span>
+											<span class="text-muted ps-1">
+												Sharjah
+											</span>
+										</p>
+										<p class="flex-wrap d-flex justify-content-between">
+											<strong class="text-success mt-1">30,000 to 40,000 PKR</strong>
+											<span class="text-primary mr-3">Exp. 3 Years</span>
+										</p>
+										<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+											<span><i class="far fa-calendar-alt mr-2"></i>Publish Date: Feb 24,
+												2021</span>
+											<span><i class="fas fa-calendar-alt mr-2"></i>Expiry Date: Feb 25,
+												2021</span>
+											<span><i class="far fa-clock mr-2"></i>Published: 5 Days</span>
+										</small>
+									</div>
+								</div>
+								<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all
+									baking and branch staff Ensure that bakery is adequately stocked with all the
+									supplies and baking ingredients ....</div>
 							</div>
 						</div>
-					</div>
-					<hr>
-					<div class="row align-items-center">
-						<div class="col-4 col-lg-3 text-center">
-							<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
-								<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png" style="max-height:50px;">						
-							</div>
-							<div class="text-center ml-3 mt-1">
-								<img src="images/verified.png" width="60%">
+						<hr>
+						<div class="row align-items-center">
+							<div class="shadow bg-white">
+
+								<div class="row align-items-center">
+									<div class="col-4 col-lg-3 text-center">
+										<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+											<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png"
+												style="max-height:50px;">
+										</div>
+										<div class="text-center ml-3 mt-1">
+											<img src="images/verified.png" width="60%">
+										</div>
+									</div>
+									<div class="col-8 col-lg-9 border-left py-3">
+										<div class="d-flex justify-content-between">
+											<h6 class="text-dark font-weight-semi-bold text_16">Telecommunication</h6>
+											<small class="btn btn-sm btn-primary me-3">Applied</small>
+
+										</div>
+										<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+											<span class="text-muted border-end-2 pe-2">
+												<img src="images/ae.svg" width="16px" height="16px" class="me-2">
+												Dubai</span>
+											<span class="text-muted ps-1">
+												Ajman,
+											</span>
+											<span class="text-muted ps-1">
+												Sharjah
+											</span>
+										</p>
+										<p class="flex-wrap d-flex justify-content-between">
+											<strong class="text-success mt-1">30,000 to 40,000 PKR</strong>
+											<span class="text-primary mr-3">Exp. 3 Years</span>
+										</p>
+										<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+											<span><i class="far fa-calendar-alt mr-2"></i>Publish Date: Feb 24,
+												2021</span>
+											<span><i class="fas fa-calendar-alt mr-2"></i>Expiry Date: Feb 25,
+												2021</span>
+											<span><i class="far fa-clock mr-2"></i>Published: 5 Days</span>
+										</small>
+									</div>
+								</div>
+								<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all
+									baking and branch staff Ensure that bakery is adequately stocked with all the
+									supplies and baking ingredients ....</div>
+								<div class="col-12 text_12 mt-3 mb-3">
+									<div class="well mb-0 bg-white border-primary">
+										<div class="row">
+											<div class="col-lg-12">
+												<h6 class="text-primary">Walk & Interview</h6>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-6 mb-2">
+												<div class=" bg-light border border-gray-500 px-2 py-2 border-radius-5 row mx-0">
+													<strong class="font-weight-semi-bold text-dark col-6 col-sm-5 ps-0">From
+														Date:</strong>
+													<span class="col-6 col-sm-7">10 Dec 22</span>
+												</div>
+											</div>
+											<div class="col-lg-6 mb-2">
+												<div class=" bg-light border border-gray-500 px-2 py-2 border-radius-5 row mx-0">
+													<strong class="font-weight-semi-bold text-dark col-6 col-sm-5 ps-0">To
+														Date:</strong>
+													<span class="col-6 col-sm-7">11 Dec 22</span>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-6 mb-2">
+												<div class=" bg-light border border-gray-500 px-2 py-2 border-radius-5 row mx-0">
+													<strong class="font-weight-semi-bold text-dark col-6 col-sm-5 ps-0">From
+														Time:</strong>
+													<span class="col-6 col-sm-7">09 : 00 am</span>
+												</div>
+											</div>
+											<div class="col-lg-6 mb-2">
+												<div class=" bg-light border border-gray-500 px-2 py-2 border-radius-5 row mx-0">
+													<strong class="font-weight-semi-bold text-dark col-6 col-sm-5 ps-0">To
+														Time:</strong>
+													<span class="col-6 col-sm-7">10 : 00 am</span>
+												</div>
+											</div>
+										</div>
+										<hr>
+										<h6 class="text-primary">Schedule Interview</h6>
+										<div class="row">
+											<div class="col-lg-6 mb-2">
+												<div class=" bg-light border border-gray-500 px-2 py-2 border-radius-5 row mx-0">
+													<strong class="font-weight-semi-bold text-dark col-6 col-sm-5 ps-0">Date:</strong>
+											        <span class="col-6 col-sm-7">10 Dec 22</span>
+												</div>
+											</div>
+											<div class="col-lg-6">
+											</div>
+										</div>
+										<div class="row">
+											<div class="col-lg-6">
+												<div class=" bg-light border border-gray-500 px-2 py-2 border-radius-5 row mx-0">
+													<strong class="font-weight-semi-bold text-dark col-6 col-sm-5 ps-0">Time:</strong>
+													<span class="col-6 col-sm-7">09 : 00 am</span>
+												</div>
+											</div>
+											<div class="col-lg-6">
+												<div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
-						<div class="col-8 col-lg-9 border-left py-3">
-							<h6 class="text-dark font-weight-semi-bold text_16 d-flex justify-content-between">
-								Telecommunication
-								<small class="btn btn-sm btn-success">Shortlisted</small>
-							</h6>
-							<p class="mb-0">
-								<span class="text-muted"><i class="fas fa-map-marker-alt mr-1 text-success"></i> Johar Town, Lahore, Pakistan</span>
-							</p>
-							<p class="d-flex justify-content-between">
-								<strong class="text-danger">30,000 to 40,000 PKR</strong>
-								<span class="text-primary mr-3">Exp. 3 Years</span>
-							</p>
-							<small class="d-flex justify-content-between w-100 pr-3">
-								<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
-								<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
-								<span><i class="far fa-clock mr-2"></i> 5 Days</span>
-							</small>
-						</div>
-						<div class="col-12 text_12 mx-3 mt-3">
-							<div class="alert alert-success mb-0 mr-4">
-								<h6>Congratulations</h6>
-								<p><strong>Please Report with Following Documents</strong> 22 Dec 2022</p>
-								<p>
-									<small class="btn btn-sm btn-light-success btn-rounded text_12 mb-1">All Degree Certificate</small>
-									<small class="btn btn-sm btn-light-success btn-rounded text_12 mb-1">Experience Certificate</small>
-									<small class="btn btn-sm btn-light-success btn-rounded text_12 mb-1">Experience Certificate</small>
-									<small class="btn btn-sm btn-light-success btn-rounded text_12 mb-1">CNIC</small>
-									<small class="btn btn-sm btn-light-success btn-rounded text_12 mb-1">CV</small>
-								</p>
-								<h6>Contact Us</h6>0312 9782768
+						<hr>
+						<div class="row align-items-center">
+							<div class="shadow bg-white">
+								<div class="row align-items-center">
+									<div class="col-4 col-lg-3 text-center">
+										<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+											<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png"
+												style="max-height:50px;">
+										</div>
+										<div class="text-center ml-3 mt-1">
+											<img src="images/verified.png" width="60%">
+										</div>
+									</div>
+									<div class="col-8 col-lg-9 border-left py-3">
+										<div class="d-flex justify-content-between">
+											<h6 class="text-dark font-weight-semi-bold text_16">Telecommunication</h6>
+											<small class="btn btn-sm btn-primary me-3">Shortlisted</small>
+
+										</div>
+										<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+											<span class="text-muted border-end-2 pe-2">
+												<img src="images/ae.svg" width="16px" height="16px" class="me-2">
+												Dubai</span>
+											<span class="text-muted ps-1">
+												Ajman,
+											</span>
+											<span class="text-muted ps-1">
+												Sharjah
+											</span>
+										</p>
+										<p class="flex-wrap d-flex justify-content-between">
+											<strong class="text-success mt-1">30,000 to 40,000 PKR</strong>
+											<span class="text-primary mr-3">Exp. 3 Years</span>
+										</p>
+										<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+											<span><i class="far fa-calendar-alt mr-2"></i>Publish Date: Feb 24,
+												2021</span>
+											<span><i class="fas fa-calendar-alt mr-2"></i>Expiry Date: Feb 25,
+												2021</span>
+											<span><i class="far fa-clock mr-2"></i>Published: 5 Days</span>
+										</small>
+									</div>
+								</div>
+								<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all
+									baking and branch staff Ensure that bakery is adequately stocked with all the
+									supplies and baking ingredients ....</div>
+								<div class="col-12 text_12 mt-3 mb-3">
+									<div class="well mb-0 bg-white border-primary">
+										<h6>Congratulations</h6>
+										<p><strong>Please Report with Following Documents</strong> 22 Dec 2022</p>
+										<p>
+											<small class="btn btn-sm btn-primary  text_12 mb-1">All
+												Degree Certificate</small>
+											<small
+												class="btn btn-sm btn-primary  text_12 mb-1">Experience
+												Certificate</small>
+											<small
+												class="btn btn-sm btn-primary  text_12 mb-1">Experience
+												Certificate</small>
+											<small
+												class="btn btn-sm btn-primary  text_12 mb-1">CNIC</small>
+											<small
+												class="btn btn-sm btn-primary  text_12 mb-1">CV</small>
+										</p>
+										<h6 class="mb-1">Contact Us</h6>0312 9782768
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</div>
-</section>
-<div class="clear py-3"></div>
-<footer class="footer pt-2">
-	<div class="container-fluid py-4">
-		<div class="row">
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<h4>Jobs by Industry</h4>
-				<ul class="uilinks">
-					<li><a href="#">Information Technology Jobs</a></li>
-					<li><a href="#">Education/Training Jobs</a></li>
-					<li><a href="#">Services Jobs</a></li>
-					<li><a href="#">Real Estate/Property Jobs</a></li>
-					<li><a href="#">Manufacturing Jobs</a></li>
-					<li><a href="#">Recruitment / Employment Firms Jobs</a></li>
-					<li><a href="#">Banking/Financial Services Jobs</a></li>
-					<li><a href="#">Healthcare / Hospital / Medical Jobs</a></li>
-					<li><a href="#">N.G.O./Social Services Jobs</a></li>
-					<li><a href="#">Business Development Jobs</a></li>
-                </ul>
-				<div class="clear py-2"></div>
-				<h4>Jobs by Functional Area</h4>
-				<ul class="uilinks">
-					<li><a href="#">Accounting Jobs</a></li>
-					<li><a href="#">Admin Jobs</a></li>
-					<li><a href="#">Autos Jobs</a></li>
-					<li><a href="#">Computer Hardware Jobs</a></li>
-					<li><a href="#">Computer Software Jobs</a></li>
-					<li><a href="#">Construction Jobs</a></li>
-					<li><a href="#">Consulting Jobs</a></li>
-					<li><a href="#">Customer Service Jobs</a></li>
-					<li><a href="#">Education Jobs</a></li>
-					<li><a href="#">Engineering Jobs</a></li>
-                 </ul>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<h4>Jobs in Cites</h4>
-				<ul class="uilinks">
-					<li><a href="#">Jobs in Islamabad</a></li>
-                    <li><a href="#">Jobs in Karachi</a></li>
-                    <li><a href="#">Jobs in Lahore</a></li>
-					<li><a href="#">Jobs in Rawalpindi</a></li>
-                    <li><a href="#">Jobs in Peshawar</a></li>
-					<li><a href="#">Jobs in Faisalabad</a></li>
-					<li><a href="#">Jobs in Queta</a></li>
-					<li><a href="#">Jobs in Multan</a></li>
-                    <li><a href="#">Jobs in Gujrawala</a></li>
-                    <li><a href="#">Jobs in Haider-abad</a></li>
-                </ul>
-				<div class="clear py-2"></div>
-				<h4>Jobs in Other Countries</h4>
-				<ul class="uilinks">
-					<li><a href="#">Jobs in Australia</a></li>
-                    <li><a href="#">Jobs in Bangladesh</a></li>
-                    <li><a href="#">Jobs in Bahrain</a></li>
-                    <li><a href="#">Jobs in Brazil</a></li>
-                    <li><a href="#">Jobs in Canada</a></li>
-                    <li><a href="#">Jobs in United Kingdom</a></li>
-                    <li><a href="#">Jobs in Jordan</a></li>
-                    <li><a href="#">Jobs in Sri Lanka</a></li>
-                    <li><a href="#">Jobs in Malaysia</a></li>
-                 </ul>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<h4>Freelancing Category</h4>
-				<ul class="uilinks">
-					<li><a href="#">Graphics & Design</a></li>
-                    <li><a href="#">Digital Marketing</a></li>
-                    <li><a href="#">Writing & Translation</a></li>
-                    <li><a href="#">Video & Animation</a></li>
-                    <li><a href="#">Music & Audio</a></li>
-                    <li><a href="#">Programming & Tech</a></li>
-                    <li><a href="#">Data</a></li>
-                    <li><a href="#">Business</a></li>
-                    <li><a href="#">Lifestyle</a></li>
-                    <li><a href="#">Photography</a></li>
-                    <li><a href="#">Sitemap</a></li>
-                </ul>
-				<div class="clear p-2"></div>
-				<h4>Online Recruitment</h4>
-				<ul class="uilinks">
-					<li><a href="#">Online Recruitment Solutions</a></li>
-                    <li><a href="#">Job Posting Packages</a></li>
-                    <li><a href="#">Post Job Free</a></li>
-                    <li><a href="#">Online Resumes Search</a></li>
-                    <li><a href="#">Search Professionals</a></li>
-                 </ul>
-			</div>
-			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
-				<h4>About Us</h4>
-				<ul class="uilinks">
-					<li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Safe Jobs Search Pakistan</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Picture Policy</a></li>
-                    <li><a href="#">Disclaimer</a></li>
-                    <li><a href="#">Terms of Services</a></li>
-                    <li><a href="#">Signup Now</a></li>
-                    <li><a href="#">Companies Pakistan</a></li>
-                    <li><a href="#">Clear Cache</a></li>
-                 </ul>
-				<div class="clear p-2"></div>
-				<h4>Follow Us</h4>
-				<ul class="social">
-					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                 </ul>
-				<div class="clear p-2"></div>
-				<h4 class="pb-2">Download App</h4>
-				<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid" width="100"></a> &nbsp; 
-				<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid" width="100"></a>
+	</section>
+	<div class="clear py-3"></div>
+	<footer class="footer pt-2">
+		<div class="container-fluid py-4">
+			<div class="row">
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<h4>Jobs by Industry</h4>
+					<ul class="uilinks">
+						<li><a href="#">Information Technology Jobs</a></li>
+						<li><a href="#">Education/Training Jobs</a></li>
+						<li><a href="#">Services Jobs</a></li>
+						<li><a href="#">Real Estate/Property Jobs</a></li>
+						<li><a href="#">Manufacturing Jobs</a></li>
+						<li><a href="#">Recruitment / Employment Firms Jobs</a></li>
+						<li><a href="#">Banking/Financial Services Jobs</a></li>
+						<li><a href="#">Healthcare / Hospital / Medical Jobs</a></li>
+						<li><a href="#">N.G.O./Social Services Jobs</a></li>
+						<li><a href="#">Business Development Jobs</a></li>
+					</ul>
+					<div class="clear py-2"></div>
+					<h4>Jobs by Functional Area</h4>
+					<ul class="uilinks">
+						<li><a href="#">Accounting Jobs</a></li>
+						<li><a href="#">Admin Jobs</a></li>
+						<li><a href="#">Autos Jobs</a></li>
+						<li><a href="#">Computer Hardware Jobs</a></li>
+						<li><a href="#">Computer Software Jobs</a></li>
+						<li><a href="#">Construction Jobs</a></li>
+						<li><a href="#">Consulting Jobs</a></li>
+						<li><a href="#">Customer Service Jobs</a></li>
+						<li><a href="#">Education Jobs</a></li>
+						<li><a href="#">Engineering Jobs</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<h4>Jobs in Cites</h4>
+					<ul class="uilinks">
+						<li><a href="#">Jobs in Islamabad</a></li>
+						<li><a href="#">Jobs in Karachi</a></li>
+						<li><a href="#">Jobs in Lahore</a></li>
+						<li><a href="#">Jobs in Rawalpindi</a></li>
+						<li><a href="#">Jobs in Peshawar</a></li>
+						<li><a href="#">Jobs in Faisalabad</a></li>
+						<li><a href="#">Jobs in Queta</a></li>
+						<li><a href="#">Jobs in Multan</a></li>
+						<li><a href="#">Jobs in Gujrawala</a></li>
+						<li><a href="#">Jobs in Haider-abad</a></li>
+					</ul>
+					<div class="clear py-2"></div>
+					<h4>Jobs in Other Countries</h4>
+					<ul class="uilinks">
+						<li><a href="#">Jobs in Australia</a></li>
+						<li><a href="#">Jobs in Bangladesh</a></li>
+						<li><a href="#">Jobs in Bahrain</a></li>
+						<li><a href="#">Jobs in Brazil</a></li>
+						<li><a href="#">Jobs in Canada</a></li>
+						<li><a href="#">Jobs in United Kingdom</a></li>
+						<li><a href="#">Jobs in Jordan</a></li>
+						<li><a href="#">Jobs in Sri Lanka</a></li>
+						<li><a href="#">Jobs in Malaysia</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<h4>Freelancing Category</h4>
+					<ul class="uilinks">
+						<li><a href="#">Graphics & Design</a></li>
+						<li><a href="#">Digital Marketing</a></li>
+						<li><a href="#">Writing & Translation</a></li>
+						<li><a href="#">Video & Animation</a></li>
+						<li><a href="#">Music & Audio</a></li>
+						<li><a href="#">Programming & Tech</a></li>
+						<li><a href="#">Data</a></li>
+						<li><a href="#">Business</a></li>
+						<li><a href="#">Lifestyle</a></li>
+						<li><a href="#">Photography</a></li>
+						<li><a href="#">Sitemap</a></li>
+					</ul>
+					<div class="clear p-2"></div>
+					<h4>Online Recruitment</h4>
+					<ul class="uilinks">
+						<li><a href="#">Online Recruitment Solutions</a></li>
+						<li><a href="#">Job Posting Packages</a></li>
+						<li><a href="#">Post Job Free</a></li>
+						<li><a href="#">Online Resumes Search</a></li>
+						<li><a href="#">Search Professionals</a></li>
+					</ul>
+				</div>
+				<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+					<h4>About Us</h4>
+					<ul class="uilinks">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#">Safe Jobs Search Pakistan</a></li>
+						<li><a href="#">Privacy Policy</a></li>
+						<li><a href="#">Picture Policy</a></li>
+						<li><a href="#">Disclaimer</a></li>
+						<li><a href="#">Terms of Services</a></li>
+						<li><a href="#">Signup Now</a></li>
+						<li><a href="#">Companies Pakistan</a></li>
+						<li><a href="#">Clear Cache</a></li>
+					</ul>
+					<div class="clear p-2"></div>
+					<h4>Follow Us</h4>
+					<ul class="social">
+						<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+						<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+						<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+					</ul>
+					<div class="clear p-2"></div>
+					<h4 class="pb-2">Download App</h4>
+					<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid" width="100"></a> &nbsp;
+					<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid" width="100"></a>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="clear"></div>
-	<div class="copy">
-		Copyright &copy; 2022 <a href="#">Accountant.PK</a> | Allrights reserved.
-	</div>
-</footer>
+		<div class="clear"></div>
+		<div class="copy">
+			Copyright &copy; 2022 <a href="#">Accountant.PK</a> | Allrights reserved.
+		</div>
+	</footer>
 
-<!-- Bootstrap core JavaScript -->
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
-<script type="text/javascript">
-	 new WOW().init();	 
-	$(function () {
-	  $('[data-toggle="tooltip"]').tooltip()
-	})
-	$(function () {
-	  $('[data-toggle="popover"]').popover()
-	})
-</script>
+	<!-- Bootstrap core JavaScript -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+	<script type="text/javascript">
+		new WOW().init();
+		$(function () {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
+		$(function () {
+			$('[data-toggle="popover"]').popover()
+		})
+	</script>
 </body>
+
 </html>

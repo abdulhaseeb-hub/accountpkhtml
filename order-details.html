@@ -580,23 +580,58 @@
 				</button>
 			</div>
 				<div class="modal-body">
-                    <label for="file" class="btn btn-outline-secondary mt-2 mb-3">
-                        <i class="fas fa-paperclip mr-2"></i>Upload Work
-                    </label>
-                    <input type="file" id="file" class="d-none">
+
+                    <div class="d-flex ">
+						<div>
+							<button class="btn btn-outline-secondary mt-2 mb-3 me-3" data-dismiss="modal"  data-toggle="modal" data-target="#deliver-completed"><i class="fa fa-eye fs-14 me-1" title="View"></i> View Deliver Work</button>
+						</div>
+						<div>
+							<label for="file" class="btn btn-outline-secondary mt-2 mb-3">
+								<i class="fas fa-paperclip mr-2"></i>Upload Work
+							</label>
+							<input type="file" id="file" class="d-none">
+						</div>
+					</div>
 					<div class="">
-                        <div class="border-2 border-gray-400 p-2 mb-3 w-30 d-flex justify-content-between">
-                            <a class="text-black" href="#">File 1</a>
-                            <i class="fas fa-times text-danger cursor-pointer"></i>
-                        </div>
-                        <div class="border-2 border-gray-400 p-2 mb-3 w-30 d-flex justify-content-between">
-                            <a class="text-black" href="#">File 2</a>
-                            <i class="fas fa-times text-danger cursor-pointer"></i>
-                        </div>
-                        <div class="border-2 border-gray-400 p-2 mb-3 w-30 d-flex justify-content-between">
-                            <a class="text-black" href="#">File 3</a>
-                            <i class="fas fa-times text-danger cursor-pointer"></i>
-                        </div>
+                        <div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+							<div class="d-flex gap-14">
+								<div><img src="images/Chat Icons SVG/png.svg" class="width-px-26 height-px-30"></div>
+								<div>
+									<h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+									<span class="fs-12">PNG . 30 mb</span>
+								</div>
+							</div>
+							<div class="d-flex">
+								<i class="fa fa-eye fs-14 me-3" title="View"></i>
+								<i class="fa fa-times text-danger fs-14" title="Remove"></i>
+							</div>
+						</div>
+						<div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+							<div class="d-flex gap-14">
+								<div><img src="images/Chat Icons SVG/png.svg" class="width-px-26 height-px-30"></div>
+								<div>
+									<h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+									<span class="fs-12">PNG . 30 mb</span>
+								</div>
+							</div>
+							<div class="d-flex">
+								<i class="fa fa-eye fs-14 me-3" title="View"></i>
+								<i class="fa fa-times text-danger fs-14" title="Remove"></i>
+							</div>
+						</div>
+                        <div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+							<div class="d-flex gap-14">
+								<div><img src="images/Chat Icons SVG/png.svg" class="width-px-26 height-px-30"></div>
+								<div>
+									<h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+									<span class="fs-12">PNG . 30 mb</span>
+								</div>
+							</div>
+							<div class="d-flex">
+								<i class="fa fa-eye fs-14 me-3" title="View"></i>
+								<i class="fa fa-times text-danger fs-14" title="Remove"></i>
+							</div>
+						</div>
                     </div>
 
                     <label>Describe your delivery in Details
@@ -604,9 +639,80 @@
                     <textarea class="form-control" rows="6"></textarea>
 				</div>
 				<div class="modal-footer justify-content-end">
-					<a type="submit" class="btn btn-primary" href="chat.html">Deliver Work
+					<a type="submit" class="btn btn-primary text-white" data-dismiss="modal"  data-toggle="modal" data-target="#submit-work">Submit Work
                     </a>
 				</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="deliver-completed" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="exampleModalLabel">Deliver Work</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+				<div class="modal-body">
+
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+						<div>
+							<label class="fs-16 text-black">20 April 23 | 12:43 PM</label>
+						</div>
+						<div>
+							<button class="btn btn-success text-white py-1 fs-14" href="#" data-dismiss="modal" data-toggle="modal" data-target="#approval-status">Your Approval Status</button>
+						</div>
+					</div>
+					<div class="shadow-md shadow-border p-3">
+						<label class="text-info">Work Attachment</label>
+                        <div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+							<div class="d-flex gap-14">
+								<div><img src="images/Chat Icons SVG/png.svg" class="width-px-26 height-px-30"></div>
+								<div>
+									<h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+									<span class="fs-12">PNG . 30 mb</span>
+								</div>
+							</div>
+							<div class="d-flex">
+								<i class="fa fa-eye fs-14 me-3" title="View"></i>
+							</div>
+						</div>
+						<div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+							<div class="d-flex gap-14">
+								<div><img src="images/Chat Icons SVG/png.svg" class="width-px-26 height-px-30"></div>
+								<div>
+									<h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+									<span class="fs-12">PNG . 30 mb</span>
+								</div>
+							</div>
+							<div class="d-flex">
+								<i class="fa fa-eye fs-14 me-3" title="View"></i>
+							</div>
+						</div>
+                        <div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+							<div class="d-flex gap-14">
+								<div><img src="images/Chat Icons SVG/png.svg" class="width-px-26 height-px-30"></div>
+								<div>
+									<h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+									<span class="fs-12">PNG . 30 mb</span>
+								</div>
+							</div>
+							<div class="d-flex">
+								<i class="fa fa-eye fs-14 me-3" title="View"></i>
+							</div>
+						</div>
+
+						<p class="mb-0">Hello<br>
+							Here is your delivery!<br>
+							if there are any problems please let me know,<br>
+							I will get back to you as soon as I can.<br>
+							Thank you!<br>
+							</p>
+                    </div>
+				</div>
+		
 		</div>
 	</div>
 </div>
@@ -626,7 +732,77 @@
 		</div>
 	</div>
 </div>
+<div class="modal fade" id="approval-status" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="exampleModalLabel">Approval Status </h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+				<div class="modal-body">
+                    <div class="d-flex shadow-md shadow-border p-3 mb-3 border-radius-10">
+						<div class="me-5">
+						 <h6 class="text-black fw-semibold fs-18 d-inline-block">Order: #2548651</h6><span class="ms-2"><a href="#" class="fs-12">View Gig</a></span>
+						 <div>
+						 <label class="text-body">Buyer:</label> <span class="ms-1 text-success fw-semibold">Abdul Haseeb</span> <label class="ms-1 text-body">2 April 2023</label>
+						 </div>
+						</div>
+					 </div>
+					 <div class="d-flex">
+						<h6 class="fw-semibold bg-success p-2 border-radius-5 text-white fs-16 d-inline-block mb-3 me-2">Approved</h6>
+					 <h6 class="fw-semibold bg-orange p-2 border-radius-5 text-white fs-16 d-inline-block mb-3">Pending</h6>
+					 </div>
+					 <label class="text-black d-block fs-16 mb-0">Order Response Rate</label>
+					 <label class="text-primary d-block fs-16 mb-2">Quickly</label>
 
+					 <label class="text-black d-block fs-16 mb-0">Inbox Response Rate</label>
+					 <label class="text-primary d-block fs-16 mb-2">Very Quickly</label>
+
+					 <label class="text-black d-block fs-16 mb-0">Delivered Response Rate</label>
+					 <label class="text-primary d-block fs-16 mb-2">Very Quickly</label>
+
+					 <label class="text-black d-block fs-16 mb-0">Gig Review</label>
+					 <p class="text-warning mb-0">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star mr-1"></i>
+					</p>
+					<span class="d-block mb-2">Nice Working</span>
+
+					<label class="text-black d-block fs-16 mb-0">Seller Review</label>
+					 <p class="text-warning mb-0">
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star"></i>
+						<i class="fas fa-star mr-1"></i>
+					</p>
+					<span class="d-block">Nice Working</span>
+				</div>
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" id="submit-work" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h4 class="modal-title" id="exampleModalLabel">Submit Work
+				</h4>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+				<div class="modal-body height-px-100">
+                    <p class="mb-0 fs-18 text-black">Work has been submit successfully </p>
+				</div>
+		</div>
+	</div>
+</div>
 <!-- Bootstrap core JavaScript -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>

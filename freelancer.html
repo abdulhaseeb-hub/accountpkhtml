@@ -33,6 +33,126 @@
 		<span class="navbar-brand">
 			<a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
 		</span>
+		<div class="nav-item messages-item toggle-item responsive-messages d-lg-none">
+			<button class="active nav-link">
+			  <svg class="icon icon-double-messages"> 
+				<use class="fill" xlink:href="images/sprite.svg#icon-messages-stroke"></use>
+			  </svg>
+			  <span class="count">3</span>
+			</button>
+		  </div>
+
+		  <div class="dropdown d-lg-none">
+			<div class="nav-item notification-item toggle-item me-2" data-toggle="dropdown"
+				aria-expanded="false">
+				<button class="nav-link active focus-unset">
+					<svg class="icon icon-double-notification">
+						<use class="stroke" xlink:href="images/sprite.svg#icon-notification-stroke"></use>
+					</svg>
+					<span class="count">2</span>
+				</button>
+			</div>
+
+			<div
+				class="dropdown-menu responsive-dropdown-menu-notifications dropdown-menu-notifications rounded-top-end-10 rounded-top-start-10 rounded-bottom-end-10 rounded-bottom-start-10">
+				<div class="header rounded-top-end-10 rounded-top-start-10">
+					<div class="text-white">You have <font class="fs-20">10</font> new<br>
+						notifications
+					</div>
+					<div>
+						<a href="notification-details.html"
+							class="btn btn-primary fs-12 btn-sm border-gray-1200">View All</a>
+					</div>
+				</div>
+				<ul
+					class="list-group list-group-p10 body height-px-475 overflow-auto  rounded-bottom-end-10 rounded-bottom-start-10">
+					<li class="list-group-item px-2 cursor-pointer">
+						<a href="notification-details.html" class="text-black">
+							<div class="media">
+								<div class="media-body ml-2">
+									<div class="title"> Admin
+									</div>
+									<div class="title fs-14"> Complete Your Profile for Better Opportunities
+									</div>
+									<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+										complete your profile on [Freelance Platform].
+										A complete profile attracts more clients and improves your chances
+									</p>
+
+									<span>June 06, 2023, 5:39:09 PM</span>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="list-group-item px-2 cursor-pointer">
+						<a href="notification-details.html" class="text-black">
+							<div class="media">
+								<div class="media-body ml-2">
+									<div class="title"> Admin
+									</div>
+									<div class="title fs-14"> Complete Your Profile for Better Opportunities
+									</div>
+									<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+										complete your profile on [Freelance Platform].
+										A complete profile attracts more clients and improves your chances
+									</p>
+
+									<span>June 06, 2023, 5:39:09 PM</span>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="list-group-item px-2 cursor-pointer">
+						<a href="notification-details.html" class="text-black">
+							<div class="media">
+								<div class="media-body ml-2">
+									<div class="title"> Admin
+									</div>
+									<div class="title fs-14"> Complete Your Profile for Better Opportunities
+									</div>
+									<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+										complete your profile on [Freelance Platform].
+										A complete profile attracts more clients and improves your chances
+									</p>
+
+									<span>June 06, 2023, 5:39:09 PM</span>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="list-group-item px-2 cursor-pointer">
+						<a href="notification-details.html" class="text-black">
+							<div class="media">
+								<div class="media-body ml-2">
+									<div class="title"> Admin
+									</div>
+									<div class="title fs-14"> Complete Your Profile for Better Opportunities
+									</div>
+									<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+										complete your profile on [Freelance Platform].
+										A complete profile attracts more clients and improves your chances
+									</p>
+
+									<span>June 06, 2023, 5:39:09 PM</span>
+								</div>
+							</div>
+						</a>
+					</li>
+
+
+					<!-- <div class="align-items-center d-flex flex-column h-100 justify-content-center">
+						<img src="images/Notification Bell Icon.png" class="height-px-100 mb-50 width-px-100">
+						<div class="mb-2 title fs-20"> No Notification Yet
+						</div>
+						<p class="fs-14 line-clamp-2">You have no notification right now.
+							Come back later</p>
+					</div> -->
+				</ul>
+			</div>
+		</div>
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
@@ -54,16 +174,148 @@
 						<a class="dropdown-item" href="earning.html">Earning</a>
 					</div>
 				</li>
-				<li class="nav-item text-nowrap">
+				<li class="nav-item text-nowrap pl-0">
 					<a class="nav-link" href="#"><i class="fas fa-cog mr-1"></i> Analytics</a>
 				</li>
-				<li class="nav-item text-nowrap">
-					<a class="nav-link btn btn-outline-primary" href="jobs.html">Find Job Assignment</a>
-				</li>
+			
 			</ul>
 			<ul class="navbar-nav ml-auto">
+
+				<li class="nav-item dropdown text-nowrap my-2">
+					<a class="nav-link dropdown-toggle" href="#" id="switch" role="button" data-toggle="dropdown"
+						aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-toggle-on mr-1"></i> Switch to
+					</a>
+					<div class="dropdown-menu" aria-labelledby="switch">
+						<a class="dropdown-item" href="guest.html">Guest / Buyer</a>
+						<a class="dropdown-item" href="job-seeker-dashboard.html">Job Seeker</a>
+						<a class="dropdown-item" href="freelancer.html">Freelancer</a>
+					</div>
+				</li>
+
+				<div class="nav-item messages-item toggle-item  d-lg-block d-none">
+					<button class="active nav-link">
+						<svg class="icon icon-double-messages">
+							<use class="fill" xlink:href="images/sprite.svg#icon-messages-stroke"></use>
+						</svg>
+						<span class="count">3</span>
+					</button>
+				</div>
+
+				<div class="dropdown  d-lg-block d-none">
+					<div class="nav-item notification-item toggle-item me-2" data-toggle="dropdown"
+						aria-expanded="false">
+						<button class=" nav-link active focus-unset">
+							<svg class="icon icon-double-notification">
+								<use class="stroke" xlink:href="images/sprite.svg#icon-notification-stroke"></use>
+							</svg>
+							<span class="count">3</span>
+						</button>
+					</div>
+
+					<div
+						class="dropdown-menu dropdown-menu-notifications rounded-top-end-10 rounded-top-start-10 rounded-bottom-end-10 rounded-bottom-start-10">
+						<div class="header rounded-top-end-10 rounded-top-start-10">
+							<div class="text-white">You have <font class="fs-20">10</font> new<br>
+								notifications
+							</div>
+							<div>
+								<a href="notification-details.html"
+									class="btn btn-primary fs-12 btn-sm border-gray-1200">View All</a>
+							</div>
+						</div>
+						<ul
+							class="list-group list-group-p10 body height-px-475 overflow-auto  rounded-bottom-end-10 rounded-bottom-start-10">
+							<li class="list-group-item px-2 cursor-pointer">
+								<a href="notification-details.html" class="text-black">
+									<div class="media">
+										<div class="media-body ml-2">
+											<div class="title"> Admin
+											</div>
+											<div class="title fs-14"> Complete Your Profile for Better Opportunities
+											</div>
+											<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+												complete your profile on [Freelance Platform].
+												A complete profile attracts more clients and improves your chances
+											</p>
+
+											<span>June 06, 2023, 5:39:09 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="list-group-item px-2 cursor-pointer">
+								<a href="notification-details.html" class="text-black">
+									<div class="media">
+										<div class="media-body ml-2">
+											<div class="title"> Admin
+											</div>
+											<div class="title fs-14"> Complete Your Profile for Better Opportunities
+											</div>
+											<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+												complete your profile on [Freelance Platform].
+												A complete profile attracts more clients and improves your chances
+											</p>
+
+											<span>June 06, 2023, 5:39:09 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="list-group-item px-2 cursor-pointer">
+								<a href="notification-details.html" class="text-black">
+									<div class="media">
+										<div class="media-body ml-2">
+											<div class="title"> Admin
+											</div>
+											<div class="title fs-14"> Complete Your Profile for Better Opportunities
+											</div>
+											<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+												complete your profile on [Freelance Platform].
+												A complete profile attracts more clients and improves your chances
+											</p>
+
+											<span>June 06, 2023, 5:39:09 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="list-group-item px-2 cursor-pointer">
+								<a href="notification-details.html" class="text-black">
+									<div class="media">
+										<div class="media-body ml-2">
+											<div class="title"> Admin
+											</div>
+											<div class="title fs-14"> Complete Your Profile for Better Opportunities
+											</div>
+											<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+												complete your profile on [Freelance Platform].
+												A complete profile attracts more clients and improves your chances
+											</p>
+
+											<span>June 06, 2023, 5:39:09 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<!-- <div class="align-items-center d-flex flex-column h-100 justify-content-center">
+							  <img src="images/Notification Bell Icon.png" class="height-px-100 mb-50 width-px-100">
+							  <div class="mb-2 title fs-20"> No Notification Yet
+							  </div>
+							  <p class="fs-14 line-clamp-2">You have no notification right now.
+								  Come back later</p>
+						  </div> -->
+						</ul>
+					</div>
+				</div>
+				
 				<li class="nav-item">
-					<a class="nav-link btn btn-success text-white" href="freelancer.html">Freelancer</a>
+					<a class="nav-link  d-lg-block d-none btn btn-success text-white" href="freelancer.html">Freelancer</a>
 				</li>
 				<li class="nav-item dropdown text-nowrap pl-0">
 					<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -78,6 +330,10 @@
 					</div>
 				</li>
 			</ul>
+			<div
+					class=" d-lg-none d-flex flex-wrap gap-14 ps-18 mt-3 mobile-nav-footer justify-content-center w-100">
+					<a class="nav-link bg-success text-white w-100 me-3 text-center" href="#">Freelancer</a>
+				</div>
 		</div>
 	</div>
 </nav>
@@ -627,7 +883,15 @@
 						</div>
 						<div class="form-group col-md-6">
 							<label for="mobile">Mobile</label>
-							<input type="text" class="form-control" id="mobile">
+							<div class="d-flex">
+								<select
+									class="form-control border-end-0 boder-radius-top-right-0 boder-radius-bottom-right-0 width-px-100 focus-unset">
+									<option>+92</option>
+								</select>
+								<input type="number"
+									class="form-control boder-radius-top-left-0 boder-radius-bottom-left-0"
+									placeholder="Enter Mobile Number">
+							</div>
 						</div>
 						<div class="form-group col-md-6">
 							<label for="hcontact">Home Contact</label>
@@ -686,6 +950,28 @@
 								<option>Please Select</option>
 							</select>
 						</div>
+						<div class="col-md-6 mb-3">
+							<label>Your Current Salary </label>
+							<div class="d-flex">
+								<select class="form-control border-end-0 boder-radius-top-right-0 boder-radius-bottom-right-0 width-px-100 focus-unset">
+									<option>PKR</option>
+									<option>Dollars</option>
+								</select>
+								<input type="text" class="form-control boder-radius-top-left-0 boder-radius-bottom-left-0" placeholder="Enter current salary">
+							</div>
+						</div>
+						<h5 class="text-dark col-md-12">Expected Salary</h5>
+						<div class="form-group col-md-6">
+							<label for="jcity">Expected Salary</label>
+							<div class="d-flex mb-2">
+								<select class="form-control border-end-0 boder-radius-top-right-0 boder-radius-bottom-right-0 width-px-100 focus-unset">
+									<option>PKR</option>
+									<option>Dollars</option>
+								</select>
+								<input type="text" class="form-control boder-radius-top-left-0 boder-radius-bottom-left-0" placeholder="Enter expected salary">
+							</div>
+							<small class="text-black-50">This salary will be used as a reference for comparison with the jobs you will apply</small>
+						</div>
 						<h5 class="text-dark col-md-12">Link Your Social Accounts</h5>
 						<div class="form-group col-md-6">
 							<div class="input-group">
@@ -721,9 +1007,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="modal-footer">
-					<button type="button" class="btn btn-outline-danger" data-dismiss="modal">Cancel</button>
-					<button type="submit" class="btn btn-primary">Save</button>
+				<div class="modal-footer justify-content-end">
+					<button type="button" class="btn btn-outline-danger me-2" data-dismiss="modal">Cancel</button>
+					<button type="button" class="btn btn-primary">Save</button>
 				</div>
 			</form>
 		</div>
@@ -1106,6 +1392,10 @@
 					<div class="form-group col-sm-6">
 						<label>Duration (End Date)</label>
 						<input type="date" class="form-control">
+						<div class="custom-control custom-checkbox mb-2 d-flex align-items-center mt-2">
+							<input type="checkbox" class="custom-control-input" id="ext">
+							<label class="custom-control-label font-weight-light " for="ext">Current Working Here</label>
+						</div>
 					</div>
 					<div class="form-group col-sm-6">
 						<label>Country</label>
@@ -1126,8 +1416,8 @@
 				</div>
 				
 			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+			<div class="modal-footer justify-content-end">
+				<button type="button" class="btn btn-outline-danger me-2" data-dismiss="modal">Cancel</button>
 				<button type="button" class="btn btn-primary">Save</button>
 			</div>
 		</div>
@@ -1271,6 +1561,10 @@
 					<div class="form-group col-sm-6">
 						<label>Duration (End Date)</label>
 						<input type="date" class="form-control">
+						<div class="custom-control custom-checkbox mb-2 d-flex align-items-center mt-2">
+							<input type="checkbox" class="custom-control-input" id="ext">
+							<label class="custom-control-label font-weight-light " for="ext">Current Working Here</label>
+						</div>
 					</div>
 					<div class="form-group col-sm-12">
 						<label>Tools</label>

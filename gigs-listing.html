@@ -39,61 +39,261 @@
 	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
 		<div class="container-fluid">
 			<span class="navbar-brand">
-				<a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
-				<!---a href="#" class="nav-text">Beware! Reported Companies</a--->
-			</span>
+                <a href="index.html"><img src="images/myjobs.png" alt="myjob.pk" height="40"></a>
+            </span>
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
 				data-target="#navbar">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="navbar-nav ml-auto">
-					<li class="nav-item">
-						<a class="nav-link" href="inbox.html"><i class="far fa-envelope text_18"></i></a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="favorite-list.html">
-							<i class="far fa-heart text_18"></i>
-						</a>
-					</li>
-					<li class="nav-item dropdown text-nowrap pl-0">
-						<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown"
-							aria-haspopup="true" aria-expanded="false">
-							<div class="d-flex align-items-center">
-								<img src="images/favicon.png" class="img-circle mr-2" width="30">
-								<span>Noman</span>
-							</div>
-						</a>
-						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="language">
-							<a class="dropdown-item" href="forgot-resetpass.html">Change Password</a>
-							<a class="dropdown-item" href="index.html">Logout</a>
-						</div>
-					</li>
-				</ul>
+                    <div class="d-flex justify-content-center me-4">
+                        <ul class="list-unstyled d-flex border border-radius-10 border-gray-600">
+                            <li class="py-2 px-3  bg-white  rounded-top-start-8 rounded-bottom-start-8"><a
+                                    href="index.html" class="text-primary fw-semibold">MY JOBS</a></li>
+                            <li class="py-2 px-3  bg-primary rounded-top-end-8 rounded-bottom-end-8"><a
+                                    class="text-white fw-semibold" href="freelancing-services.html">FREELANCING
+                                    SERVICES</a></li>
+                        </ul>
+                    </div>
+                    <li class="nav-item me-4">
+                        <a class="c-header__icon c-header__link text-black" href="signup.html" id="topnav-join-now">
+                            <svg role="img" class="c-header__icon__ico u-svg-ico height-px-18 width-px-18 me-1" viewBox="0 0 15 15" height="14"
+                                width="14">
+                                <path
+                                    d="M13.6 9.6c-.2 0-.3.2-.3.4v3.2c0 .6-.5 1-1.1 1H1.8a1 1 0 0 1-1-1V3.8c0-.6.4-1 1-1h3.3c.2 0 .4-.2.4-.4S5.3 2 5 2H1.8C.8 2 0 2.8 0 3.8v9.4c0 1 .8 1.8 1.8 1.8h10.4c1 0 1.8-.8 1.8-1.8V10c0-.2-.2-.4-.4-.4z">
+                                </path>
+                                <path
+                                    d="M14 .5c-.6-.7-1.7-.7-2.3 0L5 7.2l-.1.1-.9 3.2a.4.4 0 0 0 .5.5l3.2-.9h.1l6.7-6.8c.7-.6.7-1.7 0-2.4l-.4-.4zm-8.2 7L11.3 2 13 3.7 7.6 9.2 5.8 7.4zm-.3.6l1.4 1.4-2 .6.6-2zM14 2.8l-.4.4-1.8-1.8.4-.4a1 1 0 0 1 1.3 0l.5.5c.3.3.3 1 0 1.3z">
+                                </path>
+                            </svg>
+                            <span>Sign Up</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-item me-4">
+                        <a class="c-header__icon c-header__link text-black" href="signin.html" id="topnav-sign-in">
+                            <svg role="img" class="c-header__icon__ico  u-svg-ico height-px-18 width-px-18 me-1" viewBox="0 0 17 15" height="15"
+                                width="15">
+                                <path fill="currentColor"
+                                    d="M15.1 0H9C7.9 0 7 .8 7 1.8v1.6c0 .2.2.4.5.4.2 0 .4-.2.4-.4V1.8c0-.5.5-.9 1-1H15c.6 0 1 .5 1 1v11.4c0 .3-.1.5-.3.7a1 1 0 0 1-.7.2H9a1 1 0 0 1-1-.9v-1.5c0-.3-.2-.5-.4-.5-.3 0-.5.2-.5.5v1.5c0 1 .8 1.8 1.9 1.8h6c1 0 1.9-.8 1.9-1.8V1.8c0-1-.8-1.8-1.9-1.8z">
+                                </path>
+                                <path fill="currentColor"
+                                    d="M11.4 6.8H.4c-.2 0-.4.2-.4.5 0 .2.2.4.5.4h11l-2.4 2.6v.6c.3.2.6.1.7 0l3-3.3.2-.3-.1-.3-3-2.9-.4-.1-.3.1-.2.3c0 .1 0 .2.2.3l2.2 2.1z">
+                                </path>
+                            </svg>
+                            <span>Log In</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-primary text-white" href="#">Freelancer</a>
+                    </li>
+                </ul>
 			</div>
 		</div>
 	</nav>
 	<div class="clear"></div>
-	<section class="bg-light py-4">
+	<section class="c-hero py-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-sm-12 col-md-8 m-auto">
-					<form class="input-group mb-0">
-						<input type="search" class="form-control" placeholder="Job Title & Skill">
-						<div class="input-group-prepend">
-							<button class="btn btn-primary" type="submit"><i class="fas fa-search"></i> SEARCH</button>
-						</div>
-					</form>
+					<div class="form-row ml-0 w-100">
+                        <div class="input-group-wrapper end w-100">
+                            <input type="text" class="form-control w-100 height-px-60"
+                                placeholder="What skill are you looking for">
+                            <div class="input-group-media icon">
+                                <i class="fas fa-search text-black fs-19 me-2"></i>
+                            </div>
+                        </div>
+                    </div>
 				</div>
 			</div>
 		</div>
 	</section>
 	<div class="clear py-3"></div>
 	<section class="container">
-		<ul class="nav nav-fill free-tabs">
+		<section id="freelance-owl" class="free-tabs">
+			<div class="row">
+				<div class="owl-columns">
+						<ul id="free-tabs-owl-carousel" class="owl-carousel nav nav-fill free-tabs mt-5">
+							<li class="nav-item">
+								<a class="btn w-100 btn-primary" href="freelancer-subcategory.html">Graphic & Design</a>
+								<!-- <div class="dropdown-menu position-relative" style="min-width: 1200px;">
+									<div class="row">
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Logo & Brand Identity</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Logo Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Brand Style Guides</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Fonts & Typography</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Business Cards &
+												Stationery</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Gaming</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Web & App Design</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Website Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">App Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">UX Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Landing Page
+												Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Icon Design</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Visual Design</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Image Editing</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Presentation
+												Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Infographic Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Vector Tracing</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Resume Design</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Print Design</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Flyer Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Brochure Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Poster Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Catalog Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Menu Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Invitation Design</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Game Art</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Graphics for
+												Streamers</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Twitch Store</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Marketing Design</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Social Media
+												Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Web Banners</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Signage Design</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Architecture & Building Design</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Architecture &
+												Interior Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Landscape Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Building
+												Engineering</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Building Information
+												Modeling</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Product & Characters Design</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Industrial & Product
+												Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Character Modeling</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Trade Booth Design</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Art & Illustration</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Illustration</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">AI Artists new</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">NFT Art</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Pattern Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Portraits &
+												Caricatures</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Cartoons & Comics</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Tattoo Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Storyboards</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Packaging & Covers</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Packaging & Label
+												Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Book Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Album Cover Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Podcast Cover Art</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Car Wraps</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Fashion & Merchandise</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Fashion Design</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">T-Shirts &
+												Merchandise</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Jewelry Design</a>
+										</div>
+										<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
+											<h6 class="text-black font-weight-semi-bold pl-3">Miscellaneous</h6>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Design Advice</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Logo Maker Tool</a>
+											<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Other</a>
+										</div>
+									</div>
+								</div> -->
+							</li>
+							<li class="nav-item">
+								<a class="btn w-100 btn-primary" href="freelancer-subcategory.html">Digital Marketing</a>
+								<!-- <div class="dropdown-menu position-relative">
+									<h6 class="text-black font-weight-semi-bold pl-3">Digital Marketing</h6>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action2</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Something else here</a>
+								</div> -->
+							</li>
+							<li class="nav-item">
+								<a class="btn w-100 btn-primary" href="freelancer-subcategory.html">Writing & Translation</a>
+								<!-- <div class="dropdown-menu position-relative">
+									<h6 class="text-black font-weight-semi-bold pl-3">Writing & Translation</h6>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Something else here</a>
+								</div> -->
+							</li>
+							<li class="nav-item">
+								<a class="btn w-100 btn-primary" href="freelancer-subcategory.html">Video & Animation</a>
+								<!-- <div class="dropdown-menu position-relative">
+									<h6 class="text-black font-weight-semi-bold pl-3">Video & Animation</h6>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Something else here</a>
+								</div> -->
+							</li>
+							<li class="nav-item">
+								<a class="btn w-100 btn-primary" href="freelancer-subcategory.html">Music & Audio</a>
+								<!-- <div class="dropdown-menu position-relative">
+									<h6 class="text-black font-weight-semi-bold pl-3">Music & Audio</h6>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Something else here</a>
+								</div> -->
+							</li>
+							<li class="nav-item">
+								<a class="btn w-100 btn-primary" href="freelancer-subcategory.html">Programing & Tech</a>
+								<!-- <div class="dropdown-menu position-relative">
+									<h6 class="text-black font-weight-semi-bold pl-3">Programing & Tech</h6>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Something else here</a>
+								</div> -->
+							</li>
+							<li class="nav-item">
+								<a class="btn w-100 btn-outline-primary" href="freelancer-subcategory.html">Business</a>
+								<!-- <div class="dropdown-menu position-relative">
+									<h6 class="text-black font-weight-semi-bold pl-3">Business</h6>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Something else here</a>
+								</div> -->
+							</li>
+							<li class="nav-item">
+								<a class="btn w-100 btn-primary" href="freelancer-subcategory.html">Lifestyle</a>
+								<!-- <div class="dropdown-menu position-relative">
+									<h6 class="text-black font-weight-semi-bold pl-3">Lifestyle</h6>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
+									<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Something else here</a>
+								</div> -->
+							</li>
+						</ul>
+				</div>
+			</div>
+		</section>
+		<!-- <ul class="nav nav-fill free-tabs">
 			<li class="nav-item">
 				<a class="btn btn-primary" href="freelancer-subcategory.html">Graphic & Design</a>
-				<div class="dropdown-menu">
+				<div class="dropdown-menu position-relative">
 					<div class="row">
 						<div class="col-sm-6 col-md-4 col-lg-3 mt-2">
 							<h6 class="text-black font-weight-semi-bold pl-3">Logo & Brand Identity</h6>
@@ -200,7 +400,7 @@
 			</li>
 			<li class="nav-item">
 				<a class="btn btn-primary" href="freelancer-subcategory.html">Digital Marketing</a>
-				<div class="dropdown-menu">
+				<div class="dropdown-menu position-relative">
 					<h6 class="text-black font-weight-semi-bold pl-3">Digital Marketing</h6>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action2</a>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
@@ -209,7 +409,7 @@
 			</li>
 			<li class="nav-item">
 				<a class="btn btn-primary" href="freelancer-subcategory.html">Writing & Translation</a>
-				<div class="dropdown-menu">
+				<div class="dropdown-menu position-relative">
 					<h6 class="text-black font-weight-semi-bold pl-3">Writing & Translation</h6>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
@@ -218,7 +418,7 @@
 			</li>
 			<li class="nav-item">
 				<a class="btn btn-primary" href="freelancer-subcategory.html">Video & Animation</a>
-				<div class="dropdown-menu">
+				<div class="dropdown-menu position-relative">
 					<h6 class="text-black font-weight-semi-bold pl-3">Video & Animation</h6>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
@@ -227,7 +427,7 @@
 			</li>
 			<li class="nav-item">
 				<a class="btn btn-primary" href="freelancer-subcategory.html">Music & Audio</a>
-				<div class="dropdown-menu">
+				<div class="dropdown-menu position-relative">
 					<h6 class="text-black font-weight-semi-bold pl-3">Music & Audio</h6>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
@@ -236,7 +436,7 @@
 			</li>
 			<li class="nav-item">
 				<a class="btn btn-primary" href="freelancer-subcategory.html">Programing & Tech</a>
-				<div class="dropdown-menu">
+				<div class="dropdown-menu position-relative">
 					<h6 class="text-black font-weight-semi-bold pl-3">Programing & Tech</h6>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
@@ -245,7 +445,7 @@
 			</li>
 			<li class="nav-item">
 				<a class="btn btn-outline-primary" href="freelancer-subcategory.html">Business</a>
-				<div class="dropdown-menu">
+				<div class="dropdown-menu position-relative">
 					<h6 class="text-black font-weight-semi-bold pl-3">Business</h6>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
@@ -254,61 +454,61 @@
 			</li>
 			<li class="nav-item">
 				<a class="btn btn-primary" href="freelancer-subcategory.html">Lifestyle</a>
-				<div class="dropdown-menu">
+				<div class="dropdown-menu position-relative">
 					<h6 class="text-black font-weight-semi-bold pl-3">Lifestyle</h6>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Action</a>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Another action</a>
 					<a class="dropdown-item py-1 pl-3" href="freelancer-subcategory.html">Something else here</a>
 				</div>
 			</li>
-		</ul>
+		</ul> -->
 		<div class="clear py-3"></div>
 		<div class="row">
-			<div class="col-md-6 pb-2">
-				<div class="well mb-0 h-100">
-					<div class="d-flex justify-content-between">
-						<h3 class="text-black font-weight-semi-bold">Business</h3>
-						<span><a href="#" class="btn btn-outline-dark btn-sm">How it Works</a></span>
+			<div class="col-lg-6 mb-3">
+				<div class="well carousel-cards mb-0 h-100 d-flex align-items-center justify-content-between shadow">
+					<div>
+						<h3 class="text-primary">Recruitment Service</h3>
+						<p class="mb-0 text-dark">Your hiring solutions.</p>					
 					</div>
-					<p class="mb-0">Take your business to the next level.</p>
+					<img src="images/icons/courses.png" class="img-thumbnail border-primary" width="130">
 				</div>
 			</div>
-			<div class="col-md-6 pb-2">
-				<div class="well mb-0 h-100">
-					<h6 class="text-black font-weight-semi-bold">Most popular in Business:</h6>
-					<a href="freelancer-subcategory.html" class="btn btn-light btn-sm shadow-none mb-1">Accounting &
-						Bookkping</a>
-					<a href="freelancer-subcategory.html" class="btn btn-light btn-sm shadow-none mb-1">E-Commece Store
-						Manager</a>
-					<a href="freelancer-subcategory.html" class="btn btn-light btn-sm shadow-none mb-1">Lead
-						Generation</a>
-					<a href="freelancer-subcategory.html" class="btn btn-light btn-sm shadow-none mb-1">Patent
-						Application</a>
-					<a href="freelancer-subcategory.html" class="btn btn-light btn-sm shadow-none mb-1">CRM
-						Management</a>
-					<a href="freelancer-subcategory.html" class="btn btn-light btn-sm shadow-none mb-1">Business
-						Plan</a>
-					<a href="freelancer-subcategory.html" class="btn btn-light btn-sm shadow-none mb-1">Business
-						Consulting</a>
-					<a href="freelancer-subcategory.html" class="btn btn-light btn-sm shadow-none mb-1">Customer
-						Care</a>
-					<a href="freelancer-subcategory.html" class="btn btn-light btn-sm shadow-none mb-1">Legal
-						Consulting</a>
-					<a href="freelancer-subcategory.html" class="btn btn-primary btn-sm">See More</a>
+			<div class="col-lg-6 mb-3"> 
+				<div class="well carousel-cards mb-0 h-100 shadow" >
+					<div id="carouselCourses" class="carousel slide courses_slides" data-ride="carousel">
+						<ol class="carousel-indicators">
+							<li data-target="#carouselCourses" data-slide-to="0" class="active"></li>
+							<li data-target="#carouselCourses" data-slide-to="1"></li>
+							<li data-target="#carouselCourses" data-slide-to="2"></li>
+						</ol>
+						<div class="carousel-inner height-px-64">
+							<p class="carousel-item text-dark active">You can hand over your recruitment process to myjobs.pk professionals. We will find the perfect match for your vacant positions.</p>
+							<p class="carousel-item text-dark">You can hand over your recruitment process to myjobs.pk professionals. We will find the perfect match for your vacant positions.</p>
+							<p class="carousel-item text-dark">You can hand over your recruitment process to myjobs.pk professionals. We will find the perfect match for your vacant positions.</p>
+						</div>
+					</div>
+					<a href="#" class="btn btn-primary btn-sm float-right mb-14" data-toggle="modal"
+						data-target="#ComingSoon">How it Works <i class="fa fa-long-arrow-alt-right ms-2"></i></a>
 				</div>
 			</div>
 		</div>
-		<p class="text_12 mb-2">
-			<a href="index.html" class="text-muted">myjobs.pk</a> >
-			<strong class="text-black font-weight-semi-bold">Business</strong>
-		</p>
+		<div class="d-flex justify-content-between align-items-center mb-2">
+			<nav aria-label="breadcrumb">
+				<ol class="breadcrumb bg-white px-0 mb-0">
+					<li class="breadcrumb-item"><a href="freelancing-services.html" class="text-black">Freelancing Services</a></li>
+					<li class="breadcrumb-item"><a href="freelancing-services.html" class="text-black">Business</a></li>
+					<li class="breadcrumb-item active fw-semibold text-black" aria-current="page"> Fast Checking</li>
+				</ol>
+			</nav>
+			<a href="service-type.html" class="btn btn-primary btn-sm float-right">View All</a>
+		</div>
 
 		<section id="freelance-owl">
 			<div class="row">
 				<div class="owl-columns">
-					<div class="owl-carousel owl-theme">
+					<div id="owl-carousel" class="owl-carousel owl-theme">
 						<div class="height-px-176 card card-body border text-center mb-1">
-							<a href="freelancer-subcategory.html" class="text-dark font-weight-medium text_12">
+							<a href="service-type.html" class="text-dark font-weight-medium fs-14">
 								<img src="images/Functional-Icon/ProductDevelopment.png"
 									class="img-center mb-2 height-px-64 width-px-64"><br>Personal Finance &amp; Wealth
 								Management
@@ -316,21 +516,21 @@
 						</div>
 
 						<div class="height-px-176 card card-body border text-center mb-1">
-							<a href="freelancer-subcategory.html" class="text-dark font-weight-medium text_12">
+							<a href="service-type.html" class="text-dark font-weight-medium fs-14">
 								<img src="images/Functional-Icon/Accountant.png"
 									class="img-center mb-2 height-px-64 width-px-64"><br>Accounting & Bookkeeping
 							</a>
 						</div>
 
 						<div class="height-px-176 card card-body border text-center mb-1">
-							<a href="freelancer-subcategory.html" class="text-dark font-weight-medium text_12">
+							<a href="service-type.html" class="text-dark font-weight-medium fs-14">
 								<img src="images/Functional-Icon/Business-Management.png"
 									class="img-center mb-2 height-px-64 width-px-64"><br>Tax Consulting
 							</a>
 						</div>
 
 						<div class="height-px-176 card card-body border text-center mb-1">
-							<a href="freelancer-subcategory.html" class="text-dark font-weight-medium text_12">
+							<a href="service-type.html" class="text-dark font-weight-medium fs-14">
 								<img src="images/Functional-Icon/FinancialService.png"
 									class="img-center mb-2 height-px-64 width-px-64"><br>Financial Forecasting &
 								Modeling
@@ -338,14 +538,14 @@
 						</div>
 
 						<div class="height-px-176 card card-body border text-center mb-1">
-							<a href="freelancer-subcategory.html" class="text-dark font-weight-medium text_12">
+							<a href="service-type.html" class="text-dark font-weight-medium fs-14">
 								<img src="images/Functional-Icon/OnlineAdvertising.png"
 									class="img-center mb-2 height-px-64 width-px-64"><br>Online Trading Lessons
 							</a>
 						</div>
 
 						<div class="height-px-176 card card-body border text-center mb-1">
-							<a href="freelancer-subcategory.html" class="text-dark font-weight-medium text_12">
+							<a href="service-type.html" class="text-dark font-weight-medium fs-14">
 								<img src="images/Functional-Icon/Development.png"
 									class="img-center mb-2 height-px-64 width-px-64"><br>Analysis, Valuation &
 								Optimization
@@ -353,7 +553,7 @@
 						</div>
 						
 						<div class="height-px-176 card card-body border text-center mb-1">
-							<a href="freelancer-subcategory.html" class="text-dark font-weight-medium text_12">
+							<a href="service-type.html" class="text-dark font-weight-medium fs-14">
 								<img src="images/Functional-Icon/Development.png"
 									class="img-center mb-2 height-px-64 width-px-64"><br>Analysis, Valuation &
 								Optimization
@@ -368,11 +568,11 @@
 		<div class="row">
 			<div class="col-lg-6">
 				<div class="dropdown mr-2 d-inline-block">
-					<button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="srvcTyp"
+					<button class="btn btn-outline-primary btn-sm dropdown-toggle px-2 py-2 fs-14" type="button" id="srvcTyp"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Services Type
 					</button>
-					<div class="dropdown-menu px-3" aria-labelledby="srvcTyp" style="min-width:600px;">
+					<div class="dropdown-menu position-relative px-3" aria-labelledby="srvcTyp" style="min-width:800px;">
 						<h6 class="font-weight-semi-bold text-black">Services Option</h6>
 						<div class="row">
 							<div class="col-6 col-sm-3">
@@ -504,11 +704,11 @@
 					</div>
 				</div>
 				<div class="dropdown mr-2 d-inline-block">
-					<button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="seldtl"
+					<button class="btn btn-outline-primary btn-sm dropdown-toggle px-2 py-2 fs-14" type="button" id="seldtl"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Seller Details
 					</button>
-					<div class="dropdown-menu px-3" aria-labelledby="seldtl" style="min-width:450px;">
+					<div class="dropdown-menu position-relative px-3" aria-labelledby="seldtl" style="min-width:450px;">
 						<h6 class="font-weight-semi-bold text-black">Seller Details</h6>
 						<div class="row">
 							<div class="col-6">
@@ -627,11 +827,11 @@
 					</div>
 				</div>
 				<div class="dropdown mr-2 d-inline-block">
-					<button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="Budget"
+					<button class="btn btn-outline-primary btn-sm dropdown-toggle px-2 py-2 fs-14" type="button" id="Budget"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Budget
 					</button>
-					<div class="dropdown-menu px-3" aria-labelledby="Budget" style="min-width:450px;">
+					<div class="dropdown-menu position-relative px-3" aria-labelledby="Budget" style="min-width:450px;">
 						<h6 class="font-weight-semi-bold text-black">Budget</h6>
 						<div class="row">
 							<div class="form-group col-6">
@@ -659,11 +859,11 @@
 					</div>
 				</div>
 				<div class="dropdown mr-2 d-inline-block">
-					<button class="btn btn-outline-primary btn-sm dropdown-toggle" type="button" id="dtime"
+					<button class="btn btn-outline-primary btn-sm dropdown-toggle px-2 py-2 fs-14" type="button" id="dtime"
 						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						Delivery Time
 					</button>
-					<div class="dropdown-menu px-3" aria-labelledby="dtime" style="min-width:300px;">
+					<div class="dropdown-menu position-relative px-3" aria-labelledby="dtime" style="min-width:300px;">
 						<h6 class="font-weight-semi-bold text-black">Delivery Time</h6>
 						<div class="form-check d-flex align-items-center text-nowrap">
 							<input type="radio" class="form-check-input mt-0" id="">
@@ -730,12 +930,21 @@
 			</div>
 		</div>
 		<div class="clear py-1"></div>
+
+		<div class="my-5 d-none">
+			<div class="align-items-center d-flex empty-state flex-column justify-content-center text-center">
+				<img src="images/empty-state.jpg" width="300" height="300">
+				<p class="fs-16 fw-semibold max-w-30 mb-2">Whoops, we could not find any gig for the keywords that you entered in a filter.</p>
+				<p class="fw-semibold">Try another search</p>
+			</div>
+		</div>
+
 		<div class="d-flex justify-content-between align-items-center">
 			<strong class="font-weight-semi-bold">9,949 services available</strong>
 			<div class="form-inline">
 				<div class="form-group">
-					<label for="sort">Sort by</label>
-					<select class="form-control form-control-sm mx-sm-3">
+					<label for="sort">Sort by:</label>
+					<select class="form-control form-control-sm border-0 fw-medium ">
 						<option>Best Selling</option>
 						<option>Recommended</option>
 						<option>Newest Arrivals</option>
@@ -1614,7 +1823,7 @@
 
 	<script>
 		$(document).ready(function () {
-			var owl = $('.owl-carousel');
+			var owl = $('#owl-carousel');
 			owl.owlCarousel({
 				margin: 10,
 				nav: true,
@@ -1643,6 +1852,38 @@
 			})
 		})
 	</script>
+
+<script>
+	$(document).ready(function () {
+		var owl = $('#free-tabs-owl-carousel');
+		owl.owlCarousel({
+			margin: 10,
+			nav: true,
+			loop: true,
+			autoplay: false,
+			autoplayTimeout: 2000,
+			autoplayHoverPause: true,
+			animateOut: 'slideOutDown',
+			animateIn: 'flipInX',
+			smartSpeed: 450,
+			responsive: {
+				0: {
+					items: 2
+				},
+				768: {
+					items: 3
+				},
+				992: {
+					items: 4
+				}
+				,
+				1200: {
+					items: 6
+				}
+			}
+		})
+	})
+</script>
 </body>
 
 </html>

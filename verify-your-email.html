@@ -42,20 +42,25 @@
 					</div>
 					<div class="mt-5 pt-2">
 						<h1 class="text-primary text-center fs-30">
-							Verification Email Sent
+							Email Verification 
 						</h1>
 						<div class="card-body">
 							<form class="d-flex align-items-center justify-content-center">
-								<p class="text-center mb-0 max-w-25">We have sent you a verification at <strong
+								<p class="text-center mb-0 max-w-25">We have sent you a verification code at <strong
 									class="text-dark">mr.no******@gmail.com</strong></p>
 							</form>
-							<hr>
-							<p class="text-center">Didn't receive an email from us yet? click the button below.</p>
+							<div class="input-code row gx-4 d-flex flex-nowrap mb-3">
+                                <input class="form-control col mx-2" type="tel" pattern="[0-9]{1}" maxlength="1">
+                                <input class="form-control col mx-2" type="tel" pattern="[0-9]{1}" maxlength="1">
+                                <input class="form-control col mx-2" type="tel" pattern="[0-9]{1}" maxlength="1">
+                                <input class="form-control col mx-2" type="tel" pattern="[0-9]{1}" maxlength="1">
+                            </div>
+							<p class="text-center">Didn’t received the code? <a href="sign-in.html" class="href-primary">Resend OTP <i class="fa fa-redo fs-13"></i></a></p>
 							<div class="form-row">
 								<div class="col-12">
-									<button class="btn btn-primary btn-block py-2">
-										 Resend Link
-									</button>
+									<a class="btn btn-primary btn-block py-2" href="signin.html">
+										 Verify <i class="fa fa-long-arrow-alt-right ms-2"></i>
+									</a>
 								</div>
 							</div>
 	

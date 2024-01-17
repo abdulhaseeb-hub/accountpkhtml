@@ -74,7 +74,7 @@
 							</svg>
 						</button>
 					</div>
-
+	
 					<div class="dropdown ">
 						<div class="nav-item notification-item toggle-item me-2" data-toggle="dropdown"
 							aria-expanded="false">
@@ -84,37 +84,93 @@
 								</svg>
 							</button>
 						</div>
-
-						<div class="dropdown-menu dropdown-menu-notifications ">
-							<div class="header">
-								<div>Notifications</div>
+	
+						<div class="dropdown-menu dropdown-menu-notifications rounded-top-end-10 rounded-top-start-10 rounded-bottom-end-10 rounded-bottom-start-10">
+							<div class="header rounded-top-end-10 rounded-top-start-10">
+								<div class="text-white">You have <font class="fs-20">10</font> new<br>
+									notifications
+									</div>
+								<div>
+									<a href="notification-details.html" class="btn btn-primary fs-12 btn-sm border-gray-1200">View All</a>
+								</div>
 							</div>
-							<ul class="list-group list-group-p10 body">
-								<li class="list-group-item">
-									<div class="media">
-										<i class="fa fa-bell  avatar"></i>
-										<div class="media-body ml-2">
-											<div class="title"> Your Order Was Delivered
+							<ul class="list-group list-group-p10 body height-px-475 overflow-auto  rounded-bottom-end-10 rounded-bottom-start-10">
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances</p>
+		
+												<span>June 06, 2023, 5:39:09 PM</span>
 											</div>
-											<a href="#">Check Work Attachment</a>
-
-											<span>5 hours ago</span>
 										</div>
-									</div>
+									</a>
 								</li>
-
-								<li class="list-group-item">
-									<div class="media">
-										<i class="fa fa-bell  avatar"></i>
-										<div class="media-body ml-2">
-											<div class="title"> Your Order Was Delivered
+	
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances</p>
+		
+												<span>June 06, 2023, 5:39:09 PM</span>
 											</div>
-											<a href="#">Check Work Attachment</a>
-
-											<span>5 hours ago</span>
 										</div>
-									</div>
+									</a>
 								</li>
+	
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances</p>
+		
+												<span>June 06, 2023, 5:39:09 PM</span>
+											</div>
+										</div>
+									</a>
+								</li>
+	
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances</p>
+		
+												<span>June 06, 2023, 5:39:09 PM</span>
+											</div>
+										</div>
+									</a>
+								</li>
+	
+	
+								<!-- <div class="align-items-center d-flex flex-column h-100 justify-content-center">
+									<img src="images/Notification Bell Icon.png" class="height-px-100 mb-50 width-px-100">
+									<div class="mb-2 title fs-20"> No Notification Yet
+									</div>
+									<p class="fs-14 line-clamp-2">You have no notification right now.
+										Come back later</p>
+								</div> -->
 							</ul>
 						</div>
 					</div>
@@ -900,11 +956,31 @@
 							<label class="fs-16 font-weight-semi-bold">Attached Files
 							</label>
 
-							<div class="form-row px-2">
-								<a class="me-4" href="#"><i class="fas fa-paperclip mr-2"></i>File 1</a>
-								<a class="me-4" href="#"><i class="fas fa-paperclip mr-2"></i>File 2</a>
-								<a class="" href="#"><i class="fas fa-paperclip mr-2"></i>File 3</a>
-							</div>
+							<div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+                                <div class="d-flex gap-14">
+                                    <div><img src="images/Chat Icons SVG/jpg.svg" class="width-px-26 height-px-30"></div>
+                                    <div>
+                                        <h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+                                        <span class="fs-12">PNG . 30 mb</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa fa-eye fs-14 me-3" title="View"></i>
+                                </div>
+                            </div>
+
+							<div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+                                <div class="d-flex gap-14">
+                                    <div><img src="images/Chat Icons SVG/rar-format.svg" class="width-px-26 height-px-30"></div>
+                                    <div>
+                                        <h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+                                        <span class="fs-12">PNG . 30 mb</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa fa-eye fs-14 me-3" title="View"></i>
+                                </div>
+                            </div>
 						</div>
 
 					</div>

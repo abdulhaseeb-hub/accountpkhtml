@@ -1,0 +1,1658 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<meta http-equiv='cache-control' content='no-cache'>
+<meta http-equiv='expires' content='0'>
+<meta http-equiv='pragma' content='no-cache'>
+
+<!-- Title-->
+<title>Accountant.PK</title>
+
+<!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Custom styles for this template -->
+<link href="css/style.css" rel="stylesheet">
+
+<!-- Fontawesome icons css -->
+<link rel="stylesheet" href="css/font-awesome.css">
+
+<!-- Favicon icon -->
+<link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand">
+                <a href="index.html"><img src="images/myjobs.png" alt="myjob.pk" height="40"></a>
+            </span>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item d-lg-block d-none">
+						<a class="nav-link btn btn-primary text-white mx-2" href="#" data-toggle="modal"
+							data-target="#mapps"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
+					</li>
+				</ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item me-4 my-2">
+                        <a class="c-header__icon c-header__link text-black" href="signin.html" id="topnav-sign-in">
+                            <svg role="img" class="c-header__icon__ico  u-svg-ico height-px-18 width-px-18 me-1" viewBox="0 0 17 15" height="15"
+                                width="15">
+                                <path fill="currentColor"
+                                    d="M15.1 0H9C7.9 0 7 .8 7 1.8v1.6c0 .2.2.4.5.4.2 0 .4-.2.4-.4V1.8c0-.5.5-.9 1-1H15c.6 0 1 .5 1 1v11.4c0 .3-.1.5-.3.7a1 1 0 0 1-.7.2H9a1 1 0 0 1-1-.9v-1.5c0-.3-.2-.5-.4-.5-.3 0-.5.2-.5.5v1.5c0 1 .8 1.8 1.9 1.8h6c1 0 1.9-.8 1.9-1.8V1.8c0-1-.8-1.8-1.9-1.8z">
+                                </path>
+                                <path fill="currentColor"
+                                    d="M11.4 6.8H.4c-.2 0-.4.2-.4.5 0 .2.2.4.5.4h11l-2.4 2.6v.6c.3.2.6.1.7 0l3-3.3.2-.3-.1-.3-3-2.9-.4-.1-.3.1-.2.3c0 .1 0 .2.2.3l2.2 2.1z">
+                                </path>
+                            </svg>
+                            <span class="text-uppercase">Sign In</span>
+                        </a>
+                    </li>
+
+					<li class="nav-item me-4 my-2 pl-0">
+                        <a class="c-header__icon c-header__link text-black" href="signup.html" id="topnav-join-now">
+                            <svg role="img" class="c-header__icon__ico u-svg-ico height-px-18 width-px-18 me-1" viewBox="0 0 15 15" height="14"
+                                width="14">
+                                <path
+                                    d="M13.6 9.6c-.2 0-.3.2-.3.4v3.2c0 .6-.5 1-1.1 1H1.8a1 1 0 0 1-1-1V3.8c0-.6.4-1 1-1h3.3c.2 0 .4-.2.4-.4S5.3 2 5 2H1.8C.8 2 0 2.8 0 3.8v9.4c0 1 .8 1.8 1.8 1.8h10.4c1 0 1.8-.8 1.8-1.8V10c0-.2-.2-.4-.4-.4z">
+                                </path>
+                                <path
+                                    d="M14 .5c-.6-.7-1.7-.7-2.3 0L5 7.2l-.1.1-.9 3.2a.4.4 0 0 0 .5.5l3.2-.9h.1l6.7-6.8c.7-.6.7-1.7 0-2.4l-.4-.4zm-8.2 7L11.3 2 13 3.7 7.6 9.2 5.8 7.4zm-.3.6l1.4 1.4-2 .6.6-2zM14 2.8l-.4.4-1.8-1.8.4-.4a1 1 0 0 1 1.3 0l.5.5c.3.3.3 1 0 1.3z">
+                                </path>
+                            </svg>
+                            <span class="text-uppercase">Sign Up</span>
+                        </a>
+                    </li>
+                </ul>
+
+				<div class=" d-lg-none d-flex flex-wrap gap-14 ps-18 mt-3 mobile-nav-footer justify-content-center w-100">
+					<a class="nav-link fs-14  btn btn-primary text-white" href="#" data-toggle="modal" data-target="#mapps"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
+				</div>
+            </div>
+        </div>
+    </nav>
+<div class="clear"></div>
+<section class="bg-light py-4">
+	<div class="container-fluid">
+		<div class="row align-items-center">
+			<div class="col-lg-8 m-auto">
+				<div class="shadow bg-white p-2">
+					<form class="form-row justify-content-center my-1">
+						<div class="form-group col-12 col-md-9 mb-0">
+							<input type="text" class="form-control" placeholder="Job Title, Skill or Company">
+						</div>
+						<div class="form-group col-12 col-md-3 mb-0  mt-2 mt-md-0">
+							<button type="button" class="btn btn-block btn-primary"><i
+									class="fas fa-map-marker-alt mr-1"></i> Search</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<div class="clear p-3"></div>
+<section class="container-fluid">
+	<div class="row">
+		<div class="col-12 col-md-3">
+			<div class="card">
+				<h5 class="card-header font-weight-semibold text-black">Filters</h5>
+				<form class="card-body mb-0">
+					<div class="multi-range-field form-group">
+                        <select class="form-control mb-3">
+                            <option>Please Select Currency</option>
+                            <option>$</option>
+                            <option>PKR</option>
+                        </select>
+						<label for="salary">Min. Salary</label>
+						<input id="salary" class="multi-range w-100" type="range" />
+						<small class="font-weight-medium text-dark d-flex justify-content-end">5,000 to 35,000 $</small>
+					</div>	
+                    
+                    <div class="card filters">
+						<h5 class="card-header" data-toggle="collapse" data-target="#city" aria-expanded="false" aria-controls="city">Country City</h5>
+						<div class="collapse show" id="city">
+							<div class="card-body">
+
+                                <select class="form-control mb-3">
+                                    <option>Please Select Country</option>
+                                    <option>Japan</option>
+                                    <option>India</option>
+                                </select>
+
+								
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="Lahore">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="Lahore">
+										Japan, Tokyo <span class="text-muted">568</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="Islamabad">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="Islamabad">
+										Japan, Tokyo <span class="text-muted">439</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="Rawalpindi">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="Rawalpindi">
+										Japan, Tokyo <span class="text-muted">587</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="Multan">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="Multan">
+										Japan, Tokyo <span class="text-muted">92</span>
+									</label>
+								</div>
+								
+								<div class="collapse" id="cityMore">
+									<div class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input" id="Faisalabad">
+										<label class="custom-control-label w-100 d-flex justify-content-between" for="Faisalabad">
+											Japan, Tokyo <span class="text-muted">32</span>
+										</label>
+									</div>
+									<div class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input" id="Gujranwala">
+										<label class="custom-control-label w-100 d-flex justify-content-between" for="Gujranwala">
+											Japan, Tokyo <span class="text-muted">56</span>
+										</label>
+									</div>
+								</div>
+								<a class="btn btn-link btn-sm p-0" data-toggle="collapse" href="#cityMore" role="button" aria-expanded="false" aria-controls="cityMore">show more</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="card filters">
+						<h5 class="card-header" data-toggle="collapse" data-target="#jobTitle" aria-expanded="false" aria-controls="jobTitle">Job Title</h5>
+						<div class="collapse show" id="jobTitle">
+							<div class="card-body">
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="1">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="1">
+										Sales Executive <span class="text-muted">32</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="2">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="2">
+										Graphic Designer <span class="text-muted">26</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="3">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="3">
+										Call Center Agent <span class="text-muted">21</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="4">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="4">
+										Business Development Executive <span class="text-muted">17</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="5">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="5">
+										Software Developer <span class="text-muted">15</span>
+									</label>
+								</div>
+								
+								<div class="collapse" id="jobMore">
+									<div class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input" id="6">
+										<label class="custom-control-label w-100 d-flex justify-content-between" for="6">
+											Sales Executive <span class="text-muted">32</span>
+										</label>
+									</div>
+									<div class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input" id="7">
+										<label class="custom-control-label w-100 d-flex justify-content-between" for="7">
+											Graphic Designer <span class="text-muted">26</span>
+										</label>
+									</div>
+								</div>
+								<a class="btn btn-link btn-sm p-0" data-toggle="collapse" href="#jobMore" role="button" aria-expanded="false" aria-controls="jobMore">show less</a>
+							</div>
+						</div>						
+					</div>
+					
+					
+					
+					<div class="card filters">
+						<h5 class="card-header" data-toggle="collapse" data-target="#experience" aria-expanded="false" aria-controls="experience">Experience</h5>
+						<div class="collapse show" id="experience">
+							<div class="card-body">
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="Fresh">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="Fresh">
+										Fresh <span class="text-muted">250</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="less">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="less">
+										Less than <span class="text-muted">1</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="Year">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="Year">
+										Year <span class="text-muted">110</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="1year">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="1year">
+										1 Year <span class="text-muted">587</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="2years">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="2years">
+										2 Years <span class="text-muted">92</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card filters">
+						<h5 class="card-header" data-toggle="collapse" data-target="#jobtype" aria-expanded="false" aria-controls="jobtype">Job Type</h5>
+						<div class="collapse show" id="jobtype">
+							<div class="card-body">
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="ptime">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="ptime">
+										Part Time <span class="text-muted">958</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card filters">
+						<h5 class="card-header" data-toggle="collapse" data-target="#skills" aria-expanded="false" aria-controls="skills">Skills</h5>
+						<div class="collapse show" id="skills">
+							<div class="card-body">
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="js">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="js">
+										JavaScript <span class="text-muted">4</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="MySQL">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="MySQL">
+										MySQL <span class="text-muted">26</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="ts">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="ts">
+										Typescript <span class="text-muted">21</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="az">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="az">
+										Azure <span class="text-muted">32</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="php">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="php">
+										CorePHP <span class="text-muted">26</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card filters">
+						<h5 class="card-header" data-toggle="collapse" data-target="#carerlavel" aria-expanded="false" aria-controls="carerlavel">Career Level</h5>
+						<div class="collapse show" id="carerlavel">
+							<div class="card-body">
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="expp">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="expp">
+										Experienced Professional <span class="text-muted">4</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="entryl">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="entryl">
+										Entry Level <span class="text-muted">26</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="intern">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="intern">
+										Intern/Student <span class="text-muted">21</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card filters">
+						<h5 class="card-header" data-toggle="collapse" data-target="#industry" aria-expanded="false" aria-controls="industry">Industry</h5>
+						<div class="collapse show" id="industry">
+							<div class="card-body">
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="IT">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="IT">
+										Information Technology <span class="text-muted">8</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="edu">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="edu">
+										Education/Training <span class="text-muted">3</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="bank">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="bank">
+										Banking/Financial Services <span class="text-muted">2</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="consult">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="consult">
+										Consultants <span class="text-muted">1</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="PR">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="PR">
+										Advertising / PR <span class="text-muted">8</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card filters">
+						<h5 class="card-header" data-toggle="collapse" data-target="#gander" aria-expanded="false" aria-controls="gander">Gander</h5>
+						<div class="collapse show" id="gander">
+							<div class="card-body">
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="nop">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="nop">
+										No Preference <span class="text-muted">18</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="female">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="female">
+										Female <span class="text-muted">3</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="male">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="male">
+										Male <span class="text-muted">21</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card filters">
+						<h5 class="card-header" data-toggle="collapse" data-target="#farea" aria-expanded="false" aria-controls="farea">Functional Area</h5>
+						<div class="collapse show" id="farea">
+							<div class="card-body">
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="softDev">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="softDev">
+										Software & Web Development <span class="text-muted">9</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="teacher">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="teacher">
+										Teachers/Education, Development <span class="text-muted">31</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="sal">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="sal">
+										Sales & Business Development <span class="text-muted">21</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="qa">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="qa">
+										Quality Assurance (QA) <span class="text-muted">21</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="sec">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="sec">
+										Secretarial, Clerical & Front Office <span class="text-muted">21</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="card filters">
+						<h5 class="card-header" data-toggle="collapse" data-target="#company" aria-expanded="false" aria-controls="company">Company</h5>
+						<div class="collapse show" id="company">
+							<div class="card-body">
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="TopSyntax">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="TopSyntax">
+										TopSyntax Inc <span class="text-muted">4</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="Achtech">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="Achtech">
+										Achtech <span class="text-muted">31</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="Salam">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="Salam">
+										Salamtutor <span class="text-muted">21</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="alpha">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="alpha">
+										Alpha Business International <span class="text-muted">21</span>
+									</label>
+								</div>
+								<div class="custom-control custom-checkbox mb-2">
+									<input type="checkbox" class="custom-control-input" id="BCloud">
+									<label class="custom-control-label w-100 d-flex justify-content-between" for="BCloud">
+										Bluestack Cloud <span class="text-muted">21</span>
+									</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-flex w-100 justify-content-between py-3 bg-white sticky-bottom z-index-9">
+						<button type="reset" class="btn btn-primary btn-100 py-2">Search</button>
+						<button type="reset" class="btn btn-outline-primary btn-100 py-2">Reset</button>
+					</div>
+				</form>
+				
+			</div>
+		</div>
+		<div class="col-12 col-md-6">
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/verified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">Telecommunication</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+                              <img src="images/ae.svg" width="16px" height="16px" class="me-2">
+                                Dubai</span>
+								<span class="text-muted ps-1">
+									Ajman,
+								</span>
+								<span class="text-muted ps-1">
+									Sharjah
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/verified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">3D Artist / Graphic Designer / CG Artist</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+								<img src="images/zw.svg" width="16px" height="16px" class="me-2">
+                                Zimbabwe</span>
+								<span class="text-muted ps-1">
+									Harare,
+								</span>
+								<span class="text-muted ps-1">
+									Mutare
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/verified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">Telecommunication</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+                              <img src="images/ae.svg" width="16px" height="16px" class="me-2">
+                                Dubai</span>
+								<span class="text-muted ps-1">
+									Ajman,
+								</span>
+								<span class="text-muted ps-1">
+									Sharjah
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/verified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">3D Artist / Graphic Designer / CG Artist</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+								<img src="images/zw.svg" width="16px" height="16px" class="me-2">
+                                Zimbabwe</span>
+								<span class="text-muted ps-1">
+									Harare,
+								</span>
+								<span class="text-muted ps-1">
+									Mutare
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/unverified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">Telecommunication</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+                              <img src="images/ae.svg" width="16px" height="16px" class="me-2">
+                                Dubai</span>
+								<span class="text-muted ps-1">
+									Ajman,
+								</span>
+								<span class="text-muted ps-1">
+									Sharjah
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/unverified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">3D Artist / Graphic Designer / CG Artist</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+								<img src="images/zw.svg" width="16px" height="16px" class="me-2">
+                                Zimbabwe</span>
+								<span class="text-muted ps-1">
+									Harare,
+								</span>
+								<span class="text-muted ps-1">
+									Mutare
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/verified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">Telecommunication</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+                              <img src="images/ae.svg" width="16px" height="16px" class="me-2">
+                                Dubai</span>
+								<span class="text-muted ps-1">
+									Ajman,
+								</span>
+								<span class="text-muted ps-1">
+									Sharjah
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/verified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">3D Artist / Graphic Designer / CG Artist</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+								<img src="images/zw.svg" width="16px" height="16px" class="me-2">
+                                Zimbabwe</span>
+								<span class="text-muted ps-1">
+									Harare,
+								</span>
+								<span class="text-muted ps-1">
+									Mutare
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">
+					Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....
+				</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/verified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">Telecommunication</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+                              <img src="images/ae.svg" width="16px" height="16px" class="me-2">
+                                Dubai</span>
+								<span class="text-muted ps-1">
+									Ajman,
+								</span>
+								<span class="text-muted ps-1">
+									Sharjah
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/unverified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">3D Artist / Graphic Designer / CG Artist</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+								<img src="images/zw.svg" width="16px" height="16px" class="me-2">
+                                Zimbabwe</span>
+								<span class="text-muted ps-1">
+									Harare,
+								</span>
+								<span class="text-muted ps-1">
+									Mutare
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/verified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">Telecommunication</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+                              <img src="images/ae.svg" width="16px" height="16px" class="me-2">
+                                Dubai</span>
+								<span class="text-muted ps-1">
+									Ajman,
+								</span>
+								<span class="text-muted ps-1">
+									Sharjah
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....</div>
+			</a>
+			<div class="clear p-3"></div>
+			<a href="#" class="shadow bg-white d-block text-dark" data-toggle="modal" data-target="#job1-detail">
+				<div class="row align-items-center">
+					<div class="col-4 col-lg-3 text-center">
+						<div class="py-3 ml-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">						
+						</div>
+						<div class="text-center ml-3 mt-1">
+							<img src="images/unverified.png" width="60%">
+						</div>
+					</div>
+					<div class="col-8 col-lg-9 border-left py-3">
+						<h6 class="text-dark font-weight-semi-bold text_16">3D Artist / Graphic Designer / CG Artist</h6>
+						<p class="mb-0 bg-gray-300 mb-0 p-1 d-inline-block min-w-230  fw-medium pe-2">
+							<span class="text-muted border-end-2 pe-2">
+								<img src="images/zw.svg" width="16px" height="16px" class="me-2">
+                                Zimbabwe</span>
+								<span class="text-muted ps-1">
+									Harare,
+								</span>
+								<span class="text-muted ps-1">
+									Mutare
+								</span>
+						</p>
+						<p class="flex-wrap d-flex justify-content-between">
+							<strong class="text-danger">30,000 to 40,000 $</strong>
+							<span class="text-primary mr-3">Exp. 3 Years</span>
+						</p>
+						<small class="d-flex flex-wrap gap-8 justify-content-between w-100 pr-3">
+							<span><i class="far fa-calendar-alt mr-2"></i> Feb 24, 2021</span>
+							<span><i class="fas fa-calendar-alt mr-2"></i> Feb 25, 2021</span>
+							<span><i class="far fa-clock mr-2"></i> 5 Days</span>
+						</small>
+					</div>
+				</div>
+				<div class="py-2 px-3 text_12">
+					Manage and supervise all bakery outlets. Supervise all baking and branch staff Ensure that bakery is adequately stocked with all the supplies and baking ingredients ....
+				</div>
+			</a>
+			<div class="clear p-3"></div>
+			<nav aria-label="Page navigation example">
+				<ul class="pagination justify-content-center">
+					<li class="page-item disabled">
+						<a class="page-link" href="#" tabindex="-1">Previous</a>
+					</li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">3</a></li>
+					<li class="page-item"><a class="page-link" href="#">....</a></li>
+					<li class="page-item">
+						<a class="page-link" href="#">Next</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="col-12 col-md-3">
+			<div class="card card-body bg-primary">
+				<div class="row align-items-center">
+					<div class="col-6"><img src="images/app-cells.png" class="img-fluid"></div>
+					<div class="col-6">
+						<h5 class="text-white font-weight-medium">Explore New Opportunities on the GO!</h5>
+						<div class="form-row">
+							<div class="col-6">
+								<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid"></a>
+							</div>
+							<div class="col-6">
+								<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="card">
+				<div class="card-header bg-info">
+					<h5 class="text-white mb-0">Create Job Alert</h5>				
+				</div>
+				<form class="card-body">
+					<div class="form-group">
+						<label for="keyword">Keywords <i class="text-danger ml-2">*</i></label>
+						<input type="text" class="form-control mb-1" placeholder="">
+						<span class="text-dark">Keyword is</span><br>
+						<label class="font-weight-normal btn btn-light-secondary btn-sm shadow-none mb-1">
+							<input type="radio" name="keyword"> Company
+						</label>
+						<label class="font-weight-normal btn btn-light-secondary btn-sm shadow-none mb-1">
+							<input type="radio" name="keyword"> Skills
+						</label>
+						<label class="font-weight-normal btn btn-light-secondary btn-sm shadow-none mb-1">
+							<input type="radio" name="keyword"> Industry
+						</label>
+						<label class="font-weight-normal btn btn-light-secondary btn-sm shadow-none mb-1">
+							<input type="radio" name="keyword"> Job Title
+						</label>
+						<label class="font-weight-normal btn btn-light-secondary btn-sm shadow-none mb-1">
+							<input type="radio" name="keyword"> Functional Area
+						</label>
+					</div>
+					<div class="form-group">
+						<label for="career">Career Level <i class="text-danger ml-2">*</i></label>
+						<select class="form-control" id="career">
+							<option>Inter / Student</option>
+							<option>Entry Level</option>
+							<option>Experienced Professional</option>
+							<option>Department Head </option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="uexp">Your Experience <i class="text-danger ml-2">*</i></label>
+						<select class="form-control" id="uexp">
+							<option>No Required</option>
+							<option>Fresh</option>
+							<option>Less then 1 Year</option>
+							<option>1 Year</option>
+							<option>2 Year</option>
+							<option>35 Year</option>
+							<option>1,000,000</option>
+							<option>More then 35 Year</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="expsalary">Your Expected Salary (PKR) <i class="text-danger ml-2">*</i></label>
+						<select class="form-control" id="expsalary">
+							<option>Select Salary</option>
+							<option>5000</option>
+							<option>6000</option>
+							<option>7000</option>
+							<option>100000</option>
+							<option>200000</option>
+							<option>1,000,000 +</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="city">City <i class="text-danger ml-2">*</i></label>
+						<select class="form-control" id="city">
+							<option>Select City</option>
+						</select>
+					</div>
+					<button type="submit" class="btn btn-block btn-primary">SAVE</button>
+				</form>
+			</div>			
+		</div>
+	</div>
+</section>
+<div class="clear p-2"></div>
+<footer class="footer pt-2">
+	<div class="container-fluid py-4">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs by Industry</h4>
+				<ul class="uilinks">
+					<li><a href="#">Information Technology Jobs</a></li>
+					<li><a href="#">Education/Training Jobs</a></li>
+					<li><a href="#">Services Jobs</a></li>
+					<li><a href="#">Real Estate/Property Jobs</a></li>
+					<li><a href="#">Manufacturing Jobs</a></li>
+					<li><a href="#">Recruitment / Employment Firms Jobs</a></li>
+					<li><a href="#">Banking/Financial Services Jobs</a></li>
+					<li><a href="#">Healthcare / Hospital / Medical Jobs</a></li>
+					<li><a href="#">N.G.O./Social Services Jobs</a></li>
+					<li><a href="#">Business Development Jobs</a></li>
+                </ul>
+				<div class="clear py-2"></div>
+				<h4>Jobs by Functional Area</h4>
+				<ul class="uilinks">
+					<li><a href="#">Accounting Jobs</a></li>
+					<li><a href="#">Admin Jobs</a></li>
+					<li><a href="#">Autos Jobs</a></li>
+					<li><a href="#">Computer Hardware Jobs</a></li>
+					<li><a href="#">Computer Software Jobs</a></li>
+					<li><a href="#">Construction Jobs</a></li>
+					<li><a href="#">Consulting Jobs</a></li>
+					<li><a href="#">Customer Service Jobs</a></li>
+					<li><a href="#">Education Jobs</a></li>
+					<li><a href="#">Engineering Jobs</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Jobs in Cites</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Islamabad</a></li>
+                    <li><a href="#">Jobs in Karachi</a></li>
+                    <li><a href="#">Jobs in Lahore</a></li>
+					<li><a href="#">Jobs in Rawalpindi</a></li>
+                    <li><a href="#">Jobs in Peshawar</a></li>
+					<li><a href="#">Jobs in Faisalabad</a></li>
+					<li><a href="#">Jobs in Queta</a></li>
+					<li><a href="#">Jobs in Multan</a></li>
+                    <li><a href="#">Jobs in Gujrawala</a></li>
+                    <li><a href="#">Jobs in Haider-abad</a></li>
+                </ul>
+				<div class="clear py-2"></div>
+				<h4>Jobs in Other Countries</h4>
+				<ul class="uilinks">
+					<li><a href="#">Jobs in Australia</a></li>
+                    <li><a href="#">Jobs in Bangladesh</a></li>
+                    <li><a href="#">Jobs in Bahrain</a></li>
+                    <li><a href="#">Jobs in Brazil</a></li>
+                    <li><a href="#">Jobs in Canada</a></li>
+                    <li><a href="#">Jobs in United Kingdom</a></li>
+                    <li><a href="#">Jobs in Jordan</a></li>
+                    <li><a href="#">Jobs in Sri Lanka</a></li>
+                    <li><a href="#">Jobs in Malaysia</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>Freelancing Category</h4>
+				<ul class="uilinks">
+					<li><a href="#">Graphics & Design</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Writing & Translation</a></li>
+                    <li><a href="#">Video & Animation</a></li>
+                    <li><a href="#">Music & Audio</a></li>
+                    <li><a href="#">Programming & Tech</a></li>
+                    <li><a href="#">Data</a></li>
+                    <li><a href="#">Business</a></li>
+                    <li><a href="#">Lifestyle</a></li>
+                    <li><a href="#">Photography</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+				<div class="clear p-2"></div>
+				<h4>Online Recruitment</h4>
+				<ul class="uilinks">
+					<li><a href="#">Online Recruitment Solutions</a></li>
+                    <li><a href="#">Job Posting Packages</a></li>
+                    <li><a href="#">Post Job Free</a></li>
+                    <li><a href="#">Online Resumes Search</a></li>
+                    <li><a href="#">Search Professionals</a></li>
+                 </ul>
+			</div>
+			<div class="col-12 col-sm-6 col-md-4 col-lg-3">
+				<h4>About Us</h4>
+				<ul class="uilinks">
+					<li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Safe Jobs Search Pakistan</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Picture Policy</a></li>
+                    <li><a href="#">Disclaimer</a></li>
+                    <li><a href="#">Terms of Services</a></li>
+                    <li><a href="#">Signup Now</a></li>
+                    <li><a href="#">Companies Pakistan</a></li>
+                    <li><a href="#">Clear Cache</a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4>Follow Us</h4>
+				<ul class="social">
+					<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                 </ul>
+				<div class="clear p-2"></div>
+				<h4 class="pb-2">Download App</h4>
+				<a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid" width="100"></a> &nbsp; 
+				<a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid" width="100"></a>
+			</div>
+		</div>
+	</div>
+	<div class="clear"></div>
+	<div class="copy">
+		Copyright &copy; 2022 <a href="#">Accountant.PK</a> | Allrights reserved.
+	</div>
+</footer>
+
+<!--- Job Detail Modal ---->
+<div class="modal fade job-modal" id="job1-detail" tabindex="-1" role="dialog" aria-labelledby="job1-detailTitle" aria-hidden="true">
+	<div class="modal-dialog shadow shadow-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header justify-content-between align-items-center">
+				<h5 class="modal-title" id="job1-detailTitle">Job Details</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body pt-0">
+				<div class="row align-items-center bg-light">
+					<div class="col-4 col-lg-2 text-center">
+						<div class="py-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">						
+						</div>
+						<img src="images/verified.png" class="img-center mt-1">
+					</div>
+					<div class="col-8 col-lg-10 border-left py-3">
+						<h5 class="text-dark font-weight-bold">IR Technologies (Pvt.ltd)</h5>
+						<h6 class="font-weight-semi-bold text-primary">Accountant</h6>
+						<p class="mb-1"><i class="fas fa-map-marker-alt mr-1 text-dark"></i> Islamabad | Pakistan</p>
+						<p class="mb-0 text-nowrap">
+							<i class="far fa-calendar-alt mr-1 text-dark"></i> Posted 3 Days Ago
+							<a href="#" class="ml-4 mr-1 text-dark" data-toggle="modal" data-target="#report">
+								<i class="far fa-flag mr-1 text-danger"></i> Report This Job
+							</a>
+							<a href="#" class="ml-4 mr-1 text-dark" data-toggle="modal" data-target="#share">
+								<i class="fas fa-share-alt mr-1"></i> Share This Job
+							</a>
+						</p>
+					</div>
+				</div>
+				
+				<div class="clear p-2"></div>
+				
+				<button type="button" data-dismiss="modal" class="btn btn-primary mr-1" data-toggle="modal" data-target="#job1-apply">Apply</button>
+				<button class="btn btn-success">Saved Job</button>
+				
+				<div class="clear p-2"></div>
+				<p>By pressing apply, you will see questions from the employer that are part of this application.</p>
+				<div class="well">
+					<h6 class="font-weight-semi-bold text_14">More than your expected salary</h6>
+					<div class="form-row align-items-center">
+						<div class="col-1 text-center">
+							<a href="#" class="fas fa-minus-circle text_18 text-body"></a>
+						</div>
+						<div class="col-10 bg-white">
+							<div class="row">
+								<div class="col-5 bg-primary text-center text-white py-1">Your Salary <small>(15,000 PKR)</small></div>
+								<div class="col-6 bg-success text-center text-white py-1">This Jobs Salary <small>(35,000 PKR)</small></div>
+							</div>
+						</div>
+						<div class="col-1 text-center">
+							<a href="#" class="fas fa-plus-circle text_18 text-body"></a>
+						</div>
+					</div>
+				</div>
+				<div class="well">
+				<h6 class="font-weight-semi-bold text_14">Less than your expected salary</h6>
+				<div class="form-row align-items-center">
+					<div class="col-1 text-center">
+						<a href="#" class="fas fa-minus-circle text_18 text-body"></a>
+					</div>
+					<div class="col-10 bg-white">
+						<div class="row">
+							<div class="col-5 bg-primary text-center text-white py-1">Your Salary <small>(15,000 PKR)</small></div>
+							<div class="col-6 bg-danger text-center text-white py-1">This Jobs Salary <small>(14,000 PKR)</small></div>
+						</div>
+					</div>
+					<div class="col-1 text-center">
+						<a href="#" class="fas fa-plus-circle text_18 text-body"></a>
+					</div>
+				</div>
+			</div>
+				<div class="well">
+				<h6 class="font-weight-semi-bold text_14">Equal to your expected salary</h6>
+				<div class="form-row align-items-center">
+					<div class="col-1 text-center">
+						<a href="#" class="fas fa-minus-circle text_18 text-body"></a>
+					</div>
+					<div class="col-10 bg-white">
+						<div class="row">
+							<div class="col-11 bg-success text-center text-white py-1">This job salary matches with your expected salary <small>(35,000 PKR)</small></div>
+						</div>
+					</div>
+					<div class="col-1 text-center">
+						<a href="#" class="fas fa-plus-circle text_18 text-body"></a>
+					</div>
+				</div>
+			</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-6 alert alert-success border-radius-0 p-3">
+							<div class="media">
+								<i class="far fa-calendar-alt align-self-center mr-2 text_16"></i>
+								<div class="media-body align-self-center">
+									<strong class="font-weight-medium mr-2">Published Date</strong>
+									Feb 22, 2022
+								</div>
+							</div>
+						</div>
+						<div class="col-6 alert alert-danger border-radius-0 p-3">
+							<div class="media">
+								<i class="far fa-calendar-alt align-self-center mr-2 text_16"></i>
+								<div class="media-body align-self-center">
+									<strong class="font-weight-medium mr-2">Last Date to Apply</strong>
+									March 22, 2022
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<ul class="nav nav-pills" id="myTab" role="tablist">
+					<li class="nav-item">
+						<a class="nav-link active" id="description-tab" data-toggle="tab" href="#description" role="tab" aria-controls="description" aria-selected="true">Job Description</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">About Company</a>
+					</li>
+				</ul>
+				<hr>
+				<div class="tab-content" id="myTabContent">
+					<div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+						<h6 class="font-weight-semi-bold text-dark">Job Description</h6>
+						<ul class="pl-3 text-black">
+							<li>Cash Handling</li>
+							<li>Accounts Reconcilation</li>
+							<li>MS word, Excel, Corel Draw, Illustrator, Adobe XD, Adobe Photo Shop, Word Press, HTML, App Development Tools</li>
+							<li>If you've done any graphic or web design (or hired someone to do design for you) you're probably familiar with</li>
+							<li>Latin dummy text that is used as a place holder during the planning stage.</li>
+							<li>Accounts Reconcilation</li>
+							<li>MS word, Excel, Corel Draw, Illustrator, Adobe XD, Adobe Photo Shop, Word Press, HTML, App Development Tools</li>
+						</ul>
+
+						<h6 class="font-weight-semi-bold text-dark">Job Skills</h6>				
+						<p class="d-flex">
+							<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">Negotiation Skills</span>
+							<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">Organization Skills</span>
+							<span class="btn btn-light-secondary btn-sm shadow-none mb-1 mr-1">Analytical Ability</span>
+						</p>
+						<h6 class="font-weight-semi-bold text-dark">Job Details</h6>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Salary:</strong>
+							<span class="col-8 text_18 font-weight-bold text-success">	PKR. 150,000 - 200,000/Month</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Industry:</strong>
+							<span class="col-8">Media/Communications</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Functional Area:</strong>
+							<span class="col-8">Operations</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Total Positions:</strong>
+							<span class="col-8">1 Post</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Job Type:</strong>
+							<span class="col-8">Full Time/Permanent</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Job Location:</strong>
+							<span class="col-8">Karachi, Pakistan</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Gender:</strong>
+							<span class="col-8">Male</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Minimum Education:</strong>
+							<span class="col-8">Bachelor</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Career Level:</strong>
+							<span class="col-8">Experienced Professional</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Experience:</strong>
+							<span class="col-8">3 Years - 5 Years (Working Experience with renowned bakeries)</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Apply Before:</strong>
+							<span class="col-8">Dec 15, 2022</span>
+						</p>
+						<p class="row mb-1">
+							<strong class="col-4 text-dark font-weight-semi-bold">Posting Date:</strong>
+							<span class="col-8">Dec 15, 2022</span>
+						</p>
+					</div>
+					<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+						<h6 class="font-weight-semi-bold text-dark">About IR Technologies (Pvt.ltd)</h6>
+						<p>Supporting Marine Corps logistics and supply chain in expeditionary environments where Marines were physically driving data across the battlefield. IR Tech was the driver behind moving Marine Corps deployed logistics information systems from mainframes and disks to on the ground modern applications.</p>
+
+						<p>Following that success we help the military and similar organizations increase the value of their logistics processes and information systems through our innovative technologies, services, and strategies. We strive to develop long lasting and mutually rewarding relationships with our clients. We work with our partners to streamline project plans that don’t just deliver on product perfection, but also delivers on time and on budget – crucial to success in a highly competitive market.</p>
+
+						<p>We focus on building and deploying systems and applications that support Marines and other users in deployed, Naval, expeditionary and similar challenging environments where a modern high bandwidth high speed network is not available.</p>
+
+						<p>Our team offers the most up-to-date, effective software development techniques and processes. IR Technologiesholds ISO:9001:2015 quality certification. What this means to our customers is that we build software and provide technical logistics services with uncompromising quality and performance. IR Technologies is ready to work with you to achieve your most important goals and help you gain or maintain a competitive edge.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!--- Apply Job Modal ---->
+<div class="modal fade job-modal" id="job1-apply" tabindex="-1" role="dialog" aria-labelledby="job1-applyTitle" aria-hidden="true">
+	<div class="modal-dialog shadow shadow-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="job1-applyTitle">Minimum criteria for Selection</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body pt-0">
+				<div class="row align-items-center bg-light">
+					<div class="col-4 col-lg-2 text-center">
+						<div class="py-3 img-thumbnail" style="height:85px; overflow:hidden;">
+							<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">						
+						</div>
+						<img src="images/verified.png" class="img-center mt-1">
+					</div>
+					<div class="col-8 col-lg-10 border-left py-3">
+						<h5 class="text-dark font-weight-bold">IR Technologies (Pvt.ltd)</h5>
+						<h6 class="font-weight-semi-bold text-primary">Accountant</h6>
+						<p class="mb-1"><i class="fas fa-map-marker-alt mr-1 text-dark"></i> Islamabad | Pakistan</p>
+						<p class="mb-0">
+							<i class="far fa-calendar-alt mr-1 text-dark"></i> Posted 3 Dyas Ago
+							<a href="#" class="ml-4 mr-1 text-dark" data-toggle="modal" data-target="#report">
+								<i class="far fa-flag mr-1 text-danger"></i> Report This Job
+							</a>
+							<a href="#" class="ml-4 mr-1 text-dark" data-toggle="modal" data-target="#share">
+								<i class="fas fa-share-alt mr-1"></i> Share This Job
+							</a>
+						</p>
+					</div>
+				</div>
+				
+				<div class="clear p-2"></div>
+				
+				<h5 class="font-weight-semi-bold text-dark">Required Skills</h5>
+				<div class="card p-2 mb-2">
+					<div class="row">
+						<div class="col-sm-12">
+							<h6 class="font-weight-semi-bold text-dark">Organization Skills</h6>
+							<small class="btn btn-primary btn-sm shadow-none mb-1">Intermediate</small>
+							<small class="btn btn-secondary btn-sm shadow-none mb-1">Yes</small>
+						</div>
+						<div class="col-sm-12 mt-1">
+							<select class="form-control form-control-sm">
+								<option>Yes</option>
+								<option>No</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="card p-2">					
+					<div class="row">
+						<div class="col-sm-12">
+							<h6 class="font-weight-semi-bold text-dark">Negotiation Skills</h6>
+							<small class="btn btn-primary btn-sm shadow-none mb-1">Expert</small>
+							<small class="btn btn-secondary btn-sm shadow-none mb-1">No</small>
+						</div>
+						<div class="col-sm-12 mt-1">
+							<select class="form-control form-control-sm">
+								<option>Yes</option>
+								<option>No</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				
+				<h5 class="font-weight-semi-bold text-dark">Required Qualification</h5>
+				<div class="card p-2">					
+					<div class="row">
+						<div class="col-sm-12">
+							<h6 class="font-weight-semi-bold text-dark">Masters</h6>
+							<small class="btn btn-primary btn-sm shadow-none mb-1">Intermediate</small>
+							<small class="btn btn-secondary btn-sm shadow-none mb-1">No</small>
+						</div>
+						<div class="col-sm-12 mt-1">
+							<select class="form-control form-control-sm">
+								<option>Yes</option>
+								<option>No</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				
+				<h5 class="font-weight-semi-bold text-dark">Required Year Of Experience</h5>
+				<div class="card p-2">
+					<div class="form-group mb-0">
+						<p>Computer Experience Must Required
+						</p>
+						<small class="btn btn-primary btn-sm shadow-none mb-1">1 Year to 5 Years</small>
+						<small class="btn btn-secondary btn-sm shadow-none mb-1">No</small>
+						<select class="form-control form-control-sm">
+							<option>1 Year</option>
+							<option>2 Years</option>
+						</select>
+					</div>
+				</div>
+				
+				<h5 class="font-weight-semi-bold text-dark">Age Requirement</h5>
+				<div class="card p-2">
+					<div class="form-group mb-0">
+						<small class="btn btn-primary btn-sm shadow-none mb-1">Min : 18 Years Max : 40</small>
+						<small class="btn btn-secondary btn-sm shadow-none mb-1">No</small>
+						<select class="form-control form-control-sm">
+							<option>18 Years</option>
+						</select>
+					</div>
+				</div>
+				
+				<div class="clear p-1"></div>
+				
+				<div class="well shadow">
+					<h6 class="text-dark font-weight-medium">Is your information up to date?</h6>
+					<div class="row justify-content-between align-items-center">
+						<div class="col-sm-8">
+							<h5 class="text-black">Noman Nazar</h5>
+							<p>
+								<i class="fas fa-envelope mr-1"></i> mr.nouman18@gmail.com<br>
+								<i class="fas fa-phone mr-1"></i> +92.312.9782768<br>
+								<i class="fas fa-map-marker-alt mr-1"></i> Islamabad
+							</p>
+						</div>
+						<div class="col-sm-4">
+							<button type="button" class="btn btn-outline-primary btn-block my-3">Edit Profile CV</button>
+							<button type="button" class="btn btn-outline-success btn-block">Upload CV</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="progress height-px-30">
+					<div class="progress-bar bg-success" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Your Profile 60% Complete</div>
+				  </div>
+				
+				<p class="text_12 text-danger mt-2">
+					Your profile is too short. Please <a href="#">update your profile</a> (Please Add Education, Experience and Complete your personal info)
+				</p>
+				
+				<h6 class="font-weight-semi-bold text-dark">Phone Number (optional)</h6>
+				<div class="d-flex">
+					<select class="form-control border-end-0 boder-radius-top-right-0 boder-radius-bottom-right-0 width-px-100 focus-unset">
+						<option>+92</option>
+					</select>
+					<input type="number" class="form-control boder-radius-top-left-0 boder-radius-bottom-left-0" placeholder="Phone Number">
+				</div>
+				
+				<div class="custom-control custom-checkbox mb-2 mt-2">
+					<input type="checkbox" class="custom-control-input" id="notify">
+					<label class="custom-control-label" for="notify">Notify me when similar jobs are available</label>
+				</div>
+				<div class="media">
+					<button type="button" class="btn btn-primary mr-3" data-toggle="collapse" data-target="#successmsg" aria-expanded="false" aria-controls="successmsg">Apply</button>
+					<div class="media-body">
+						<div class="collapse" id="successmsg">
+							<div class="alert alert-success alert-dismissible fade show mb-0" role="alert">
+								Your CV Submitted to the Job <strong>Chief Financial Officer</strong><br>
+								You status for shortlisting will be updated on your profile
+								<button type="button" class="close" data-dismiss="alert" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!--- Share Modal ---->
+<div class="modal fade" id="share" tabindex="-1" role="dialog" aria-labelledby="Title" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="Title">Share This Job</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<h5 class="text-dark text-center">Share This Job</h5>
+				<p class="text-center">Spread the word about this Job on Accountant</p>
+				<div class="form-row">
+					<div class="col-6 col-sm">
+						<a href="#" class="border border-radius-10 p-3 text-center mb-2 d-block">
+							<i class="fab fa-facebook fa-3x text-primary mb-3"></i>
+							<p class="mb-0 text-body">Facebook</p>
+						</a>
+					</div>
+					<div class="col-6 col-sm">
+						<a href="#" class="border border-radius-10 p-3 text-center mb-2 d-block">
+							<i class="fab fa-linkedin fa-3x text-info mb-3"></i>
+							<p class="mb-0 text-body">Linkedin</p>
+						</a>
+					</div>
+					<div class="col-6 col-sm">
+						<a href="#" class="border border-radius-10 p-3 text-center mb-2 d-block">
+							<i class="fab fa-twitter fa-3x text-info mb-3"></i>
+							<p class="mb-0 text-body">Twitter</p>
+						</a>
+					</div>
+					<div class="col-6 col-sm">
+						<a href="#" class="border border-radius-10 p-3 text-center mb-2 d-block">
+							<i class="fab fa-whatsapp fa-3x text-success mb-3"></i>
+							<p class="mb-0 text-body">WhatsApp</p>
+						</a>
+					</div>
+					<div class="col-6 col-sm">
+						<a href="#" class="border border-radius-10 p-3 text-center mb-2 d-block">
+							<i class="fas fa-link fa-3x text-secondary mb-3"></i>
+							<p class="mb-0 text-body">Copy Link</p>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<span></span>
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Submit</button>
+			</div>
+		</div>
+	</div>
+</div>
+	
+<!--- Report Modal ---->
+<div class="modal fade" id="report" tabindex="-1" role="dialog" aria-labelledby="Title" aria-hidden="true">
+	<div class="modal-dialog modal-sm modal-dialog-centered" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 class="modal-title" id="Title">Report This Job</h5>
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+				<div class="custom-control custom-radio mb-2">
+					<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+					<label class="custom-control-label text-body font-weight-normal" for="customRadio1">It's offensive or harassing</label>
+				</div>
+				<div class="custom-control custom-radio mb-2">
+					<input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+					<label class="custom-control-label text-body font-weight-normal" for="customRadio2">Asking for money or seems like a fake job</label>
+				</div>
+				<div class="custom-control custom-radio mb-2">
+					<input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+					<label class="custom-control-label text-body font-weight-normal" for="customRadio3">Incorrect company, location or job details</label>
+				</div>
+				<div class="custom-control custom-radio mb-2">
+					<input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+					<label class="custom-control-label text-body font-weight-normal" for="customRadio4">I think it's NOT a Job, but selling something</label>
+				</div>
+				<div class="custom-control custom-radio mb-2">
+					<input type="radio" id="customRadio5" name="customRadio" class="custom-control-input" checked>
+					<label class="custom-control-label text-body font-weight-normal" for="customRadio5">Other</label>
+				</div>
+				<textarea class="form-control" placeholder="Fake Job"></textarea>
+			</div>
+			<div class="modal-footer">
+				<!--button type="button" class="btn btn-secondary" data-dismiss="modal">Back</button-->
+				<span></span>
+				<button type="button" class="btn btn-primary" data-dismiss="modal">Report</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Bootstrap core JavaScript -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script type="text/javascript">	
+	 new WOW().init();	 
+	$(function () {
+	  $('[data-toggle="tooltip"]').tooltip()
+	})
+	$(function () {
+	  $('[data-toggle="popover"]').popover()
+	})
+</script>
+</body>
+</html>
+
+
+<!-- //dumyy -->

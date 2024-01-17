@@ -564,29 +564,50 @@
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h4 class="modal-title" id="exampleModalLabel">Approval</h4>
+                    <h4 class="modal-title" id="exampleModalLabel">Check Attachment & Approval</h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
                 </div>
                 <div class="modal-body">
-                    <div class="card shadow">
+                    <div class="card shadow-md shadow-border">
                         <div class="card-body">
                             <label class="text-info">Work Attachment</label>
-                            <div class="d-flex align-items-center  mb-3 ">
-                                <div class="border-2 border-gray-400 p-2 w-30">
-                                    <a class="text-black" href="#">File 1</a>
-                                </div><i class="fas fa-download text-dark cursor-pointer ms-2"></i>
+                            <div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+                                <div class="d-flex gap-14">
+                                    <div><img src="images/Chat Icons SVG/png.svg" class="width-px-26 height-px-30"></div>
+                                    <div>
+                                        <h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+                                        <span class="fs-12">PNG . 30 mb</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa fa-eye fs-14 me-3" title="View"></i>
+                                </div>
                             </div>
-                            <div class="d-flex align-items-center  mb-3 ">
-                                <div class="border-2 border-gray-400 p-2 w-30">
-                                    <a class="text-black" href="#">File 2</a>
-                                </div><i class="fas fa-download text-dark cursor-pointer ms-2"></i>
+                            <div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+                                <div class="d-flex gap-14">
+                                    <div><img src="images/Chat Icons SVG/png.svg" class="width-px-26 height-px-30"></div>
+                                    <div>
+                                        <h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+                                        <span class="fs-12">PNG . 30 mb</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa fa-eye fs-14 me-3" title="View"></i>
+                                </div>
                             </div>
-                            <div class="d-flex align-items-center  mb-3 ">
-                                <div class="border-2 border-gray-400 p-2 w-30">
-                                    <a class="text-black" href="#">File 3</a>
-                                </div><i class="fas fa-download text-dark cursor-pointer ms-2"></i>
+                            <div class="d-flex gap-14 mb-3 align-items-center max-w-17 border p-2 border-radius-10 cursor-pointer justify-content-between">
+                                <div class="d-flex gap-14">
+                                    <div><img src="images/Chat Icons SVG/png.svg" class="width-px-26 height-px-30"></div>
+                                    <div>
+                                        <h6 class="mb-0 fs-14 font-weight-medium max-w-10 text-truncate">Chat icons svg.png</h6>
+                                        <span class="fs-12">PNG . 30 mb</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex">
+                                    <i class="fa fa-eye fs-14 me-3" title="View"></i>
+                                </div>
                             </div>
 
                             <div class="media">
@@ -647,7 +668,8 @@
                 <div class="modal-footer justify-content-end">
                     <a type="submit" class="btn btn-outline-danger me-2" href="#" data-dismiss="modal">Cancel
                     </a>
-                    <a type="submit" class="btn btn-primary" data-dismiss="modal" href="#">Yes
+                    <a type="submit" class="btn btn-primary" data-dismiss="modal" href="#"
+                    data-target="#discrepance-response" data-toggle="modal" href="#">Yes
                     </a>
                 </div>
             </div>
@@ -818,7 +840,142 @@
             </div>
         </div>
     </div>
+    <div class="modal fade" id="discrepance-response" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="exampleModalLabel">Discrepance Report</h4>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body vh-70 overflow-auto">
+                <h6 class="text-dark fs-18 fw-semibold">First Experience are Always Special</h6>
+                <label class="form-label">Order Response Rate</label>
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                            value="option1">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio1">Very Late</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                            value="option2">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio2">Late</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                            value="option3">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio3">Timely</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4"
+                            value="option4">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio4">Quickly</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5"
+                            value="option5">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio5">Very Quickly</label>
+                    </div>
+                </div>
 
+
+                <label class="form-label">Inbox Response Rate</label>
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6"
+                            value="option6">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio6">Very Late</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio7"
+                            value="option7">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio7">Late</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio8"
+                            value="option8">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio8">Timely</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio9"
+                            value="option9">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio9">Quickly</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio10"
+                            value="option10">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio10">Very Quickly</label>
+                    </div>
+                </div>
+
+
+                <label class="form-label">Delivered Response Rate</label>
+                <div class="d-flex justify-content-between mb-3">
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio11"
+                            value="option11">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio11">Very Late</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio12"
+                            value="option12">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio12">Late</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio13"
+                            value="option13">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio13">Timely</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio14"
+                            value="option14">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio14">Quickly</label>
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio15"
+                            value="option15">
+                        <label class="form-check-label font-weight-normal" for="inlineRadio15">Very Quickly</label>
+                    </div>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <label>Gig Review
+                    </label>
+
+                    <p class="text-warning mb-0">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star mr-1"></i>
+                    </p>
+                </div>
+                <textarea class="form-control mb-3" rows="6"></textarea>
+                <div class="d-flex justify-content-between">
+                    <label>Seller Review
+                    </label>
+                    <p class="text-warning mb-0">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star mr-1"></i>
+                    </p>
+                </div>
+
+                
+                <textarea class="form-control mb-3" rows="6"></textarea>
+            </div>
+            <div class="modal-footer justify-content-end">
+                <a type="submit" class="btn btn-primary" data-dismiss="modal" href="#">Send Feadback
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
     <!-- Bootstrap core JavaScript -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>

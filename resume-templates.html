@@ -29,66 +29,294 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light sticky-top">
-        <div class="container-fluid">
-            <span class="navbar-brand">
-                <a href="index.html"><img src="images/myjobs.png" alt="myjob.pk" height="40"></a>
-            </span>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                data-target="#navbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-danger text-white" href="#" data-toggle="modal"
-                            data-target="#beware">
-                            <i class="fas fa-exclamation-triangle mr-1"></i> Beware! Companies
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="Jobs" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
-                            <i class="fas fa-briefcase mr-1"></i> Jobs
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="Jobs">
-                            <a class="dropdown-item" href="#gov-jobs">GOVT Jobs</a>
-                            <a class="dropdown-item" href="#snr-mng-jobs">Senior Management Jobs</a>
-                            <a class="dropdown-item" href="#featured-jobs">Featured Jobs</a>
-                            <a class="dropdown-item" href="#feelancing-jobs">Freelancing Jobs</a>
+		<div class="container-fluid">
+			<span class="navbar-brand">
+				<a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
+			</span>
+                <div class="dropdown d-lg-none responsive-notification">
+                    <div class="nav-item notification-item toggle-item me-2" data-toggle="dropdown"
+                        aria-expanded="false">
+                        <button class="nav-link active focus-unset">
+                            <svg class="icon icon-double-notification">
+                                <use class="stroke" xlink:href="images/sprite.svg#icon-notification-stroke"></use>
+                            </svg>
+                            <span class="count">2</span>
+                        </button>
+                    </div>
+    
+                    <div
+                        class="dropdown-menu dropdown-menu-notifications rounded-top-end-10 rounded-top-start-10 rounded-bottom-end-10 rounded-bottom-start-10">
+                        <div class="header rounded-top-end-10 rounded-top-start-10">
+                            <div class="text-white">You have <font class="fs-20">10</font> new<br>
+                                notifications
+                            </div>
+                            <div>
+                                <a href="notification-details.html"
+                                    class="btn btn-primary fs-12 btn-sm border-gray-1200">View All</a>
+                            </div>
                         </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#cv-templates">
-                            <i class="far fa-file-alt mr-1"></i> CV Templates
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#freelancers"><i class="fas fa-users mr-1"></i> Freelancers</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#gigs">
-                            <i class="far fa-address-card mr-1"></i> Top Rated Gigs
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-primary text-white" href="#" data-toggle="modal"
-                            data-target="#mapps"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-info text-white" href="job-seeker.html">Job Seeker</a>
-                    </li>
-                    <!--li class="nav-item ml-2">
-					<a class="nav-link btn btn-success text-white" href="freelancer-home.html">Freelancers</a>
-				</li-->
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-danger text-white" href="employer-home.html">Employers</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+                        <ul
+                            class="list-group list-group-p10 body height-px-475 overflow-auto  rounded-bottom-end-10 rounded-bottom-start-10">
+                            <li class="list-group-item px-2 cursor-pointer">
+                                <a href="notification-details.html" class="text-black">
+                                    <div class="media">
+                                        <div class="media-body ml-2">
+                                            <div class="title"> Admin
+                                            </div>
+                                            <div class="title fs-14"> Complete Your Profile for Better Opportunities
+                                            </div>
+                                            <p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+                                                complete your profile on [Freelance Platform].
+                                                A complete profile attracts more clients and improves your chances
+                                            </p>
+    
+                                            <span>June 06, 2023, 5:39:09 PM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+    
+                            <li class="list-group-item px-2 cursor-pointer">
+                                <a href="notification-details.html" class="text-black">
+                                    <div class="media">
+                                        <div class="media-body ml-2">
+                                            <div class="title"> Admin
+                                            </div>
+                                            <div class="title fs-14"> Complete Your Profile for Better Opportunities
+                                            </div>
+                                            <p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+                                                complete your profile on [Freelance Platform].
+                                                A complete profile attracts more clients and improves your chances
+                                            </p>
+    
+                                            <span>June 06, 2023, 5:39:09 PM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+    
+                            <li class="list-group-item px-2 cursor-pointer">
+                                <a href="notification-details.html" class="text-black">
+                                    <div class="media">
+                                        <div class="media-body ml-2">
+                                            <div class="title"> Admin
+                                            </div>
+                                            <div class="title fs-14"> Complete Your Profile for Better Opportunities
+                                            </div>
+                                            <p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+                                                complete your profile on [Freelance Platform].
+                                                A complete profile attracts more clients and improves your chances
+                                            </p>
+    
+                                            <span>June 06, 2023, 5:39:09 PM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+    
+                            <li class="list-group-item px-2 cursor-pointer">
+                                <a href="notification-details.html" class="text-black">
+                                    <div class="media">
+                                        <div class="media-body ml-2">
+                                            <div class="title"> Admin
+                                            </div>
+                                            <div class="title fs-14"> Complete Your Profile for Better Opportunities
+                                            </div>
+                                            <p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+                                                complete your profile on [Freelance Platform].
+                                                A complete profile attracts more clients and improves your chances
+                                            </p>
+    
+                                            <span>June 06, 2023, 5:39:09 PM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+    
+    
+                            <!-- <div class="align-items-center d-flex flex-column h-100 justify-content-center">
+                                <img src="images/Notification Bell Icon.png" class="height-px-100 mb-50 width-px-100">
+                                <div class="mb-2 title fs-20"> No Notification Yet
+                                </div>
+                                <p class="fs-14 line-clamp-2">You have no notification right now.
+                                    Come back later</p>
+                            </div> -->
+                        </ul>
+                    </div>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item d-lg-block d-none">
+						<a class="nav-link btn btn-primary text-white mx-2" href="#" data-toggle="modal"
+							data-target="#mapps"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item  my-2">
+						<a class="nav-link" href="job-seeker-dashboard.html">
+							<i class="fas fa-tachometer-alt mr-1"></i> Dashboard
+						</a>
+					</li>
+                    <li class="nav-item  my-2">
+						<a class="nav-link" href="jobs.html">
+							<i class="fas fa-briefcase mr-1"></i> Find Jobs
+						</a>
+					</li>
+					<li class="nav-item dropdown text-nowrap my-2">
+						<a class="nav-link dropdown-toggle" href="#" id="switch" role="button" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-toggle-on mr-1"></i> Switch to
+						</a>
+						<div class="dropdown-menu" aria-labelledby="switch">
+							<a class="dropdown-item" href="guest.html">Guest / Buyer</a>
+							<a class="dropdown-item" href="job-seeker-dashboard.html">Job Seeker</a>
+							<a class="dropdown-item" href="freelancer.html">Freelancer</a>
+						</div>
+					</li>
+
+                    <div class="dropdown d-lg-block d-none">
+						<div class="nav-item notification-item toggle-item me-2" data-toggle="dropdown"
+							aria-expanded="false">
+							<button class="nav-link active focus-unset">
+								<svg class="icon icon-double-notification">
+									<use class="stroke" xlink:href="images/sprite.svg#icon-notification-stroke"></use>
+								</svg>
+                                <span class="count">2</span>
+							</button>
+						</div>
+
+						<div
+							class="dropdown-menu dropdown-menu-notifications rounded-top-end-10 rounded-top-start-10 rounded-bottom-end-10 rounded-bottom-start-10">
+							<div class="header rounded-top-end-10 rounded-top-start-10">
+								<div class="text-white">You have <font class="fs-20">10</font> new<br>
+									notifications
+								</div>
+								<div>
+									<a href="notification-details.html"
+										class="btn btn-primary fs-12 btn-sm border-gray-1200">View All</a>
+								</div>
+							</div>
+							<ul
+								class="list-group list-group-p10 body height-px-475 overflow-auto  rounded-bottom-end-10 rounded-bottom-start-10">
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+													complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances
+												</p>
+
+												<span>June 06, 2023, 5:39:09 PM</span>
+											</div>
+										</div>
+									</a>
+								</li>
+
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+													complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances
+												</p>
+
+												<span>June 06, 2023, 5:39:09 PM</span>
+											</div>
+										</div>
+									</a>
+								</li>
+
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+													complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances
+												</p>
+
+												<span>June 06, 2023, 5:39:09 PM</span>
+											</div>
+										</div>
+									</a>
+								</li>
+
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+													complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances
+												</p>
+
+												<span>June 06, 2023, 5:39:09 PM</span>
+											</div>
+										</div>
+									</a>
+								</li>
+
+
+								<!-- <div class="align-items-center d-flex flex-column h-100 justify-content-center">
+									<img src="images/Notification Bell Icon.png" class="height-px-100 mb-50 width-px-100">
+									<div class="mb-2 title fs-20"> No Notification Yet
+									</div>
+									<p class="fs-14 line-clamp-2">You have no notification right now.
+										Come back later</p>
+								</div> -->
+							</ul>
+						</div>
+					</div>
+					<li class="nav-item d-lg-block d-none text-nowrap px-1 ">
+						<a class="nav-link btn btn-info text-white" href="job-seeker-dashboard.html">Job Seaker</a>
+					</li>
+					<li class="nav-item dropdown text-nowrap pl-0">
+						<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							<div class="d-flex align-items-center">
+								<img src="images/favicon.png" class="img-circle mr-2" width="30">
+								<span>Noman</span>
+							</div>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="language">
+							<a class="dropdown-item" href="forgot-resetpass.html">Change Password</a>
+							<a class="dropdown-item" href="settings.html">Account Settings</a>
+							<strong class="dropdown-item font-weight-semi-bold text-dark">Language</strong>
+							<a class="dropdown-item pl-4" href="#">English</a>
+							<a class="dropdown-item pl-4" href="#">Urdu</a>
+							<a class="dropdown-item" href="index.html">Logout</a>
+						</div>
+					</li>
+				</ul>
+                <div class=" d-lg-none d-flex flex-wrap gap-14 ps-18 mt-3 mobile-nav-footer justify-content-center w-100">
+					<a class="nav-link fs-14  btn btn-primary text-white" href="#" data-toggle="modal" data-target="#mapps"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
+					<a class="nav-link fs-14  btn btn-info text-white" href="job-seeker.html">Job Seeker</a>
+				</div>
+			</div>
+		</div>
+	</nav>
     <div class="clear"></div>
 
     <section class="resume-templates">
@@ -596,7 +824,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent4">
                             <div class="tab-pane fade show active" id="cv-4" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-four.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 4/CV Temp 4 Color 1.png"
@@ -608,7 +836,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-4-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-four-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 4/CV Temp 4 Color 2.png"
@@ -620,7 +848,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-4-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-four-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 4/CV Temp 4 Color 3.png"
@@ -632,7 +860,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-4-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-four-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 4/CV Temp 4 Color 4.png"
@@ -644,7 +872,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-4-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-four-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 4/CV Temp 4 Color 5.png"
@@ -697,7 +925,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent5">
                             <div class="tab-pane fade show active" id="cv-5" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-five.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 5/CV Temp 5 color 1.png"
@@ -709,7 +937,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-5-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-five-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 5/CV Temp 5 Color 2.png"
@@ -721,7 +949,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-5-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-five-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 5/CV Temp 5 Color 3.png"
@@ -733,7 +961,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-5-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-five-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 5/CV Temp 5 Color 4.png"
@@ -745,7 +973,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-5-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-five-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 5/CV Temp 5 Color 5.png"
@@ -798,7 +1026,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent6">
                             <div class="tab-pane fade show active" id="cv-6" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-six.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 6/CV Temp 6 color 1.png"
@@ -810,7 +1038,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-6-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-six-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 6/CV Temp 6 Color 2.png"
@@ -822,7 +1050,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-6-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-six-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 6/CV Temp 6 Color 3.png"
@@ -834,7 +1062,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-6-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-six-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 6/CV Temp 6 Color 4.png"
@@ -846,7 +1074,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-6-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-six-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 6/CV Temp 6 Color 5.png"
@@ -899,7 +1127,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent7">
                             <div class="tab-pane fade show active" id="cv-7" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-seven.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 7/CV Temp 7 color 1.png"
@@ -911,7 +1139,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-7-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-seven-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 7/CV Temp 7 Color 2.png"
@@ -923,7 +1151,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-7-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-seven-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 7/CV Temp 7 Color 3.png"
@@ -935,7 +1163,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-7-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-seven-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 7/CV Temp 7 Color 4.png"
@@ -947,7 +1175,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-7-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-seven-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 7/CV Temp 7 Color 5.png"
@@ -1000,7 +1228,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent8">
                             <div class="tab-pane fade show active" id="cv-8" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-eight.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 8/CV Temp 8 color 1.png"
@@ -1012,7 +1240,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-8-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-eight-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 8/CV Temp 8 Color 2.png"
@@ -1024,7 +1252,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-8-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-eight-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 8/CV Temp 8 Color 3.png"
@@ -1036,7 +1264,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-8-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-eight-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 8/CV Temp 8 Color 4.png"
@@ -1048,7 +1276,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-8-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-eight-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 8/CV Temp 8 Color 5.png"
@@ -1101,7 +1329,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent9">
                             <div class="tab-pane fade show active" id="cv-9" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-nine.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 9/CV Temp 9 color 1.png"
@@ -1113,7 +1341,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-9-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-nine-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 9/CV Temp 9 Color 2.png"
@@ -1125,7 +1353,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-9-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-nine-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 9/CV Temp 9 Color 3.png"
@@ -1137,7 +1365,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-9-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-nine-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 9/CV Temp 9 Color 4.png"
@@ -1149,7 +1377,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-9-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-nine-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 9/CV Temp 9 Color 5.png"
@@ -1202,7 +1430,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent10">
                             <div class="tab-pane fade show active" id="cv-10" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-ten.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 10/CV Temp 10 color 1.png"
@@ -1214,7 +1442,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-10-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-ten-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 10/CV Temp 10 Color 2.png"
@@ -1226,7 +1454,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-10-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-ten-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 10/CV Temp 10 Color 3.png"
@@ -1238,7 +1466,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-10-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-ten-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 10/CV Temp 10 Color 4.png"
@@ -1250,7 +1478,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-10-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-ten-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 10/CV Temp 10 Color 5.png"
@@ -1303,7 +1531,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent11">
                             <div class="tab-pane fade show active" id="cv-11" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-eleven.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 11/CV Temp 11 color 1.png"
@@ -1315,7 +1543,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-11-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-eleven-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 11/CV Temp 11 Color 2.png"
@@ -1327,7 +1555,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-11-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-eleven-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 11/CV Temp 11 Color 3.png"
@@ -1339,7 +1567,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-11-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-eleven-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 11/CV Temp 11 Color 4.png"
@@ -1351,7 +1579,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-11-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-eleven-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 11/CV Temp 11 Color 5.png"
@@ -1404,7 +1632,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent12">
                             <div class="tab-pane fade show active" id="cv-12" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-twelve.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 12/CV Temp 12 color 1.png"
@@ -1416,7 +1644,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-12-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-twelve-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 12/CV Temp 12 Color 2.png"
@@ -1428,7 +1656,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-12-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-twelve-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 12/CV Temp 12 Color 3.png"
@@ -1440,7 +1668,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-12-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-twelve-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 12/CV Temp 12 Color 4.png"
@@ -1452,7 +1680,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-12-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-twelve-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 12/CV Temp 12 Color 5.png"
@@ -1505,7 +1733,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent13">
                             <div class="tab-pane fade show active" id="cv-13" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-thirteen.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 13/CV Temp 13 color 1.png"
@@ -1517,7 +1745,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-13-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-thirteen-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 13/CV Temp 13 Color 2.png"
@@ -1529,7 +1757,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-13-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-thirteen-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 13/CV Temp 13 Color 3.png"
@@ -1541,7 +1769,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-13-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-thirteen-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 13/CV Temp 13 Color 4.png"
@@ -1553,7 +1781,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-13-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-thirteen-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 13/CV Temp 13 Color 5.png"
@@ -1808,7 +2036,7 @@
                     <div class="templates-card">
                         <div class="tab-content" id="myTabContent16">
                             <div class="tab-pane fade show active" id="cv-16" role="tabpanel">
-                                <a href="cv-one.html">
+                                <a href="cv-sixteen.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 16/CV Temp 16 color 1.png"
@@ -1820,7 +2048,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-16-col-2" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-sixteen-col-2.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 16/CV Temp 16 Color 2.png"
@@ -1832,7 +2060,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-16-col-3" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-sixteen-col-3.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 16/CV Temp 16 Color 3.png"
@@ -1844,7 +2072,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-16-col-4" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-sixteen-col-4.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 16/CV Temp 16 Color 4.png"
@@ -1856,7 +2084,7 @@
                                 </a>
                             </div>
                             <div class="tab-pane fade" id="cv-16-col-5" role="tabpanel">
-                                <a href="cv-two.html">
+                                <a href="cv-sixteen-col-5.html">
                                     <div class="templates-card-body">
                                         <h6 class="fs-20 mb-3 text-primary font-weight-semi-bold">CV Name</h6>
                                         <img src="images/colored-temp/All Templetes/CV Temp 16/CV Temp 16 Color 5.png"

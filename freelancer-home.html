@@ -94,42 +94,50 @@
 <section class="banner signing">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-7 m-auto">
+			<div class="col-lg-8 m-auto">
 				<h1><strong class="text-danger">Truly,</strong><br>What You Are Looking For!</h1>
 				<div class="clear p-2"></div>
 				<div class="banner-form-area">
 					<form>
-						<div class="form-row">
-							<div class="col-6 col-md-4">
+						<div class="form-row d-flex flex-lg-row flex-column">
+							<div class="flex-1">
 								<div class="input-group border-right">
-									<input type="text" class="form-control" placeholder="Job Title, Skill, Company" aria-label="Job Title, Skill, Company" aria-describedby="">
-									<div class="input-group-prepend">
-										<span class="input-group-text"><i class="fas fa-search text-danger"></i></span>
-									</div>
+									<input type="text" class="form-control" placeholder="Job Title, Skill, Company"
+										aria-label="Job Title, Skill, Company" aria-describedby="">
 								</div>
 							</div>
-							<div class="form-group col-6 col-md-3">
+							<div class="form-group flex-1 border-right pe-1">
 								<select class="form-control">
-									<option value="City">City</option>
-                                    <option value="">Islamabad</option>
-                                    <option value="">Rawalpindi</option>
-                                    <option value="">Karachi</option>
-                                    <option value="">Lahore</option>
-                                    <option value="">Multan</option>
-                                </select>
-							</div>
-							<div class="form-group col-6 col-md-3">
-								<select class="form-control border-left">
-									<option value="Salary">Salary</option>
-									<option value="">15000</option>
-									<option value="">20000</option>
-									<option value="">30000</option>
-									<option value="">40000</option>
-									<option value="">50000</option>
+									<option value="City">Country</option>
+									<option value="">India</option>
+									<option value="">Bangladesh</option>
+									<option value="">Scotland</option>
+									<option value="">Netherland</option>
 								</select>
 							</div>
-							<div class="col-6 col-md-2">
-								<button type="button" class="btn btn-block btn-info"><i class="fas fa-search mr-1"></i> Search</button>
+							<div class="form-group flex-1 border-right pe-1">
+								<select class="form-control">
+									<option value="City">City</option>
+									<option value="">Islamabad</option>
+									<option value="">Rawalpindi</option>
+									<option value="">Karachi</option>
+									<option value="">Lahore</option>
+									<option value="">Multan</option>
+								</select>
+							</div>
+							<div class="form-group flex-1 border-right pe-1">
+								<div class="d-flex ps-1">
+									<select class="p-0 form-control border-end-0 boder-radius-top-right-0 boder-radius-bottom-right-0 width-px-170 focus-unset">
+										<option>PKR</option>
+										<option>$</option>
+									</select>
+									<input type="text" class="form-control" placeholder="Enter Salary"
+									aria-label="Job Title, Skill, Company" aria-describedby="">
+							</div>
+						</div>
+							<div class="">
+								<button type="button" class="btn btn-block btn-info  fs-13"><i
+										class="fas fa-search mr-1"></i> Search</button>
 							</div>
 						</div>
 					</form>
@@ -2330,7 +2338,7 @@ processing to short listing, please immediately report at.</p>
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h4 class="modal-title text-dark font-weight-bold">Advance Search</h4>
+				<h4 class="modal-title text-white font-weight-bold">Advance Search</h4>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -2350,10 +2358,16 @@ processing to short listing, please immediately report at.</p>
 						</div>
 						<div class="form-group col-md-6">
 							<label for="salary">Expected Salary</label>
+							<div class="d-flex">
+								<select class="form-control border-end-0 boder-radius-top-right-0 boder-radius-bottom-right-0 focus-unset">
+									<option>PKR</option>
+									<option>$</option>
+								</select>
 							<select class="form-control" id="salary">
 								<option>Select</option>
 							</select>
 						</div>
+					</div>
 						<div class="form-group col-md-6">
 							<label for="gender">Gender</label>
 							<select class="form-control" id="gender">

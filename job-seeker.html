@@ -27,105 +27,343 @@
 
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light sticky-top">
-	<div class="container-fluid">
-		<span class="navbar-brand">
-			<a href="job-seeker.html"><img src="images/myjobs.png" alt="myjob.pk" height="40"></a>
-		</span>
-		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbar">
-			<ul class="navbar-nav">
-				<li class="nav-item">
-					<a class="nav-link btn btn-danger text-white" href="#" data-toggle="modal" data-target="#beware">
-						<i class="fas fa-exclamation-triangle mr-1"></i> Beware! Companies
-					</a>
-				</li>
-				<li class="nav-item dropdown">
-					<a class="nav-link dropdown-toggle" href="#" id="Jobs" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						<i class="fas fa-briefcase mr-1"></i> Jobs
-					</a>
-					<div class="dropdown-menu" aria-labelledby="Jobs">
-						<a class="dropdown-item" href="#gov-jobs">GOVT Jobs</a>
-						<a class="dropdown-item" href="#snr-mng-jobs">Senior Management Jobs</a>
-						<a class="dropdown-item" href="#featured-jobs">Featured Jobs</a>
-						<a class="dropdown-item" href="#feelancing-jobs">Freelancing Jobs</a>
-					</div>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#cv-templates">
-						<i class="far fa-file-alt mr-1"></i> CV Templates
-					</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link btn btn-primary text-white" href="#" data-toggle="modal" data-target="#mapps"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
-				</li>
-			</ul>
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item text-nowrap px-1">
-					<a class="nav-link btn btn-info text-white" href="job-seeker-dashboard.html">Job Seaker</a>
-				</li>
-				<li class="nav-item dropdown text-nowrap pl-0">
-					<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-						<div class="d-flex align-items-center">
-							<img src="images/favicon.png" class="img-circle mr-2" width="30">
-							<span>Noman</span>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+		<div class="container-fluid">
+			<span class="navbar-brand">
+				<a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
+			</span>
+                <div class="dropdown d-lg-none responsive-notification">
+                    <div class="nav-item notification-item toggle-item me-2" data-toggle="dropdown"
+                        aria-expanded="false">
+                        <button class="nav-link active focus-unset">
+                            <svg class="icon icon-double-notification">
+                                <use class="stroke" xlink:href="images/sprite.svg#icon-notification-stroke"></use>
+                            </svg>
+                            <span class="count">2</span>
+                        </button>
+                    </div>
+    
+                    <div
+                        class="dropdown-menu dropdown-menu-notifications rounded-top-end-10 rounded-top-start-10 rounded-bottom-end-10 rounded-bottom-start-10">
+                        <div class="header rounded-top-end-10 rounded-top-start-10">
+                            <div class="text-white">You have <font class="fs-20">10</font> new<br>
+                                notifications
+                            </div>
+                            <div>
+                                <a href="notification-details.html"
+                                    class="btn btn-primary fs-12 btn-sm border-gray-1200">View All</a>
+                            </div>
+                        </div>
+                        <ul
+                            class="list-group list-group-p10 body height-px-475 overflow-auto  rounded-bottom-end-10 rounded-bottom-start-10">
+                            <li class="list-group-item px-2 cursor-pointer">
+                                <a href="notification-details.html" class="text-black">
+                                    <div class="media">
+                                        <div class="media-body ml-2">
+                                            <div class="title"> Admin
+                                            </div>
+                                            <div class="title fs-14"> Complete Your Profile for Better Opportunities
+                                            </div>
+                                            <p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+                                                complete your profile on [Freelance Platform].
+                                                A complete profile attracts more clients and improves your chances
+                                            </p>
+    
+                                            <span>June 06, 2023, 5:39:09 PM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+    
+                            <li class="list-group-item px-2 cursor-pointer">
+                                <a href="notification-details.html" class="text-black">
+                                    <div class="media">
+                                        <div class="media-body ml-2">
+                                            <div class="title"> Admin
+                                            </div>
+                                            <div class="title fs-14"> Complete Your Profile for Better Opportunities
+                                            </div>
+                                            <p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+                                                complete your profile on [Freelance Platform].
+                                                A complete profile attracts more clients and improves your chances
+                                            </p>
+    
+                                            <span>June 06, 2023, 5:39:09 PM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+    
+                            <li class="list-group-item px-2 cursor-pointer">
+                                <a href="notification-details.html" class="text-black">
+                                    <div class="media">
+                                        <div class="media-body ml-2">
+                                            <div class="title"> Admin
+                                            </div>
+                                            <div class="title fs-14"> Complete Your Profile for Better Opportunities
+                                            </div>
+                                            <p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+                                                complete your profile on [Freelance Platform].
+                                                A complete profile attracts more clients and improves your chances
+                                            </p>
+    
+                                            <span>June 06, 2023, 5:39:09 PM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+    
+                            <li class="list-group-item px-2 cursor-pointer">
+                                <a href="notification-details.html" class="text-black">
+                                    <div class="media">
+                                        <div class="media-body ml-2">
+                                            <div class="title"> Admin
+                                            </div>
+                                            <div class="title fs-14"> Complete Your Profile for Better Opportunities
+                                            </div>
+                                            <p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+                                                complete your profile on [Freelance Platform].
+                                                A complete profile attracts more clients and improves your chances
+                                            </p>
+    
+                                            <span>June 06, 2023, 5:39:09 PM</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+    
+    
+                            <!-- <div class="align-items-center d-flex flex-column h-100 justify-content-center">
+                                <img src="images/Notification Bell Icon.png" class="height-px-100 mb-50 width-px-100">
+                                <div class="mb-2 title fs-20"> No Notification Yet
+                                </div>
+                                <p class="fs-14 line-clamp-2">You have no notification right now.
+                                    Come back later</p>
+                            </div> -->
+                        </ul>
+                    </div>
+                </div>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                    data-target="#navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+			<div class="collapse navbar-collapse" id="navbar">
+				<ul class="navbar-nav">
+					<li class="nav-item d-lg-block d-none">
+						<a class="nav-link btn btn-primary text-white mx-2" href="#" data-toggle="modal"
+							data-target="#mapps"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item  my-2">
+						<a class="nav-link" href="job-seeker-dashboard.html">
+							<i class="fas fa-tachometer-alt mr-1"></i> Dashboard
+						</a>
+					</li>
+                    <li class="nav-item  my-2">
+						<a class="nav-link" href="jobs.html">
+							<i class="fas fa-briefcase mr-1"></i> Find Jobs
+						</a>
+					</li>
+					<li class="nav-item dropdown text-nowrap my-2">
+						<a class="nav-link dropdown-toggle" href="#" id="switch" role="button" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							<i class="fas fa-toggle-on mr-1"></i> Switch to
+						</a>
+						<div class="dropdown-menu" aria-labelledby="switch">
+							<a class="dropdown-item" href="guest.html">Guest / Buyer</a>
+							<a class="dropdown-item" href="job-seeker-dashboard.html">Job Seeker</a>
+							<a class="dropdown-item" href="freelancer.html">Freelancer</a>
 						</div>
-					</a>
-					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="language">
-						<a class="dropdown-item" href="forgot-resetpass.html">Change Password</a>
-						<a class="dropdown-item" href="settings.html">Account Settings</a>
-						<strong class="dropdown-item font-weight-semi-bold text-dark">Language</strong>
-						<a class="dropdown-item pl-4" href="#">English</a>
-						<a class="dropdown-item pl-4" href="#">Urdu</a>
-						<a class="dropdown-item" href="index.html">Logout</a>
+					</li>
+
+                    <div class="dropdown d-lg-block d-none">
+						<div class="nav-item notification-item toggle-item me-2" data-toggle="dropdown"
+							aria-expanded="false">
+							<button class="nav-link active focus-unset">
+								<svg class="icon icon-double-notification">
+									<use class="stroke" xlink:href="images/sprite.svg#icon-notification-stroke"></use>
+								</svg>
+                                <span class="count">2</span>
+							</button>
+						</div>
+
+						<div
+							class="dropdown-menu dropdown-menu-notifications rounded-top-end-10 rounded-top-start-10 rounded-bottom-end-10 rounded-bottom-start-10">
+							<div class="header rounded-top-end-10 rounded-top-start-10">
+								<div class="text-white">You have <font class="fs-20">10</font> new<br>
+									notifications
+								</div>
+								<div>
+									<a href="notification-details.html"
+										class="btn btn-primary fs-12 btn-sm border-gray-1200">View All</a>
+								</div>
+							</div>
+							<ul
+								class="list-group list-group-p10 body height-px-475 overflow-auto  rounded-bottom-end-10 rounded-bottom-start-10">
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+													complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances
+												</p>
+
+												<span>June 06, 2023, 5:39:09 PM</span>
+											</div>
+										</div>
+									</a>
+								</li>
+
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+													complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances
+												</p>
+
+												<span>June 06, 2023, 5:39:09 PM</span>
+											</div>
+										</div>
+									</a>
+								</li>
+
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+													complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances
+												</p>
+
+												<span>June 06, 2023, 5:39:09 PM</span>
+											</div>
+										</div>
+									</a>
+								</li>
+
+								<li class="list-group-item px-2 cursor-pointer">
+									<a href="notification-details.html" class="text-black">
+										<div class="media">
+											<div class="media-body ml-2">
+												<div class="title"> Admin
+												</div>
+												<div class="title fs-14"> Complete Your Profile for Better Opportunities
+												</div>
+												<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+													complete your profile on [Freelance Platform].
+													A complete profile attracts more clients and improves your chances
+												</p>
+
+												<span>June 06, 2023, 5:39:09 PM</span>
+											</div>
+										</div>
+									</a>
+								</li>
+
+
+								<!-- <div class="align-items-center d-flex flex-column h-100 justify-content-center">
+									<img src="images/Notification Bell Icon.png" class="height-px-100 mb-50 width-px-100">
+									<div class="mb-2 title fs-20"> No Notification Yet
+									</div>
+									<p class="fs-14 line-clamp-2">You have no notification right now.
+										Come back later</p>
+								</div> -->
+							</ul>
+						</div>
 					</div>
-				</li>
-			</ul>
+					<li class="nav-item d-lg-block d-none text-nowrap px-1 ">
+						<a class="nav-link btn btn-info text-white" href="job-seeker-dashboard.html">Job Seaker</a>
+					</li>
+					<li class="nav-item dropdown text-nowrap pl-0">
+						<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown"
+							aria-haspopup="true" aria-expanded="false">
+							<div class="d-flex align-items-center">
+								<img src="images/favicon.png" class="img-circle mr-2" width="30">
+								<span>Noman</span>
+							</div>
+						</a>
+						<div class="dropdown-menu dropdown-menu-right" aria-labelledby="language">
+							<a class="dropdown-item" href="forgot-resetpass.html">Change Password</a>
+							<a class="dropdown-item" href="settings.html">Account Settings</a>
+							<strong class="dropdown-item font-weight-semi-bold text-dark">Language</strong>
+							<a class="dropdown-item pl-4" href="#">English</a>
+							<a class="dropdown-item pl-4" href="#">Urdu</a>
+							<a class="dropdown-item" href="index.html">Logout</a>
+						</div>
+					</li>
+				</ul>
+                <div class=" d-lg-none d-flex flex-wrap gap-14 ps-18 mt-3 mobile-nav-footer justify-content-center w-100">
+					<a class="nav-link fs-14  btn btn-primary text-white" href="#" data-toggle="modal" data-target="#mapps"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
+					<a class="nav-link fs-14  btn btn-info text-white" href="job-seeker.html">Job Seeker</a>
+				</div>
+			</div>
 		</div>
-	</div>
-</nav>
+	</nav>
 <div class="clear"></div>
 <section class="banner signing">
 	<div class="container-fluid">
 		<div class="row">
-			<div class="col-lg-7 m-auto">
+			<div class="col-lg-8 m-auto">
 				<h1><strong class="text-danger">Truly,</strong><br>What You Are Looking For!</h1>
 				<div class="clear p-2"></div>
 				<div class="banner-form-area">
 					<form>
-						<div class="form-row">
-							<div class="col-6 col-md-4">
+						<div class="form-row d-flex flex-lg-row flex-column">
+							<div class="flex-1">
 								<div class="input-group border-right">
-									<input type="text" class="form-control" placeholder="Job Title, Skill, Company" aria-label="Job Title, Skill, Company" aria-describedby="">
-									<div class="input-group-prepend">
-										<span class="input-group-text"><i class="fas fa-search text-danger"></i></span>
-									</div>
+									<input type="text" class="form-control" placeholder="Job Title, Skill, Company"
+										aria-label="Job Title, Skill, Company" aria-describedby="">
 								</div>
 							</div>
-							<div class="form-group col-6 col-md-3">
+							<div class="form-group flex-1 border-right pe-1">
 								<select class="form-control">
-									<option value="City">City</option>
-                                    <option value="">Islamabad</option>
-                                    <option value="">Rawalpindi</option>
-                                    <option value="">Karachi</option>
-                                    <option value="">Lahore</option>
-                                    <option value="">Multan</option>
-                                </select>
-							</div>
-							<div class="form-group col-6 col-md-3">
-								<select class="form-control border-left">
-									<option value="Salary">Salary</option>
-									<option value="">15000</option>
-									<option value="">20000</option>
-									<option value="">30000</option>
-									<option value="">40000</option>
-									<option value="">50000</option>
+									<option value="City">Country</option>
+									<option value="">India</option>
+									<option value="">Bangladesh</option>
+									<option value="">Scotland</option>
+									<option value="">Netherland</option>
 								</select>
 							</div>
-							<div class="col-6 col-md-2">
-								<button type="button" class="btn btn-block btn-info"><i class="fas fa-search mr-1"></i> Search</button>
+							<div class="form-group flex-1 border-right pe-1">
+								<select class="form-control">
+									<option value="City">City</option>
+									<option value="">Islamabad</option>
+									<option value="">Rawalpindi</option>
+									<option value="">Karachi</option>
+									<option value="">Lahore</option>
+									<option value="">Multan</option>
+								</select>
+							</div>
+							<div class="form-group flex-1 border-right pe-1">
+								<div class="d-flex ps-1">
+									<select class="p-0 form-control border-end-0 boder-radius-top-right-0 boder-radius-bottom-right-0 width-px-170 focus-unset">
+										<option>PKR</option>
+										<option>$</option>
+									</select>
+									<input type="text" class="form-control" placeholder="Enter Salary"
+									aria-label="Job Title, Skill, Company" aria-describedby="">
+							</div>
+						</div>
+							<div class="">
+								<button type="button" class="btn btn-block btn-info fs-13"><i
+										class="fas fa-search mr-1"></i> Search</button>
 							</div>
 						</div>
 					</form>
@@ -187,82 +425,111 @@
 <div class="clear p-3"></div>
 <section class="container-fluid">
 	<div class="row jobs-government" id="gov-jobs">
-		<div class="col-lg-8">
+		<div class="col-xl-8">
 			<h2 class="font-weight-bold text-dark">Jobs in Pakistan</h2>
 			<div class="clear p-3"></div>
-			<ul class="nav nav-tabs jobTab p-0 shadow-none" id="jobTab" role="tablist">
-				<li class="nav-item">
-					<a class="nav-link rounded active" id="industry-tab" data-toggle="tab" href="#industry" role="tab" aria-controls="industry" aria-selected="true">By Industry</a>
+			<ul class="nav nav-tabs jobTab p-0 shadow-none gap-14" id="jobTab" role="tablist">
+				<li class="nav-item m-0">
+					<a class="nav-link rounded active" id="industry-tab" data-toggle="tab" href="#industry"
+						role="tab" aria-controls="industry" aria-selected="true">By Industry</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link rounded" id="city-tab" data-toggle="tab" href="#city" role="tab" aria-controls="city" aria-selected="false">By City</a>
+				<li class="nav-item m-0">
+					<a class="nav-link rounded" id="city-tab" data-toggle="tab" href="#city" role="tab"
+						aria-controls="city" aria-selected="false">By City</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link rounded" id="companies-tab" data-toggle="tab" href="#companies" role="tab" aria-controls="companies" aria-selected="false">By Companies</a>
+				<li class="nav-item m-0">
+					<a class="nav-link rounded" id="companies-tab" data-toggle="tab" href="#companies" role="tab"
+						aria-controls="companies" aria-selected="false">By Companies</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link rounded" id="functional-tab" data-toggle="tab" href="#functional" role="tab" aria-controls="functional" aria-selected="false">By Functional Area</a>
+				<li class="nav-item m-0">
+					<a class="nav-link rounded" id="functional-tab" data-toggle="tab" href="#functional" role="tab"
+						aria-controls="functional" aria-selected="false">By Functional Area</a>
 				</li>
-				<li class="nav-item">
-					<a class="nav-link rounded" id="time-tab" data-toggle="tab" href="#time" role="tab" aria-controls="time" aria-selected="false">Full Time/Part Time</a>
+				<li class="nav-item m-0">
+					<a class="nav-link rounded" id="time-tab" data-toggle="tab" href="#time" role="tab"
+						aria-controls="time" aria-selected="false">Full Time/Part Time</a>
 				</li>
 			</ul>
 			<div class="clear p-3"></div>
 			<div class="tab-content" id="jobTabContent">
 				<div class="tab-pane fade show active" id="industry" role="tabpanel" aria-labelledby="industry-tab">
-					<div class="row align-items-center">
-						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+					<div class="row align-items-center h-auto">
+						<div class="col-md-12 col-lg-6 mb-3">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Telecommunication</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Telecommunication</h6>
 											<span class="badge badge-danger ml-3">30</span>
 										</div>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+						<div class="col-md-12 col-lg-6 mb-3">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Manufacturing</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Manufacturing
+											</h6>
 											<span class="badge badge-success ml-3">430</span>
 										</div>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+						<div class="col-md-12 col-lg-6 mb-3">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Information Technology</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Information
+												Technology</h6>
 											<span class="badge badge-warning ml-3">1650</span>
 										</div>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+						<div class="col-md-12 col-lg-6 mb-3">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/4.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
+										<div class="d-flex align-items-center">
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Information
+												Technology</h6>
+											<span class="badge badge-warning ml-3">1650</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-12 col-lg-6 mb-3">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
+								<div class="row align-items-center">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/4.png"
+											style="max-height:50px;">
+									</div>
+									<div class="col-9">
 										<div class="d-flex align-items-center">
 											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Food</h6>
 											<span class="badge badge-primary ml-3">75</span>
@@ -271,67 +538,97 @@
 								</div>
 							</a>
 						</div>
-						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+						<div class="col-md-12 col-lg-6 mb-3">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/5.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/5.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Real Estate/Property</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Real
+												Estate/Property</h6>
 											<span class="badge badge-success ml-3">38</span>
 										</div>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+						<div class="col-md-12 col-lg-6 mb-3">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/6.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/6.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Business Development</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Business
+												Development</h6>
 											<span class="badge badge-danger ml-3">38</span>
 										</div>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+						<div class="col-md-12 col-lg-6 mb-3">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/7.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/7.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Recruitment/Employment Firms</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Recruitment/Employment Firms</h6>
 											<span class="badge badge-info ml-3">38</span>
 										</div>
 									</div>
 								</div>
 							</a>
 						</div>
-						<div class="col-sm-6 col-md-6 mb-3">
+						<div class="col-md-12 col-lg-6 mb-3">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
+								<div class="row align-items-center">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/7.png"
+											style="max-height:50px;">
+									</div>
+									<div class="col-9">
+										<div class="d-flex align-items-center">
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Recruitment/Employment Firms</h6>
+											<span class="badge badge-info ml-3">38</span>
+										</div>
+									</div>
+								</div>
+							</a>
+						</div>
+						<div class="col-md-12 col-lg-6 mb-3">
 							<a href="jobs-industry.html" class="btn btn-link">view all jobs</a>
 						</div>
-					</div>					
+					</div>
 				</div>
 				<div class="tab-pane fade" id="companies" role="tabpanel" aria-labelledby="companies-tab">
 					<div class="row align-items-center">
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Telecommunication</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Telecommunication<br>
+												<small class="text_14 d-block pt-1 text-muted">
+													<i class="fas fa-map-marker-alt mr-1"></i>
+													Lahore | Pakistan
+												</small>
+											</h6>
 											<span class="badge badge-danger ml-3">30</span>
 										</div>
 									</div>
@@ -339,14 +636,21 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Manufacturing</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Manufacturing<br>
+												<small class="text_14 d-block pt-1 text-muted">
+													<i class="fas fa-map-marker-alt mr-1"></i>
+													Lahore | Pakistan
+												</small>
+											</h6>
 											<span class="badge badge-success ml-3">430</span>
 										</div>
 									</div>
@@ -354,14 +658,21 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Information Technology</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Information Technology<br>
+												<small class="text_14 d-block pt-1 text-muted">
+													<i class="fas fa-map-marker-alt mr-1"></i>
+													Lahore | Pakistan
+												</small>
+											</h6>
 											<span class="badge badge-warning ml-3">1650</span>
 										</div>
 									</div>
@@ -369,14 +680,21 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/4.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/4.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Food</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Food<br>
+												<small class="text_14 d-block pt-1 text-muted">
+													<i class="fas fa-map-marker-alt mr-1"></i>
+													Lahore | Pakistan
+												</small>
+											</h6>
 											<span class="badge badge-primary ml-3">75</span>
 										</div>
 									</div>
@@ -384,14 +702,21 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/5.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/5.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Real Estate/Property</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Real Estate/Property<br>
+												<small class="text_14 d-block pt-1 text-muted">
+													<i class="fas fa-map-marker-alt mr-1"></i>
+													Lahore | Pakistan
+												</small>
+											</h6>
 											<span class="badge badge-success ml-3">38</span>
 										</div>
 									</div>
@@ -399,14 +724,21 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/6.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/6.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Business Development</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Business Development<br>
+												<small class="text_14 d-block pt-1 text-muted">
+													<i class="fas fa-map-marker-alt mr-1"></i>
+													Lahore | Pakistan
+												</small>
+											</h6>
 											<span class="badge badge-danger ml-3">38</span>
 										</div>
 									</div>
@@ -414,14 +746,21 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/7.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/7.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Recruitment/Employment Firms</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Recruitment/Employment Firms<br>
+												<small class="text_14 d-block pt-1 text-muted">
+													<i class="fas fa-map-marker-alt mr-1"></i>
+													Lahore | Pakistan
+												</small>
+											</h6>
 											<span class="badge badge-info ml-3">38</span>
 										</div>
 									</div>
@@ -436,57 +775,60 @@
 				<div class="tab-pane fade" id="city" role="tabpanel" aria-labelledby="city-tab">
 					<div class="row align-items-center">
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark p-4">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer p-4">
 								<div class="d-flex align-items-center">
-									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Islamabad</h6>
+									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Islamabad | Pakistan
+									</h6>
 									<span class="badge badge-danger ml-3">680</span>
 								</div>
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark p-4">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer p-4">
 								<div class="d-flex align-items-center">
-									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Lahore</h6>
+									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Lahore | Pakistan</h6>
 									<span class="badge badge-success ml-3">30</span>
 								</div>
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark p-4">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer p-4">
 								<div class="d-flex align-items-center">
-									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Karachi</h6>
+									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Karachi | Pakistan</h6>
 									<span class="badge badge-warning ml-3">2350</span>
 								</div>
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark p-4">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer p-4">
 								<div class="d-flex align-items-center">
-									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Multan</h6>
+									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Multan | Pakistan</h6>
 									<span class="badge badge-primary ml-3">75</span>
 								</div>
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark p-4">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer p-4">
 								<div class="d-flex align-items-center">
-									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Peshawar</h6>
+									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Peshawar | Pakistan
+									</h6>
 									<span class="badge badge-success ml-3">38</span>
 								</div>
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark p-4">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer p-4">
 								<div class="d-flex align-items-center">
-									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Queta</h6>
+									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Queta | Pakistan</h6>
 									<span class="badge badge-danger ml-3">65</span>
 								</div>
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark p-4">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer p-4">
 								<div class="d-flex align-items-center">
-									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Faisalabad</h6>
+									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Faisalabad | Pakistan
+									</h6>
 									<span class="badge badge-info ml-3">75</span>
 								</div>
 							</a>
@@ -499,14 +841,16 @@
 				<div class="tab-pane fade" id="functional" role="tabpanel" aria-labelledby="functional-tab">
 					<div class="row align-items-center">
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Telecommunication</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Telecommunication</h6>
 											<span class="badge badge-danger ml-3">30</span>
 										</div>
 									</div>
@@ -514,14 +858,16 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Manufacturing</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Manufacturing
+											</h6>
 											<span class="badge badge-success ml-3">430</span>
 										</div>
 									</div>
@@ -529,14 +875,16 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Information Technology</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Information
+												Technology</h6>
 											<span class="badge badge-warning ml-3">1650</span>
 										</div>
 									</div>
@@ -544,12 +892,13 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/4.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/4.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
 											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Food</h6>
 											<span class="badge badge-primary ml-3">75</span>
@@ -559,14 +908,16 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/5.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/5.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Real Estate/Property</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Real
+												Estate/Property</h6>
 											<span class="badge badge-success ml-3">38</span>
 										</div>
 									</div>
@@ -574,14 +925,16 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/6.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/6.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Business Development</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Business
+												Development</h6>
 											<span class="badge badge-danger ml-3">38</span>
 										</div>
 									</div>
@@ -589,14 +942,16 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer">
 								<div class="row align-items-center">
-									<div class="col-4 col-lg-3 text-center py-2 border-right">
-										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/7.png" style="max-height:50px;">
+									<div class="col-3 text-center py-2 border-right">
+										<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/7.png"
+											style="max-height:50px;">
 									</div>
-									<div class="col-8 col-lg-9">
+									<div class="col-9">
 										<div class="d-flex align-items-center">
-											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Recruitment/Employment Firms</h6>
+											<h6 class="text-dark font-weight-semi-bold text_16 mb-0">
+												Recruitment/Employment Firms</h6>
 											<span class="badge badge-info ml-3">38</span>
 										</div>
 									</div>
@@ -611,7 +966,7 @@
 				<div class="tab-pane fade" id="time" role="tabpanel" aria-labelledby="time-tab">
 					<div class="row">
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark p-4">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer p-4">
 								<div class="d-flex align-items-center">
 									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Full time jobs</h6>
 									<span class="badge badge-danger ml-3">1750</span>
@@ -619,7 +974,7 @@
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-6 mb-3">
-							<a href="jobs.html" class="shadow bg-white d-block text-dark p-4">
+							<a href="jobs.html" class="shadow bg-white d-block text-dark border border-gray-400 shadow-outer p-4">
 								<div class="d-flex align-items-center">
 									<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Part time jobs</h6>
 									<span class="badge badge-warning ml-3">615</span>
@@ -633,53 +988,64 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-lg-4">
+		<div class="col-xl-4 mt-xl-0 mt-4">
 			<div class="card">
 				<h4 class="card-header bg-primary text-white">Government Jobs Alert</h4>
 				<div class="card-body">
 					<marquee behavior="scroll" direction="up" onmouseover="this.stop();" onmouseout="this.start();">
-						<p>
-							<a href="govt-jobs.html" class="font-weight-bold text-dark text_16">Online Admission Certificates for GR</a><br>
+						<p class="border border-gray-400 shadow-outer">
+							<a href="govt-jobs.html" class="font-weight-bold text-dark text_16">Online Admission
+								Certificates for GR</a><br>
 							<span class="text-secondary">
-								Punjab GOVT | <span class="text-danger">WAPDA</span> | <span class="text-info">Fsc</span>
+								Punjab GOVT | <span class="text-danger">WAPDA</span> | <span
+									class="text-info">Fsc</span>
 							</span><br>
 							<span class="text-secondary">Adhoc | <span class="text-info">20 Oct 2022</span></span>
 						</p>
-						<p>
-							<a href="govt-jobs.html" class="font-weight-bold text-dark text_16">F.4-200/2018-R Inspector (Tech) - Shortlisting for</a><br>
-							<span class="text-secondary">Punjab GOVT | <span class="text-danger">WAPDA</span> | <span class="text-info">Fsc</span></span><br>
+						<p class="border border-gray-400 shadow-outer">
+							<a href="govt-jobs.html" class="font-weight-bold text-dark text_16">F.4-200/2018-R
+								Inspector (Tech) - Shortlisting for</a><br>
+							<span class="text-secondary">Punjab GOVT | <span class="text-danger">WAPDA</span> |
+								<span class="text-info">Fsc</span></span><br>
 							<span class="text-secondary">Adhoc | <span class="text-info">21 Oct 2022</span></span>
 						</p>
-						<p>
-							<a href="govt-jobs.html" class="font-weight-bold text-dark text_16">Advance Public Notice - Schedule For CSS</a><br>
-							<span class="text-secondary">Punjab GOVT | <span class="text-danger">WAPDA</span> | <span class="text-info">Fsc</span></span><br>
+						<p class="border border-gray-400 shadow-outer">
+							<a href="govt-jobs.html" class="font-weight-bold text-dark text_16">Advance Public
+								Notice - Schedule For CSS</a><br>
+							<span class="text-secondary">Punjab GOVT | <span class="text-danger">WAPDA</span> |
+								<span class="text-info">Fsc</span></span><br>
 							<span class="text-secondary">Adhoc | <span class="text-info">22 Oct 2022</span></span>
 						</p>
-						<p>
-							<a href="govt-jobs.html" class="font-weight-bold text-dark text_16">Schedule of Personal Hearing of SOPE-2020</a><br>
-							<span class="text-secondary">Punjab GOVT | <span class="text-danger">WAPDA</span> | <span class="text-info">Fsc</span></span><br>
+						<p class="border border-gray-400 shadow-outer">
+							<a href="govt-jobs.html" class="font-weight-bold text-dark text_16">Schedule of Personal
+								Hearing of SOPE-2020</a><br>
+							<span class="text-secondary">Punjab GOVT | <span class="text-danger">WAPDA</span> |
+								<span class="text-info">Fsc</span></span><br>
 							<span class="text-secondary">Adhoc | <span class="text-info">23 Oct 2022</span></span>
 						</p>
-						<p>
-							<a href="govt-jobs.html" class="font-weight-bold text-dark text_16">Result FPO Examination 2022, 48th CTP</a><br>
-							<span class="text-secondary">Punjab GOVT | <span class="text-danger">WAPDA</span> | <span class="text-info">Fsc</span></span><br>
+						<p class="border border-gray-400 shadow-outer">
+							<a href="govt-jobs.html" class="font-weight-bold text-dark text_16">Result FPO
+								Examination 2022, 48th CTP</a><br>
+							<span class="text-secondary">Punjab GOVT | <span class="text-danger">WAPDA</span> |
+								<span class="text-info">Fsc</span></span><br>
 							<span class="text-secondary">Adhoc | <span class="text-info">23 Oct 2022</span></span>
 						</p>
 					</marquee>
 				</div>
-				<a href="govt-jobs.html" class="card-footer text-center bg-success text-white">View All Jobs</a>
+				<a href="govt-jobs.html" class="card-footer text-center btn-info text-white">View All Jobs</a>
 			</div>
 		</div>
 	</div>
 </section>
 <div class="clear p-3"></div>
 <section class="bg-light py-5">
+	<div class="d-flex align-items-center justify-content-between  shadow py-2 bg-gray-400">
+		<span></span>
+		<h2 class="text-center font-weight-bold text-dark mb-0">Top Employers</h2>
+		<a href="employers.html" class="me-3 text-underline">View All</a>
+	</div>
 	<div class="container-fluid">
-		<div class="d-flex align-items-center justify-content-between">
-			<span></span>
-			<h2 class="text-center font-weight-bold text-dark">Top Employers</h2>
-			<a href="employers.html" class="btn btn-light btn-sm">view all employers</a>
-		</div>
+
 		<div class="clear p-3"></div>
 		<div id="carouselEmployers" class="carousel slide full-sider" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -689,133 +1055,205 @@
 			</ol>
 			<div class="carousel-inner">
 				<div class="carousel-item active">
-					<div class="form-row">
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-01.png" class="img-center" style="max-height:35px;"></a>
+					<div class="form-row gap-lg-14">
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class=" bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-01.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-04.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-04.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-05.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-05.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-06.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-06.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png" class="img-center" style="max-height:35px;"></a>
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="form-row">
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-01.png" class="img-center" style="max-height:35px;"></a>
-							</div>
-						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png" class="img-center" style="max-height:35px;"></a>
-							</div>
-						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png" class="img-center" style="max-height:35px;"></a>
-							</div>
-						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-04.png" class="img-center" style="max-height:35px;"></a>
-							</div>
-						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-05.png" class="img-center" style="max-height:35px;"></a>
-							</div>
-						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-06.png" class="img-center" style="max-height:35px;"></a>
-							</div>
-						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png" class="img-center" style="max-height:35px;"></a>
-							</div>
-						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
 					</div>
 				</div>
 				<div class="carousel-item">
-					<div class="form-row">
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-01.png" class="img-center" style="max-height:35px;"></a>
+					<div class="form-row gap-lg-14">
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-01.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-04.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-04.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-05.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-05.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-06.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-06.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
-						<div class="col-6 col-sm-3 col-md-4 col-lg-2 col-xl mb-2">
-							<div class="bg-white shadow h-100 border d-flex justify-content-center align-items-center py-4">
-								<a href="#"><img src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png" class="img-center" style="max-height:35px;"></a>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<div class="form-row gap-lg-14">
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-01.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-04.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-05.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-06.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-02.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
+							</div>
+						</div>
+						<div class="col-6 col-md-4 col-lg-2 col-xl mb-2">
+							<div
+								class="bg-white border border-gray-400 shadow-outer h-100 border d-flex justify-content-center align-items-center py-4">
+								<a href="#"><img
+										src="http://amentotech.com/htmls/jobforest/images/topcompanies/img-03.png"
+										class="img-center width-px-100 object-fit-contain" style="max-height:50px;"></a>
 							</div>
 						</div>
 					</div>
@@ -825,13 +1263,12 @@
 	</div>
 </section>
 <div class="clear p-3" id="snr-mng-jobs"></div>
+<div class="d-flex align-items-center justify-content-between shadow py-2 bg-gray-400">
+	<span></span>
+	<h2 class="text-center font-weight-bold text-dark mb-0">Senior Management Jobs</h2>
+	<a href="jobs-management.html" class="text-underline me-3">View All</a>
+</div>
 <section class="container-fluid">
-	<div class="d-flex align-items-center justify-content-between">
-		<span></span>
-		<h2 class="text-center font-weight-bold text-dark">Senior Management Jobs</h2>
-		<a href="jobs-management.html" class="btn btn-light-primary btn-sm">view all jobs</a>
-	</div>
-	
 	<div class="clear p-3"></div>
 	<div id="carouselManagement" class="carousel slide full-sider" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -842,10 +1279,11 @@
 			<div class="carousel-item active">
 				<div class="row">
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/1.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/1.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">PEPSI-COLA INTERNATIONAL (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Senior Manager</h6>
@@ -854,10 +1292,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/2.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/2.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Adidas (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Sales Head</h6>
@@ -866,10 +1305,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/3.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/3.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Adidas (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Director Head</h6>
@@ -878,10 +1318,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/4.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/4.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">The Institute of Chartered Accountants</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">HR Manager</h6>
@@ -890,10 +1331,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/5.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/5.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Adidas (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Sales Head</h6>
@@ -902,10 +1344,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/6.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/6.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">PEPSI-COLA INTERNATIONAL (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Senior Manager</h6>
@@ -918,10 +1361,11 @@
 			<div class="carousel-item">
 				<div class="row">
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/7.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/7.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">The Institute of Chartered Accountants</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">HR Manager</h6>
@@ -930,10 +1374,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/8.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/8.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Toyota Motor Corporation</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">General Manager Finance</h6>
@@ -942,10 +1387,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/1.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/1.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Hyundai Motor Company</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Chief Financial Officer</h6>
@@ -954,10 +1400,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/2.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/2.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">PEPSI-COLA INTERNATIONAL (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Senior Manager</h6>
@@ -966,10 +1413,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/3.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/3.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Adidas (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Sales Head</h6>
@@ -978,10 +1426,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white border border-gray-400 shadow-outer h-100 p-4 text-center">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/4.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/4.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">PEPSI-COLA INTERNATIONAL (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Senior Manager</h6>
@@ -995,113 +1444,106 @@
 	</div>
 </section>
 <div class="clear p-3" id="cv-templates"></div>
-<section class="py-4 bg-secondary-light">
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-7 col-lg-9">
-				<h3 class="font-weight-bold text-dark">CV Templates</h3>
-				<div class="clear p-2"></div>
-				<div id="carouselCV" class="carousel slide full-sider" data-ride="carousel">
-					<ol class="carousel-indicators">
-						<li data-target="#carouselCV" data-slide-to="0" class="active"></li>
-						<li data-target="#carouselCV" data-slide-to="1"></li>
-						<li data-target="#carouselCV" data-slide-to="2"></li>
-					</ol>
-					<div class="carousel-inner">
-						<div class="carousel-item active">
-							<div class="row align-items-center">
-								<div class="col-12 col-sm-4 mb-1">
-									<div class="bg-white shadow p-3 text-center">
-										<img src="images/cvs/cv-01.jpg" class="img-center border mb-3">
-										<a href="#" class="btn btn-block btn-light-success">Standard</a>
+<section class="resume-carousel-section">
+	<div class="row">
+		<div class="col-12 col-xl-4 align-self-center">
+			<div class="left-area max-w-xl-22 m-auto ml-md-5">
+				<h3 class="font-weight-bold text-white fs-32 mb-3">Beautiful templates for your dream job</h3>
+				<p class="text-white fs-16">Unlock your true potential and make a lasting
+					impression on employers and recuiters with our stunning collection
+					of 25+ elegantly designed resume templates.<br> Take your first step towards
+					success by downloading your resume in PDF format today
+				</p>
+				<a type="button" class="btn btn-info fw-medium" href="resume-templates.html">Select Template</a>
+				<div class="clear p-1"></div>
+			</div>
+		</div>
+		<div class="col-12 col-xl-8 pr-0">
+			<!-- <h3 class="font-weight-bold text-dark">CV Templates</h3> -->
+			<div class="clear p-2"></div>
+			<div id="carouselCV" class="carousel slide full-sider" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-target="#carouselCV" data-slide-to="0" class="active"></li>
+					<li data-target="#carouselCV" data-slide-to="1"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="row align-items-center pr-3">
+							<div class="col-12 col-sm-4 pr-md-0 mb-sm-1 mb-3">
+								<a href="resume-templates.html">
+									<div class="bg-white shadow p-2 border-radius-5 text-center">
+										<img src="images/colored-temp/All Templetes/CV Temp 8/CV Temp 8 color 1.png"
+											class="img-center">
 									</div>
-								</div>
-								<div class="col-12 col-sm-4 mb-1">
-									<div class="bg-white shadow p-3 text-center">
-										<img src="images/cvs/cv-02.jpg" class="img-center border mb-3">
-										<a href="#" class="btn btn-block btn-light-warning">Professional</a>
-									</div>
-								</div>
-								<div class="col-12 col-sm-4 mb-1">
-									<div class="bg-white shadow p-3 text-center">
-										<img src="images/cvs/cv-03.jpg" class="img-center border mb-3">
-										<a href="#" class="btn btn-block btn-light-danger">Modern</a>
-									</div>
-								</div>
+
+								</a>
 							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="row align-items-center">
-								<div class="col-12 col-sm-4 mb-1">
-									<div class="bg-white shadow p-3 text-center">
-										<img src="images/cvs/cv-01.jpg" class="img-center border mb-3">
-										<a href="#" class="btn btn-block btn-light-success">Standard</a>
+							<div class="col-12 col-sm-4 pr-md-0 mb-sm-1 mb-3">
+								<a href="resume-templates.html">
+									<div class="bg-white shadow p-2 border-radius-5 text-center">
+										<img src="images/colored-temp/All Templetes/CV Temp 12/CV Temp 12 color 1.png"
+											class="img-center">
 									</div>
-								</div>
-								<div class="col-12 col-sm-4 mb-1">
-									<div class="bg-white shadow p-3 text-center">
-										<img src="images/cvs/cv-02.jpg" class="img-center border mb-3">
-										<a href="#" class="btn btn-block btn-light-warning">Professional</a>
-									</div>
-								</div>
-								<div class="col-12 col-sm-4 mb-1">
-									<div class="bg-white shadow p-3 text-center">
-										<img src="images/cvs/cv-03.jpg" class="img-center border mb-3">
-										<a href="#" class="btn btn-block btn-light-danger">Modern</a>
-									</div>
-								</div>
+
+								</a>
 							</div>
-						</div>
-						<div class="carousel-item">
-							<div class="row align-items-center">
-								<div class="col-12 col-sm-4 mb-1">
-									<div class="bg-white shadow p-3 text-center">
-										<img src="images/cvs/cv-01.jpg" class="img-center border mb-3">
-										<a href="#" class="btn btn-block btn-light-success">Standard</a>
-									</div>
-								</div>
-								<div class="col-12 col-sm-4 mb-1">
-									<div class="bg-white shadow p-3 text-center">
-										<img src="images/cvs/cv-02.jpg" class="img-center border mb-3">
-										<a href="#" class="btn btn-block btn-light-warning">Professional</a>
-									</div>
-								</div>
-								<div class="col-12 col-sm-4 mb-1">
-									<div class="bg-white shadow p-3 text-center">
-										<img src="images/cvs/cv-03.jpg" class="img-center border mb-3">
-										<a href="#" class="btn btn-block btn-light-danger">Modern</a>
-									</div>
-								</div>
+							<div class="col-12 col-sm-4 pr-md-0 mb-sm-1 mb-3">
+								<a href="resume-templates.html">
+									<div class="bg-white shadow p-2 border-radius-5 text-center">
+										<img src="images/colored-temp/All Templetes/CV Temp 24/CV Temp 24 color 1.png"
+											class="img-center">
+								</a>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-5 col-lg-3 align-self-center">
-				<div class="card card-body">
-					<h3 class="text-center font-weight-bold text-dark">Find The Best CV Templates</h3>
-					<div class="clear p-2"></div>
-					<button type="button" class="btn btn-success btn-block">Write Your CV</button>
-					<div class="clear p-1"></div>
-					<button type="button" class="btn btn-danger btn-block">Boost Your Job Search</button>
+				<div class="carousel-item">
+					<div class="row align-items-center pr-3">
+						<div class="col-12 col-sm-4 pr-md-0 mb-sm-1 mb-3">
+							<a href="resume-templates.html">
+								<div class="bg-white shadow p-2 border-radius-5 text-center">
+									<img src="images/colored-temp/All Templetes/CV Temp 23/CV Temp 23 color 1.png" class="img-center">
+								</div>
+
+							</a>
+						</div>
+						<div class="col-12 col-sm-4 pr-md-0 mb-sm-1 mb-3">
+							<a href="resume-templates.html">
+								<div class="bg-white shadow p-2 border-radius-5 text-center">
+									<img src="images/colored-temp/All Templetes/CV Temp 6/CV Temp 6 color 1.png" class="img-center">
+								</div>
+
+							</a>
+						</div>
+						<div class="col-12 col-sm-4 pr-md-0 mb-sm-1 mb-3">
+							<a href="resume-templates.html">
+								<div class="bg-white shadow p-2 border-radius-5 text-center">
+									<img src="images/colored-temp/All Templetes/CV Temp 17/CV Temp 17 color 1.png" class="img-center">
+							</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>	
+	</div>
+	</div>
 </section>
 <div class="clear p-3" id="featured-jobs"></div>
+<div class="d-flex align-items-center justify-content-between shadow py-2 bg-gray-400">
+	<span></span>
+	<h2 class="font-weight-bold text-dark ps-3">Featured Jobs</h2>
+	<a href="jobs-featured.html" class="me-3 text-underline">View All</a>
+</div>
 <section class="container-fluid">
-	<div class="d-flex justify-content-between">
-		<h3 class="font-weight-bold text-dark">Featured Jobs</h3>
-		<a href="jobs-featured.html" class="btn btn-link btn-sm">view all jobs</a>
-	</div>	
+
 	<div class="clear p-2"></div>
 	<div class="row">
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://jobee.pk/images/companylogo/32086Logo.jpg" class="img-center" style="max-height:50px;">
+						<img src="https://jobee.pk/images/companylogo/32086Logo.jpg" class="img-center"
+							style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>HR Manager / Human Resource Manager</span>
@@ -1115,10 +1557,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://jobee.pk/images/companylogo/8724Logo.jpg" class="img-center" style="max-height:50px;">
+						<img src="https://jobee.pk/images/companylogo/8724Logo.jpg" class="img-center"
+							style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>VueJS Developer</span>
@@ -1132,10 +1575,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://jobee.pk/images/companylogo/14758Logo.jpg" class="img-center" style="max-height:50px;">
+						<img src="https://jobee.pk/images/companylogo/14758Logo.jpg" class="img-center"
+							style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>Flutter Developer</span>
@@ -1149,10 +1593,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://s.rozee.pk/c/i/sprt/comp/01/18001.jpg" class="img-center" style="max-height:50px;">
+						<img src="https://s.rozee.pk/c/i/sprt/comp/01/18001.jpg" class="img-center"
+							style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>Assistant Professor - Optometry</span>
@@ -1166,10 +1611,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGzBVBbzcm_tA/company-logo_200_200/0/1618210530350?e=2147483647&v=beta&t=IoqYwN3qt-3ghiAFrFaZ3dO2L5uiJcY4D_pevpt0hds" class="img-center" style="max-height:50px;">
+						<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGzBVBbzcm_tA/company-logo_200_200/0/1618210530350?e=2147483647&v=beta&t=IoqYwN3qt-3ghiAFrFaZ3dO2L5uiJcY4D_pevpt0hds"
+							class="img-center" style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>Assistant Manager (Sales)</span>
@@ -1183,10 +1629,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://jobee.pk/images/companylogo/29088Logo.jpg" class="img-center" style="max-height:50px;">
+						<img src="https://jobee.pk/images/companylogo/29088Logo.jpg" class="img-center"
+							style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>Sales Executive / Customer Services</span>
@@ -1200,10 +1647,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://jobee.pk/images/companylogo/32086Logo.jpg" class="img-center" style="max-height:50px;">
+						<img src="https://jobee.pk/images/companylogo/32086Logo.jpg" class="img-center"
+							style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>HR Manager / Human Resource Manager</span>
@@ -1217,10 +1665,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://jobee.pk/images/companylogo/8724Logo.jpg" class="img-center" style="max-height:50px;">
+						<img src="https://jobee.pk/images/companylogo/8724Logo.jpg" class="img-center"
+							style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>VueJS Developer</span>
@@ -1234,10 +1683,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://jobee.pk/images/companylogo/14758Logo.jpg" class="img-center" style="max-height:50px;">
+						<img src="https://jobee.pk/images/companylogo/14758Logo.jpg" class="img-center"
+							style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>Flutter Developer</span>
@@ -1251,10 +1701,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://s.rozee.pk/c/i/sprt/comp/01/18001.jpg" class="img-center" style="max-height:50px;">
+						<img src="https://s.rozee.pk/c/i/sprt/comp/01/18001.jpg" class="img-center"
+							style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>Assistant Professor - Optometry</span>
@@ -1268,10 +1719,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGzBVBbzcm_tA/company-logo_200_200/0/1618210530350?e=2147483647&v=beta&t=IoqYwN3qt-3ghiAFrFaZ3dO2L5uiJcY4D_pevpt0hds" class="img-center" style="max-height:50px;">
+						<img src="https://media-exp1.licdn.com/dms/image/C4E0BAQGzBVBbzcm_tA/company-logo_200_200/0/1618210530350?e=2147483647&v=beta&t=IoqYwN3qt-3ghiAFrFaZ3dO2L5uiJcY4D_pevpt0hds"
+							class="img-center" style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>Assistant Manager (Sales)</span>
@@ -1285,10 +1737,11 @@
 			</a>
 		</div>
 		<div class="col-sm-6 col-md-6 col-lg-4 pb-3">
-			<a href="jobs.html" class="well h-100 mb-0 p-2 d-block text-dark">
+			<a href="jobs.html" class="well h-100 border border-gray-400 shadow-outer mb-0 p-2 d-block text-dark shadow bg-white">
 				<div class="form-row align-items-center">
 					<div class="col-3 col-md-3 col-lg-2 text-center">
-						<img src="https://jobee.pk/images/companylogo/29088Logo.jpg" class="img-center" style="max-height:50px;">
+						<img src="https://jobee.pk/images/companylogo/29088Logo.jpg" class="img-center"
+							style="max-height:60px;">
 					</div>
 					<div class="col-6 col-md-6 col-lg-8 py-2 border-left">
 						<span>Sales Executive / Customer Services</span>
@@ -1304,13 +1757,14 @@
 	</div>
 </section>
 <div class="clear p-3" id="TopRated-jobs"></div>
-<section class="container-fluid bg-light py-5">
-	<div class="d-flex align-items-center justify-content-between">
-		<span></span>
-		<h2 class="text-center font-weight-bold text-dark">Top Rated Jobs</h2>
-		<a href="jobs.html" class="btn btn-light btn-sm">view all jobs</a>
-	</div>
-	
+<div class="d-flex align-items-center justify-content-between shadow py-2 bg-gray-400">
+	<span></span>
+	<h2 class="text-center font-weight-bold text-dark">Top Rated Jobs</h2>
+	<a href="jobs.html" class="me-3 text-underline">View All</a>
+</div>
+<section class="container-fluid bg-light pb-5">
+
+
 	<div class="clear p-3"></div>
 	<div id="carouselTopRated" class="carousel slide full-sider" data-ride="carousel">
 		<ol class="carousel-indicators">
@@ -1321,10 +1775,11 @@
 			<div class="carousel-item active">
 				<div class="row">
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/1.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/1.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">PEPSI-COLA INTERNATIONAL (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Senior Manager</h6>
@@ -1333,10 +1788,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/2.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/2.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Adidas (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Sales Head</h6>
@@ -1345,10 +1801,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/3.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/3.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Adidas (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Director Head</h6>
@@ -1357,10 +1814,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/4.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/4.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">The Institute of Chartered Accountants</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">HR Manager</h6>
@@ -1369,10 +1827,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/5.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/5.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Adidas (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Sales Head</h6>
@@ -1381,10 +1840,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/6.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/6.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">PEPSI-COLA INTERNATIONAL (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Senior Manager</h6>
@@ -1397,10 +1857,11 @@
 			<div class="carousel-item">
 				<div class="row">
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/7.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/7.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">The Institute of Chartered Accountants</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">HR Manager</h6>
@@ -1409,10 +1870,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/8.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/8.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Toyota Motor Corporation</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">General Manager Finance</h6>
@@ -1421,10 +1883,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/1.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/1.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Hyundai Motor Company</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Chief Financial Officer</h6>
@@ -1433,10 +1896,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/2.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/2.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">PEPSI-COLA INTERNATIONAL (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Senior Manager</h6>
@@ -1445,10 +1909,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/3.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/3.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">Adidas (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Sales Head</h6>
@@ -1457,10 +1922,11 @@
 						</div>
 					</div>
 					<div class="col-12 col-sm-6 col-md-4 col-lg-2 mb-2">
-						<div class="bg-white shadow h-100 p-4 text-center">
+						<div class="bg-white shadow h-100 p-4 text-center border border-gray-400 shadow-outer">
 							<a href="jobs-management.html" class="text-body">
-								<div class="border py-2 mb-3">
-									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/4.png" class="img-center" height="60">
+								<div class="py-2 mb-3">
+									<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/companies/4.png"
+										class="img-center" height="80">
 								</div>
 								<small class="text-dark">PEPSI-COLA INTERNATIONAL (PVT) LTD</small>
 								<h6 class="mt-2 font-weight-semi-bold text-dark">Senior Manager</h6>
@@ -1476,46 +1942,46 @@
 <div class="clear p-3"></div>
 <section class="container-fluid">
 	<div class="row align-items-center">
-		<div class="col-md-5 col-lg-6 text-center">
+		<div class="col-12 col-lg-6 text-center">
 			<img src="images/download-apps.jpg" class="img-center">
 		</div>
-		<div class="col-md-7 col-lg-6 mb-2">
+		<div class="col-12 col-lg-6 mb-2 mt-lg-0 mt-4">
 			<div class="card h-100 mb-0">
 				<h4 class="card-header bg-primary text-white">Solution For All Your Hiring Needs</h4>
-				<div class="card-body pb-0 bg-light">
+				<div class="card-body pb-0 bg-white">
 					<div class="row">
 						<div class="col-sm-6 col-md-4 mb-4">
-							<a href="courses.html" class="card card-body h-100 text-center hiring">
+							<a href="courses.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
 								<img src="images/icons/ico_courses.png" class="img-center"><br>
 								Courses
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-4 mb-4">
-							<a href="recruitment-services.html" class="card card-body h-100 text-center hiring">
+							<a href="recruitment-services.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
 								<img src="images/icons/ico_recruitment.png" class="img-center"><br>
-								Recruitment Services
+								Rapid Staff Acquisition
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-4 mb-4">
-							<a href="#" class="card card-body h-100 text-center hiring">
+							<a href="outsource.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
 								<img src="images/icons/ico_outsource.png" class="img-center"><br>
 								Outsource
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-4 mb-4">
-							<a href="about-us.html" class="card card-body h-100 text-center hiring">
+							<a href="about-us.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
 								<img src="images/icons/ico_management.png" class="img-center"><br>
 								Management
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-4 mb-4">
-							<a href="contact-us.html" class="card card-body h-100 text-center hiring">
+							<a href="contact-us.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
 								<img src="images/icons/ico_team.png" class="img-center"><br>
 								Meet Our Team
 							</a>
 						</div>
 						<div class="col-sm-6 col-md-4 mb-4">
-							<a href="videos.html" class="card card-body h-100 text-center hiring">
+							<a href="videos.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
 								<img src="images/icons/ico_video.png" class="img-center"><br>
 								Videos
 							</a>
@@ -1527,103 +1993,107 @@
 	</div>
 </section>
 <div class="clear p-3" id="freelancers"></div>
-<section class="container-fluid bg-light py-4">
-	<h2 class="text-center font-weight-bold text-dark pt-3">Freelancers</h2>
-	<div class="clear p-2"></div>
-	<div class="row justify-content-md-center">
-		<div class="col-lg-7">
-			<div class="shadow bg-white p-3">
-				<form class="form-row justify-content-center m-0">
-					<div class="form-group col-12 col-md-5 mb-0">
-						<input type="text" class="form-control" placeholder="Search Key Words, Skill or Company" aria-label="Search Key Words, Skill or Company" aria-describedby="">
-					</div>
-					<div class="form-group col-6 col-md-4 mb-0">
-						<select class="form-control">
-							<option value="Category">Select Category</option>
-						</select>
-					</div>
-					<div class="form-group col-6 col-md-3 mb-0">
-						<button type="button" class="btn btn-block btn-primary"><i class="fas fa-map-marker-alt mr-1"></i> Search</button>
-					</div>
-				</form>
+	<h2 class="text-center font-weight-bold text-white p-3 bg-primary">Freelancers</h2>
+
+	<section class="container-fluid bg-light pb-4">
+		<div class="clear p-2"></div>
+		<div class="row justify-content-md-center">
+			<div class="col-lg-7">
+				<div class="shadow bg-white p-3">
+					<form class="form-row justify-content-center m-0">
+						<div class="form-group col-12 col-md-5 mb-lg-0 mb-2">
+							<input type="text" class="form-control" placeholder="Search Key Words, Skill or Company"
+								aria-label="Search Key Words, Skill or Company" aria-describedby="">
+						</div>
+						<div class="form-group col-12 col-md-4 mb-lg-0 mb-2">
+							<select class="form-control">
+								<option value="Category">Select Category</option>
+							</select>
+						</div>
+						<div class="form-group col-12 col-md-3 mb-0">
+							<button type="button" class="btn btn-block btn-primary"><i
+									class="fas fa-map-marker-alt mr-1"></i> Search</button>
+						</div>
+					</form>
+				</div>
 			</div>
 		</div>
-	</div>
-	<div class="clear p-3"></div>
-	<div class="row">
-		<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
-			<a href="freelancers.html" class="card card-body h-100 text-center hiring">
-				<img src="images/icons/ico_gd.png" class="img-center"><br>
-				Graphic & Design
-			</a>
+		<div class="clear p-3"></div>
+		<div class="row">
+			<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+				<a href="freelancers.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
+					<img src="images/icons/ico_gd.png" class="img-center"><br>
+					Graphic & Design
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+				<a href="freelancers.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
+					<img src="images/icons/ico_dm.png" class="img-center"><br>
+					Digital Marketing
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+				<a href="freelancers.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
+					<img src="images/icons/ico_writing.png" class="img-center"><br>
+					Writing & Translation
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+				<a href="freelancers.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
+					<img src="images/icons/ico_video.png" class="img-center"><br>
+					Video & Animation
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+				<a href="freelancers.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
+					<img src="images/icons/ico_media.png" class="img-center"><br>
+					Music & Audio
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+				<a href="freelancers.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
+					<img src="images/icons/ico_programingTech.png" class="img-center"><br>
+					Programming & Tech
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+				<a href="freelancers.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
+					<img src="images/icons/ico_business.png" class="img-center"><br>
+					Business
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+				<a href="freelancers.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
+					<img src="images/icons/ico_lifestyle.png" class="img-center"><br>
+					Lifestyle
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+				<a href="freelancers.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
+					<img src="images/icons/ico_data.png" class="img-center"><br>
+					Data
+				</a>
+			</div>
+			<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
+				<a href="freelancers.html" class="card card-body h-100 text-center hiring border border-gray-400 shadow-outer">
+					<img src="images/icons/ico_photo.png" class="img-center"><br>
+					Photography
+				</a>
+			</div>
 		</div>
-		<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
-			<a href="freelancers.html" class="card card-body h-100 text-center hiring">
-				<img src="images/icons/ico_dm.png" class="img-center"><br>
-				Digital Marketing
-			</a>
-		</div>
-		<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
-			<a href="freelancers.html" class="card card-body h-100 text-center hiring">
-				<img src="images/icons/ico_writing.png" class="img-center"><br>
-				Writing & Translation
-			</a>
-		</div>
-		<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
-			<a href="freelancers.html" class="card card-body h-100 text-center hiring">
-				<img src="images/icons/ico_video.png" class="img-center"><br>
-				Video & Animation
-			</a>
-		</div>
-		<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
-			<a href="freelancers.html" class="card card-body h-100 text-center hiring">
-				<img src="images/icons/ico_media.png" class="img-center"><br>
-				Music & Audio
-			</a>
-		</div>
-		<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
-			<a href="freelancers.html" class="card card-body h-100 text-center hiring">
-				<img src="images/icons/ico_programingTech.png" class="img-center"><br>
-				Programming & Tech
-			</a>
-		</div>
-		<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
-			<a href="freelancers.html" class="card card-body h-100 text-center hiring">
-				<img src="images/icons/ico_business.png" class="img-center"><br>
-				Business
-			</a>
-		</div>		
-		<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
-			<a href="freelancers.html" class="card card-body h-100 text-center hiring">
-				<img src="images/icons/ico_lifestyle.png" class="img-center"><br>
-				Lifestyle
-			</a>
-		</div>
-		<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
-			<a href="freelancers.html" class="card card-body h-100 text-center hiring">
-				<img src="images/icons/ico_data.png" class="img-center"><br>
-				Data
-			</a>
-		</div>
-		<div class="col-sm-6 col-md-4 col-lg-2 mb-4">
-			<a href="freelancers.html" class="card card-body h-100 text-center hiring">
-				<img src="images/icons/ico_photo.png" class="img-center"><br>
-				Photography
-			</a>
-		</div>
-	</div>
-	<a href="freelancers.html" class="btn btn-link btn-sm">view all freelancers</a>
-</section>
+		<a href="freelancers.html" class="btn btn-link btn-sm">view all freelancers</a>
+	</section>
 <div class="clear py-3" id="gigs"></div>
 <section class="container-fluid">
 	<h2 class="text-center font-weight-bold text-dark">Top Rated Gigs</h2>
 	<div class="clear py-2"></div>
 	<div class="row">
-		<div class="col-6 col-sm-4 col-md-4 col-lg pb-3">
-			<div class="card card-body p-1 h-100 mb-0">
+		<div class="col-12  col-sm-6 col-lg pb-3">
+			<div class="card card-body p-1 h-100 mb-0 border border-gray-400 shadow-outer">
 				<div class="text-center">
 					<a href="gig-detail.html">
-						<img src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/266925200/original/272ab30e156933000444cd49e737ef6bc090da7d.jpg" class="img-center border-radius-top10">
+						<img src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/266925200/original/272ab30e156933000444cd49e737ef6bc090da7d.jpg"
+							class="img-center border-radius-top10">
 					</a>
 				</div>
 				<div class="p-3">
@@ -1640,10 +2110,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-6 col-sm-4 col-md-4 col-lg pb-3">
-			<div class="card card-body p-1 h-100 mb-0">
+		<div class="col-12  col-sm-6 col-lg pb-3">
+			<div class="card card-body p-1 h-100 mb-0 border border-gray-400 shadow-outer">
 				<div class="text-center">
-					<a href="gig-detail.html"><img src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/131654033/original/f8b786be8ecb514aae3ac79b38c99860ab84c6b8.jpg" class="img-center border-radius-top10"></a>
+					<a href="gig-detail.html"><img
+							src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/131654033/original/f8b786be8ecb514aae3ac79b38c99860ab84c6b8.jpg"
+							class="img-center border-radius-top10"></a>
 				</div>
 				<div class="p-3">
 					<div class="d-flex justify-content-between align-items-center mb-1">
@@ -1659,10 +2131,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-6 col-sm-4 col-md-4 col-lg pb-3">
-			<div class="card card-body p-1 h-100 mb-0">
+		<div class="col-12  col-sm-6 col-lg pb-3">
+			<div class="card card-body p-1 h-100 mb-0 border border-gray-400 shadow-outer">
 				<div class="text-center">
-					<a href="gig-detail.html"><img src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/263136284/original/4095f112bfb81b9e123ef4a45f03a1350e7b139e.jpg" class="img-center border-radius-top10"></a>
+					<a href="gig-detail.html"><img
+							src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/263136284/original/4095f112bfb81b9e123ef4a45f03a1350e7b139e.jpg"
+							class="img-center border-radius-top10"></a>
 				</div>
 				<div class="p-3">
 					<div class="d-flex justify-content-between align-items-center mb-1">
@@ -1678,10 +2152,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-6 col-sm-4 col-md-4 col-lg pb-3">
-			<div class="card card-body p-1 h-100 mb-0">
+		<div class="col-12  col-sm-6 col-lg pb-3">
+			<div class="card card-body p-1 h-100 mb-0 border border-gray-400 shadow-outer">
 				<div class="text-center">
-					<a href="gig-detail.html"><img src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/266822669/original/a9123eeaf36b40fafb3475b09ecf9964b26b8872.png" class="img-center border-radius-top10"></a>
+					<a href="gig-detail.html"><img
+							src="https://fiverr-res.cloudinary.com/t_gig_cards_web,q_auto,f_auto/gigs/266822669/original/a9123eeaf36b40fafb3475b09ecf9964b26b8872.png"
+							class="img-center border-radius-top10"></a>
 				</div>
 				<div class="p-3">
 					<div class="d-flex justify-content-between align-items-center mb-1">
@@ -1697,10 +2173,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-6 col-sm-4 col-md-4 col-lg pb-3">
-			<div class="card card-body p-1 h-100 mb-0">
+		<div class="col-12  col-sm-6 col-lg pb-3">
+			<div class="card card-body p-1 h-100 mb-0 border border-gray-400 shadow-outer">
 				<div class="text-center">
-					<a href="gig-detail.html"><img src="https://fiverr-res.cloudinary.com/t_gig_cards_web_x2,q_auto,f_auto/gigs/134209198/original/afefa6d57936d77824a74510f323028b7a3521df.jpg" class="img-center border-radius-top10"></a>
+					<a href="gig-detail.html"><img
+							src="https://fiverr-res.cloudinary.com/t_gig_cards_web_x2,q_auto,f_auto/gigs/134209198/original/afefa6d57936d77824a74510f323028b7a3521df.jpg"
+							class="img-center border-radius-top10"></a>
 				</div>
 				<div class="p-3">
 					<div class="d-flex justify-content-between align-items-center mb-1">
@@ -1720,23 +2198,26 @@
 	<a href="gigs.html" class="btn btn-link btn-sm">view all gigs</a>
 </section>
 <div class="clear py-3"></div>
+<h2 class="text-center font-weight-bold text-white p-3 bg-primary">Freelancing Jobs</h2>
+
 <section class="container-fluid well border-radius-0 m-0">
-	<h2 class="text-center font-weight-bold text-dark pt-3">Freelancing Jobs</h2>
 	<div class="clear p-2"></div>
 	<div class="row justify-content-md-center">
 		<div class="col-lg-7">
 			<div class="shadow bg-white p-3">
 				<form class="form-row justify-content-center m-0">
-					<div class="form-group col-12 col-md-5 mb-0">
-						<input type="text" class="form-control" placeholder="Search Key Words, Skill or Company" aria-label="Search Key Words, Skill or Company" aria-describedby="">
+					<div class="form-group col-12 col-md-5 mb-lg-0 mb-2">
+						<input type="text" class="form-control" placeholder="Search Key Words, Skill or Company"
+							aria-label="Search Key Words, Skill or Company" aria-describedby="">
 					</div>
-					<div class="form-group col-6 col-md-4 mb-0">
+					<div class="form-group col-12 col-md-4 mb-lg-0 mb-2">
 						<select class="form-control">
 							<option value="Category">Select Category</option>
 						</select>
 					</div>
-					<div class="form-group col-6 col-md-3 mb-0">
-						<button type="button" class="btn btn-block btn-primary"><i class="fas fa-map-marker-alt mr-1"></i> Search</button>
+					<div class="form-group col-12 col-md-3 mb-0">
+						<button type="button" class="btn btn-block btn-primary"><i
+								class="fas fa-map-marker-alt mr-1"></i> Search</button>
 					</div>
 				</form>
 			</div>
@@ -1744,139 +2225,150 @@
 	</div>
 	<div class="clear py-4"></div>
 	<div class="row align-items-center">
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Telecommunication</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Manufacturing</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Information Technology</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/4.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/4.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Food</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/5.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/5.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Real Estate/Property</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/6.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/6.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Business Development</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/7.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/7.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Recruitment/Employment Firms</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/1.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Telecommunication</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/2.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Manufacturing</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/3.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Information Technology</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
-			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark">
+		<div class="col-md-12 col-lg-4 mb-3">
+			<a href="jobs.html" class="well p-0 mb-0 bg-white d-block text-dark border border-gray-400 shadow-outer">
 				<div class="row align-items-center">
-					<div class="col-4 col-lg-3 text-center py-2 border-right">
-						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/4.png" style="max-height:50px;">
+					<div class="col-3 text-center py-2 border-right">
+						<img src="https://templates.hibootstrap.com/gable/default/assets/img/home-1/jobs/4.png"
+							style="max-height:50px;">
 					</div>
-					<div class="col-8 col-lg-9">
+					<div class="col-9">
 						<h6 class="text-dark font-weight-semi-bold text_16 mb-0">Food</h6>
 					</div>
 				</div>
 			</a>
 		</div>
-		<div class="col-sm-6 col-md-6 col-lg-4 mb-3">
+		<div class="col-md-12 col-lg-4 mb-3">
 			<a href="jobs-industry.html" class="btn btn-link bg-transparent">view all jobs</a>
 		</div>
 	</div>
@@ -2326,7 +2818,7 @@ processing to short listing, please immediately report at.</p>
 	<div class="modal-dialog modal-dialog-centered" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<h4 class="modal-title text-dark font-weight-bold">Advance Search</h4>
+				<h4 class="modal-title text-white font-weight-bold">Advance Search</h4>
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 					<span aria-hidden="true">&times;</span>
 				</button>
@@ -2346,10 +2838,16 @@ processing to short listing, please immediately report at.</p>
 						</div>
 						<div class="form-group col-md-6">
 							<label for="salary">Expected Salary</label>
+							<div class="d-flex">
+								<select class="form-control border-end-0 boder-radius-top-right-0 boder-radius-bottom-right-0 focus-unset">
+									<option>PKR</option>
+									<option>$</option>
+								</select>
 							<select class="form-control" id="salary">
 								<option>Select</option>
 							</select>
 						</div>
+					</div>
 						<div class="form-group col-md-6">
 							<label for="gender">Gender</label>
 							<select class="form-control" id="gender">

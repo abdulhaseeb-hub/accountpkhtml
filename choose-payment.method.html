@@ -1,0 +1,566 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+
+    <!-- Title-->
+    <title>Accountant.PK</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css"
+        rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Fontawesome icons css -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="images/favicon.png">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+            <span class="navbar-brand">
+                <a href="index.html"><img src="images/logo.png" width="110" alt="Accountant.pk"></a>
+                <a href="index.html" class="nav-text">Beware! Reported Companies</a>
+            </span>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-mobile-alt mr-1"></i> Mobile App</a>
+                    </li>
+                    <li class="nav-item dropdown text-nowrap">
+                        <a class="nav-link dropdown-toggle" href="#" id="setting" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-cog mr-1"></i> Settings
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="setting">
+                            <a class="dropdown-item" href="settings.html">Account Settings</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Purchase History</a>
+                            <div class="dropdown-divider"></div>
+                            <strong class="dropdown-item font-weight-semi-bold text-dark">Language</strong>
+                            <a class="dropdown-item pl-4" href="#">English</a>
+                            <a class="dropdown-item pl-4" href="#">Urdu</a>
+                            <div class="dropdown-divider"></div>
+                            <strong class="dropdown-item font-weight-semi-bold text-dark">Power Tools</strong>
+                            <a class="dropdown-item pl-4" href="#">Test Builder</a>
+                            <a class="dropdown-item pl-4" href="#">Interview Evaluation Forms</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-info text-white" href="job-seeker.html">Job Seeker</a>
+                    </li>
+                    <li class="nav-item mx-2">
+                        <a class="nav-link btn btn-success text-white" href="freelancer-home.html">Freelancers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn btn-danger text-white" href="employer-home.html">Employers</a>
+                    </li>
+                    <li class="nav-item dropdown text-nowrap pl-0">
+                        <a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown"
+                            aria-haspopup="true" aria-expanded="false">
+                            <div class="d-flex align-items-center">
+                                <img src="images/favicon.png" class="img-circle mr-2" width="30">
+                                <span>Noman</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="language">
+                            <a class="dropdown-item" href="forgot-resetpass.html">Change Password</a>
+                            <a class="dropdown-item" href="index.html">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="clear py-3"></div>
+    <section class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="row text-center text-black-50 align-items-center">
+                    <a href="gig-bying.html" class=" px-2 text-success">Order Details</a>
+                    <i class="fas fa-arrow-right px-2 "></i>
+                    <a href="choose-payment.method.html" class="px-2 text-success text-nowrap">Choose Payment Method</a>
+                </div>
+                <div class="clear py-1"></div>
+                <hr>
+                <div class="clear py-1"></div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-8">
+
+                <div class="row">
+                    <div class="card p-3 w-100 shadow-md well select-rols">
+                        <p class="mb-2">Enjoy the convenience of online payment submission and the flexibility of manual
+                            payment for an effortless experience
+                        </p>
+
+                        <label class="fs-16 mb-3 fw-semibold">Choose Payment Method</label>
+
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button
+                                            class="btn btn-link d-flex justify-content-between align-items-center bg-white"
+                                            data-toggle="collapse" data-target="#collapseOne" aria-expanded="true"
+                                            aria-controls="collapseOne">
+                                            <div class="d-flex align-items-center gap-14">
+                                                <img src="images/online.png" class="img-center">
+                                                <h6 class="fs-18 text-black mb-0 ms-2">
+                                                    Online Payment
+                                                </h6>
+                                            </div>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#accordion">
+                                    <div class="card-body well mb-0">
+                                        <div class="d-flex justify-content-between align-items-center gap-100">
+                                            <div class="text-center max-w-25 m-auto">
+                                                <h6 class="fs-20 text-black">Bank Alfalah
+                                                </h6>
+                                                <p class="font-weight-semi-bold fs-16 mb-0 mt-4">
+                                                    Customers can make payment through Visa or
+                                                    Mastercard Credit/Debit Card. We support both
+                                                    local and international cards
+                                                </p>
+                                            </div>
+
+                                            <div>
+                                                <div class="d-flex align-items-center gap-14 justify-content-end mb-4">
+                                                    <img src="images/visa.png" class="width-px-50 height-px-50" />
+                                                    <img src="images/mastercard.png" class="width-px-50 height-px-50" />
+                                                    <img src="https://seeklogo.com/images/D/Discover_Card-logo-4BC5D7C02C-seeklogo.com.png"
+                                                        class="width-px-50 height-px-30">
+                                                </div>
+
+                                                <div>
+                                                    <img src="images/free-credit-card-icon-6379-thumb.png"
+                                                        class="height-px-148" />
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="d-flex justify-content-end mt-3">
+                                            <a href="gig-checkout.html" class="btn btn-primary min-w-230">Pay Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div id="accordionTwo" class="mt-3">
+                            <div class="card">
+                                <div class="card-header" id="headingtwo">
+                                    <button
+                                        class="btn btn-link d-flex justify-content-between align-items-center bg-white"
+                                        data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true"
+                                        aria-controls="collapseTwo">
+                                        <div class="d-flex align-items-center gap-14">
+                                            <img src="images/manual.png" class="img-center">
+                                            <h6 class="fs-18 text-black mb-0">
+                                                Manual Payment
+                                            </h6>
+                                        </div>
+                                    </button>
+                                </div>
+                                <div id="collapsetwo" class="collapse show" aria-labelledby="headingtwo"
+                                    data-parent="#accordionTwo">
+                                    <div class="card-body well mb-0">
+                                        <div class="tab-content" id="myTabContent">
+                                            <div class="tab-pane fade show active" id="MobileAcount" role="tabpanel"
+                                                aria-labelledby="MobileAcount-tab">
+                                                <p class="font-weight-semi-bold">
+                                                    Kindly choose a bank account from the provided list. Additionally,
+                                                    please ensure that the invoice is
+                                                    attached with the corresponding file name.
+                                                </p>
+                                                <div class="row">
+                                                    <div class="form-group col-sm-6">
+                                                        <div
+                                                            class="custom-control custom-checkbox border-radius-10 h-100 bg-white">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="easypaisa">
+                                                            <label class="custom-control-label" for="easypaisa">
+                                                                <div class="media py-2 align-items-center">
+                                                                    <img class="align-self-center mr-3"
+                                                                        src="images/ico_askaribank.png" width="75">
+                                                                    <div class="media-body font-weight-normal">
+                                                                        <p class="mb-1"><strong>Account Title:</strong>
+                                                                            IR Technologies (Pvt) Ltd</p>
+                                                                        <p class="mb-1"><strong>Account Number:</strong>
+                                                                            0002-130420000278
+                                                                        </p>
+                                                                        <p class="m-0"><strong>Branch Code:</strong>
+                                                                            0002</p>
+                                                                    </div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-sm-6">
+                                                        <div
+                                                            class="custom-control custom-checkbox border-radius-10 h-100 bg-white">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="easypaisa">
+                                                            <label class="custom-control-label" for="easypaisa">
+                                                                <div class="media py-2 align-items-center">
+                                                                    <img class="align-self-center mr-3"
+                                                                        src="images/ico_ubank.png" width="75">
+                                                                    <div class="media-body font-weight-normal">
+                                                                        <p class="mb-1"><strong>Account Title:</strong>
+                                                                            IR Technologies (Pvt) Ltd</p>
+                                                                        <p class="mb-1"><strong>Account Number:</strong>
+                                                                            1029-00092610086
+                                                                        </p>
+                                                                        <p class="m-0"><strong>Branch Code:</strong>
+                                                                            1029</p>
+                                                                    </div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-sm-6">
+                                                        <div
+                                                            class="custom-control custom-checkbox border-radius-10 h-100 bg-white">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="easypaisa">
+                                                            <label class="custom-control-label" for="easypaisa">
+                                                                <div class="media py-2 align-items-center">
+                                                                    <img class="align-self-center mr-3"
+                                                                        src="images/ico_easypaisa.png" width="75">
+                                                                    <div class="media-body font-weight-normal">
+                                                                        <p class="mb-1"><strong>Account Title:</strong>
+                                                                            IR Technologies (Pvt) Ltd</p>
+                                                                        <p class="m-0"><strong>Account Number:</strong>
+                                                                            0344-4643981</p>
+                                                                    </div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-sm-6">
+                                                        <div
+                                                            class="custom-control custom-checkbox border-radius-10 h-100 bg-white">
+                                                            <input type="checkbox" class="custom-control-input"
+                                                                id="easypaisa">
+                                                            <label class="custom-control-label" for="easypaisa">
+                                                                <div class="media py-2 align-items-center">
+                                                                    <img class="align-self-center mr-3"
+                                                                        src="images/ico_jazzcash.png" width="75">
+                                                                    <div class="media-body font-weight-normal">
+                                                                        <p class="mb-1"><strong>Account Title:</strong>
+                                                                            IR Technologies (Pvt) Ltd</p>
+                                                                        <p class="m-0"><strong>Account Number:</strong>
+                                                                            0344-4643981</p>
+                                                                    </div>
+                                                                </div>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group mt-3">
+                                                    <label>Payment Method</label>
+                                                    <select class="form-control">
+                                                        <option>Please Select</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Message</label>
+                                                    <textarea rows="3" class="form-control"></textarea>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label>Attached Browse File</label>
+                                                    <div class="input-group">
+                                                        <div class="custom-file">
+                                                            <input type="file" class="custom-file-input"
+                                                                id="inputGroupFile01">
+                                                            <label class="custom-file-label"
+                                                                for="inputGroupFile01">Choose file</label>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="d-flex justify-content-end">
+                                                    <a href="gig-checkout.html" class="btn btn-primary">Continue to
+                                                        Checkout</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+
+                <div class="card shadow-md">
+                    <div class="card-body">
+                        <h6 class="fs-16 text-black">Invoice # 17105
+                        </h6>
+                        <div class="border border-gray-400 p-3 border-radius-5 mb-2">
+                            <div class="d-flex align-items-center justify-content-between mb-2">
+                                <div class="font-weight-semi-bold fs-16 text-dark">
+                                    Instantmatch<br>
+                                    <small class="font-weight-semi-bold fs-11">10 Days, 5000 CVs</small>
+                                </div> <strong class="text-dark font-weight-semi-bold fs-17">5000 PKR</strong>
+                            </div>
+
+                            <p class="d-flex align-items-center justify-content-between mb-2 fw-medium">
+                                Plan Start <strong class="text-dark fw-medium">August 10, 2023
+                                </strong>
+                            </p>
+
+                            <p class="d-flex align-items-center justify-content-between mb-2 fw-medium">
+                                Plan End <strong class="text-dark fw-medium">August 20, 2023
+                                </strong>
+                            </p>
+                        </div>
+                        <div class="border-bottom border-gray-400 p-3 border-radius-5 mb-3">
+                            <p class="d-flex align-items-center justify-content-between mb-2 fw-medium">
+                                Invoice Date <strong class="text-dark fw-medium">August 10, 2023
+                                </strong>
+                            </p>
+
+                            <p class="d-flex align-items-center justify-content-between  mb-2 fw-medium">
+                                Due Date <strong class="text-dark fw-medium">August 11, 2023</strong>
+                            </p>
+
+                            <p class="d-flex align-items-center justify-content-between  mb-2 fw-medium">
+                                Days to Expire <strong class="text-dark fw-medium">10 Days</strong>
+                            </p>
+                            <p class="d-flex align-items-center justify-content-between  mb-2 fw-medium">
+                                CV Limits <strong class="text-dark fw-medium">5000</strong>
+                            </p>
+                        </div>
+                        <div class="border-bottom border-gray-400 p-3 border-radius-5 mb-3 py-0">
+                            <div class="d-flex align-items-center justify-content-between  mb-3 fw-medium">
+                             <div class="d-flex align-items-center">
+                                Service Fee
+                                <div class="info-tooltip  ms-1 position-relative cursor-pointer">
+                                    <i class="icon icon-info fa fa-info-circle">
+                                    </i>
+                                    <div class="tooltip">Hello from speech bubble!</div>
+                                </div>
+                             </div>
+                             <strong class="text-dark fw-medium">PKR. 2200</strong>
+                            </div>
+                        </div>
+                        <div class="p-3 py-0">
+                            <p class="d-flex align-items-center justify-content-between fw-medium mb-2">
+                                Order Total <span class="text-dark fw-medium">5000 PKR</span>
+                            </p>
+                            <p class="d-flex align-items-center justify-content-between">
+                                <strong class="text-dark font-weight-bold">Total Pay</strong>
+                                <strong class="text-dark font-weight-bold">PKR. 2200</strong>
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card shadow-md ">
+                    <div class="card-header bg-white d-flex align-items-center">
+                        <img src="images/instructions.png" class="img-center m-0">
+                        <h5 class="card-title  m-0 ms-2 text-black">Instruction</h5>
+                    </div>
+                    <div class="card-body p-2">
+                        <div class="border border-gray-400 p-3 border-radius-5 mb-3">
+                            <h6 class="fs-16 text-black">Online Payment Instructions !
+                            </h6>
+                            <ul class="angle-before list-unstyled max-w-45">
+                                <li class="mt-2">Choose your desired package</li>
+                                <li class="mt-2">Click on the online payment option</li>
+                                <li class="mt-2">Enter your payment details securely</li>
+                                <li class="mt-2">Verify the payment gateway for authenticity.</li>
+                                <li class="mt-2">Complete the payment process.</li>
+                                <li class="mt-2">Receive a payment confirmation notification,
+                                    ensuring a safe and smooth transaction. Your
+                                    system profile will be updated automatically</li>
+                            </ul>
+                        </div>
+
+                        <div class="border border-gray-400 p-3 border-radius-5">
+                            <h6 class="fs-16 text-black">Manual Payment Instructions !
+                            </h6>
+                            <ul class="angle-before list-unstyled max-w-45">
+                                <li class="mt-2">Choose your desired package.</li>
+                                <li class="mt-2">Select your bank account for payment.</li>
+                                <li class="mt-2">Make the payment as instructed.</li>
+                                <li class="mt-2">Attach your payment invoice.
+                                </li>
+                                <li class="mt-2">Upon verification, our team will confirm the
+                                    payment</li>
+                                <li class="mt-2">Receive a payment confirmation notification,
+                                    and your system profile will be updated
+                                    accordingly</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <div class="clear py-3"></div>
+    <footer class="footer pt-2">
+        <div class="container-fluid py-4">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <h4>Jobs by Industry</h4>
+                    <ul class="uilinks">
+                        <li><a href="#">Information Technology Jobs</a></li>
+                        <li><a href="#">Education/Training Jobs</a></li>
+                        <li><a href="#">Services Jobs</a></li>
+                        <li><a href="#">Real Estate/Property Jobs</a></li>
+                        <li><a href="#">Manufacturing Jobs</a></li>
+                        <li><a href="#">Recruitment / Employment Firms Jobs</a></li>
+                        <li><a href="#">Banking/Financial Services Jobs</a></li>
+                        <li><a href="#">Healthcare / Hospital / Medical Jobs</a></li>
+                        <li><a href="#">N.G.O./Social Services Jobs</a></li>
+                        <li><a href="#">Business Development Jobs</a></li>
+                    </ul>
+                    <div class="clear py-2"></div>
+                    <h4>Jobs by Functional Area</h4>
+                    <ul class="uilinks">
+                        <li><a href="#">Accounting Jobs</a></li>
+                        <li><a href="#">Admin Jobs</a></li>
+                        <li><a href="#">Autos Jobs</a></li>
+                        <li><a href="#">Computer Hardware Jobs</a></li>
+                        <li><a href="#">Computer Software Jobs</a></li>
+                        <li><a href="#">Construction Jobs</a></li>
+                        <li><a href="#">Consulting Jobs</a></li>
+                        <li><a href="#">Customer Service Jobs</a></li>
+                        <li><a href="#">Education Jobs</a></li>
+                        <li><a href="#">Engineering Jobs</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <h4>Jobs in Cites</h4>
+                    <ul class="uilinks">
+                        <li><a href="#">Jobs in Islamabad</a></li>
+                        <li><a href="#">Jobs in Karachi</a></li>
+                        <li><a href="#">Jobs in Lahore</a></li>
+                        <li><a href="#">Jobs in Rawalpindi</a></li>
+                        <li><a href="#">Jobs in Peshawar</a></li>
+                        <li><a href="#">Jobs in Faisalabad</a></li>
+                        <li><a href="#">Jobs in Queta</a></li>
+                        <li><a href="#">Jobs in Multan</a></li>
+                        <li><a href="#">Jobs in Gujrawala</a></li>
+                        <li><a href="#">Jobs in Haider-abad</a></li>
+                    </ul>
+                    <div class="clear py-2"></div>
+                    <h4>Jobs in Other Countries</h4>
+                    <ul class="uilinks">
+                        <li><a href="#">Jobs in Australia</a></li>
+                        <li><a href="#">Jobs in Bangladesh</a></li>
+                        <li><a href="#">Jobs in Bahrain</a></li>
+                        <li><a href="#">Jobs in Brazil</a></li>
+                        <li><a href="#">Jobs in Canada</a></li>
+                        <li><a href="#">Jobs in United Kingdom</a></li>
+                        <li><a href="#">Jobs in Jordan</a></li>
+                        <li><a href="#">Jobs in Sri Lanka</a></li>
+                        <li><a href="#">Jobs in Malaysia</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <h4>Freelancing Category</h4>
+                    <ul class="uilinks">
+                        <li><a href="#">Graphics & Design</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Writing & Translation</a></li>
+                        <li><a href="#">Video & Animation</a></li>
+                        <li><a href="#">Music & Audio</a></li>
+                        <li><a href="#">Programming & Tech</a></li>
+                        <li><a href="#">Data</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Photography</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul>
+                    <div class="clear p-2"></div>
+                    <h4>Online Recruitment</h4>
+                    <ul class="uilinks">
+                        <li><a href="#">Online Recruitment Solutions</a></li>
+                        <li><a href="#">Job Posting Packages</a></li>
+                        <li><a href="#">Post Job Free</a></li>
+                        <li><a href="#">Online Resumes Search</a></li>
+                        <li><a href="#">Search Professionals</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <h4>About Us</h4>
+                    <ul class="uilinks">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Safe Jobs Search Pakistan</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Picture Policy</a></li>
+                        <li><a href="#">Disclaimer</a></li>
+                        <li><a href="#">Terms of Services</a></li>
+                        <li><a href="#">Signup Now</a></li>
+                        <li><a href="#">Companies Pakistan</a></li>
+                        <li><a href="#">Clear Cache</a></li>
+                    </ul>
+                    <div class="clear p-2"></div>
+                    <h4>Follow Us</h4>
+                    <ul class="social">
+                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    </ul>
+                    <div class="clear p-2"></div>
+                    <h4 class="pb-2">Download App</h4>
+                    <a href="#" target="_blank"><img src="images/btn-ios.png" class="img-fluid" width="100"></a> &nbsp;
+                    <a href="#" target="_blank"><img src="images/btn-google.png" class="img-fluid" width="100"></a>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="copy">
+            Copyright &copy; 2022 <a href="#">Accountant.PK</a> | Allrights reserved.
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+    <script type="text/javascript">
+        new WOW().init();
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+        $(function () {
+            $('[data-toggle="popover"]').popover()
+        })
+    </script>
+</body>
+
+</html>

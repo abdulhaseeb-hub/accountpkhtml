@@ -79,64 +79,49 @@
 <section class="container-fluid">
 	<div class="row">
 		<div class="col-sm-4 col-md-3 col-lg-3 bg-light py-3">
-			<div class="card mb-3">
-				<div class="card-header bg-secondary-light">
-					<h6 class="font-weight-semi-bold text-dark m-0">Portal Home</h6>
-				</div>
-				<div class="card-body">
-					<div class="form-row">
-						<div class="col-6 border-bottom border-right">
-							<a href="employer-services.html" class="media align-items-center my-3">
-								<i class="fas fa-user-cog mr-3 fa-2x text-warning"></i>
-								<div class="media-body align-self-center text-dark font-weight-semi-bold">Services</div>
-							</a>
+			<div class="list-group">
+				<h6 class="list-group-item list-group-item-action bg-primary text-white font-weight-medium">
+					Portal Home / Client Area
+				</h6>
+				
+				<a href="employer-services.html"
+						class="list-group-item list-group-item-action d-flex justify-content-between align-items-center ">
+						<div>
+							<i class="fas fa-user-cog mr-2 fs-16"></i> Services
 						</div>
-						<div class="col-6 border-bottom">
-							<a href="employer-cart.html" class="media align-items-center my-3">
-								<i class="fas fa-shopping-cart mr-3 fa-2x text-info"></i>
-								<div class="media-body align-self-center text-dark font-weight-semi-bold justify-content-between d-flex">
-									Cart
-									<span class="badge badge-primary badge-pill" style="height:18px;">5</span>
-								</div>
-							</a>
+						
+					</a>
+					<a href="employer-cart.html"
+						class="list-group-item list-group-item-action d-flex justify-content-between align-items-center ">
+
+						<div>
+							<i class="fas fa-shopping-cart mr-2 fs-16"></i> Cart
 						</div>
-						<div class="col-6 border-right">
-							<a href="#" class="media align-items-center my-3">
-								<i class="far fa-file-alt mr-3 fa-2x text-success"></i>
-								<div class="media-body align-self-center text-dark font-weight-semi-bold">Billing History</div>
-							</a>
+						<span class="width-px-20 height-px-20 p-0 align-items-center justify-content-center d-flex fs-12 badge-primary badge-pill" style="height:18px;">5</span>
+
+					</a>
+					<a href="employer-billing.html"
+						class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+						<div>
+							<i class="far fa-file-alt mr-2 fs-16"></i> Billing
+							History
 						</div>
-						<div class="col-6">
-							<a href="employer-invoice.html" class="media align-items-center my-3">
-								<i class="fas fa-money-check-alt mr-3 fa-2x text-primary"></i>
-								<div class="media-body align-self-center text-primary font-weight-bold justify-content-between d-flex">
-									Invoices
-									<span class="badge badge-primary badge-pill" style="height:18px;">2</span>
-								</div>
-							</a>
+					</a>
+					<a href="employer-invoice.html"
+						class="list-group-item list-group-item-action d-flex justify-content-between align-items-center active">
+						<div>
+							<i class="fas fa-money-check-alt mr-2 fs-16"></i> Invoices
 						</div>
-					</div>
-				</div>
+						<span class="width-px-20 height-px-20 p-0 align-items-center justify-content-center d-flex fs-12 badge-primary badge-pill" style="height:18px;">5</span>
+					</a>
 			</div>
-			<div class="card mb-3">
-				<div class="card-header bg-secondary-light">
-					<h6 class="font-weight-semi-bold text-dark m-0">Gig/Services Purchase</h6>
-				</div>
-				<div class="list-group">
-					<a href="orders.html" class="list-group-item list-group-item-action">Orders</a>
-					<a href="purchase-history.html" class="list-group-item list-group-item-action">Purchase History</a>
-					<a href="inbox.html" class="list-group-item list-group-item-action">Inbox</a>
-					<a href="favorites.html" class="list-group-item list-group-item-action">Favorite</a>
-				</div>
-			</div>
-			<div class="card mb-3">
-				<div class="card-header bg-secondary-light">
-					<h6 class="font-weight-semi-bold text-dark text-white m-0">Packages</h6>
-				</div>
-				<div class="card-body">
+			<div class="clear p-2"></div>
+			<div class="bg-white p-3">
+				<h5 class="text-dark mt-2">View Packages</h5>
+				<div class="card card-body mb-2">
 					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
 						PREMIUM SELECT
-						<a href="packages.html" class="btn btn-success btn-sm">View Detail</a>
+						<a href="packages.html" class="btn btn-primary btn-sm">View Detail</a>
 					</h6>
 					<p>Our most powerful option, will shortlist the best candidates for you</p>
 					<p class="mb-1 text-dark">
@@ -151,10 +136,11 @@
 					<p class="mb-1 text-dark">
 						<i class="fas fa-check-circle text-success mr-2"></i> Credits
 					</p>
-					<hr>
+				</div>
+				<div class="card card-body mb-2">
 					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
 						TOP JOBS
-						<a href="packages.html" class="btn btn-success btn-sm">View Detail</a>
+						<a href="packages.html" class="btn btn-primary btn-sm">View Detail</a>
 					</h6>
 					<p>Our most powerful option, will shortlist the best candidates for you</p>
 					<p class="mb-1 text-dark">
@@ -169,10 +155,30 @@
 					<p class="mb-1 text-dark">
 						<i class="fas fa-check-circle text-success mr-2"></i> Credits
 					</p>
-					<hr>
+				</div>
+				<div class="card card-body mb-2">
 					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
 						FEATURED JOBS
-						<a href="packages.html" class="btn btn-success btn-sm">View Detail</a>
+						<a href="packages.html" class="btn btn-primary btn-sm">View Detail</a>
+					</h6>
+					<p>Our most powerful option, will shortlist the best candidates for you</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Access to Cvs
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Job Highlighting
+					</p>
+					<p class="mb-1 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> InstaMatch
+					</p>
+					<p class="mb-0 text-dark">
+						<i class="fas fa-check-circle text-success mr-2"></i> Credits
+					</p>
+				</div>
+				<div class="card card-body mb-0">
+					<h6 class="text-primary font-weight-bold d-flex align-items-center justify-content-between">
+						INSTANTMATCH
+						<a href="instamatch.html" class="btn btn-primary btn-sm">View Detail</a>
 					</h6>
 					<p>Our most powerful option, will shortlist the best candidates for you</p>
 					<p class="mb-1 text-dark">
@@ -226,7 +232,7 @@
 								<th>Rs. 8,000</th>
 								<td><a href="#" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#unPaid
 ">Unpaid</a></td>
-								<td><a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#PayBill
+								<td><a href="choose-payment.method.html" class="btn btn-sm btn-danger"
 ">Pay Now</a></td>
 							</tr>
 							<tr>
@@ -237,7 +243,7 @@
 								<th>Rs. 8,000</th>
 								<td><a href="#" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#unPaid
 ">Unpaid</a></td>
-								<td><a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#PayBill
+								<td><a href="choose-payment.method.html" class="btn btn-sm btn-danger"
 ">Pay Now</a></td>
 							</tr>
 							<tr>
@@ -248,7 +254,7 @@
 								<th>Rs. 8,000</th>
 								<td><a href="#" class="btn btn-sm btn-warning" data-toggle="modal" data-target="#unPaid
 ">Unpaid</a></td>
-								<td><a href="#" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#PayBill
+								<td><a href="choose-payment.method.html" class="btn btn-sm btn-danger"
 ">Pay Now</a></td>
 							</tr>
 							<tr>

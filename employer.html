@@ -32,11 +32,132 @@
 		<span class="navbar-brand">
 			<a href="index-employeer.html"><img src="images/myjobs.png" alt="myjob.pk" height="40"></a>
 		</span>
+		<div class="nav-item messages-item toggle-item responsive-messages d-lg-none">
+			<button class="active nav-link">
+			  <svg class="icon icon-double-messages"> 
+				<use class="fill" xlink:href="images/sprite.svg#icon-messages-stroke"></use>
+			  </svg>
+			  <span class="count">3</span>
+			</button>
+		  </div>
+
+		  <div class="dropdown d-lg-none">
+			<div class="nav-item notification-item toggle-item me-2" data-toggle="dropdown"
+				aria-expanded="false">
+				<button class="nav-link active focus-unset">
+					<svg class="icon icon-double-notification">
+						<use class="stroke" xlink:href="images/sprite.svg#icon-notification-stroke"></use>
+					</svg>
+					<span class="count">2</span>
+				</button>
+			</div>
+
+			<div
+				class="dropdown-menu responsive-dropdown-menu-notifications dropdown-menu-notifications rounded-top-end-10 rounded-top-start-10 rounded-bottom-end-10 rounded-bottom-start-10">
+				<div class="header rounded-top-end-10 rounded-top-start-10">
+					<div class="text-white">You have <font class="fs-20">10</font> new<br>
+						notifications
+					</div>
+					<div>
+						<a href="employer-employer-notification-details.html"
+							class="btn btn-primary fs-12 btn-sm border-gray-1200">View All</a>
+					</div>
+				</div>
+				<ul
+					class="list-group list-group-p10 body height-px-475 overflow-auto  rounded-bottom-end-10 rounded-bottom-start-10">
+					<li class="list-group-item px-2 cursor-pointer">
+						<a href="employer-notification-details.html" class="text-black">
+							<div class="media">
+								<div class="media-body ml-2">
+									<div class="title"> Admin
+									</div>
+									<div class="title fs-14"> Complete Your Profile for Better Opportunities
+									</div>
+									<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+										complete your profile on [Freelance Platform].
+										A complete profile attracts more clients and improves your chances
+									</p>
+
+									<span>June 06, 2023, 5:39:09 PM</span>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="list-group-item px-2 cursor-pointer">
+						<a href="employer-notification-details.html" class="text-black">
+							<div class="media">
+								<div class="media-body ml-2">
+									<div class="title"> Admin
+									</div>
+									<div class="title fs-14"> Complete Your Profile for Better Opportunities
+									</div>
+									<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+										complete your profile on [Freelance Platform].
+										A complete profile attracts more clients and improves your chances
+									</p>
+
+									<span>June 06, 2023, 5:39:09 PM</span>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="list-group-item px-2 cursor-pointer">
+						<a href="employer-notification-details.html" class="text-black">
+							<div class="media">
+								<div class="media-body ml-2">
+									<div class="title"> Admin
+									</div>
+									<div class="title fs-14"> Complete Your Profile for Better Opportunities
+									</div>
+									<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+										complete your profile on [Freelance Platform].
+										A complete profile attracts more clients and improves your chances
+									</p>
+
+									<span>June 06, 2023, 5:39:09 PM</span>
+								</div>
+							</div>
+						</a>
+					</li>
+
+					<li class="list-group-item px-2 cursor-pointer">
+						<a href="employer-notification-details.html" class="text-black">
+							<div class="media">
+								<div class="media-body ml-2">
+									<div class="title"> Admin
+									</div>
+									<div class="title fs-14"> Complete Your Profile for Better Opportunities
+									</div>
+									<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+										complete your profile on [Freelance Platform].
+										A complete profile attracts more clients and improves your chances
+									</p>
+
+									<span>June 06, 2023, 5:39:09 PM</span>
+								</div>
+							</div>
+						</a>
+					</li>
+
+
+					<!-- <div class="align-items-center d-flex flex-column h-100 justify-content-center">
+						<img src="images/Notification Bell Icon.png" class="height-px-100 mb-50 width-px-100">
+						<div class="mb-2 title fs-20"> No Notification Yet
+						</div>
+						<p class="fs-14 line-clamp-2">You have no notification right now.
+							Come back later</p>
+					</div> -->
+				</ul>
+			</div>
+		</div>
 		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar">
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div class="collapse navbar-collapse" id="navbar">
-			<ul class="navbar-nav ml-auto">
+			<ul class="navbar-nav">
+				
 				<li class="nav-item active">
 					<a class="nav-link" href="employer.html"><i class="fas fa-tachometer-alt mr-1"></i> Dashboard</a>
 				</li>
@@ -56,13 +177,138 @@
 						<a class="dropdown-item" href="freelancer.html">Freelancer</a>
 					</div>
 				</li>
+			</ul>
+
+			<ul class="navbar-nav ml-auto">
+				
+				<div class="nav-item messages-item toggle-item  d-lg-block d-none">
+					<button class="active nav-link focus-unset mt-1">
+						<svg class="icon icon-double-messages">
+							<use class="fill" xlink:href="images/sprite.svg#icon-messages-stroke"></use>
+						</svg>
+						<span class="count">3</span>
+					</button>
+				</div>
+
+				<div class="dropdown  d-lg-block d-none">
+					<div class="nav-item notification-item toggle-item me-2" data-toggle="dropdown"
+						aria-expanded="false">
+						<button class=" nav-link active focus-unset mt-1">
+							<svg class="icon icon-double-notification">
+								<use class="stroke" xlink:href="images/sprite.svg#icon-notification-stroke"></use>
+							</svg>
+							<span class="count">3</span>
+						</button>
+					</div>
+
+					<div
+						class="dropdown-menu dropdown-menu-notifications rounded-top-end-10 rounded-top-start-10 rounded-bottom-end-10 rounded-bottom-start-10">
+						<div class="header rounded-top-end-10 rounded-top-start-10">
+							<div class="text-white">You have <font class="fs-20">10</font> new<br>
+								notifications
+							</div>
+							<div>
+								<a href="employer-notification-details.html"
+									class="btn btn-primary fs-12 btn-sm border-gray-1200">View All</a>
+							</div>
+						</div>
+						<ul
+							class="list-group list-group-p10 body height-px-475 overflow-auto  rounded-bottom-end-10 rounded-bottom-start-10">
+							<li class="list-group-item px-2 cursor-pointer">
+								<a href="employer-notification-details.html" class="text-black">
+									<div class="media">
+										<div class="media-body ml-2">
+											<div class="title"> Admin
+											</div>
+											<div class="title fs-14"> Complete Your Profile for Better Opportunities
+											</div>
+											<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+												complete your profile on [Freelance Platform].
+												A complete profile attracts more clients and improves your chances
+											</p>
+
+											<span>June 06, 2023, 5:39:09 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="list-group-item px-2 cursor-pointer">
+								<a href="employer-notification-details.html" class="text-black">
+									<div class="media">
+										<div class="media-body ml-2">
+											<div class="title"> Admin
+											</div>
+											<div class="title fs-14"> Complete Your Profile for Better Opportunities
+											</div>
+											<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+												complete your profile on [Freelance Platform].
+												A complete profile attracts more clients and improves your chances
+											</p>
+
+											<span>June 06, 2023, 5:39:09 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="list-group-item px-2 cursor-pointer">
+								<a href="employer-notification-details.html" class="text-black">
+									<div class="media">
+										<div class="media-body ml-2">
+											<div class="title"> Admin
+											</div>
+											<div class="title fs-14"> Complete Your Profile for Better Opportunities
+											</div>
+											<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+												complete your profile on [Freelance Platform].
+												A complete profile attracts more clients and improves your chances
+											</p>
+
+											<span>June 06, 2023, 5:39:09 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+							<li class="list-group-item px-2 cursor-pointer">
+								<a href="employer-notification-details.html" class="text-black">
+									<div class="media">
+										<div class="media-body ml-2">
+											<div class="title"> Admin
+											</div>
+											<div class="title fs-14"> Complete Your Profile for Better Opportunities
+											</div>
+											<p class="fs-14 line-clamp-2">Hi [Freelancer's Name]! Don't forget to
+												complete your profile on [Freelance Platform].
+												A complete profile attracts more clients and improves your chances
+											</p>
+
+											<span>June 06, 2023, 5:39:09 PM</span>
+										</div>
+									</div>
+								</a>
+							</li>
+
+
+							<!-- <div class="align-items-center d-flex flex-column h-100 justify-content-center">
+							  <img src="images/Notification Bell Icon.png" class="height-px-100 mb-50 width-px-100">
+							  <div class="mb-2 title fs-20"> No Notification Yet
+							  </div>
+							  <p class="fs-14 line-clamp-2">You have no notification right now.
+								  Come back later</p>
+						  </div> -->
+						</ul>
+					</div>
+				</div>
 				<li class="nav-item">
-					<a class="nav-link btn btn-success text-white" href="job-post.html">Post a Job</a>
+					<a class="nav-link d-lg-block d-none btn btn-success text-white" href="job-post.html">Post a Job</a>
 				</li>
 				<li class="nav-item ml-2">
-					<a class="nav-link btn btn-danger text-white" href="employer-home.html">Employer</a>
+					<a class="nav-link btn  d-lg-block d-none btn-danger text-white" href="employer-home.html">Employer</a>
 				</li>
-				<li class="nav-item dropdown text-nowrap">
+				
+				<li class="nav-item dropdown text-nowrap ps-0">
 					<a class="nav-link dropdown-toggle" href="#" id="language" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						<div class="d-flex align-items-center">
 							<img src="images/favicon.png" class="img-circle mr-2" width="30">
@@ -79,6 +325,11 @@
 					</div>
 				</li>
 			</ul>
+			<div class=" d-lg-none d-flex flex-wrap gap-14 ps-18 mt-3 mobile-nav-footer justify-content-center w-100">
+				<a class="nav-link d-lg-block d-none btn btn-success text-white" href="job-post.html">Post a Job</a>
+				<a class="nav-link btn  d-lg-block d-none btn-danger text-white" href="employer-home.html">Employer</a>
+
+			</div>
 		</div>
 	</div>
 </nav>
@@ -288,14 +539,17 @@
 		</div>
 		<div class="col-sm-8 col-md-9 col-lg-9">
 			<div class="px-3 py-4">
-				<ul class="nav nav-pills" id="myTab" role="tablist">
+				
+				<h4 class="mb-0">Posted Jobs Analytics</h4>
+				<!-- <ul class="nav nav-pills" id="myTab" role="tablist">
 					<li class="nav-item">
-						<a class="nav-link text_16 active" id="pjobs-tab" data-toggle="tab" href="#pjobs" role="tab" aria-controls="pjobs" aria-selected="true">Posted Jobs</a>
+						<a class="nav-link text_16 active text-white cursor-pointer" id="pjobs-tab" data-toggle="modal"
+						data-target="#congrats" role="tab" aria-controls="pjobs" aria-selected="true">Posted Jobs</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link text_16" id="fassignment-tab" data-toggle="tab" href="#fassignment" role="tab" aria-controls="fassignment" aria-selected="false">Freelancing Assignment</a>
 					</li>
-				</ul>
+				</ul> -->
 				<div class="clear py-3"></div>
 				<div class="tab-content" id="myTabContent">
 					<!--- Post Jobs --->
@@ -1463,7 +1717,24 @@ choice. Start providing your test with a title and instructions on how to take t
 		</div>
 	</div>
 </div>
-	
+<div class="modal fade" id="congrats" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered modal-sm" role="document">
+		<div class="modal-content border-radius-10 bg-gray-300 ">
+			
+			<div class="modal-body ">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true" class="fs-26">&times;</span>
+				</button>
+				<div class="text-center mb-3">
+				<img src="images/myjobs.png" alt="myjob.pk" height="40">
+				</div>
+				<h3 class="text-success text-center">Congratulations</h3>
+				<p class="text-center fs-18 text-black">3 Free Job posting credits has been added
+					to your account</p>
+			</div>
+		</div>
+	</div>
+</div>
 <!-- Bootstrap core JavaScript -->
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.bundle.min.js"></script>
