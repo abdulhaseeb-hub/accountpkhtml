@@ -10,18 +10,18 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
 
- /*  color: #545E6C;
+  /*  color: #545E6C;
   background: #fff;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; */
   margin: 0;
 }
 
-.wrapper ul{
+.wrapper ul {
   padding-left: 0;
 }
 .wrapper {
-  background: #42A8C0;
+  background: #42a8c0;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -29,7 +29,7 @@ body {
 }
 
 .sidebar-wrapper {
-  background: #42A8C0;
+  background: #42a8c0;
   position: absolute;
   left: 0;
   width: 260px;
@@ -182,7 +182,7 @@ body {
   margin-bottom: 2px;
 }
 .main-wrapper .job-title {
-  color: #3F4650;
+  color: #3f4650;
   font-size: 16px;
   margin-top: 0;
   margin-bottom: 0;
@@ -192,16 +192,16 @@ body {
   position: absolute;
   right: 0;
   top: 0;
-  color: #97AAC3;
+  color: #97aac3;
 }
 .main-wrapper .company {
   margin-bottom: 10px;
-  color: #97AAC3;
+  color: #97aac3;
 }
 .main-wrapper .summary {
   margin-bottom: 10px;
   margin-top: 12px;
-  color: #97AAC3;
+  color: #97aac3;
 }
 .main-wrapper .project-title {
   font-size: 16px;
@@ -241,7 +241,7 @@ body {
 }
 .footer .copyright {
   line-height: 1.6;
-  color: #545E6C;
+  color: #545e6c;
   font-size: 13px;
 }
 .footer .fa-heart {
@@ -274,7 +274,7 @@ body {
   }
 }
 
-.word-break{
+.word-break {
   word-break: break-all !important;
 }
 
@@ -292,17 +292,17 @@ body {
     margin-bottom: 18px !important;
     page-break-inside: avoid !important;
   }
-  .left-thumbnails{
+  .left-thumbnails {
     display: none;
   }
-  .head{
+  .head {
     display: none !important;
   }
-  .right-cv{
+  .right-cv {
     background: white !important;
   }
 
-  .right-cv > div{
+  .right-cv > div {
     height: unset !important;
     overflow-y: unset !important;
     padding: unset !important;
@@ -313,15 +313,40 @@ body {
     margin: unset !important;
     transition: unset !important;
   }
-  .tab-pane .d-inline-block{
+  .tab-pane .d-inline-block {
     display: none !important;
   }
-  .wrapper{
+  .wrapper {
     margin: unset;
     max-width: unset;
+  }
+  .border-left-gradient {
+    height: 1587px !important;
   }
 }
 
 .word-break {
   word-break: break-all !important;
 }
+
+/* .border-shade::before{
+  content: '';
+  width: 23px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 1px;
+  background: green;
+}
+
+.border-shade::after{
+  content: '';
+  width: 23px;
+  height: 2px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 1px;
+  background: green;
+} */
