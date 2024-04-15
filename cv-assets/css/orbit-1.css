@@ -278,6 +278,7 @@ body {
   word-break: break-all !important;
 }
 
+
 @media print {
   .section-title {
     margin-bottom: 0 !important;
