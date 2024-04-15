@@ -14168,3 +14168,19 @@ a:hover {
       padding:0 1rem
   }
 }
+
+.shadow-md-dark {
+  box-shadow: 0px -1px 4px 6px rgba(20, 102, 143, 0.08) !important;
+}
+
+.border-primary {
+  border-color: #175497 !important;
+}
+
+.pe-px-1{
+  padding-right: 1px !important;
+}
+
+.height-px-170{
+  height: 170px !important;
+}
